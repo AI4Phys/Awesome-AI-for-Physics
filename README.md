@@ -17,6 +17,7 @@
 ### 1.3 Scientific Workflows and Education
 
 #### 1.3.1 AI for Physics Education​
+- [SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning] [[paper](https://arxiv.org/abs/2505.19099)][[code](https://github.com/AI4Phys/SeePhys)]
 
 #### 1.3.2 Knowledge Mining​
 
@@ -32,6 +33,7 @@
 ## 3. Physics and World Model
 
 ### 3.1 Physics-Inspired AI​
+
 
 ### 3.2 Generation Models
 
