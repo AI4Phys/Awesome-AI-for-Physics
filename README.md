@@ -1,40 +1,35 @@
 # Awesome-AI4Physics
 ## Contents
 
-
+ Template: [time] title [paper link] `[tag/domain]`
 
 ## 1. AI for Physics Research
 
 ### 1.1 Theoretical Physics​
 
-#### 1.1.1 Quantum Mechanics
+Quantum Mechanics, Gravitation, etc.
 
-#### 1.1.2 Gravitation
-...
 
 ### 1.2 Experimental Physics​
-
+- [2024.10] [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/pdf/2410.05080)`Computational Physics` `Benchmark`
+- [2024.04] [SciCode: A Research Coding Benchmark Curated by Scientists](https://arxiv.org/abs/2407.13168)`Computational Physics` `Benchmark`
 
 ## 2. AI for Physical Application
 
-### 2.1 Industrial and Engineering​
-- [2025.08] Achieving Precise and Reliable Locomotion with Differentiable Simulation-Based System Identification [[paper](https://arxiv.org/html/2508.04696v1)][[code](https://wavegit.mipt.ru/Slavoch/mjx_sysid)]
+### 2.1 Engineering​
+- [2024.10] [Achieving Precise and Reliable Locomotion with Differentiable Simulation-Based System Identification](https://arxiv.org/html/2508.04696v1) `[Robotic]`
 - 
 ### 2.2 Healthcare and Biophysics​
 
 
 ## 3. AI for Physics QA and Education
 
-#### 3.1 Benchmarks for Physics QA
-- [2025.05] SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning [[paper](https://arxiv.org/abs/2505.19099)][[code](https://github.com/AI4Phys/SeePhys)]
-- [2025.08] PHYSICSEVAL: Inference-Time Techniques to Improve the Reasoning Proficiency of Large Language Models on Physics Problems [[paper](https://arxiv.org/pdf/2508.00079)][[code](https://github.com/areebuzair/PhysicsEval)]
+- [2025.05] [SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning](https://arxiv.org/abs/2505.19099) `[Benchmarks]`
+- [2025.08] [PHYSICSEVAL: Inference-Time Techniques to Improve the Reasoning Proficiency of Large Language Models on Physics Problems](https://arxiv.org/pdf/2508.00079) `[Benchmarks]`
 
-#### 3.2 LLMs/MLLMs for Physics QA
-
-#### 3.3 Knowledge Mining​
 
 #### 3.4 Education
-- [2025.08] The AlphaPhysics Term Rewriting System for Marking Algebraic Expressions in Physics Exams [[paper](https://arxiv.org/pdf/2507.18337)]
+- [2025.08] [The AlphaPhysics Term Rewriting System for Marking Algebraic Expressions in Physics Exams](https://arxiv.org/pdf/2507.18337) `Education` 
 
 
 ## 4. Physics and World Model
