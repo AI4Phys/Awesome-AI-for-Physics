@@ -30,7 +30,7 @@ Quantum Mechanics, Gravitation, etc.
 
 #### 3.4 Education
 - [2025.08] [The AlphaPhysics Term Rewriting System for Marking Algebraic Expressions in Physics Exams](https://arxiv.org/pdf/2507.18337) `Education` 
-
+- [2025.07] [Creating a customisable freely-accessible Socratic AI physics tutor](https://arxiv.org/pdf/2507.05795)) `Education` 
 
 ## 4. Physics and World Model
 
