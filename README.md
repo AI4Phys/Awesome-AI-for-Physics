@@ -8,7 +8,7 @@
 ### 1.1 Theoretical Physics​
 
 Quantum Mechanics, Gravitation, etc.
-
+- [2025.07] [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939)`Astrophysics` `Framework`
 
 ### 1.2 Experimental Physics​
 - [2024.10] [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/pdf/2410.05080)`Computational Physics` `Benchmark`
