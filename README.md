@@ -26,11 +26,12 @@ Quantum Mechanics, Gravitation, etc.
 
 - [2025.05] [SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning](https://arxiv.org/abs/2505.19099) `[Benchmarks]`
 - [2025.08] [PHYSICSEVAL: Inference-Time Techniques to Improve the Reasoning Proficiency of Large Language Models on Physics Problems](https://arxiv.org/pdf/2508.00079) `[Benchmarks]`
+- [2025.07] [ABench-Physics: Benchmarking Physical Reasoning in LLMs via High-Difficulty and Dynamic Physics Problems](https://arxiv.org/pdf/2507.04766) `[Benchmarks]`
 
 
 #### 3.4 Education
 - [2025.08] [The AlphaPhysics Term Rewriting System for Marking Algebraic Expressions in Physics Exams](https://arxiv.org/pdf/2507.18337) `Education` 
-- [2025.07] [Creating a customisable freely-accessible Socratic AI physics tutor](https://arxiv.org/pdf/2507.05795)) `Education` 
+- [2025.07] [Creating a customisable freely-accessible Socratic AI physics tutor](https://arxiv.org/pdf/2507.05795) `Education` 
 
 ## 4. Physics and World Model
 
