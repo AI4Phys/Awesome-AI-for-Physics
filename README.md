@@ -1,7 +1,32 @@
 # Awesome-AI4Physics
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [1. AI for Physics Research](#1-ai-for-physics-research)
+  - [1.1 Theoretical Physics](#11-theoretical-physics)
+    - [1. SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](#1-specclip-aligning-and-translating-spectroscopic-measurements-for-stars)
+  - [1.2 Experimental Physics](#12-experimental-physics)
+    - [1. ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](#1-scienceagentbench-toward-rigorous-assessment-of-language-agents-for-data-driven-scientific-discovery)
+    - [2. SciCode: A Research Coding Benchmark Curated by Scientists:](#2-scicode-a-research-coding-benchmark-curated-by-scientists)
+- [2. AI for Physical Application](#2-ai-for-physical-application)
+  - [2.1 Engineering](#21-engineering)
+    - [1. Achieving Precise and Reliable Locomotion with Differentiable Simulation-Based System Identification](#1-achieving-precise-and-reliable-locomotion-with-differentiable-simulation-based-system-identification)
+  - [2.2 Healthcare and Biophysics](#22-healthcare-and-biophysics)
+- [3. AI for Physics QA and Education](#3-ai-for-physics-qa-and-education)
+  - [3.1 Physics QA](#31-physics-qa)
+    - [1. SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning](#1-seephys-does-seeing-help-thinking----benchmarking-vision-based-physics-reasoning)
+    - [2. PHYSICSEVAL: Inference-Time Techniques to Improve the Reasoning Proficiency of Large Language Models on Physics Problems](#2-physicseval-inference-time-techniques-to-improve-the-reasoning-proficiency-of-large-language-models-on-physics-problems)
+    - [3. ABench-Physics: Benchmarking Physical Reasoning in LLMs via High-Difficulty and Dynamic Physics Problems](#3-abench-physics-benchmarking-physical-reasoning-in-llms-via-high-difficulty-and-dynamic-physics-problems)
+  - [3.2 Education](#32-education)
+    - [1. The AlphaPhysics Term Rewriting System for Marking Algebraic Expressions in Physics Exams](#1-the-alphaphysics-term-rewriting-system-for-marking-algebraic-expressions-in-physics-exams)
+    - [2. Creating a customisable freely-accessible Socratic AI physics tutor](#2-creating-a-customisable-freely-accessible-socratic-ai-physics-tutor)
+- [4. From the law of Physics Towards Physical World Model](#4-from-the-law-of-physics-towards-physical-world-model)
+  - [4.1 Physics-Inspired Artificial Intelligence](#41-physics-inspired-artificial-intelligence)
+  - [4.2 AI-Driven Reconstruction of Physical Scenario](#42-ai-driven-reconstruction-of-physical-scenario)
+  - [4.3 Towards World Modelling by Understanding the Law of Physics](#43-towards-world-modelling-by-understanding-the-law-of-physics)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
  Template: [time] title [paper link]: description `tag/domain` 
