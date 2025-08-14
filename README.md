@@ -26,7 +26,6 @@
     - [4.1 Physics-Inspired Artificial Intelligence](#41-physics-inspired-artificial-intelligence)
     - [4.2 AI-Driven Reconstruction of Physical Scenario](#42-ai-driven-reconstruction-of-physical-scenario)
     - [4.3 Towards World Modelling by Understanding the Law of Physics](#43-towards-world-modelling-by-understanding-the-law-of-physics)
-      - [1. test](#1-test)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -99,4 +98,3 @@ Note: This includes Physical Engine
 
 
 ### 4.3 Towards World Modelling by Understanding the Law of Physics
-#### 1. test
