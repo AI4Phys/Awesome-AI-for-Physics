@@ -1,5 +1,8 @@
 # Awesome-AI4Physics
-## Contents
+
+<!-- START doctoc -->
+<!-- END doctoc -->
+
 
  Template: [time] title [paper link]: description `tag/domain` 
 
@@ -8,9 +11,9 @@
 ### 1.1 Theoretical Physics
 
 Quantum Mechanics, Gravitation, etc.
-1. [2025.07] [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939):
-
-A CLIP-inspired foundation model for stellar spectral analysis that leverages cross-instrument contrastive pre-training and spectrum-aware decoders to enable precise spectral alignment, parameter estimation, and anomaly detection across diverse astronomical applications.
+1. [2025.07] [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939)
+- **Time:** 2025.07
+- **Description:** A CLIP-inspired foundation model for stellar spectral analysis that leverages cross-instrument contrastive pre-training and spectrum-aware decoders to enable precise spectral alignment, parameter estimation, and anomaly detection across diverse astronomical applications.
 
 ### 1.2 Experimental Physics
 1. [2024.10] [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/pdf/2410.05080)
