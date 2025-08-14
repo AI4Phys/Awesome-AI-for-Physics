@@ -3,7 +3,10 @@ name: Update TOC
 on:
   push:
     branches:
-      - main  # 你主要开发的分支，比如 main 或 master
+      - main
+
+permissions:
+  contents: write   # 👈 给 Action 写权限
 
 jobs:
   build:
