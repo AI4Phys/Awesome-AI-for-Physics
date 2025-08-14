@@ -8,11 +8,18 @@
 ### 1.1 Theoretical Physics
 
 Quantum Mechanics, Gravitation, etc.
-- [2025.07] [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939): A CLIP-inspired foundation model for stellar spectral analysis that leverages cross-instrument contrastive pre-training and spectrum-aware decoders to enable precise spectral alignment, parameter estimation, and anomaly detection across diverse astronomical applications. `Astrophysics` `Framework`
+1. [2025.07] [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939):
+
+A CLIP-inspired foundation model for stellar spectral analysis that leverages cross-instrument contrastive pre-training and spectrum-aware decoders to enable precise spectral alignment, parameter estimation, and anomaly detection across diverse astronomical applications.
 
 ### 1.2 Experimental Physics
-- [2024.10] [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/pdf/2410.05080): ScienceAgentBench evaluates LLM agents on 102 validated scientific tasks, showing even top-performing models (32.4-42.2% success rates) remain far from reliable automation, with performance gains requiring prohibitive cost increases. `Computational Physics` `Benchmark`
-- [2024.04] [SciCode: A Research Coding Benchmark Curated by Scientists](https://arxiv.org/abs/2407.13168): A scientist-curated benchmark (338 subproblems from 80 research challenges) with coding components. `Computational Physics` `Benchmark`
+1. [2024.10] [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/pdf/2410.05080)
+
+ScienceAgentBench evaluates LLM agents on 102 validated scientific tasks, showing even top-performing models (32.4-42.2% success rates) remain far from reliable automation, with performance gains requiring prohibitive cost increases. 
+
+2. [2024.04] [SciCode: A Research Coding Benchmark Curated by Scientists](https://arxiv.org/abs/2407.13168):
+
+A scientist-curated benchmark (338 subproblems from 80 research challenges) with coding components. 
 
 ## 2. AI for Physical Application
 
