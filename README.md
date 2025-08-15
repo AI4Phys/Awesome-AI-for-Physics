@@ -13,13 +13,13 @@
   - [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](#1-scienceagentbench-toward-rigorous-assessment-of-language-agents-for-data-driven-scientific-discovery)
   - [SciCode: A Research Coding Benchmark Curated by Scientists:](#2-scicode-a-research-coding-benchmark-curated-by-scientists)
 
-- [2. Application](#2-ai-for-physical-application)
+- [3. Application](#2-ai-for-physical-application)
 <!-- - [2. AI for Physical Application](#2-ai-for-physical-application) -->
   - [2.1 Engineering](#21-engineering)
     - [Achieving Precise and Reliable Locomotion with Differentiable Simulation-Based System Identification](#1-achieving-precise-and-reliable-locomotion-with-differentiable-simulation-based-system-identification)
   - [2.2 Healthcare and Biophysics](#22-healthcare-and-biophysics)
 
-- [3. Benchmarks](#3-ai-for-physics-qa-and-education)
+- [4. Benchmarks](#3-ai-for-physics-qa-and-education)
 <!-- - [3. AI for Physics QA and Education](#3-ai-for-physics-qa-and-education) -->
   - [3.1 Physics QA](#31-physics-qa)
     - [1. SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning](#1-seephys-does-seeing-help-thinking----benchmarking-vision-based-physics-reasoning)
@@ -29,7 +29,7 @@
     - [1. The AlphaPhysics Term Rewriting System for Marking Algebraic Expressions in Physics Exams](#1-the-alphaphysics-term-rewriting-system-for-marking-algebraic-expressions-in-physics-exams)
     - [2. Creating a customisable freely-accessible Socratic AI physics tutor](#2-creating-a-customisable-freely-accessible-socratic-ai-physics-tutor)
 
-- [4. From the law of Physics Towards Physical World Model](#4-from-the-law-of-physics-towards-physical-world-model)
+- [5. From the law of Physics Towards Physical World Model](#4-from-the-law-of-physics-towards-physical-world-model)
   - [4.1 Physics-Inspired Artificial Intelligence](#41-physics-inspired-artificial-intelligence)
   - [4.2 AI-Driven Reconstruction of Physical Scenario](#42-ai-driven-reconstruction-of-physical-scenario)
   - [4.3 Towards World Modelling by Understanding the Law of Physics](#43-towards-world-modelling-by-understanding-the-law-of-physics)
