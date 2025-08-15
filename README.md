@@ -24,6 +24,8 @@
   - [5.1 Physics-Inspired Artificial Intelligence](#51-physics-inspired-artificial-intelligence)
     - [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](#lnn-pinn-a-unified-physics-only-training-framework-with-liquid-residual-blocks)
   - [5.2 AI-Driven Reconstruction of Physical Scenario](#52-ai-driven-reconstruction-of-physical-scenario)
+    - [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](#pbr-nerf-inverse-rendering-with-physics-based-neural-fields)
+    - [IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing](#intrinsicavatar-physically-based-inverse-rendering-of-dynamic-humans-from-monocular-videos-via-explicit-ray-tracing)
   - [5.3 Towards World Modelling by Understanding the Law of Physics](#53-towards-world-modelling-by-understanding-the-law-of-physics)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
