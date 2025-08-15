@@ -48,7 +48,7 @@ Quantum Mechanics, Gravitation, etc.
 - **Date:** 2024.04
 - **Description:** A scientist-curated benchmark (338 subproblems from 80 research challenges) with coding components. 
 
-## 3. Application
+## 3. Applications
 <!-- ## 2. AI for Physical Application -->
 
 ### 3.1 Engineering
