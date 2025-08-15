@@ -127,4 +127,4 @@ Note: This includes Physical Engine
 
 #### [Generative AI for Validating Physics Laws](https://arxiv.org/pdf/2503.17894)
 - **Date:** 2025.03
-- **Description:** 
+- **Description:** A generative artificial intelligence (AI) approach was proposed to empirically verify fundamental laws of physics, focusing on the Stefan-Boltzmann law linking stellar temperature and luminosity. The approach simulates the counterfactual luminosity of each star under hypothetical temperature conditions and iteratively refines the temperature-luminosity relationship within a deep learning architecture.
