@@ -8,7 +8,7 @@
 - [2. Experimental Physics](#2-experimental-physics)
     - [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](#scienceagentbench-toward-rigorous-assessment-of-language-agents-for-data-driven-scientific-discovery)
     - [SciCode: A Research Coding Benchmark Curated by Scientists:](#scicode-a-research-coding-benchmark-curated-by-scientists)
-- [3. Application](#3-application)
+- [3. Applications](#3-applications)
   - [3.1 Engineering](#31-engineering)
     - [Achieving Precise and Reliable Locomotion with Differentiable Simulation-Based System Identification](#achieving-precise-and-reliable-locomotion-with-differentiable-simulation-based-system-identification)
   - [3.2 Healthcare and Biophysics](#32-healthcare-and-biophysics)
