@@ -14,7 +14,7 @@
   - [3.2 Healthcare and Biophysics](#32-healthcare-and-biophysics)
     - [Calibrating Biophysical Models for Grape Phenology Prediction via Multi-Task Learning](#calibrating-biophysical-models-for-grape-phenology-prediction-via-multi-task-learning)
     - [HeartUnloadNet: A Weakly-Supervised Cycle-Consistent Graph Network for Predicting Unloaded Cardiac Geometry from Diastolic States](#heartunloadnet-a-weakly-supervised-cycle-consistent-graph-network-for-predicting-unloaded-cardiac-geometry-from-diastolic-states)
-- [4. Benchmarks and Evaluation (***Please add links to dataset, e.g., HuggingFace***)](#4-benchmarks-and-evaluation-please-add-links-to-dataset-eg-huggingface)
+- [4. Benchmarks and Evaluation (***Please add links to dataset and/or leaderboard***)](#4-benchmarks-and-evaluation-please-add-links-to-dataset-andor-leaderboard)
   - [4.1 Datasets](#41-datasets)
     - [SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning](#seephys-does-seeing-help-thinking----benchmarking-vision-based-physics-reasoning)
     - [PHYSICSEVAL: Inference-Time Techniques to Improve the Reasoning Proficiency of Large Language Models on Physics Problems](#physicseval-inference-time-techniques-to-improve-the-reasoning-proficiency-of-large-language-models-on-physics-problems)
