@@ -96,6 +96,9 @@ Quantum Mechanics, Gravitation, etc.
 ## 5. From the law of Physics Towards Physical World Model
 
 ### 5.1 Physics-Inspired Artificial Intelligence
+  #### [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](https://arxiv.org/pdf/2508.08935)
+- **Date:** 2025.08
+- **Description:** LNN-PINN, a physics-informed neural network framework, combines a liquid residual gating architecture while retaining the original physical modeling and optimization process to improve prediction accuracy.
 
 Note: PINN, Equivariance Network should be a subsubsection here
 
