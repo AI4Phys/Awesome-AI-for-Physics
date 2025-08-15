@@ -74,7 +74,7 @@ Quantum Mechanics, Gravitation, etc.
 - **Date:** 2025.07
 - **Description:** HeartUnloadNet is a deep learning framework that predicts unloaded left ventricular (LV) shape directly from end-diastolic (ED) meshes while explicitly incorporating biophysical priors. The network accepts meshes of arbitrary size and physiological parameters such as ED pressure, myocardial stiffness, and fiber helicity orientation, and outputs the corresponding unloaded mesh. It employs a graph attention architecture and a cycle consistency strategy for bidirectional (loaded and unloaded) prediction, enabling partial self-supervision, which improves accuracy and reduces the need for large training datasets.
 
-## 4. Benchmarks and Evaluation (***Please add links to dataset, e.g., HuggingFace***)
+## 4. Benchmarks and Evaluation (***Please add links to dataset and/or leaderboard***)
 <!-- ## 3. AI for Physics QA and Education -->
 <!-- ### 4.1 Physics QA -->
 ### 4.1 Datasets
