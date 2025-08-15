@@ -28,6 +28,7 @@
     - [IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing](#intrinsicavatar-physically-based-inverse-rendering-of-dynamic-humans-from-monocular-videos-via-explicit-ray-tracing)
   - [5.3 Towards World Modelling by Understanding the Law of Physics](#53-towards-world-modelling-by-understanding-the-law-of-physics)
     - [AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical Knowledge](#ai-newton-a-concept-driven-physical-law-discovery-system-without-prior-physical-knowledge)
+    - [Generative AI for Validating Physics Laws](#generative-ai-for-validating-physics-laws)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
