@@ -123,3 +123,7 @@ Note: This includes Physical Engine
  #### [AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical Knowledge](https://arxiv.org/pdf/2504.01538)
 - **Date:** 2025.04
 - **Description:** AI-Newton, a concept-driven discovery system, can autonomously derive physical laws from raw data—without supervision or prior physical knowledge. The system integrates a knowledge base and knowledge representation centered around physical concepts, as well as an autonomous discovery workflow.
+
+#### [Generative AI for Validating Physics Laws](https://arxiv.org/pdf/2503.17894)
+- **Date:** 2025.03
+- **Description:** 
