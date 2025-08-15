@@ -90,7 +90,7 @@ Quantum Mechanics, Gravitation, etc.
 - **Date:** 2025.07
 - **Description:**  ABench-Physics exposes LLMs' physics reasoning limitations through 500 challenging problems (400 static + 100 dynamic variants). 
 
-### 4.2 Metrics
+### 4.2 Others
 
 <!-- ### 4.2 Education -->
 #### [The AlphaPhysics Term Rewriting System for Marking Algebraic Expressions in Physics Exams](https://arxiv.org/pdf/2507.18337)
