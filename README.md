@@ -58,7 +58,7 @@ Quantum Mechanics, Gravitation, etc.
 
 ### 3.1 Engineering
   #### [Achieving Precise and Reliable Locomotion with Differentiable Simulation-Based System Identification](https://arxiv.org/html/2508.04696v1)
-- **Date:** 2024.10
+- **Date:** 2025.08
 - **Description:** It combines system identification with RL training to optimize physical parameters from trajectory data, achieving 75% reduction in rotational drift and 46% improvement in directional movement for bipedal locomotion compared to baseline methods.
   
 ### 3.2 Healthcare and Biophysics
