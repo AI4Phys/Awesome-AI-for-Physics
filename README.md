@@ -22,6 +22,7 @@
     - [Creating a customisable freely-accessible Socratic AI physics tutor](#creating-a-customisable-freely-accessible-socratic-ai-physics-tutor)
 - [5. From the law of Physics Towards Physical World Model](#5-from-the-law-of-physics-towards-physical-world-model)
   - [5.1 Physics-Inspired Artificial Intelligence](#51-physics-inspired-artificial-intelligence)
+    - [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](#lnn-pinn-a-unified-physics-only-training-framework-with-liquid-residual-blocks)
   - [5.2 AI-Driven Reconstruction of Physical Scenario](#52-ai-driven-reconstruction-of-physical-scenario)
   - [5.3 Towards World Modelling by Understanding the Law of Physics](#53-towards-world-modelling-by-understanding-the-law-of-physics)
 
