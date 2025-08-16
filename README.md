@@ -128,7 +128,7 @@ Note: PINN, Equivariance Network should be a subsubsection here
 ### 5.2 AI-Driven Reconstruction of Physical Scenario
  #### [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](https://arxiv.org/pdf/2412.09680)
 - **Date:** 2024.12
-- **Description:** Explicitly modeling materials and lighting in NeRF, jointly estimating geometry/BRDF/lighting, and addressing the shortcomings of classic NeRF in physical consistency.
+- **Description:** A physics-aware NeRF that jointly recovers shape, materials and lighting via two novel PBR priors, achieving state-of-the-art material accuracy without hurting view synthesis.
 - **Domain:** `Generation` `Physics-Based Rendering`
 
 #### [IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing](https://arxiv.org/pdf/2312.05210)
