@@ -37,22 +37,90 @@
 
  Template: [time] title [paper link]: description `tag/domain` 
 
-<!-- ## 1. AI for Physics Research -->
 
-<!-- ### 1.1 Theoretical Physics -->
-## 1. Theoretical Physics
+## 1. Physics Reasoning AI
+### 1.1 Benchmarks (***Please add links to dataset and/or leaderboard***)
+#### [SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning](https://arxiv.org/abs/2505.19099)
+- **Date:** 2025.05
+- **Description:** It comprises 2,000 rigorously validated questions covering a comprehensive range of knowledge levels from middle school to PhD qualifying exam levels.Through meticulous selection of 21 diagram types by domain experts, each problem challenges frontier MLLMs to integrate domain knowledge with visual understanding of physics diagrams (e.g., Feynman diagrams for particle interactions and Circuit diagrams for Electromagnetism).
+- **Link:** https://seephys.github.io/
+- **Domain:** `MLLM` `Physics VQA`
 
-Quantum Mechanics, Gravitation, etc.
+#### [PHYSICSEVAL: Inference-Time Techniques to Improve the Reasoning Proficiency of Large Language Models on Physics Problems](https://arxiv.org/pdf/2508.00079)
+- **Date:** 2025.08
+- **Description:** A new 19,609-problem physics benchmark, reveals that multi-agent verification frameworks enhance LLM performance on complex physics reasoning tasks. 
+- **Link:** https://github.com/areebuzair/PhysicsEval
+- **Domain:** `LLM` `Physics VQA`
+
+#### [ABench-Physics: Benchmarking Physical Reasoning in LLMs via High-Difficulty and Dynamic Physics Problems](https://arxiv.org/pdf/2507.04766)
+- **Date:** 2025.07
+- **Description:**  ABench-Physics exposes LLMs' physics reasoning limitations through 500 challenging problems (400 static + 100 dynamic variants). 
+- **Link:** https://github.com/inclusionAI/ABench/tree/main/Physics
+- **Domain:** `LLM` `Physics VQA`
+
+#### [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/pdf/2410.05080)
+- **Date:** 2024.10
+- **Description:** ScienceAgentBench evaluates LLM agents on 102 validated scientific tasks, showing even top-performing models (32.4-42.2% success rates) remain far from reliable automation, with performance gains requiring prohibitive cost increases. 
+- **Link:** https://osu-nlp-group.github.io/ScienceAgentBench/
+- **Domain:** `Agent` `Computational Physics`
+
+#### [SciCode: A Research Coding Benchmark Curated by Scientists](https://arxiv.org/abs/2407.13168):
+- **Date:** 2024.04
+- **Description:** A scientist-curated benchmark (338 subproblems from 80 research challenges) with coding components. 
+- **Link:** https://scicode-bench.github.io/
+- **Domain:** `LLM` `Computational Physics`
+
+### 1.2 Datasets (***Please add links to dataset and/or leaderboard***)
+
+### 1.3 Physics-Inspired AI (RL, SFT, agent, PINN, LLMs/MLLMs)
+  #### [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](https://arxiv.org/pdf/2508.08935)
+- **Date:** 2025.08
+- **Description:** LNN-PINN, a physics-informed neural network framework, combines a liquid residual gating architecture while retaining the original physical modeling and optimization process to improve prediction accuracy.
+- **Domain:** `PINN` `Liquid Neural Network`
+
+#### [AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical Knowledge](https://arxiv.org/pdf/2504.01538)
+- **Date:** 2025.04
+- **Description:** AI-Newton, a concept-driven discovery system, can autonomously derive physical laws from raw data—without supervision or prior physical knowledge. The system integrates a knowledge base and knowledge representation centered around physical concepts, as well as an autonomous discovery workflow.
+- **Domain:** `Survey` `Symbolic-AI`
+
+### 1.4 AI-driven Theoretical Physics Research
 #### [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939)
 - **Date:** 2025.07
 - **Description:** A CLIP-inspired foundation model for stellar spectral analysis that leverages cross-instrument contrastive pre-training and spectrum-aware decoders to enable precise spectral alignment, parameter estimation, and anomaly detection across diverse astronomical applications.
 - **Domain:** `Contrastive Learning` `Astrophysics`
 
-<!-- ### 1.2 Experimental Physics -->
-## 2. Experimental Physics
 
-## 3. Applications
-<!-- ## 2. AI for Physical Application -->
+### 1.5 AI-driven Experimental Physics Research
+
+## 2. Physical Reasoning AI
+
+### 2.1 Video Generation and Reconstruction
+
+#### [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](https://arxiv.org/pdf/2412.09680)
+- **Date:** 2024.12
+- **Description:** A physics-aware NeRF that jointly recovers shape, materials and lighting via two novel PBR priors, achieving state-of-the-art material accuracy without hurting view synthesis.
+- **Domain:** `Generation` `Physics-Based Rendering`
+
+#### [IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing](https://arxiv.org/pdf/2312.05210)
+- **Date:** 2023.12
+- **Description:** IntrinsicAvatar, a novel method for recovering the intrinsic properties of clothed human avatars, including geometry, albedo, material, and ambient lighting, from monocular video alone. Recent advances in eye-based neural rendering have enabled high-quality reconstruction of clothed human geometry and appearance from monocular video alone.
+- **Domain:** `Reconstruction` `Ray Tracing`
+
+#### [Generative AI for Validating Physics Laws](https://arxiv.org/pdf/2503.17894)
+- **Date:** 2025.03
+- **Description:** A generative artificial intelligence (AI) approach was proposed to empirically verify fundamental laws of physics, focusing on the Stefan-Boltzmann law linking stellar temperature and luminosity. The approach simulates the counterfactual luminosity of each star under hypothetical temperature conditions and iteratively refines the temperature-luminosity relationship within a deep learning architecture.
+- **Domain:** `Generation` `Astrophysics`
+
+### 2.2 Robotics
+
+### 2.3 Navigation
+
+### 2.4 Autonomous Driving
+
+### 2.5 Game Playing (single/multiple-player )
+
+
+## 3. Cross Domain Applications and Future Directions
 
 ### 3.1 Engineering
   #### [Achieving Precise and Reliable Locomotion with Differentiable Simulation-Based System Identification](https://arxiv.org/html/2508.04696v1)
@@ -71,38 +139,11 @@ Quantum Mechanics, Gravitation, etc.
 - **Description:** HeartUnloadNet is a deep learning framework that predicts unloaded left ventricular (LV) shape directly from end-diastolic (ED) meshes while explicitly incorporating biophysical priors. The network accepts meshes of arbitrary size and physiological parameters such as ED pressure, myocardial stiffness, and fiber helicity orientation, and outputs the corresponding unloaded mesh. It employs a graph attention architecture and a cycle consistency strategy for bidirectional (loaded and unloaded) prediction, enabling partial self-supervision, which improves accuracy and reduces the need for large training datasets.
 - **Domain:** `Graph Neural Networks ` `Biophysical Model`
 
-## 4. Benchmarks and Evaluation (***Please add links to dataset and/or leaderboard***)
-<!-- ## 3. AI for Physics QA and Education -->
-<!-- ### 4.1 Physics QA -->
-### 4.1 Datasets
-#### [SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning](https://arxiv.org/abs/2505.19099)
-- **Date:** 2025.05
-- **Description:** It comprises 2,000 rigorously validated questions covering a comprehensive range of knowledge levels from middle school to PhD qualifying exam levels.Through meticulous selection of 21 diagram types by domain experts, each problem challenges frontier MLLMs to integrate domain knowledge with visual understanding of physics diagrams (e.g., Feynman diagrams for particle interactions and Circuit diagrams for Electromagnetism).
-- **Domain:** `MLLM` `Physics VQA`
+### 3.3 Architecture
 
-#### [PHYSICSEVAL: Inference-Time Techniques to Improve the Reasoning Proficiency of Large Language Models on Physics Problems](https://arxiv.org/pdf/2508.00079)
-- **Date:** 2025.08
-- **Description:** A new 19,609-problem physics benchmark, reveals that multi-agent verification frameworks enhance LLM performance on complex physics reasoning tasks. 
-- **Domain:** `LLM` `Physics VQA`
+### 3.4 Aerospace Science
 
-#### [ABench-Physics: Benchmarking Physical Reasoning in LLMs via High-Difficulty and Dynamic Physics Problems](https://arxiv.org/pdf/2507.04766)
-- **Date:** 2025.07
-- **Description:**  ABench-Physics exposes LLMs' physics reasoning limitations through 500 challenging problems (400 static + 100 dynamic variants). 
-- **Domain:** `LLM` `Physics VQA`
-
-#### [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/pdf/2410.05080)
-- **Date:** 2024.10
-- **Description:** ScienceAgentBench evaluates LLM agents on 102 validated scientific tasks, showing even top-performing models (32.4-42.2% success rates) remain far from reliable automation, with performance gains requiring prohibitive cost increases. 
-- **Domain:** `Agent` `Computational Physics`
-
-#### [SciCode: A Research Coding Benchmark Curated by Scientists](https://arxiv.org/abs/2407.13168):
-- **Date:** 2024.04
-- **Description:** A scientist-curated benchmark (338 subproblems from 80 research challenges) with coding components. 
-- **Domain:** `LLM` `Computational Physics`
-
-### 4.2 Others
-
-<!-- ### 4.2 Education -->
+### 3.5 Education
 #### [The AlphaPhysics Term Rewriting System for Marking Algebraic Expressions in Physics Exams](https://arxiv.org/pdf/2507.18337)
 - **Date:** 2025.08
 - **Description:** This automated physics grading system integrates LLM preprocessing with dual verification pathways (general SMT solvers and physics-specific term rewriting), successfully processing 1500+ Olympiad exam responses by combining natural language understanding with formal mathematical validation of student solutions.
@@ -113,39 +154,3 @@ Quantum Mechanics, Gravitation, etc.
 - **Description:** It customizes Gemini into a physics tutor that promotes Socratic dialogue rather than direct answers, successfully guiding students through diagram analysis and conceptual reasoning while acknowledging persistent limitations in accuracy.
 - **Domain:** `Agent` `Physics Tutor`
 
-
-## 5. From the law of Physics Towards Physical World Model
-
-### 5.1 Physics-Inspired Artificial Intelligence
-  #### [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](https://arxiv.org/pdf/2508.08935)
-- **Date:** 2025.08
-- **Description:** LNN-PINN, a physics-informed neural network framework, combines a liquid residual gating architecture while retaining the original physical modeling and optimization process to improve prediction accuracy.
-- **Domain:** `PINN` `Liquid Neural Network`
-
-Note: PINN, Equivariance Network should be a subsubsection here
-
-
-### 5.2 AI-Driven Reconstruction of Physical Scenario
- #### [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](https://arxiv.org/pdf/2412.09680)
-- **Date:** 2024.12
-- **Description:** A physics-aware NeRF that jointly recovers shape, materials and lighting via two novel PBR priors, achieving state-of-the-art material accuracy without hurting view synthesis.
-- **Domain:** `Generation` `Physics-Based Rendering`
-
-#### [IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing](https://arxiv.org/pdf/2312.05210)
-- **Date:** 2023.12
-- **Description:** IntrinsicAvatar, a novel method for recovering the intrinsic properties of clothed human avatars, including geometry, albedo, material, and ambient lighting, from monocular video alone. Recent advances in eye-based neural rendering have enabled high-quality reconstruction of clothed human geometry and appearance from monocular video alone.
-- **Domain:** `Reconstruction` `Ray Tracing`
-
-Note: This includes Physical Engine
-
-
-### 5.3 Towards World Modeling by Understanding the Law of Physics
- #### [AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical Knowledge](https://arxiv.org/pdf/2504.01538)
-- **Date:** 2025.04
-- **Description:** AI-Newton, a concept-driven discovery system, can autonomously derive physical laws from raw data—without supervision or prior physical knowledge. The system integrates a knowledge base and knowledge representation centered around physical concepts, as well as an autonomous discovery workflow.
-- **Domain:** `Survey` `Symbolic-AI`
-
-#### [Generative AI for Validating Physics Laws](https://arxiv.org/pdf/2503.17894)
-- **Date:** 2025.03
-- **Description:** A generative artificial intelligence (AI) approach was proposed to empirically verify fundamental laws of physics, focusing on the Stefan-Boltzmann law linking stellar temperature and luminosity. The approach simulates the counterfactual luminosity of each star under hypothetical temperature conditions and iteratively refines the temperature-luminosity relationship within a deep learning architecture.
-- **Domain:** `Generation` `Astrophysics`
