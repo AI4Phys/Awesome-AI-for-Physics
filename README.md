@@ -1,4 +1,4 @@
-# Awesome-AI+Physics
+# Awesome AI for Physics
 
 ## 💥 News
 -  **Coming Soon**: An AI4Physics survey is currently in development. Stay tuned! 📢
