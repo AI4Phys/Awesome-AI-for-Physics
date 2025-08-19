@@ -1,5 +1,9 @@
 # Awesome-AI+Physics
 
+## 💥 News
+-  **Coming Soon**: An AI4Physics survey is currently in development. Stay tuned! 📢
+
+## 📖 Content
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -39,9 +43,6 @@
     - [Creating a customisable freely-accessible Socratic AI physics tutor](#creating-a-customisable-freely-accessible-socratic-ai-physics-tutor)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
- Template: [time] title [paper link]: description `tag/domain` 
 
 
 ## 1. Physics Reasoning AI
