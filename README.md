@@ -107,10 +107,34 @@
 
 #### [ContPhy: Continuum Physical Concept Learning and Reasoning from Videos](https://arxiv.org/pdf/2402.06119):
 - **Date:** 2024.02
-- **Description:** A scientist-curated benchmark (338 subproblems from 80 research challenges) with coding components. 
-- **Link:** https://scicode-bench.github.io/
-- **Domain:** `LLM` `Computational Physics`
+- **Description:** A novel benchmark dataset of videos is designed to evaluate the physical reasoning capabilities of AI models on continuum substances, such as fluids and soft bodies, by requiring them to infer physical properties and predict dynamics in diverse and complex scenarios.
+- **Link:** https://physical-reasoning-project.github.io/
+- **Domain:** `Video Understanding` `Continuum Mechanics`
 
+#### [GRASP: A novel benchmark for evaluating language GRounding And Situated Physics understanding in multimodal language models](https://arxiv.org/pdf/2311.09048):
+- **Date:** 2023.11
+- **Description:** A novel benchmark is built in a Unity-based simulation to evaluate how well video-based multimodal large language models can ground language in visual scenes and understand intuitive physics principles like object permanence and solidity.
+- **Link:** https://github.com/i-machine-think/grasp
+- **Domain:** `Video Understanding` `MLLM`
+
+#### [I-PHYRE: Interactive Physical Reasoning](https://arxiv.org/pdf/2312.03009):
+- **Date:** 2023.12
+- **Description:** I-PHYRE is a benchmark that evaluates an agent's physical reasoning by requiring it to actively interact with an environment to uncover latent physical properties and solve tasks that are impossible to complete from passive observation alone. It contains 40 interactive physics games mainly consisting of gray blocks, black blocks, blue blocks, and red balls.
+- **Link:** https://lishiqianhugh.github.io/IPHYRE/
+- **Domain:** `Interactive Reasoning` `Embodied AI `
+
+#### [IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments](https://arxiv.org/pdf/2506.09849):
+- **Date:** 2025.06
+- **Description:** IntPhys 2 is a large-scale benchmark that evaluates the intuitive physics understanding of AI models by challenging them to identify physically impossible events within complex, diverse, and realistic synthetic video scenes.
+- **Link:** https://github.com/facebookresearch/IntPhys2
+- **Domain:** `Video Understanding` `World Model`
+
+#### [LLMPhy: Complex Physical Reasoning Using Large Language Models and World Models](https://arxiv.org/pdf/2411.08027):
+- **Date:** 2024.11
+- **Description:** LLMPhy is a zero-shot framework that synergizes the program synthesis abilities of Large Language Models with the simulation power of physics engines to solve complex physical reasoning tasks by iteratively estimating system parameters and predicting object dynamics.
+- **Link:** 
+- **Domain:** `Video Understanding` `World Model` `LLM` 
+  
 ### 2.2 Video Generation and Reconstruction
 
 #### [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](https://arxiv.org/pdf/2412.09680)
