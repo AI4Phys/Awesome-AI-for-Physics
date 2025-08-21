@@ -104,6 +104,12 @@
 
 ### 2.1 Benchmarks
 
+#### [ContPhy: Continuum Physical Concept Learning and Reasoning from Videos](https://arxiv.org/pdf/2402.06119):
+- **Date:** 2024.02
+- **Description:** A scientist-curated benchmark (338 subproblems from 80 research challenges) with coding components. 
+- **Link:** https://scicode-bench.github.io/
+- **Domain:** `LLM` `Computational Physics`
+
 ### 2.2 Video Generation and Reconstruction
 
 #### [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](https://arxiv.org/pdf/2412.09680)
