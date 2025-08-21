@@ -23,6 +23,7 @@
   - [1.5 AI-driven Experimental Physics Research](#15-ai-driven-experimental-physics-research)
 - [2. Physical Reasoning AI](#2-physical-reasoning-ai)
   - [2.1 Benchmarks](#21-benchmarks)
+    - [ContPhy: Continuum Physical Concept Learning and Reasoning from Videos:](#contphy-continuum-physical-concept-learning-and-reasoning-from-videos)
   - [2.2 Video Generation and Reconstruction](#22-video-generation-and-reconstruction)
     - [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](#pbr-nerf-inverse-rendering-with-physics-based-neural-fields)
     - [IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing](#intrinsicavatar-physically-based-inverse-rendering-of-dynamic-humans-from-monocular-videos-via-explicit-ray-tracing)
