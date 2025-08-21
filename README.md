@@ -101,7 +101,9 @@
 
 ## 2. Physical Reasoning AI
 
-### 2.1 Video Generation and Reconstruction
+### 2.1 Benchmarks
+
+### 2.2 Video Generation and Reconstruction
 
 #### [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](https://arxiv.org/pdf/2412.09680)
 - **Date:** 2024.12
@@ -118,13 +120,13 @@
 - **Description:** A generative artificial intelligence (AI) approach was proposed to empirically verify fundamental laws of physics, focusing on the Stefan-Boltzmann law linking stellar temperature and luminosity. The approach simulates the counterfactual luminosity of each star under hypothetical temperature conditions and iteratively refines the temperature-luminosity relationship within a deep learning architecture.
 - **Domain:** `Generation` `Astrophysics`
 
-### 2.2 Robotics
+### 2.3 Robotics
 
-### 2.3 Navigation
+### 2.4 Navigation
 
-### 2.4 Autonomous Driving
+### 2.5 Autonomous Driving
 
-### 2.5 Game Playing (single/multiple-player )
+### 2.6 Game Playing (single/multiple-player )
 
 
 ## 3. Cross Domain Applications and Future Directions
