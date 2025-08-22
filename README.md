@@ -95,7 +95,23 @@
 
 ## 2. Physical Reasoning AI
 
-### 2.1 Benchmarks
+  
+### 2.1 World Model
+
+#### [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](https://arxiv.org/pdf/2412.09680)
+- **Date:** 2024.12
+- **Description:** A physics-aware NeRF that jointly recovers shape, materials and lighting via two novel PBR priors, achieving state-of-the-art material accuracy without hurting view synthesis.
+- **Domain:** `Generation` `Physics-Based Rendering`
+
+#### [IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing](https://arxiv.org/pdf/2312.05210)
+- **Date:** 2023.12
+- **Description:** IntrinsicAvatar, a novel method for recovering the intrinsic properties of clothed human avatars, including geometry, albedo, material, and ambient lighting, from monocular video alone. Recent advances in eye-based neural rendering have enabled high-quality reconstruction of clothed human geometry and appearance from monocular video alone.
+- **Domain:** `Reconstruction` `Ray Tracing`
+
+#### [Generative AI for Validating Physics Laws](https://arxiv.org/pdf/2503.17894)
+- **Date:** 2025.03
+- **Description:** A generative artificial intelligence (AI) approach was proposed to empirically verify fundamental laws of physics, focusing on the Stefan-Boltzmann law linking stellar temperature and luminosity. The approach simulates the counterfactual luminosity of each star under hypothetical temperature conditions and iteratively refines the temperature-luminosity relationship within a deep learning architecture.
+- **Domain:** `Generation` `Astrophysics`
 
 #### [ContPhy: Continuum Physical Concept Learning and Reasoning from Videos](https://arxiv.org/pdf/2402.06119)
 - **Date:** 2024.02
@@ -108,12 +124,6 @@
 - **Description:** A novel benchmark is built in a Unity-based simulation to evaluate how well video-based multimodal large language models can ground language in visual scenes and understand intuitive physics principles like object permanence and solidity.
 - **Link:** https://github.com/i-machine-think/grasp
 - **Domain:** `Video Understanding` `MLLM`
-
-#### [I-PHYRE: Interactive Physical Reasoning](https://arxiv.org/pdf/2312.03009)
-- **Date:** 2023.12
-- **Description:** I-PHYRE is a benchmark that evaluates an agent's physical reasoning by requiring it to actively interact with an environment to uncover latent physical properties and solve tasks that are impossible to complete from passive observation alone. It contains 40 interactive physics games mainly consisting of gray blocks, black blocks, blue blocks, and red balls.
-- **Link:** https://lishiqianhugh.github.io/IPHYRE/
-- **Domain:** `Interactive Reasoning` `Embodied AI `
 
 #### [IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments](https://arxiv.org/pdf/2506.09849)
 - **Date:** 2025.06
@@ -131,25 +141,7 @@
 - **Date:** 2025.04
 - **Description:** Morpheus is a benchmark designed to evaluate the physical reasoning of video generative models, consisting of 80 meticulously filmed real-world videos that capture phenomena governed by physical conservation laws (like the conservation of energy and momentum).
 - **Link:** https://physics-from-video.github.io/morpheus-bench/
-- **Domain:** `Video Generation` `World Model` 
-
-#### [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly](https://arxiv.org/pdf/2506.08708)
-- **Date:** 2025.06
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://github.com/PhyBlock/PhyBlock
-- **Domain:** `Embodied AI` `VLM` `VQA` 
-
-#### [PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding](https://arxiv.org/pdf/2501.16411)
-- **Date:** 2025.01
-- **Description:** PhysBench, a comprehensive benchmark with 10,002 entries, evaluates physical world understanding across 75 top Vision-Language Models, revealing their struggles with physics and introducing the PhysAgent framework to address this, which improves GPT-4o's performance by 18.4%.
-- **Link:** https://physbench.github.io/
-- **Domain:** `Embodied AI` `VLM`
-
-#### [Physion++: Evaluating Physical Scene Understanding that Requires Online Inference of Different Physical Properties](https://arxiv.org/pdf/2306.15668)
-- **Date:** 2023.06
-- **Description:** Physion++ is a novel benchmark that evaluates visual physical prediction models on their ability to perform online inference of latent properties like mass and friction from object dynamics, revealing a huge performance gap between current models and humans.
-- **Link:** https://dingmyu.github.io/physion_v2/
-- **Domain:** `Online Inference `
+- **Domain:** `Video Generation` `World Model`
 
 #### [T2VPhysBench: A First-Principles Benchmark for Physical Consistency in Text-to-Video Generation](https://arxiv.org/pdf/2505.00337)
 - **Date:** 2025.05
@@ -167,33 +159,39 @@
 - **Date:** 2025.03
 - **Description:** VideoPhy-2 is a challenging, action-centric benchmark that uses human evaluation to assess physical commonsense in video generation, revealing that even the best models achieve only 22% joint semantic and physical accuracy on its hard subset, particularly struggling with conservation laws.
 - **Link:** https://videophy2.github.io/
-- **Domain:** `Video Generation` 
+- **Domain:** `Video Generation`
 
-  
-### 2.2 Video Generation and Reconstruction
+#### [PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding](https://arxiv.org/pdf/2501.16411)
+- **Date:** 2025.01
+- **Description:** PhysBench, a comprehensive benchmark with 10,002 entries, evaluates physical world understanding across 75 top Vision-Language Models, revealing their struggles with physics and introducing the PhysAgent framework to address this, which improves GPT-4o's performance by 18.4%.
+- **Link:** https://physbench.github.io/
+- **Domain:** `Embodied AI` `VLM`
 
-#### [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](https://arxiv.org/pdf/2412.09680)
-- **Date:** 2024.12
-- **Description:** A physics-aware NeRF that jointly recovers shape, materials and lighting via two novel PBR priors, achieving state-of-the-art material accuracy without hurting view synthesis.
-- **Domain:** `Generation` `Physics-Based Rendering`
+#### [Physion++: Evaluating Physical Scene Understanding that Requires Online Inference of Different Physical Properties](https://arxiv.org/pdf/2306.15668)
+- **Date:** 2023.06
+- **Description:** Physion++ is a novel benchmark that evaluates visual physical prediction models on their ability to perform online inference of latent properties like mass and friction from object dynamics, revealing a huge performance gap between current models and humans.
+- **Link:** https://dingmyu.github.io/physion_v2/
+- **Domain:** `Online Inference `
 
-#### [IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing](https://arxiv.org/pdf/2312.05210)
+### 2.2 Robotics
+
+### 2.3 Navigation
+
+#### [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly](https://arxiv.org/pdf/2506.08708)
+- **Date:** 2025.06
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://github.com/PhyBlock/PhyBlock
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+### 2.4 Autonomous Driving
+
+### 2.5 Game Playing (single/multiple-player )
+
+#### [I-PHYRE: Interactive Physical Reasoning](https://arxiv.org/pdf/2312.03009)
 - **Date:** 2023.12
-- **Description:** IntrinsicAvatar, a novel method for recovering the intrinsic properties of clothed human avatars, including geometry, albedo, material, and ambient lighting, from monocular video alone. Recent advances in eye-based neural rendering have enabled high-quality reconstruction of clothed human geometry and appearance from monocular video alone.
-- **Domain:** `Reconstruction` `Ray Tracing`
-
-#### [Generative AI for Validating Physics Laws](https://arxiv.org/pdf/2503.17894)
-- **Date:** 2025.03
-- **Description:** A generative artificial intelligence (AI) approach was proposed to empirically verify fundamental laws of physics, focusing on the Stefan-Boltzmann law linking stellar temperature and luminosity. The approach simulates the counterfactual luminosity of each star under hypothetical temperature conditions and iteratively refines the temperature-luminosity relationship within a deep learning architecture.
-- **Domain:** `Generation` `Astrophysics`
-
-### 2.3 Robotics
-
-### 2.4 Navigation
-
-### 2.5 Autonomous Driving
-
-### 2.6 Game Playing (single/multiple-player )
+- **Description:** I-PHYRE is a benchmark that evaluates an agent's physical reasoning by requiring it to actively interact with an environment to uncover latent physical properties and solve tasks that are impossible to complete from passive observation alone. It contains 40 interactive physics games mainly consisting of gray blocks, black blocks, blue blocks, and red balls.
+- **Link:** https://lishiqianhugh.github.io/IPHYRE/
+- **Domain:** `Interactive Reasoning` `Embodied AI `
 
 ## 3. Physics-Inspired AI (PINN series)
 ### 3.1 (Category of PINN)
