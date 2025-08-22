@@ -138,6 +138,50 @@
 - **Description:** LLMPhy is a zero-shot framework that synergizes the program synthesis abilities of Large Language Models with the simulation power of physics engines to solve complex physical reasoning tasks by iteratively estimating system parameters and predicting object dynamics.
 - **Link:** 
 - **Domain:** `Video Understanding` `World Model` `LLM` 
+
+#### [Morpheus: Benchmarking Physical Reasoning of Video Generative Models with Real Physical Experiments
+](https://arxiv.org/pdf/2504.02918):
+- **Date:** 2025.04
+- **Description:** Morpheus is a benchmark designed to evaluate the physical reasoning of video generative models, consisting of 80 meticulously filmed real-world videos that capture phenomena governed by physical conservation laws (like the conservation of energy and momentum).
+- **Link:** https://physics-from-video.github.io/morpheus-bench/
+- **Domain:** `Video Generation` `World Model` 
+
+#### [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly](https://arxiv.org/pdf/2506.08708):
+- **Date:** 2025.06
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://github.com/PhyBlock/PhyBlock
+- **Domain:** `Embodied AI` `VLM` `VQA` 
+
+#### [PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding](https://arxiv.org/pdf/2501.16411):
+- **Date:** 2025.01
+- **Description:** PhysBench, a comprehensive benchmark with 10,002 entries, evaluates physical world understanding across 75 top Vision-Language Models, revealing their struggles with physics and introducing the PhysAgent framework to address this, which improves GPT-4o's performance by 18.4%.
+- **Link:** https://physbench.github.io/
+- **Domain:** `Embodied AI` `VLM`
+
+#### [Physion++: Evaluating Physical Scene Understanding that Requires Online Inference of Different Physical Properties](https://arxiv.org/pdf/2306.15668):
+- **Date:** 2023.06
+- **Description:** Physion++ is a novel benchmark that evaluates visual physical prediction models on their ability to perform online inference of latent properties like mass and friction from object dynamics, revealing a huge performance gap between current models and humans.
+- **Link:** https://dingmyu.github.io/physion_v2/
+- **Domain:** `Online Inference `
+
+#### [T2VPhysBench: A First-Principles Benchmark for Physical Consistency in Text-to-Video Generation](https://arxiv.org/pdf/2505.00337):
+- **Date:** 2025.05
+- **Description:** T2VPhysBench is a first-principles benchmark that uses rigorous human evaluation to assess text-to-video models on twelve core physical laws, revealing that all models perform poorly (scoring below 0.60) and consistently fail to generate physically plausible content even when given explicit hints.
+- **Link:** 
+- **Domain:** `T2V` `First-Principles`
+
+#### [VideoPhy: Evaluating Physical Commonsense for Video Generation](https://arxiv.org/pdf/2406.03520):
+- **Date:** 2024.06
+- **Description:** VideoPhy is a benchmark designed to assess the physical commonsense of text-to-video models using diverse material interaction prompts, revealing through human evaluation that even the best-performing model, CogVideoX-5B, generates videos that are both text-adherent and physically plausible only 39.6% of the time.
+- **Link:** https://videophy2.github.io/
+- **Domain:** `T2V` `World Simulation`
+
+#### [VideoPhy-2: A Challenging Action-Centric Physical Commonsense Evaluation in Video Generation](https://arxiv.org/pdf/2503.06800):
+- **Date:** 2025.03
+- **Description:** VideoPhy-2 is a challenging, action-centric benchmark that uses human evaluation to assess physical commonsense in video generation, revealing that even the best models achieve only 22% joint semantic and physical accuracy on its hard subset, particularly struggling with conservation laws.
+- **Link:** https://videophy2.github.io/
+- **Domain:** `Video Generation` 
+
   
 ### 2.2 Video Generation and Reconstruction
 
