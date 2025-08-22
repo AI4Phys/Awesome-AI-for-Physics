@@ -92,25 +92,9 @@
 
 ### 1.2 Datasets (***Please add links to dataset and/or leaderboard***)
 
-### 1.3 Physics-Inspired AI (RL, SFT, agent, PINN, LLMs/MLLMs)
-  #### [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](https://arxiv.org/pdf/2508.08935)
-- **Date:** 2025.08
-- **Description:** LNN-PINN, a physics-informed neural network framework, combines a liquid residual gating architecture while retaining the original physical modeling and optimization process to improve prediction accuracy.
-- **Domain:** `PINN` `Liquid Neural Network`
-
-#### [AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical Knowledge](https://arxiv.org/pdf/2504.01538)
-- **Date:** 2025.04
-- **Description:** AI-Newton, a concept-driven discovery system, can autonomously derive physical laws from raw data—without supervision or prior physical knowledge. The system integrates a knowledge base and knowledge representation centered around physical concepts, as well as an autonomous discovery workflow.
-- **Domain:** `Survey` `Symbolic-AI`
-
-### 1.4 AI-driven Theoretical Physics Research
-#### [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939)
-- **Date:** 2025.07
-- **Description:** A CLIP-inspired foundation model for stellar spectral analysis that leverages cross-instrument contrastive pre-training and spectrum-aware decoders to enable precise spectral alignment, parameter estimation, and anomaly detection across diverse astronomical applications.
-- **Domain:** `Contrastive Learning` `Astrophysics`
+### 1.3 Methods (RL, SFT, etc.)
 
 
-### 1.5 AI-driven Experimental Physics Research
 
 ## 2. Physical Reasoning AI
 
@@ -214,17 +198,34 @@
 
 ### 2.6 Game Playing (single/multiple-player )
 
+## 3. Physics-Inspired AI (PINN series)
+### 3.1 (Category of PINN)
+#### [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](https://arxiv.org/pdf/2508.08935)
+- **Date:** 2025.08
+- **Description:** LNN-PINN, a physics-informed neural network framework, combines a liquid residual gating architecture while retaining the original physical modeling and optimization process to improve prediction accuracy.
+- **Domain:** `PINN` `Liquid Neural Network`
 
-## 3. Cross Domain Applications and Future Directions
+#### [AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical Knowledge](https://arxiv.org/pdf/2504.01538)
+- **Date:** 2025.04
+- **Description:** AI-Newton, a concept-driven discovery system, can autonomously derive physical laws from raw data—without supervision or prior physical knowledge. The system integrates a knowledge base and knowledge representation centered around physical concepts, as well as an autonomous discovery workflow.
+- **Domain:** `Survey` `Symbolic-AI`
 
-### 3.1 Engineering
+
+## 4. Cross Domain Applications and Future Directions
+
+### 4.1 AI for Physics (Theoretical and experimental)
+#### [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939)
+- **Date:** 2025.07
+- **Description:** A CLIP-inspired foundation model for stellar spectral analysis that leverages cross-instrument contrastive pre-training and spectrum-aware decoders to enable precise spectral alignment, parameter estimation, and anomaly detection across diverse astronomical applications.
+- **Domain:** `Contrastive Learning` `Astrophysics`
+
+### 4.2 Others (Healthcare, Biophysics, Architecture, Aerospace Science, Education)
   #### [Achieving Precise and Reliable Locomotion with Differentiable Simulation-Based System Identification](https://arxiv.org/html/2508.04696v1)
 - **Date:** 2025.08
 - **Description:** It combines system identification with RL training to optimize physical parameters from trajectory data, achieving 75% reduction in rotational drift and 46% improvement in directional movement for bipedal locomotion compared to baseline methods.
 - **Domain:** `Robotics` `Differentiable Simulator`
 
-### 3.2 Healthcare and Biophysics
-  #### [Calibrating Biophysical Models for Grape Phenology Prediction via Multi-Task Learning](https://arxiv.org/pdf/2508.03898)
+#### [Calibrating Biophysical Models for Grape Phenology Prediction via Multi-Task Learning](https://arxiv.org/pdf/2508.03898)
 - **Date:** 2025.08
 - **Description:** It proposes a hybrid modeling approach that combines multi-task learning with a recurrent neural network to parameterize a differentiable biophysical model. This method significantly outperforms both conventional biophysical models and baseline deep learning approaches in predicting phenological stages, as well as other crop state variables such as cold-hardiness and wheat yield.
 - **Domain:** `Graph Neural Networks ` `Biophysical Model`
@@ -234,11 +235,6 @@
 - **Description:** HeartUnloadNet is a deep learning framework that predicts unloaded left ventricular (LV) shape directly from end-diastolic (ED) meshes while explicitly incorporating biophysical priors. The network accepts meshes of arbitrary size and physiological parameters such as ED pressure, myocardial stiffness, and fiber helicity orientation, and outputs the corresponding unloaded mesh. It employs a graph attention architecture and a cycle consistency strategy for bidirectional (loaded and unloaded) prediction, enabling partial self-supervision, which improves accuracy and reduces the need for large training datasets.
 - **Domain:** `Graph Neural Networks ` `Biophysical Model`
 
-### 3.3 Architecture
-
-### 3.4 Aerospace Science
-
-### 3.5 Education
 #### [The AlphaPhysics Term Rewriting System for Marking Algebraic Expressions in Physics Exams](https://arxiv.org/pdf/2507.18337)
 - **Date:** 2025.08
 - **Description:** This automated physics grading system integrates LLM preprocessing with dual verification pathways (general SMT solvers and physics-specific term rewriting), successfully processing 1500+ Olympiad exam responses by combining natural language understanding with formal mathematical validation of student solutions.
