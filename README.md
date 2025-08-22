@@ -56,7 +56,7 @@
 
 
 ## 1. Physics Reasoning AI
-### 1.1 Benchmarks (***Please add links to dataset and/or leaderboard***)
+### 1.1 Database (Dataset and benchmarks)
 #### [SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning](https://arxiv.org/abs/2505.19099)
 - **Date:** 2025.05
 - **Description:** It comprises 2,000 rigorously validated questions covering a comprehensive range of knowledge levels from middle school to PhD qualifying exam levels.Through meticulous selection of 21 diagram types by domain experts, each problem challenges frontier MLLMs to integrate domain knowledge with visual understanding of physics diagrams (e.g., Feynman diagrams for particle interactions and Circuit diagrams for Electromagnetism).
@@ -87,16 +87,50 @@
 - **Link:** https://scicode-bench.github.io/
 - **Domain:** `LLM` `Computational Physics`
 
-### 1.2 Datasets (***Please add links to dataset and/or leaderboard***)
-
-### 1.3 Methods (RL, SFT, etc.)
-
+### 1.2 Methods (RL, SFT, etc.)
 
 
 ## 2. Physical Reasoning AI
 
-  
-### 2.1 World Model (Video Generation and 3D Reconstruction)
+### 2.1 General Understanding
+
+#### [ContPhy: Continuum Physical Concept Learning and Reasoning from Videos](https://arxiv.org/pdf/2402.06119)
+- **Date:** 2024.02
+- **Description:** A novel benchmark dataset of videos is designed to evaluate the physical reasoning capabilities of AI models on continuum substances, such as fluids and soft bodies, by requiring them to infer physical properties and predict dynamics in diverse and complex scenarios.
+- **Link:** https://physical-reasoning-project.github.io/
+- **Domain:** `Video Understanding` `Continuum Mechanics`
+
+#### [GRASP: A novel benchmark for evaluating language GRounding And Situated Physics understanding in multimodal language models](https://arxiv.org/pdf/2311.09048)
+- **Date:** 2023.11
+- **Description:** A novel benchmark is built in a Unity-based simulation to evaluate how well video-based multimodal large language models can ground language in visual scenes and understand intuitive physics principles like object permanence and solidity.
+- **Link:** https://github.com/i-machine-think/grasp
+- **Domain:** `Video Understanding` `MLLM`
+
+#### [IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments](https://arxiv.org/pdf/2506.09849)
+- **Date:** 2025.06
+- **Description:** IntPhys 2 is a large-scale benchmark that evaluates the intuitive physics understanding of AI models by challenging them to identify physically impossible events within complex, diverse, and realistic synthetic video scenes.
+- **Link:** https://github.com/facebookresearch/IntPhys2
+- **Domain:** `Video Understanding` `World Model`
+
+#### [LLMPhy: Complex Physical Reasoning Using Large Language Models and World Models](https://arxiv.org/pdf/2411.08027)
+- **Date:** 2024.11
+- **Description:** LLMPhy is a zero-shot framework that synergizes the program synthesis abilities of Large Language Models with the simulation power of physics engines to solve complex physical reasoning tasks by iteratively estimating system parameters and predicting object dynamics.
+- **Link:** 
+- **Domain:** `Video Understanding` `World Model` `LLM` 
+
+#### [PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding](https://arxiv.org/pdf/2501.16411)
+- **Date:** 2025.01
+- **Description:** PhysBench, a comprehensive benchmark with 10,002 entries, evaluates physical world understanding across 75 top Vision-Language Models, revealing their struggles with physics and introducing the PhysAgent framework to address this, which improves GPT-4o's performance by 18.4%.
+- **Link:** https://physbench.github.io/
+- **Domain:** `Embodied AI` `VLM`
+
+#### [Physion++: Evaluating Physical Scene Understanding that Requires Online Inference of Different Physical Properties](https://arxiv.org/pdf/2306.15668)
+- **Date:** 2023.06
+- **Description:** Physion++ is a novel benchmark that evaluates visual physical prediction models on their ability to perform online inference of latent properties like mass and friction from object dynamics, revealing a huge performance gap between current models and humans.
+- **Link:** https://dingmyu.github.io/physion_v2/
+- **Domain:** `Online Inference`
+
+### 2.2 World Model (Video Generation and 3D Reconstruction)
 
 #### [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](https://arxiv.org/pdf/2412.09680)
 - **Date:** 2024.12
@@ -139,7 +173,7 @@
 - **Domain:** `Video Generation`
 
 
-### 2.2 Robotics
+### 2.3 Robotics
 
 #### [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly](https://arxiv.org/pdf/2506.08708)
 - **Date:** 2025.06
@@ -147,11 +181,11 @@
 - **Link:** https://phyblock.github.io/
 - **Domain:** `Embodied AI` `VLM` `VQA`
 
-### 2.3 Navigation
+### 2.4 Navigation
 
-### 2.4 Autonomous Driving
+### 2.5 Autonomous Driving
 
-### 2.5 Game Playing (single/multiple-player )
+### 2.6 Game Playing (single/multiple-player )
 
 #### [I-PHYRE: Interactive Physical Reasoning](https://arxiv.org/pdf/2312.03009)
 - **Date:** 2023.12
@@ -159,43 +193,6 @@
 - **Link:** https://lishiqianhugh.github.io/IPHYRE/
 - **Domain:** `Interactive Reasoning` `Embodied AI `
 
-### 2.6 General Understanding
-
-#### [ContPhy: Continuum Physical Concept Learning and Reasoning from Videos](https://arxiv.org/pdf/2402.06119)
-- **Date:** 2024.02
-- **Description:** A novel benchmark dataset of videos is designed to evaluate the physical reasoning capabilities of AI models on continuum substances, such as fluids and soft bodies, by requiring them to infer physical properties and predict dynamics in diverse and complex scenarios.
-- **Link:** https://physical-reasoning-project.github.io/
-- **Domain:** `Video Understanding` `Continuum Mechanics`
-
-#### [GRASP: A novel benchmark for evaluating language GRounding And Situated Physics understanding in multimodal language models](https://arxiv.org/pdf/2311.09048)
-- **Date:** 2023.11
-- **Description:** A novel benchmark is built in a Unity-based simulation to evaluate how well video-based multimodal large language models can ground language in visual scenes and understand intuitive physics principles like object permanence and solidity.
-- **Link:** https://github.com/i-machine-think/grasp
-- **Domain:** `Video Understanding` `MLLM`
-
-#### [IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments](https://arxiv.org/pdf/2506.09849)
-- **Date:** 2025.06
-- **Description:** IntPhys 2 is a large-scale benchmark that evaluates the intuitive physics understanding of AI models by challenging them to identify physically impossible events within complex, diverse, and realistic synthetic video scenes.
-- **Link:** https://github.com/facebookresearch/IntPhys2
-- **Domain:** `Video Understanding` `World Model`
-
-#### [LLMPhy: Complex Physical Reasoning Using Large Language Models and World Models](https://arxiv.org/pdf/2411.08027)
-- **Date:** 2024.11
-- **Description:** LLMPhy is a zero-shot framework that synergizes the program synthesis abilities of Large Language Models with the simulation power of physics engines to solve complex physical reasoning tasks by iteratively estimating system parameters and predicting object dynamics.
-- **Link:** 
-- **Domain:** `Video Understanding` `World Model` `LLM` 
-
-#### [PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding](https://arxiv.org/pdf/2501.16411)
-- **Date:** 2025.01
-- **Description:** PhysBench, a comprehensive benchmark with 10,002 entries, evaluates physical world understanding across 75 top Vision-Language Models, revealing their struggles with physics and introducing the PhysAgent framework to address this, which improves GPT-4o's performance by 18.4%.
-- **Link:** https://physbench.github.io/
-- **Domain:** `Embodied AI` `VLM`
-
-#### [Physion++: Evaluating Physical Scene Understanding that Requires Online Inference of Different Physical Properties](https://arxiv.org/pdf/2306.15668)
-- **Date:** 2023.06
-- **Description:** Physion++ is a novel benchmark that evaluates visual physical prediction models on their ability to perform online inference of latent properties like mass and friction from object dynamics, revealing a huge performance gap between current models and humans.
-- **Link:** https://dingmyu.github.io/physion_v2/
-- **Domain:** `Online Inference `
 
   
 ## 3. Physics-Inspired AI (PINN series)
