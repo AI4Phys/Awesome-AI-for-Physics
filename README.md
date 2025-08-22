@@ -28,7 +28,7 @@
     - [I-PHYRE: Interactive Physical Reasoning:](#i-phyre-interactive-physical-reasoning)
     - [IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments:](#intphys-2-benchmarking-intuitive-physics-understanding-in-complex-synthetic-environments)
     - [LLMPhy: Complex Physical Reasoning Using Large Language Models and World Models:](#llmphy-complex-physical-reasoning-using-large-language-models-and-world-models)
-    - [[Morpheus: Benchmarking Physical Reasoning of Video Generative Models with Real Physical Experiments](#morpheus-benchmarking-physical-reasoning-of-video-generative-models-with-real-physical-experiments)
+    - [Morpheus: Benchmarking Physical Reasoning of Video Generative Models with Real Physical Experiments:](#morpheus-benchmarking-physical-reasoning-of-video-generative-models-with-real-physical-experiments)
     - [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly:](#phyblock-a-progressive-benchmark-for-physical-understanding-and-planning-via-3d-block-assembly)
     - [PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding:](#physbench-benchmarking-and-enhancing-vision-language-models-for-physical-world-understanding)
     - [Physion++: Evaluating Physical Scene Understanding that Requires Online Inference of Different Physical Properties:](#physion-evaluating-physical-scene-understanding-that-requires-online-inference-of-different-physical-properties)
