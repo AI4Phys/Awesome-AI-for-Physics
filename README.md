@@ -174,13 +174,15 @@
 
 ### 2.2 Robotics
 
-### 2.3 Navigation
-
 #### [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly](https://arxiv.org/pdf/2506.08708)
 - **Date:** 2025.06
 - **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
 - **Link:** https://github.com/PhyBlock/PhyBlock
 - **Domain:** `Embodied AI` `VLM` `VQA`
+
+### 2.3 Navigation
+
+
 
 ### 2.4 Autonomous Driving
 
