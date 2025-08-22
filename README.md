@@ -95,7 +95,7 @@
 ## 2. Physical Reasoning AI
 
   
-### 2.1 World Model
+### 2.1 World Model (Video Generation and 3D Reconstruction)
 
 #### [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](https://arxiv.org/pdf/2412.09680)
 - **Date:** 2024.12
@@ -112,29 +112,6 @@
 - **Description:** A generative artificial intelligence (AI) approach was proposed to empirically verify fundamental laws of physics, focusing on the Stefan-Boltzmann law linking stellar temperature and luminosity. The approach simulates the counterfactual luminosity of each star under hypothetical temperature conditions and iteratively refines the temperature-luminosity relationship within a deep learning architecture.
 - **Domain:** `Generation` `Astrophysics`
 
-#### [ContPhy: Continuum Physical Concept Learning and Reasoning from Videos](https://arxiv.org/pdf/2402.06119)
-- **Date:** 2024.02
-- **Description:** A novel benchmark dataset of videos is designed to evaluate the physical reasoning capabilities of AI models on continuum substances, such as fluids and soft bodies, by requiring them to infer physical properties and predict dynamics in diverse and complex scenarios.
-- **Link:** https://physical-reasoning-project.github.io/
-- **Domain:** `Video Understanding` `Continuum Mechanics`
-
-#### [GRASP: A novel benchmark for evaluating language GRounding And Situated Physics understanding in multimodal language models](https://arxiv.org/pdf/2311.09048)
-- **Date:** 2023.11
-- **Description:** A novel benchmark is built in a Unity-based simulation to evaluate how well video-based multimodal large language models can ground language in visual scenes and understand intuitive physics principles like object permanence and solidity.
-- **Link:** https://github.com/i-machine-think/grasp
-- **Domain:** `Video Understanding` `MLLM`
-
-#### [IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments](https://arxiv.org/pdf/2506.09849)
-- **Date:** 2025.06
-- **Description:** IntPhys 2 is a large-scale benchmark that evaluates the intuitive physics understanding of AI models by challenging them to identify physically impossible events within complex, diverse, and realistic synthetic video scenes.
-- **Link:** https://github.com/facebookresearch/IntPhys2
-- **Domain:** `Video Understanding` `World Model`
-
-#### [LLMPhy: Complex Physical Reasoning Using Large Language Models and World Models](https://arxiv.org/pdf/2411.08027)
-- **Date:** 2024.11
-- **Description:** LLMPhy is a zero-shot framework that synergizes the program synthesis abilities of Large Language Models with the simulation power of physics engines to solve complex physical reasoning tasks by iteratively estimating system parameters and predicting object dynamics.
-- **Link:** 
-- **Domain:** `Video Understanding` `World Model` `LLM` 
 
 #### [Morpheus: Benchmarking Physical Reasoning of Video Generative Models with Real Physical Experiments](https://arxiv.org/pdf/2504.02918)
 - **Date:** 2025.04
@@ -160,6 +137,53 @@
 - **Link:** https://videophy2.github.io/
 - **Domain:** `Video Generation`
 
+
+### 2.2 Robotics
+
+#### [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly](https://arxiv.org/pdf/2506.08708)
+- **Date:** 2025.06
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+### 2.3 Navigation
+
+### 2.4 Autonomous Driving
+
+### 2.5 Game Playing (single/multiple-player )
+
+#### [I-PHYRE: Interactive Physical Reasoning](https://arxiv.org/pdf/2312.03009)
+- **Date:** 2023.12
+- **Description:** I-PHYRE is a benchmark that evaluates an agent's physical reasoning by requiring it to actively interact with an environment to uncover latent physical properties and solve tasks that are impossible to complete from passive observation alone. It contains 40 interactive physics games mainly consisting of gray blocks, black blocks, blue blocks, and red balls.
+- **Link:** https://lishiqianhugh.github.io/IPHYRE/
+- **Domain:** `Interactive Reasoning` `Embodied AI `
+
+### 2.6 General Understanding
+
+#### [ContPhy: Continuum Physical Concept Learning and Reasoning from Videos](https://arxiv.org/pdf/2402.06119)
+- **Date:** 2024.02
+- **Description:** A novel benchmark dataset of videos is designed to evaluate the physical reasoning capabilities of AI models on continuum substances, such as fluids and soft bodies, by requiring them to infer physical properties and predict dynamics in diverse and complex scenarios.
+- **Link:** https://physical-reasoning-project.github.io/
+- **Domain:** `Video Understanding` `Continuum Mechanics`
+
+#### [GRASP: A novel benchmark for evaluating language GRounding And Situated Physics understanding in multimodal language models](https://arxiv.org/pdf/2311.09048)
+- **Date:** 2023.11
+- **Description:** A novel benchmark is built in a Unity-based simulation to evaluate how well video-based multimodal large language models can ground language in visual scenes and understand intuitive physics principles like object permanence and solidity.
+- **Link:** https://github.com/i-machine-think/grasp
+- **Domain:** `Video Understanding` `MLLM`
+
+#### [IntPhys 2: Benchmarking Intuitive Physics Understanding In Complex Synthetic Environments](https://arxiv.org/pdf/2506.09849)
+- **Date:** 2025.06
+- **Description:** IntPhys 2 is a large-scale benchmark that evaluates the intuitive physics understanding of AI models by challenging them to identify physically impossible events within complex, diverse, and realistic synthetic video scenes.
+- **Link:** https://github.com/facebookresearch/IntPhys2
+- **Domain:** `Video Understanding` `World Model`
+
+#### [LLMPhy: Complex Physical Reasoning Using Large Language Models and World Models](https://arxiv.org/pdf/2411.08027)
+- **Date:** 2024.11
+- **Description:** LLMPhy is a zero-shot framework that synergizes the program synthesis abilities of Large Language Models with the simulation power of physics engines to solve complex physical reasoning tasks by iteratively estimating system parameters and predicting object dynamics.
+- **Link:** 
+- **Domain:** `Video Understanding` `World Model` `LLM` 
+
 #### [PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding](https://arxiv.org/pdf/2501.16411)
 - **Date:** 2025.01
 - **Description:** PhysBench, a comprehensive benchmark with 10,002 entries, evaluates physical world understanding across 75 top Vision-Language Models, revealing their struggles with physics and introducing the PhysAgent framework to address this, which improves GPT-4o's performance by 18.4%.
@@ -172,28 +196,7 @@
 - **Link:** https://dingmyu.github.io/physion_v2/
 - **Domain:** `Online Inference `
 
-### 2.2 Robotics
-
-#### [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly](https://arxiv.org/pdf/2506.08708)
-- **Date:** 2025.06
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://github.com/PhyBlock/PhyBlock
-- **Domain:** `Embodied AI` `VLM` `VQA`
-
-### 2.3 Navigation
-
-
-
-### 2.4 Autonomous Driving
-
-### 2.5 Game Playing (single/multiple-player )
-
-#### [I-PHYRE: Interactive Physical Reasoning](https://arxiv.org/pdf/2312.03009)
-- **Date:** 2023.12
-- **Description:** I-PHYRE is a benchmark that evaluates an agent's physical reasoning by requiring it to actively interact with an environment to uncover latent physical properties and solve tasks that are impossible to complete from passive observation alone. It contains 40 interactive physics games mainly consisting of gray blocks, black blocks, blue blocks, and red balls.
-- **Link:** https://lishiqianhugh.github.io/IPHYRE/
-- **Domain:** `Interactive Reasoning` `Embodied AI `
-
+  
 ## 3. Physics-Inspired AI (PINN series)
 ### 3.1 (Category of PINN)
 #### [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](https://arxiv.org/pdf/2508.08935)
