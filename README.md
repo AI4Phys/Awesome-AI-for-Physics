@@ -146,8 +146,7 @@
 - **Link:** 
 - **Domain:** `Video Understanding` `World Model` `LLM` 
 
-#### [Morpheus: Benchmarking Physical Reasoning of Video Generative Models with Real Physical Experiments
-](https://arxiv.org/pdf/2504.02918):
+#### [Morpheus: Benchmarking Physical Reasoning of Video Generative Models with Real Physical Experiments](https://arxiv.org/pdf/2504.02918):
 - **Date:** 2025.04
 - **Description:** Morpheus is a benchmark designed to evaluate the physical reasoning of video generative models, consisting of 80 meticulously filmed real-world videos that capture phenomena governed by physical conservation laws (like the conservation of energy and momentum).
 - **Link:** https://physics-from-video.github.io/morpheus-bench/
