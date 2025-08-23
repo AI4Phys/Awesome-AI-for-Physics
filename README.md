@@ -189,14 +189,13 @@
 
 ### 2.6 Game Playing (single/multiple-player )
 
-### 2.7 Physics and Physical Engine
-
 #### [I-PHYRE: Interactive Physical Reasoning](https://arxiv.org/pdf/2312.03009)
 - **Date:** 2023.12
 - **Description:** I-PHYRE is a benchmark that evaluates an agent's physical reasoning by requiring it to actively interact with an environment to uncover latent physical properties and solve tasks that are impossible to complete from passive observation alone. It contains 40 interactive physics games mainly consisting of gray blocks, black blocks, blue blocks, and red balls.
 - **Link:** https://lishiqianhugh.github.io/IPHYRE/
 - **Domain:** `Interactive Reasoning` `Embodied AI `
 
+### 2.7 Physics and Physical Engine
 
   
 ## 3. Physics-Inspired AI (PINN series)
