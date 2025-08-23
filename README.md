@@ -86,8 +86,9 @@
 - **Link:** https://scicode-bench.github.io/
 - **Domain:** `LLM` `Computational Physics`
 
-### 1.2 Methods (RL, SFT, etc.)
+### 1.2 Training Methods (RL, SFT, etc.)
 
+### 1.3 Inference Methods (CoT, etc.)
 
 ## 2. Physical Reasoning AI
 
