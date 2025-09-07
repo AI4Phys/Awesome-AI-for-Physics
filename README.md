@@ -200,6 +200,11 @@
   
 ## 3. Physics-Inspired AI (PINN series)
 ### 3.1 (Category of PINN)
+#### [Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](https://doi.org/10.1016/j.jcp.2018.10.045)
+- **Date:** 2018.11
+- [cite_start]**Description:** A seminal framework that introduces Physics-Informed Neural Networks (PINNs) [cite: 6][cite_start], which embed physical laws described by general nonlinear PDEs [cite: 26] directly into the neural network's loss function. [cite_start]This acts as a regularization agent [cite: 38][cite_start], enabling the solution of both forward (data-driven solution) and inverse (data-driven discovery) problems from sparse and noisy data.
+- **Domain:** `PINN` `Deep Learning` `Partial Differential Equations` `Inverse Problems` `Data-driven Scientific Computing`
+
 #### [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](https://arxiv.org/pdf/2508.08935)
 - **Date:** 2025.08
 - **Description:** LNN-PINN, a physics-informed neural network framework, combines a liquid residual gating architecture while retaining the original physical modeling and optimization process to improve prediction accuracy.
