@@ -228,6 +228,16 @@
 - **Description:** AI-Newton, a concept-driven discovery system, can autonomously derive physical laws from raw data—without supervision or prior physical knowledge. The system integrates a knowledge base and knowledge representation centered around physical concepts, as well as an autonomous discovery workflow.
 - **Domain:** `Survey` `Symbolic-AI`
 
+#### [AI Feynman: A physics-inspired method for symbolic regression](https://www.science.org/doi/10.1126/sciadv.aay2631)
+- **Date:** 2020.04
+- **Description:** Introduces a novel, physics-inspired algorithm for symbolic regression that recursively discovers symbolic expressions from data. The method uses a neural network to approximate the unknown function and then applies a suite of physics-inspired techniques (e.g., dimensional analysis, symmetry detection, separability) to recursively break the problem down into simpler ones, which are finally solved by a brute-force search. It successfully rediscovered 100 equations from the Feynman Lectures on Physics.
+- **Domain:** `Symbolic Regression` `AI for Science` `Equation Discovery` `Neural Networks` `Physics-Inspired AI`
+
+#### [AI Feynman 2.0: Pareto-optimal symbolic regression exploiting graph modularity](http://arxiv.org/abs/2006.10782)
+- **Date:** 2020.06
+- **Description:** An improved version of the AI Feynman algorithm introducing three key innovations: (1) seeking a Pareto-optimal frontier of formulas that balance accuracy and complexity, (2) using neural network gradients to discover generalized symmetries and arbitrary graph modularity, and (3) employing Normalizing Flows to extend symbolic regression to probability distributions. The method demonstrates significantly enhanced robustness to noise and solves more complex problems than its predecessor.
+- **Domain:** `Symbolic Regression` `AI for Science` `Pareto Optimality` `Normalizing Flows` `Equation Discovery`
+
 
 ## 4. Cross Domain Applications and Future Directions
 
