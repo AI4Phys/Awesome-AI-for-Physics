@@ -243,6 +243,15 @@
 - **Description:** A novel framework that embeds physical laws, in the form of Stochastic Differential Equations (SDEs), into the architecture of a Generative Adversarial Network (GAN). This Physics-Informed GAN (PI-GAN) uses generators to model unknown stochastic processes (e.g., solution, coefficients), with some generators being induced by the SDE to enforce physical consistency. It provides a unified method for solving forward, inverse, and mixed stochastic problems from sparse data, and is capable of handling high-dimensional stochasticity.
 - **Domain:** `Physics-Informed Machine Learning` `Generative Adversarial Networks` `Stochastic Differential Equations` `Inverse Problems` `Uncertainty Quantification`
 
+#### [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/pdf/1711.10561)
+- **Date:** 2017.11
+- **Description:** This is the first part of the original two-part treatise that introduced Physics-Informed Neural Networks. It specifically focuses on the **forward problem**: using PINNs as data-efficient function approximators to infer the solutions of PDEs. The framework embeds physical laws as soft constraints in the neural network's loss function, demonstrating how to obtain accurate solutions from sparse boundary and initial condition data. It introduces both continuous-time and discrete-time (with Runge-Kutta schemes) models.
+- **Domain:** `PINN` `Deep Learning` `Partial Differential Equations` `Forward Problems` `Data-driven Scientific Computing`
+
+#### [Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations](https://arxiv.org/pdf/1711.10566)
+- **Date:** 2017.11
+- **Description:** This work establishes the use of Physics-Informed Neural Networks (PINNs) for solving inverse problems, specifically the data-driven discovery of parameters in nonlinear PDEs. By treating the unknown PDE parameters as trainable variables alongside the neural network's weights, the framework can accurately identify these parameters from sparse and noisy data. It presents a unified approach that handles both forward and inverse problems, demonstrating its power on various physical systems like fluid dynamics, and introduces continuous and discrete time models for different data scenarios.
+- **Domain:** `PINN` `Inverse Problems` `Parameter Identification` `Equation Discovery` `Data-driven Scientific Computing`
 
 ## 4. Cross Domain Applications and Future Directions
 
