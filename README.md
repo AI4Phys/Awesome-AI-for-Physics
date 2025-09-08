@@ -51,6 +51,7 @@
     - [AI Feynman: A physics-inspired method for symbolic regression](#ai-feynman-a-physics-inspired-method-for-symbolic-regression)
     - [AI Feynman 2.0: Pareto-optimal symbolic regression exploiting graph modularity](#ai-feynman-20-pareto-optimal-symbolic-regression-exploiting-graph-modularity)
     - [Flow Matching for Generative Modeling](#flow-matching-for-generative-modeling)
+    - [Poisson Flow Generative Models](#poisson-flow-generative-models)
     - [Physics-Informed Generative Adversarial Networks for Stochastic Differential Equations](#physics-informed-generative-adversarial-networks-for-stochastic-differential-equations)
 - [4. Cross Domain Applications and Future Directions](#4-cross-domain-applications-and-future-directions)
   - [4.1 AI for Physics (Theoretical and experimental)](#41-ai-for-physics-theoretical-and-experimental)
