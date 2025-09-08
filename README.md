@@ -209,13 +209,18 @@
 
 ### 2.7 Physics and Physical Engine
 
-  
+
 ## 3. Physics-Inspired AI (PINN series)
 ### 3.1 (Category of PINN)
 #### [Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](https://doi.org/10.1016/j.jcp.2018.10.045)
 - **Date:** 2018.11
 - **Description:** A seminal framework that introduces Physics-Informed Neural Networks (PINNs), which embed physical laws described by general nonlinear PDEs directly into the neural network's loss function. This acts as a regularization agent, enabling the solution of both forward (data-driven solution) and inverse (data-driven discovery) problems from sparse and noisy data.
 - **Domain:** `PINN` `Deep Learning` `Partial Differential Equations` `Inverse Problems` `Data-driven Scientific Computing`
+
+#### [Physics-informed machine learning](https://www.nature.com/articles/s42254-021-00314-5)
+- **Date:** 2021.06
+- **Description:** A comprehensive review that frames Physics-Informed Machine Learning (PIML) as a new paradigm for integrating data and physical models. It categorizes the methods for embedding physics into machine learning into three types of biases: observational, inductive (architectural), and learning (loss function). The paper surveys the capabilities, limitations, and diverse applications of PIML, positioning PINNs as a key component within this broader field.
+- **Domain:** `Physics-Informed Machine Learning` `Review` `PINN` `Inductive Bias` `Scientific Machine Learning`
 
 #### [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](https://arxiv.org/pdf/2508.08935)
 - **Date:** 2025.08
@@ -227,15 +232,30 @@
 - **Description:** Proposes Separable Physics-Informed Neural Networks (SPINN) to address the spectral bias issue in solving multiscale PDEs. The core idea is to decompose the solution into multiple components with different characteristic scales (e.g., low- and high-frequency) and use separate, specialized neural network streams for each component. These streams are trained jointly, allowing the model to efficiently and accurately learn complex solutions that standard PINNs fail to capture.
 - **Domain:** `PINN Architecture` `Spectral Bias` `Multiscale Modeling` `Physics-Informed Machine Learning` `Fourier Features`
 
-#### [Physics-informed machine learning](https://www.nature.com/articles/s42254-021-00314-5)
-- **Date:** 2021.06
-- **Description:** A comprehensive review that frames Physics-Informed Machine Learning (PIML) as a new paradigm for integrating data and physical models. It categorizes the methods for embedding physics into machine learning into three types of biases: observational, inductive (architectural), and learning (loss function). The paper surveys the capabilities, limitations, and diverse applications of PIML, positioning PINNs as a key component within this broader field.
-- **Domain:** `Physics-Informed Machine Learning` `Review` `PINN` `Inductive Bias` `Scientific Machine Learning`
-
 #### [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](https://www.mdpi.com/2075-5309/13/3/650)
 - **Date:** 2023.02
 - **Description:** Proposes novel parallel and sequential PINN architectures to solve output-only system and input identification problems in structural dynamics. The method first discretizes the governing PDE into a set of modal ODEs using the Eigenfunction Expansion Method, then assigns individual, cooperating PINNs to each mode, significantly improving computational efficiency, flexibility, and accuracy for complex engineering inverse problems.
 - **Domain:** `PINN Architecture` `Structural Dynamics` `System Identification` `Inverse Problems` `Hybrid Model`
+
+#### [Physics-Informed Generative Adversarial Networks for Stochastic Differential Equations](http://arxiv.org/abs/1811.02033)
+- **Date:** 2018.11
+- **Description:** A novel framework that embeds physical laws, in the form of Stochastic Differential Equations (SDEs), into the architecture of a Generative Adversarial Network (GAN). This Physics-Informed GAN (PI-GAN) uses generators to model unknown stochastic processes (e.g., solution, coefficients), with some generators being induced by the SDE to enforce physical consistency. It provides a unified method for solving forward, inverse, and mixed stochastic problems from sparse data, and is capable of handling high-dimensional stochasticity.
+- **Domain:** `Physics-Informed Machine Learning` `Generative Adversarial Networks` `Stochastic Differential Equations` `Inverse Problems` `Uncertainty Quantification`
+
+#### [KAN: Kolmogorov-Arnold Networks](https://openreview.net/pdf?id=Ozo7qJ5vZi)
+- **Date:** 2024.04
+- **Description:** Inspired by the Kolmogorov-Arnold representation theorem, this paper introduces Kolmogorov-Arnold Networks (KANs) as a powerful and interpretable alternative to Multi-Layer Perceptrons (MLPs). KANs feature learnable activation functions on the edges (parameterized as splines) instead of fixed activations on the nodes. This fundamental architectural shift results in superior accuracy and better scaling laws on various tasks, including function fitting and PDE solving. Most importantly, their structure is inherently interpretable, making them a promising tool for scientific discovery.
+- **Domain:** `Neural Network Architecture` `Kolmogorov-Arnold Theorem` `Interpretability` `Symbolic Regression` `AI for Science`
+
+#### [KAN 2.0: Kolmogorov-Arnold Networks Meet Science](https://arxiv.org/abs/2408.10205)
+- **Date:** 2024.08
+- **Description:** This work elevates KANs from a neural network architecture to a comprehensive, bidirectional framework for scientific discovery. It establishes a synergy between science and KANs, enabling both the incorporation of scientific knowledge into KANs (via auxiliary variables, modular structures, and a novel "kanpiler" for compiling formulas) and the extraction of scientific insights from them (via feature attribution, a "tree converter" for modularity, and symbolic simplification). The paper also introduces MultKAN, an extension that includes native multiplication nodes, enhancing interpretability and efficiency.
+- **Domain:** `KAN` `AI for Science` `Interpretability` `Scientific Discovery` `Symbolic Regression`
+
+
+## 4. Cross Domain Applications and Future Directions
+
+### 4.1 AI for Physics (Theoretical and experimental)
 
 #### [Toward an AI Physicist for Unsupervised Learning](http://arxiv.org/abs/1810.10525)
 - **Date:** 2019.09
@@ -267,25 +287,6 @@
 - **Description:** Proposes a novel generative modeling paradigm, Poisson Flow Generative Models (PFGM), that does not require a predefined prior noise distribution. It embeds the data manifold into a higher-dimensional space and constructs a vector field, derived from the solution to a classic Poisson PDE, that deterministically transports the data distribution to a uniform distribution on a hemisphere. To generate samples, one simply samples from this uniform distribution and solves the corresponding ODE backward in time. PFGM achieves state-of-the-art likelihood scores with extremely high sampling efficiency.
 - **Domain:** `Generative Modeling` `Poisson Equation` `Continuous Normalizing Flows` `Physics-Inspired AI` `Differential Equations`
 
-#### [Physics-Informed Generative Adversarial Networks for Stochastic Differential Equations](http://arxiv.org/abs/1811.02033)
-- **Date:** 2018.11
-- **Description:** A novel framework that embeds physical laws, in the form of Stochastic Differential Equations (SDEs), into the architecture of a Generative Adversarial Network (GAN). This Physics-Informed GAN (PI-GAN) uses generators to model unknown stochastic processes (e.g., solution, coefficients), with some generators being induced by the SDE to enforce physical consistency. It provides a unified method for solving forward, inverse, and mixed stochastic problems from sparse data, and is capable of handling high-dimensional stochasticity.
-- **Domain:** `Physics-Informed Machine Learning` `Generative Adversarial Networks` `Stochastic Differential Equations` `Inverse Problems` `Uncertainty Quantification`
-
-#### [KAN: Kolmogorov-Arnold Networks](https://openreview.net/pdf?id=Ozo7qJ5vZi)
-- **Date:** 2024.04
-- **Description:** Inspired by the Kolmogorov-Arnold representation theorem, this paper introduces Kolmogorov-Arnold Networks (KANs) as a powerful and interpretable alternative to Multi-Layer Perceptrons (MLPs). KANs feature learnable activation functions on the edges (parameterized as splines) instead of fixed activations on the nodes. This fundamental architectural shift results in superior accuracy and better scaling laws on various tasks, including function fitting and PDE solving. Most importantly, their structure is inherently interpretable, making them a promising tool for scientific discovery.
-- **Domain:** `Neural Network Architecture` `Kolmogorov-Arnold Theorem` `Interpretability` `Symbolic Regression` `AI for Science`
-
-#### [KAN 2.0: Kolmogorov-Arnold Networks Meet Science](https://arxiv.org/abs/2408.10205)
-- **Date:** 2024.08
-- **Description:** This work elevates KANs from a neural network architecture to a comprehensive, bidirectional framework for scientific discovery. It establishes a synergy between science and KANs, enabling both the incorporation of scientific knowledge into KANs (via auxiliary variables, modular structures, and a novel "kanpiler" for compiling formulas) and the extraction of scientific insights from them (via feature attribution, a "tree converter" for modularity, and symbolic simplification). The paper also introduces MultKAN, an extension that includes native multiplication nodes, enhancing interpretability and efficiency.
-- **Domain:** `KAN` `AI for Science` `Interpretability` `Scientific Discovery` `Symbolic Regression`
-
-
-## 4. Cross Domain Applications and Future Directions
-
-### 4.1 AI for Physics (Theoretical and experimental)
 #### [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939)
 - **Date:** 2025.07
 - **Description:** A CLIP-inspired foundation model for stellar spectral analysis that leverages cross-instrument contrastive pre-training and spectrum-aware decoders to enable precise spectral alignment, parameter estimation, and anomaly detection across diverse astronomical applications.
