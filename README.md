@@ -259,6 +259,11 @@
 - **Description:** Introduces Flow Matching (FM), a new, simulation-free paradigm for training Continuous Normalizing Flows (CNFs) at scale. The method regresses a vector field that generates a predefined probability path from noise to data. Its core innovation, Conditional Flow Matching (CFM), makes the objective tractable and efficient by leveraging simple per-sample conditional paths. The paper also proposes using Optimal Transport (OT) paths, which are more efficient than standard diffusion paths, leading to faster training, faster sampling, and state-of-the-art performance on large-scale image generation tasks.
 - **Domain:** `Generative Modeling` `Continuous Normalizing Flows` `Flow Matching` `Optimal Transport` `Diffusion Models`
 
+#### [Poisson Flow Generative Models](https://papers.neurips.cc/paper_files/paper/2022/file/6ad68a54eaa8f9bf6ac698b02ec05048-Paper-Conference.pdf)
+- **Date:** 2022.12
+- **Description:** Proposes a novel generative modeling paradigm, Poisson Flow Generative Models (PFGM), that does not require a predefined prior noise distribution. It embeds the data manifold into a higher-dimensional space and constructs a vector field, derived from the solution to a classic Poisson PDE, that deterministically transports the data distribution to a uniform distribution on a hemisphere. To generate samples, one simply samples from this uniform distribution and solves the corresponding ODE backward in time. PFGM achieves state-of-the-art likelihood scores with extremely high sampling efficiency.
+- **Domain:** `Generative Modeling` `Poisson Equation` `Continuous Normalizing Flows` `Physics-Inspired AI` `Differential Equations`
+
 #### [Physics-Informed Generative Adversarial Networks for Stochastic Differential Equations](http://arxiv.org/abs/1811.02033)
 - **Date:** 2018.11
 - **Description:** A novel framework that embeds physical laws, in the form of Stochastic Differential Equations (SDEs), into the architecture of a Generative Adversarial Network (GAN). This Physics-Informed GAN (PI-GAN) uses generators to model unknown stochastic processes (e.g., solution, coefficients), with some generators being induced by the SDE to enforce physical consistency. It provides a unified method for solving forward, inverse, and mixed stochastic problems from sparse data, and is capable of handling high-dimensional stochasticity.
