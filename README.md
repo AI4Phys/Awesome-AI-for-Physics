@@ -53,6 +53,8 @@
     - [Flow Matching for Generative Modeling](#flow-matching-for-generative-modeling)
     - [Poisson Flow Generative Models](#poisson-flow-generative-models)
     - [Physics-Informed Generative Adversarial Networks for Stochastic Differential Equations](#physics-informed-generative-adversarial-networks-for-stochastic-differential-equations)
+    - [KAN: Kolmogorov-Arnold Networks](#kan-kolmogorov-arnold-networks)
+    - [KAN 2.0: Kolmogorov-Arnold Networks Meet Science](#kan-20-kolmogorov-arnold-networks-meet-science)
 - [4. Cross Domain Applications and Future Directions](#4-cross-domain-applications-and-future-directions)
   - [4.1 AI for Physics (Theoretical and experimental)](#41-ai-for-physics-theoretical-and-experimental)
     - [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](#specclip-aligning-and-translating-spectroscopic-measurements-for-stars)
