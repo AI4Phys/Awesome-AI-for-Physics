@@ -218,6 +218,11 @@
 - **Description:** LNN-PINN, a physics-informed neural network framework, combines a liquid residual gating architecture while retaining the original physical modeling and optimization process to improve prediction accuracy.
 - **Domain:** `PINN` `Liquid Neural Network`
 
+#### [Separable Physics-Informed Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2023/file/4af827e7d0b7bdae6097d44977e87534-Paper-Conference.pdf)
+- **Date:** 2023.12
+- **Description:** Proposes Separable Physics-Informed Neural Networks (SPINN) to address the spectral bias issue in solving multiscale PDEs. The core idea is to decompose the solution into multiple components with different characteristic scales (e.g., low- and high-frequency) and use separate, specialized neural network streams for each component. These streams are trained jointly, allowing the model to efficiently and accurately learn complex solutions that standard PINNs fail to capture.
+- **Domain:** `PINN Architecture` `Spectral Bias` `Multiscale Modeling` `Physics-Informed Machine Learning` `Fourier Features`
+
 #### [Physics-informed machine learning](https://www.nature.com/articles/s42254-021-00314-5)
 - **Date:** 2021.06
 - **Description:** A comprehensive review that frames Physics-Informed Machine Learning (PIML) as a new paradigm for integrating data and physical models. It categorizes the methods for embedding physics into machine learning into three types of biases: observational, inductive (architectural), and learning (loss function). The paper surveys the capabilities, limitations, and diverse applications of PIML, positioning PINNs as a key component within this broader field.
