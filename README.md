@@ -61,6 +61,8 @@
     - [Physics-guided Neural Networks (PGNN): An Application in Lake Temperature Modeling](#physics-guided-neural-networks-pgnn-an-application-in-lake-temperature-modeling)
     - [GPT-PINN: Generative Pre-Trained Physics-Informed Neural Networks toward non-intrusive Meta-learning of parametric PDEs](#gpt-pinn-generative-pre-trained-physics-informed-neural-networks-toward-non-intrusive-meta-learning-of-parametric-pdes)
     - [Physics-informed Neural Motion Planning on Constraint Manifolds](#physics-informed-neural-motion-planning-on-constraint-manifolds)
+    - [Physics-informed PointNet: A deep learning solver for steady-state incompressible flows and thermal fields on multiple sets of irregular geometries](#physics-informed-pointnet-a-deep-learning-solver-for-steady-state-incompressible-flows-and-thermal-fields-on-multiple-sets-of-irregular-geometries)
+    - [Physics-informed graph neural Galerkin networks: A unified framework for solving PDE-governed forward and inverse problems](#physics-informed-graph-neural-galerkin-networks-a-unified-framework-for-solving-pde-governed-forward-and-inverse-problems)
     - [Hybrid physics-based and data-driven models for smart manufacturing: Modelling, simulation, and explainability](#hybrid-physics-based-and-data-driven-models-for-smart-manufacturing-modelling-simulation-and-explainability)
 - [4. Cross Domain Applications and Future Directions](#4-cross-domain-applications-and-future-directions)
   - [4.1 AI for Physics (Theoretical and experimental)](#41-ai-for-physics-theoretical-and-experimental)
