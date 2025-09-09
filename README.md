@@ -259,6 +259,11 @@
 - **Description:** This paper pioneers the application of Physics-Informed Neural Networks (PINNs) to solve time-fractional diffusion equations involving the conformable derivative, a newer definition in fractional calculus. The work demonstrates that the PINN framework can effectively handle both forward (solution) and inverse (parameter estimation) problems for this class of non-standard PDEs. To address accuracy degradation when the fractional order approaches integer values, the authors introduce a weighted PINN (wPINN) that adjusts the loss function to mitigate the effects of singularities, thereby enhancing the model's robustness.
 - **Domain:** `PINN` `Fractional Calculus` `Conformable Derivative` `Inverse Problems` `Scientific Machine Learning`
 
+#### [Neural homogenization and the physics-informed neural network for the multiscale problems](https://arxiv.org/pdf/2108.12942)
+- **Date:** 2021.08
+- **Description:** This paper introduces Neural Homogenization-PINN (NH-PINN), a method that combines classical homogenization theory with PINNs to solve complex multiscale PDEs. Instead of tackling the challenging multiscale problem directly, NH-PINN employs a three-step process: (1) using PINNs with a proposed oversampling strategy to accurately solve the periodic cell problems at the microscale, (2) computing the effective homogenized coefficients, and (3) using another PINN to solve the much simpler macroscopic homogenized equation. This theoretically-grounded approach significantly improves the accuracy of PINNs for multiscale problems where standard PINNs typically fail.
+- **Domain:** `PINN` `Multiscale Modeling` `Homogenization Theory` `Scientific Machine Learning` `Hybrid Modeling`
+
 #### [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](https://www.mdpi.com/2075-5309/13/3/650)
 - **Date:** 2023.02
 - **Description:** Proposes novel parallel and sequential PINN architectures to solve output-only system and input identification problems in structural dynamics. The method first discretizes the governing PDE into a set of modal ODEs using the Eigenfunction Expansion Method, then assigns individual, cooperating PINNs to each mode, significantly improving computational efficiency, flexibility, and accuracy for complex engineering inverse problems.
