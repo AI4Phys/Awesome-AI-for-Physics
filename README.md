@@ -48,6 +48,7 @@
     - [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](#lnn-pinn-a-unified-physics-only-training-framework-with-liquid-residual-blocks)
     - [Separable Physics-Informed Neural Networks](#separable-physics-informed-neural-networks)
     - [Deep neural network methods for solving forward and inverse problems of time fractional diffusion equations with conformable derivative](#deep-neural-network-methods-for-solving-forward-and-inverse-problems-of-time-fractional-diffusion-equations-with-conformable-derivative)
+    - [Neural homogenization and the physics-informed neural network for the multiscale problems](#neural-homogenization-and-the-physics-informed-neural-network-for-the-multiscale-problems)
     - [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](#novel-physics-informed-artificial-neural-network-architectures-for-system-and-input-identification-of-structural-dynamics-pdes)
     - [Physics-Informed Generative Adversarial Networks for Stochastic Differential Equations](#physics-informed-generative-adversarial-networks-for-stochastic-differential-equations)
     - [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](#physics-informed-deep-learning-part-i-data-driven-solutions-of-nonlinear-partial-differential-equations)
