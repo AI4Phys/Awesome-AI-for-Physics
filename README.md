@@ -44,6 +44,7 @@
     - [DGM: A deep learning algorithm for solving partial differential equations](#dgm-a-deep-learning-algorithm-for-solving-partial-differential-equations)
     - [Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](#physics-informed-neural-networks-a-deep-learning-framework-for-solving-forward-and-inverse-problems-involving-nonlinear-partial-differential-equations)
     - [Physics-informed machine learning](#physics-informed-machine-learning)
+    - [SPINN: Sparse, Physics-based, and partially Interpretable Neural Networks for PDEs](#spinn-sparse-physics-based-and-partially-interpretable-neural-networks-for-pdes)
     - [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](#lnn-pinn-a-unified-physics-only-training-framework-with-liquid-residual-blocks)
     - [Separable Physics-Informed Neural Networks](#separable-physics-informed-neural-networks)
     - [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](#novel-physics-informed-artificial-neural-network-architectures-for-system-and-input-identification-of-structural-dynamics-pdes)
