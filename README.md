@@ -253,7 +253,12 @@
 - **Date:** 2022.04
 - **Description:** This review paper provides a systematic overview of hybrid physics-based and data-driven models specifically for smart manufacturing applications. It categorizes these hybrid models into three main types: (1) physics-informed machine learning (e.g., PINNs), where physical laws constrain the learning process; (2) machine learning-assisted simulation (e.g., surrogate modeling), where ML accelerates or enhances traditional physics-based simulations; and (3) explainable AI (XAI), which aims to interpret the behavior of complex models. The paper highlights the complementary strengths of physics and data, offering a practical framework for developing more transparent, interpretable, and accurate models in industrial settings.
 - **Domain:** `Review` `Hybrid Modeling` `Physics-Informed Machine Learning` `Explainable AI` `Smart Manufacturing`
-  
+
+#### [Physics-Informed Neural Networks: A Review of Methodological Evolution, Theoretical Foundations, and Interdisciplinary Frontiers Toward Next-Generation Scientific Computing](https://doi.org/10.3390/app15148092)
+- **Date:** 2025.07
+- **Description:** A comprehensive and up-to-date review of the Physics-Informed Neural Network (PINN) landscape. The paper systematically categorizes the field's progress into three main axes: methodological evolution (innovations in loss functions, architectures, and training strategies), theoretical foundations (error analysis and connections to classical methods), and interdisciplinary frontiers (applications beyond traditional physics). It provides a structured roadmap for understanding the state-of-the-art and future directions of PINNs as a next-generation scientific computing tool.
+- **Domain:** `Review` `PINN` `Scientific Machine Learning` `Physics-Informed AI` `Computational Science`
+
 ### 3.2 The PINN Paradigm and its Ecosystem
 
 #### [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/pdf/1711.10561)
@@ -270,6 +275,46 @@
 - **Date:** 2018.11
 - **Description:** A seminal framework that introduces Physics-Informed Neural Networks (PINNs), which embed physical laws described by general nonlinear PDEs directly into the neural network's loss function. This acts as a regularization agent, enabling the solution of both forward (data-driven solution) and inverse (data-driven discovery) problems from sparse and noisy data.
 - **Domain:** `PINN` `Deep Learning` `Partial Differential Equations` `Inverse Problems` `Data-driven Scientific Computing`
+
+#### [Deep neural network methods for solving forward and inverse problems of time fractional diffusion equations with conformable derivative](https://arxiv.org/pdf/2108.07490)
+- **Date:** 2021.08
+- **Description:** This paper pioneers the application of Physics-Informed Neural Networks (PINNs) to solve time-fractional diffusion equations involving the conformable derivative, a newer definition in fractional calculus. The work demonstrates that the PINN framework can effectively handle both forward (solution) and inverse (parameter estimation) problems for this class of non-standard PDEs. To address accuracy degradation when the fractional order approaches integer values, the authors introduce a weighted PINN (wPINN) that adjusts the loss function to mitigate the effects of singularities, thereby enhancing the model's robustness.
+- **Domain:** `PINN` `Fractional Calculus` `Conformable Derivative` `Inverse Problems` `Scientific Machine Learning`
+
+#### [Neural homogenization and the physics-informed neural network for the multiscale problems](https://arxiv.org/pdf/2108.12942)
+- **Date:** 2021.08
+- **Description:** This paper introduces Neural Homogenization-PINN (NH-PINN), a method that combines classical homogenization theory with PINNs to solve complex multiscale PDEs. Instead of tackling the challenging multiscale problem directly, NH-PINN employs a three-step process: (1) using PINNs with a proposed oversampling strategy to accurately solve the periodic cell problems at the microscale, (2) computing the effective homogenized coefficients, and (3) using another PINN to solve the much simpler macroscopic homogenized equation. This theoretically-grounded approach significantly improves the accuracy of PINNs for multiscale problems where standard PINNs typically fail.
+- **Domain:** `PINN` `Multiscale Modeling` `Homogenization Theory` `Scientific Machine Learning` `Hybrid Modeling`
+
+#### [Learning in Sinusoidal Spaces with Physics-Informed Neural Networks](https://arxiv.org/pdf/2109.13901)
+- **Date:** 2021.09
+- **Description:** This paper diagnoses a key failure mode in training PINNs, showing that expressive networks are initialized with a bias towards flat, near-zero functions, trapping them in trivial local minima of the PDE residual loss. To overcome this, it proposes sf-PINN, an architecture that preprocesses inputs with a sinusoidal feature mapping. The authors theoretically prove that this mapping increases input gradient variability at initialization, providing effective gradients for the optimizer to escape these deceptive local minima. This simple, non-intrusive modification is shown to significantly improve the training stability and final accuracy of PINNs.
+- **Domain:** `PINN` `Training Pathology` `Spectral Bias` `Initialization` `Input Representation`
+
+#### [HyperPINN: Learning parameterized differential equations with physics-informed hypernetworks](https://openreview.net/pdf?id=LxUuRDUhRjM)
+- **Date:** 2021.10
+- **Description:** This paper introduces HyperPINN, a meta-learning framework that leverages hypernetworks to efficiently solve parameterized PDEs. Instead of training a new PINN for each parameter instance, HyperPINN trains a small "hypernetwork" that takes a physical parameter as input and outputs the weights for a smaller "main" PINN. This main network then solves the PDE for that specific parameter. This approach creates a single, compact model capable of instantly generating a specialized solver for any parameterization, offering a highly efficient and memory-saving alternative for multi-query and real-time applications.
+- **Domain:** `PINN` `Meta-Learning` `Hypernetworks` `Parametric PDEs` `Scientific Machine Learning`
+
+#### [ModalPINN: An extension of physics-informed Neural Networks with enforced truncated Fourier decomposition for periodic flow reconstruction using a limited number of imperfect sensors](https://doi.org/10.1016/j.jcp.2022.111271)
+- **Date:** 2022.05
+- **Description:** This paper introduces ModalPINN, a specialized PINN architecture designed for reconstructing periodic flows from sparse and noisy sensor data. Instead of learning the high-dimensional spatio-temporal field directly, ModalPINN enforces a strong inductive bias by assuming the solution can be represented by a truncated Fourier series. The neural network's task is reduced to learning the low-dimensional time-dependent coefficients of these Fourier modes. This modal decomposition significantly improves the model's robustness and accuracy in data-limited regimes, outperforming standard PINNs for periodic problems.
+- **Domain:** `PINN Architecture` `Flow Reconstruction` `Fourier Analysis` `Inductive Bias` `Scientific Machine Learning`
+
+#### [Physics-informed PointNet: A deep learning solver for steady-state incompressible flows and thermal fields on multiple sets of irregular geometries](https://doi.org/10.1016/j.jcp.2022.111510)
+- **Date:** 2022.07
+- **Description:** This paper introduces Physics-Informed PointNet (PI-PointNet), a novel deep learning framework that equips PINNs with the ability to handle irregular and varied geometries. It replaces the standard MLP backbone with a PointNet encoder, which learns a global feature representation of the domain's shape from a point cloud of its boundary. This geometry-aware feature is then concatenated with spatial coordinates and fed into an MLP decoder to predict the physical field. This "encode-decode" architecture allows the model to be trained on a collection of different geometries and then generalize to solve PDEs on new, unseen shapes without retraining.
+- **Domain:** `PINN Architecture` `PointNet` `Geometric Deep Learning` `Irregular Domains` `AI for Engineering`
+
+#### [Delta-PINNs: A new class of physics-informed neural networks for solving forward and inverse problems with noisy data](https://doi.org/10.1016/j.jcp.2022.111271)
+- **Date:** 2022.10
+- **Description:** This paper introduces Delta-PINNs, a new training paradigm for PINNs designed to be highly robust to noisy data. Instead of minimizing the standard Mean Squared Error (MSE) of the PDE residuals, Delta-PINNs optimize a novel loss function based on the change ("Delta") of the mean of the residuals over training epochs. This approach focuses on driving the expectation of the residuals to zero in a monotonically decreasing fashion, effectively averaging out the effects of noise rather than fitting to it. The method demonstrates remarkable robustness, successfully solving forward and inverse problems even when the training data is corrupted with up to 100% noise.
+- **Domain:** `PINN` `Robustness` `Noisy Data` `Loss Functions` `Scientific Machine Learning`
+
+#### [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](https://www.mdpi.com/2075-5309/13/3/650)
+- **Date:** 2023.02
+- **Description:** Proposes novel parallel and sequential PINN architectures to solve output-only system and input identification problems in structural dynamics. The method first discretizes the governing PDE into a set of modal ODEs using the Eigenfunction Expansion Method, then assigns individual, cooperating PINNs to each mode, significantly improving computational efficiency, flexibility, and accuracy for complex engineering inverse problems.
+- **Domain:** `PINN Architecture` `Structural Dynamics` `System Identification` `Inverse Problems` `Hybrid Model`
 
 #### [GPT-PINN: Generative Pre-Trained Physics-Informed Neural Networks toward non-intrusive Meta-learning of parametric PDEs](https://arxiv.org/pdf/2303.14878)
 - **Date:** 2023.03
@@ -291,57 +336,22 @@
 - **Description:** Proposes Separable Physics-Informed Neural Networks (SPINN) to address the spectral bias issue in solving multiscale PDEs. The core idea is to decompose the solution into multiple components with different characteristic scales (e.g., low- and high-frequency) and use separate, specialized neural network streams for each component. These streams are trained jointly, allowing the model to efficiently and accurately learn complex solutions that standard PINNs fail to capture.
 - **Domain:** `PINN Architecture` `Spectral Bias` `Multiscale Modeling` `Physics-Informed Machine Learning` `Fourier Features`
 
-#### [HyperPINN: Learning parameterized differential equations with physics-informed hypernetworks](https://openreview.net/pdf?id=LxUuRDUhRjM)
-- **Date:** 2021.10
-- **Description:** This paper introduces HyperPINN, a meta-learning framework that leverages hypernetworks to efficiently solve parameterized PDEs. Instead of training a new PINN for each parameter instance, HyperPINN trains a small "hypernetwork" that takes a physical parameter as input and outputs the weights for a smaller "main" PINN. This main network then solves the PDE for that specific parameter. This approach creates a single, compact model capable of instantly generating a specialized solver for any parameterization, offering a highly efficient and memory-saving alternative for multi-query and real-time applications.
-- **Domain:** `PINN` `Meta-Learning` `Hypernetworks` `Parametric PDEs` `Scientific Machine Learning`
-
-#### [Deep neural network methods for solving forward and inverse problems of time fractional diffusion equations with conformable derivative](https://arxiv.org/pdf/2108.07490)
-- **Date:** 2021.08
-- **Description:** This paper pioneers the application of Physics-Informed Neural Networks (PINNs) to solve time-fractional diffusion equations involving the conformable derivative, a newer definition in fractional calculus. The work demonstrates that the PINN framework can effectively handle both forward (solution) and inverse (parameter estimation) problems for this class of non-standard PDEs. To address accuracy degradation when the fractional order approaches integer values, the authors introduce a weighted PINN (wPINN) that adjusts the loss function to mitigate the effects of singularities, thereby enhancing the model's robustness.
-- **Domain:** `PINN` `Fractional Calculus` `Conformable Derivative` `Inverse Problems` `Scientific Machine Learning`
-
-#### [Neural homogenization and the physics-informed neural network for the multiscale problems](https://arxiv.org/pdf/2108.12942)
-- **Date:** 2021.08
-- **Description:** This paper introduces Neural Homogenization-PINN (NH-PINN), a method that combines classical homogenization theory with PINNs to solve complex multiscale PDEs. Instead of tackling the challenging multiscale problem directly, NH-PINN employs a three-step process: (1) using PINNs with a proposed oversampling strategy to accurately solve the periodic cell problems at the microscale, (2) computing the effective homogenized coefficients, and (3) using another PINN to solve the much simpler macroscopic homogenized equation. This theoretically-grounded approach significantly improves the accuracy of PINNs for multiscale problems where standard PINNs typically fail.
-- **Domain:** `PINN` `Multiscale Modeling` `Homogenization Theory` `Scientific Machine Learning` `Hybrid Modeling`
-
-#### [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](https://www.mdpi.com/2075-5309/13/3/650)
-- **Date:** 2023.02
-- **Description:** Proposes novel parallel and sequential PINN architectures to solve output-only system and input identification problems in structural dynamics. The method first discretizes the governing PDE into a set of modal ODEs using the Eigenfunction Expansion Method, then assigns individual, cooperating PINNs to each mode, significantly improving computational efficiency, flexibility, and accuracy for complex engineering inverse problems.
-- **Domain:** `PINN Architecture` `Structural Dynamics` `System Identification` `Inverse Problems` `Hybrid Model`
-
-#### [Learning in Sinusoidal Spaces with Physics-Informed Neural Networks](https://arxiv.org/pdf/2109.13901)
-- **Date:** 2021.09
-- **Description:** This paper diagnoses a key failure mode in training PINNs, showing that expressive networks are initialized with a bias towards flat, near-zero functions, trapping them in trivial local minima of the PDE residual loss. To overcome this, it proposes sf-PINN, an architecture that preprocesses inputs with a sinusoidal feature mapping. The authors theoretically prove that this mapping increases input gradient variability at initialization, providing effective gradients for the optimizer to escape these deceptive local minima. This simple, non-intrusive modification is shown to significantly improve the training stability and final accuracy of PINNs.
-- **Domain:** `PINN` `Training Pathology` `Spectral Bias` `Initialization` `Input Representation`
-
-#### [ModalPINN: An extension of physics-informed Neural Networks with enforced truncated Fourier decomposition for periodic flow reconstruction using a limited number of imperfect sensors](https://doi.org/10.1016/j.jcp.2022.111271)
-- **Date:** 2022.05
-- **Description:** This paper introduces ModalPINN, a specialized PINN architecture designed for reconstructing periodic flows from sparse and noisy sensor data. Instead of learning the high-dimensional spatio-temporal field directly, ModalPINN enforces a strong inductive bias by assuming the solution can be represented by a truncated Fourier series. The neural network's task is reduced to learning the low-dimensional time-dependent coefficients of these Fourier modes. This modal decomposition significantly improves the model's robustness and accuracy in data-limited regimes, outperforming standard PINNs for periodic problems.
-- **Domain:** `PINN Architecture` `Flow Reconstruction` `Fourier Analysis` `Inductive Bias` `Scientific Machine Learning`
-
-#### [Physics-informed PointNet: A deep learning solver for steady-state incompressible flows and thermal fields on multiple sets of irregular geometries](https://doi.org/10.1016/j.jcp.2022.111510)
-- **Date:** 2022.07
-- **Description:** This paper introduces Physics-Informed PointNet (PI-PointNet), a novel deep learning framework that equips PINNs with the ability to handle irregular and varied geometries. It replaces the standard MLP backbone with a PointNet encoder, which learns a global feature representation of the domain's shape from a point cloud of its boundary. This geometry-aware feature is then concatenated with spatial coordinates and fed into an MLP decoder to predict the physical field. This "encode-decode" architecture allows the model to be trained on a collection of different geometries and then generalize to solve PDEs on new, unseen shapes without retraining.
-- **Domain:** `PINN Architecture` `PointNet` `Geometric Deep Learning` `Irregular Domains` `AI for Engineering`
-
-#### [Delta-PINNs: A new class of physics-informed neural networks for solving forward and inverse problems with noisy data](https://doi.org/10.1016/j.jcp.2022.111271)
-- **Date:** 2022.10
-- **Description:** This paper introduces Delta-PINNs, a new training paradigm for PINNs designed to be highly robust to noisy data. Instead of minimizing the standard Mean Squared Error (MSE) of the PDE residuals, Delta-PINNs optimize a novel loss function based on the change ("Delta") of the mean of the residuals over training epochs. This approach focuses on driving the expectation of the residuals to zero in a monotonically decreasing fashion, effectively averaging out the effects of noise rather than fitting to it. The method demonstrates remarkable robustness, successfully solving forward and inverse problems even when the training data is corrupted with up to 100% noise.
-- **Domain:** `PINN` `Robustness` `Noisy Data` `Loss Functions` `Scientific Machine Learning`
-
 ### 3.3 Alternative Physics-Inspired Paradigms
+
+#### [Physics-guided Neural Networks (PGNN): An Application in Lake Temperature Modeling](https://arxiv.org/pdf/1710.11431)
+- **Date:** 2017.10
+- **Description:** This paper introduces Physics-Guided Neural Networks (PGNN), a framework that synergizes physics-based models and deep learning. PGNNs leverage the outputs of existing physics-based models as input features for a neural network. Crucially, they incorporate a physics-based loss function, which penalizes predictions that are inconsistent with known physical laws (e.g., density-temperature relationships in water) on a large set of unlabeled data. This approach ensures scientific consistency and significantly improves the model's generalization performance, especially in data-scarce scenarios.
+- **Domain:** `Physics-Guided AI` `Hybrid Modeling` `PINN Alternatives` `Scientific Machine Learning` `Domain Knowledge Integration`
 
 #### [DGM: A deep learning algorithm for solving partial differential equations](https://doi.org/10.1016/j.jcp.2018.08.029)
 - **Date:** 2018.08
 - **Description:** This paper introduces the Deep Galerkin Method (DGM), a pioneering deep learning framework for solving high-dimensional partial differential equations (PDEs). Similar to PINNs, DGM approximates the PDE solution with a neural network trained to satisfy the differential operator and boundary/initial conditions. Its key contribution lies in its meshfree nature, achieved by training on batches of randomly sampled points, which allows it to overcome the curse of dimensionality. The paper demonstrates DGM's effectiveness by accurately solving complex, high-dimensional free boundary PDEs in up to 200 dimensions.
 - **Domain:** `PINN` `Deep Learning` `High-Dimensional PDEs` `Scientific Machine Learning` `Meshfree Methods`
 
-#### [Physics-Augmented Learning: A New Paradigm Beyond Physics-Informed Learning](https://arxiv.org/pdf/2109.13901)
-- **Date:** 2021.09
-- **Description:** This paper introduces Physics-Augmented Learning (PAL), a new paradigm to complement the popular Physics-Informed Learning (PIL) framework (e.g., PINNs). The authors draw a crucial distinction between "discriminative" physical properties (like PDEs, suitable for PIL's loss function) and "generative" properties (like conservation laws, which are hard to enforce as residuals). For generative properties, PAL proposes using them to augment a small initial dataset by generating a large number of new, physically-consistent pseudo-data points. This physics-based data augmentation allows neural networks to learn from generative physical laws that are inaccessible to the standard PINN approach.
-- **Domain:** `Physics-Inspired AI` `Data Augmentation` `PINN Alternatives` `Scientific Machine Learning` `Generative Physics`
+#### [Physics-Informed Generative Adversarial Networks for Stochastic Differential Equations](http://arxiv.org/abs/1811.02033)
+- **Date:** 2018.11
+- **Description:** A novel framework that embeds physical laws, in the form of Stochastic Differential Equations (SDEs), into the architecture of a Generative Adversarial Network (GAN). This Physics-Informed GAN (PI-GAN) uses generators to model unknown stochastic processes (e.g., solution, coefficients), with some generators being induced by the SDE to enforce physical consistency. It provides a unified method for solving forward, inverse, and mixed stochastic problems from sparse data, and is capable of handling high-dimensional stochasticity.
+- **Domain:** `Physics-Informed Machine Learning` `Generative Adversarial Networks` `Stochastic Differential Equations` `Inverse Problems` `Uncertainty Quantification`
 
 #### [SPINN: Sparse, Physics-based, and partially Interpretable Neural Networks for PDEs](https://doi.org/10.1016/j.jcp.2021.110600)
 - **Date:** 2021.07
@@ -353,20 +363,15 @@
 - **Description:** This paper introduces the Theory-guided Hard Constraint Projection (HCP) framework, an alternative to the "soft constraint" approach of PINNs. HCP decouples data-driven learning from physics enforcement. First, a standard machine learning model makes a preliminary prediction based on data. Then, this prediction is "projected" onto a manifold representing the feasible solution space defined by physical laws. This two-step process mathematically guarantees that the final output strictly satisfies the imposed physical constraints, addressing a key limitation of soft-constraint methods and enhancing the scientific fidelity of the predictions.
 - **Domain:** `Physics-Inspired AI` `Hard Constraints` `Constrained Optimization` `Scientific Machine Learning` `Hybrid Modeling`
 
-#### [Physics-guided Neural Networks (PGNN): An Application in Lake Temperature Modeling](https://arxiv.org/pdf/1710.11431)
-- **Date:** 2017.10
-- **Description:** This paper introduces Physics-Guided Neural Networks (PGNN), a framework that synergizes physics-based models and deep learning. PGNNs leverage the outputs of existing physics-based models as input features for a neural network. Crucially, they incorporate a physics-based loss function, which penalizes predictions that are inconsistent with known physical laws (e.g., density-temperature relationships in water) on a large set of unlabeled data. This approach ensures scientific consistency and significantly improves the model's generalization performance, especially in data-scarce scenarios.
-- **Domain:** `Physics-Guided AI` `Hybrid Modeling` `PINN Alternatives` `Scientific Machine Learning` `Domain Knowledge Integration`
+#### [Physics-Augmented Learning: A New Paradigm Beyond Physics-Informed Learning](https://arxiv.org/pdf/2109.13901)
+- **Date:** 2021.09
+- **Description:** This paper introduces Physics-Augmented Learning (PAL), a new paradigm to complement the popular Physics-Informed Learning (PIL) framework (e.g., PINNs). The authors draw a crucial distinction between "discriminative" physical properties (like PDEs, suitable for PIL's loss function) and "generative" properties (like conservation laws, which are hard to enforce as residuals). For generative properties, PAL proposes using them to augment a small initial dataset by generating a large number of new, physically-consistent pseudo-data points. This physics-based data augmentation allows neural networks to learn from generative physical laws that are inaccessible to the standard PINN approach.
+- **Domain:** `Physics-Inspired AI` `Data Augmentation` `PINN Alternatives` `Scientific Machine Learning` `Generative Physics`
 
 #### [Physics-informed graph neural Galerkin networks: A unified framework for solving PDE-governed forward and inverse problems](https://doi.org/10.1016/j.cma.2021.110602)
 - **Date:** 2022.01
 - **Description:** This paper introduces Physics-informed graph neural Galerkin networks (PGN) to address the scalability and geometry-handling limitations of standard PINNs. The framework discretizes the problem domain into a graph (mesh) and employs a Graph Neural Network (GNN) to learn the solution at the graph nodes. Critically, its loss function is not based on the strong-form PDE residual, but is inspired by the weak-form Galerkin method from classical numerical analysis. This discrete, GNN-based approach significantly improves training efficiency and naturally handles irregular geometries with unstructured meshes.
 - **Domain:** `PINN Architecture` `Graph Neural Networks` `Galerkin Method` `Scientific Machine Learning` `Discrete PINN`
-
-#### [Physics-Informed Generative Adversarial Networks for Stochastic Differential Equations](http://arxiv.org/abs/1811.02033)
-- **Date:** 2018.11
-- **Description:** A novel framework that embeds physical laws, in the form of Stochastic Differential Equations (SDEs), into the architecture of a Generative Adversarial Network (GAN). This Physics-Informed GAN (PI-GAN) uses generators to model unknown stochastic processes (e.g., solution, coefficients), with some generators being induced by the SDE to enforce physical consistency. It provides a unified method for solving forward, inverse, and mixed stochastic problems from sparse data, and is capable of handling high-dimensional stochasticity.
-- **Domain:** `Physics-Informed Machine Learning` `Generative Adversarial Networks` `Stochastic Differential Equations` `Inverse Problems` `Uncertainty Quantification`
 
 
 ## 4. Cross Domain Applications and Future Directions
