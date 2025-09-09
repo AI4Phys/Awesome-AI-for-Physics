@@ -279,6 +279,16 @@
 - **Description:** A seminal framework that introduces Physics-Informed Neural Networks (PINNs), which embed physical laws described by general nonlinear PDEs directly into the neural network's loss function. This acts as a regularization agent, enabling the solution of both forward (data-driven solution) and inverse (data-driven discovery) problems from sparse and noisy data.
 - **Domain:** `PINN` `Deep Learning` `Partial Differential Equations` `Inverse Problems` `Data-driven Scientific Computing`
 
+#### [PPINN: Parareal physics-informed neural network for time-dependent PDEs](https://doi.org/10.1016/j.cma.2020.113250)
+- **Date:** 2020.07
+- **Description:** This paper introduces the Parareal Physics-Informed Neural Network (PPINN), a framework designed to accelerate the solution of long-time integration problems for time-dependent PDEs. It combines the classical Parareal parallel-in-time algorithm with PINNs. The method uses a computationally cheap "coarse" solver to provide a global approximation, while multiple "fine" PINN solvers work in parallel to correct the solution on short time sub-intervals. This hybrid, iterative approach significantly reduces the wall-clock time for long-time simulations by decomposing a serial problem into parallelizable sub-problems.
+- **Domain:** `PINN` `PINN Acceleration` `Parallel Computing` `Parareal Algorithm` `Time-dependent PDEs`
+
+#### [Finite Basis Physics-Informed Neural Networks (FBPINNs): A scalable domain decomposition approach for solving differential equations](https://arxiv.org/pdf/2107.07871)
+- **Date:** 2021.07
+- **Description:** This paper proposes Finite Basis PINNs (FBPINNs), a scalable domain decomposition framework for solving large-scale and multiscale PDEs. The method decomposes the domain and assigns an independent PINN to each subdomain. Critically, it constructs a smooth global solution by treating the local PINN solutions as basis functions and stitching them together using a partition of unity weighting. This approach, inspired by finite element methods, significantly improves the scalability and efficiency of PINNs for challenging problems where standard PINNs fail.
+- **Domain:** `PINN` `Domain Decomposition` `Scalability` `PINN Acceleration` `Finite Element Method`
+
 #### [Deep neural network methods for solving forward and inverse problems of time fractional diffusion equations with conformable derivative](https://arxiv.org/pdf/2108.07490)
 - **Date:** 2021.08
 - **Description:** This paper pioneers the application of Physics-Informed Neural Networks (PINNs) to solve time-fractional diffusion equations involving the conformable derivative, a newer definition in fractional calculus. The work demonstrates that the PINN framework can effectively handle both forward (solution) and inverse (parameter estimation) problems for this class of non-standard PDEs. To address accuracy degradation when the fractional order approaches integer values, the authors introduce a weighted PINN (wPINN) that adjusts the loss function to mitigate the effects of singularities, thereby enhancing the model's robustness.
@@ -288,6 +298,11 @@
 - **Date:** 2021.08
 - **Description:** This paper introduces Neural Homogenization-PINN (NH-PINN), a method that combines classical homogenization theory with PINNs to solve complex multiscale PDEs. Instead of tackling the challenging multiscale problem directly, NH-PINN employs a three-step process: (1) using PINNs with a proposed oversampling strategy to accurately solve the periodic cell problems at the microscale, (2) computing the effective homogenized coefficients, and (3) using another PINN to solve the much simpler macroscopic homogenized equation. This theoretically-grounded approach significantly improves the accuracy of PINNs for multiscale problems where standard PINNs typically fail.
 - **Domain:** `PINN` `Multiscale Modeling` `Homogenization Theory` `Scientific Machine Learning` `Hybrid Modeling`
+
+#### [When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?](https://arxiv.org/pdf/2109.09444)
+- **Date:** 2021.09
+- **Description:** This paper provides the first theoretical generalization analysis for Extended Physics-Informed Neural Networks (XPINNs). By deriving and comparing the generalization error bounds for both standard PINNs and XPINNs, the work reveals a fundamental trade-off in domain decomposition: while decomposing a complex function into simpler ones on subdomains reduces the necessary model complexity (improving generalization), the need to enforce interface conditions introduces an additional learning cost that can harm generalization. The authors conclude that XPINNs outperform PINNs if and only if the gain from the reduced function complexity outweighs the cost of learning the interface constraints.
+- **Domain:** `PINN` `Domain Decomposition` `Generalization Theory` `Machine Learning Theory` `Scientific Machine Learning`
 
 #### [Learning in Sinusoidal Spaces with Physics-Informed Neural Networks](https://arxiv.org/pdf/2109.13901)
 - **Date:** 2021.09
@@ -314,6 +329,11 @@
 - **Description:** This paper introduces Physics-Informed PointNet (PI-PointNet), a novel deep learning framework that equips PINNs with the ability to handle irregular and varied geometries. It replaces the standard MLP backbone with a PointNet encoder, which learns a global feature representation of the domain's shape from a point cloud of its boundary. This geometry-aware feature is then concatenated with spatial coordinates and fed into an MLP decoder to predict the physical field. This "encode-decode" architecture allows the model to be trained on a collection of different geometries and then generalize to solve PDEs on new, unseen shapes without retraining.
 - **Domain:** `PINN Architecture` `PointNet` `Geometric Deep Learning` `Irregular Domains` `AI for Engineering`
 
+#### [Improved Deep Neural Networks with Domain Decomposition in Solving Partial Differential Equations](https://doi.org/10.1007/s10915-022-01980-y)
+- **Date:** 2022.09
+- **Description:** This paper proposes an improved domain decomposition method for PINNs to tackle large-scale and complex problems. The approach decomposes the computational domain into subdomains, assigning an individual neural network to each. A key insight of the work is framing domain decomposition as a strategy to mitigate the "gradient pathology" issue prevalent in large, single-network PINNs. The method demonstrates superior performance over classical PINNs in terms of training effectiveness, accuracy, and computational cost.
+- **Domain:** `PINN` `Domain Decomposition` `PINN Acceleration` `Gradient Pathology` `Scalability`
+
 #### [Delta-PINNs: A new class of physics-informed neural networks for solving forward and inverse problems with noisy data](https://doi.org/10.1016/j.jcp.2022.111271)
 - **Date:** 2022.10
 - **Description:** This paper introduces Delta-PINNs, a new training paradigm for PINNs designed to be highly robust to noisy data. Instead of minimizing the standard Mean Squared Error (MSE) of the PDE residuals, Delta-PINNs optimize a novel loss function based on the change ("Delta") of the mean of the residuals over training epochs. This approach focuses on driving the expectation of the residuals to zero in a monotonically decreasing fashion, effectively averaging out the effects of noise rather than fitting to it. The method demonstrates remarkable robustness, successfully solving forward and inverse problems even when the training data is corrupted with up to 100% noise.
@@ -323,6 +343,11 @@
 - **Date:** 2022.10
 - **Description:** This paper introduces a new class of PINNs designed to be robust against data with a high percentage of outliers. The authors first propose LAD-PINN, which replaces the standard Mean Squared Error (L2 norm) data loss with a Least Absolute Deviation (L1 norm) loss, making it inherently less sensitive to outliers. Building on this, they propose a two-stage MAD-PINN framework, which first uses LAD-PINN to identify and then screen out outliers based on the Median Absolute Deviation (MAD), and subsequently trains a standard PINN on the cleaned data for high accuracy. This approach is shown to be effective even when more than 50% of the data is corrupted.
 - **Domain:** `PINN` `Robustness` `Outlier Detection` `Loss Functions` `Robust Regression`
+
+#### [INN: Interfaced neural networks as an accessible meshless approach for solving interface PDE problems](https://doi.org/10.1016/j.jcp.2022.111588)
+- **Date:** 2022.12
+- **Description:** This paper proposes Interfaced Neural Networks (INNs) to solve PDE problems with discontinuous coefficients and irregular interfaces, where standard PINNs typically fail. The core idea is a physics-driven domain decomposition: the domain is split along the known interfaces, and a separate neural network is assigned to each subdomain. Crucially, the physical interface conditions (e.g., continuity of the solution and jumps in the flux) are explicitly enforced as loss terms, enabling the framework to accurately capture discontinuities in the solution's derivatives.
+- **Domain:** `PINN` `Interface Problems` `Domain Decomposition` `Discontinuous Solutions` `Scientific Machine Learning`
 
 #### [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](https://www.mdpi.com/2075-5309/13/3/650)
 - **Date:** 2023.02
