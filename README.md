@@ -41,6 +41,7 @@
   - [2.7 Physics and Physical Engine](#27-physics-and-physical-engine)
 - [3. Physics-Inspired AI (PINN series)](#3-physics-inspired-ai-pinn-series)
   - [3.1 (Category of PINN)](#31-category-of-pinn)
+    - [DGM: A deep learning algorithm for solving partial differential equations](#dgm-a-deep-learning-algorithm-for-solving-partial-differential-equations)
     - [Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](#physics-informed-neural-networks-a-deep-learning-framework-for-solving-forward-and-inverse-problems-involving-nonlinear-partial-differential-equations)
     - [Physics-informed machine learning](#physics-informed-machine-learning)
     - [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](#lnn-pinn-a-unified-physics-only-training-framework-with-liquid-residual-blocks)
