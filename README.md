@@ -345,10 +345,10 @@
 - **Description:** This paper introduces Physics-Informed PointNet (PI-PointNet), a novel deep learning framework that equips PINNs with the ability to handle irregular and varied geometries. It replaces the standard MLP backbone with a PointNet encoder, which learns a global feature representation of the domain's shape from a point cloud of its boundary. This geometry-aware feature is then concatenated with spatial coordinates and fed into an MLP decoder to predict the physical field. This "encode-decode" architecture allows the model to be trained on a collection of different geometries and then generalize to solve PDEs on new, unseen shapes without retraining.
 - **Domain:** `PINN Architecture` `PointNet` `Geometric Deep Learning` `Irregular Domains` `AI for Engineering`
 
-#### [A-PINNS: physics-informed neural networks on complex geometries](https://arxiv.org/pdf/2209.03984)
-- **Date:** 2022.09
-- **Description:** This paper introduces Augmented-PINNs (A-PINNs) to address the challenge of solving PDEs on complex and irregular geometries. The core innovation is a novel positional encoding scheme based on the eigenfunctions of the Laplace-Beltrami operator (LBO), which are intrinsic to the domain's geometry. By augmenting the input coordinates with a set of these pre-computed eigenfunctions, A-PINN provides the neural network with direct information about the domain's topology. This "geometry-aware" input representation significantly improves the accuracy and convergence speed of PINNs on non-trivial domains where standard PINNs often struggle.
-- **Domain:** `PINN` `Complex Geometry` `Positional Encoding` `Laplace-Beltrami Operator` `Scientific Machine Learning`
+#### [Delta-PINNs: A new class of physics-informed neural networks for solving forward and inverse problems with noisy data](https://doi.org/10.1016/j.jcp.2022.111271)
+- **Date:** 2022.10
+- **Description:** This paper introduces Delta-PINNs, a new training paradigm for PINNs designed to be highly robust to noisy data. Instead of minimizing the standard Mean Squared Error (MSE) of the PDE residuals, Delta-PINNs optimize a novel loss function based on the change ("Delta") of the mean of the residuals over training epochs. This approach focuses on driving the expectation of the residuals to zero in a monotonically decreasing fashion, effectively averaging out the effects of noise rather than fitting to it. The method demonstrates remarkable robustness, successfully solving forward and inverse problems even when the training data is corrupted with up to 100% noise.
+- **Domain:** `PINN` `Robustness` `Noisy Data` `Loss Functions` `Scientific Machine Learning`
 
 #### [Physics-informed graph neural Galerkin networks: A unified framework for solving PDE-governed forward and inverse problems](https://doi.org/10.1016/j.cma.2021.110602)
 - **Date:** 2022.01
