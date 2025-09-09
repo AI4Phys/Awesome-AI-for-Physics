@@ -48,6 +48,7 @@
     - [SPINN: Sparse, Physics-based, and partially Interpretable Neural Networks for PDEs](#spinn-sparse-physics-based-and-partially-interpretable-neural-networks-for-pdes)
     - [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](#lnn-pinn-a-unified-physics-only-training-framework-with-liquid-residual-blocks)
     - [Separable Physics-Informed Neural Networks](#separable-physics-informed-neural-networks)
+    - [Theory-guided hard constraint projection (HCP): A knowledge-based data-driven scientific machine learning method](#theory-guided-hard-constraint-projection-hcp-a-knowledge-based-data-driven-scientific-machine-learning-method)
     - [Deep neural network methods for solving forward and inverse problems of time fractional diffusion equations with conformable derivative](#deep-neural-network-methods-for-solving-forward-and-inverse-problems-of-time-fractional-diffusion-equations-with-conformable-derivative)
     - [Neural homogenization and the physics-informed neural network for the multiscale problems](#neural-homogenization-and-the-physics-informed-neural-network-for-the-multiscale-problems)
     - [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](#novel-physics-informed-artificial-neural-network-architectures-for-system-and-input-identification-of-structural-dynamics-pdes)
