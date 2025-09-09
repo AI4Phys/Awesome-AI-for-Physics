@@ -69,6 +69,7 @@
     - [AI Feynman 2.0: Pareto-optimal symbolic regression exploiting graph modularity](#ai-feynman-20-pareto-optimal-symbolic-regression-exploiting-graph-modularity)
     - [Flow Matching for Generative Modeling](#flow-matching-for-generative-modeling)
     - [Poisson Flow Generative Models](#poisson-flow-generative-models)
+    - [PFGM++: Unlocking the Potential of Physics-Inspired Generative Models](#pfgm-unlocking-the-potential-of-physics-inspired-generative-models)
     - [KAN: Kolmogorov-Arnold Networks](#kan-kolmogorov-arnold-networks)
     - [KAN 2.0: Kolmogorov-Arnold Networks Meet Science](#kan-20-kolmogorov-arnold-networks-meet-science)
     - [Graph Neural Networks in Particle Physics: Implementations, Innovations, and Challenges](#graph-neural-networks-in-particle-physics-implementations-innovations-and-challenges)
