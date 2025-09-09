@@ -236,6 +236,11 @@
 - **Description:** A comprehensive review that frames Physics-Informed Machine Learning (PIML) as a new paradigm for integrating data and physical models. It categorizes the methods for embedding physics into machine learning into three types of biases: observational, inductive (architectural), and learning (loss function). The paper surveys the capabilities, limitations, and diverse applications of PIML, positioning PINNs as a key component within this broader field.
 - **Domain:** `Physics-Informed Machine Learning` `Review` `PINN` `Inductive Bias` `Scientific Machine Learning`
 
+#### [SPINN: Sparse, Physics-based, and partially Interpretable Neural Networks for PDEs](https://doi.org/10.1016/j.jcp.2021.110600)
+- **Date:** 2021.07
+- **Description:** This paper introduces Sparse, Physics-based, and partially Interpretable Neural Networks (SPINN) as a bridge between traditional meshless numerical methods and dense PINNs. Instead of a standard MLP, SPINN employs a sparse, shallow network where each hidden neuron's activation function is a learnable basis function (e.g., a radial basis function) inspired by classical function approximation theory. The network is trained using a physics-informed loss. This architecture is inherently sparse and offers partial interpretability, as the learned basis functions and their weights directly correspond to a classical solution expansion.
+- **Domain:** `PINN Architecture` `Interpretability` `Sparse Neural Networks` `Meshfree Methods` `Scientific Machine Learning`
+
 #### [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](https://arxiv.org/pdf/2508.08935)
 - **Date:** 2025.08
 - **Description:** LNN-PINN, a physics-informed neural network framework, combines a liquid residual gating architecture while retaining the original physical modeling and optimization process to improve prediction accuracy.
