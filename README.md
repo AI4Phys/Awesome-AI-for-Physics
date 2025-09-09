@@ -312,6 +312,11 @@
 - **Description:** This paper introduces Delta-PINNs, a new training paradigm for PINNs designed to be highly robust to noisy data. Instead of minimizing the standard Mean Squared Error (MSE) of the PDE residuals, Delta-PINNs optimize a novel loss function based on the change ("Delta") of the mean of the residuals over training epochs. This approach focuses on driving the expectation of the residuals to zero in a monotonically decreasing fashion, effectively averaging out the effects of noise rather than fitting to it. The method demonstrates remarkable robustness, successfully solving forward and inverse problems even when the training data is corrupted with up to 100% noise.
 - **Domain:** `PINN` `Robustness` `Noisy Data` `Loss Functions` `Scientific Machine Learning`
 
+#### [Robust Regression with Highly Corrupted Data via Physics Informed Neural Networks](https://arxiv.org/pdf/2210.10646)
+- **Date:** 2022.10
+- **Description:** This paper introduces a new class of PINNs designed to be robust against data with a high percentage of outliers. The authors first propose LAD-PINN, which replaces the standard Mean Squared Error (L2 norm) data loss with a Least Absolute Deviation (L1 norm) loss, making it inherently less sensitive to outliers. Building on this, they propose a two-stage MAD-PINN framework, which first uses LAD-PINN to identify and then screen out outliers based on the Median Absolute Deviation (MAD), and subsequently trains a standard PINN on the cleaned data for high accuracy. This approach is shown to be effective even when more than 50% of the data is corrupted.
+- **Domain:** `PINN` `Robustness` `Outlier Detection` `Loss Functions` `Robust Regression`
+
 #### [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](https://www.mdpi.com/2075-5309/13/3/650)
 - **Date:** 2023.02
 - **Description:** Proposes novel parallel and sequential PINN architectures to solve output-only system and input identification problems in structural dynamics. The method first discretizes the governing PDE into a set of modal ODEs using the Eigenfunction Expansion Method, then assigns individual, cooperating PINNs to each mode, significantly improving computational efficiency, flexibility, and accuracy for complex engineering inverse problems.
