@@ -253,6 +253,11 @@
 - **Description:** Proposes Separable Physics-Informed Neural Networks (SPINN) to address the spectral bias issue in solving multiscale PDEs. The core idea is to decompose the solution into multiple components with different characteristic scales (e.g., low- and high-frequency) and use separate, specialized neural network streams for each component. These streams are trained jointly, allowing the model to efficiently and accurately learn complex solutions that standard PINNs fail to capture.
 - **Domain:** `PINN Architecture` `Spectral Bias` `Multiscale Modeling` `Physics-Informed Machine Learning` `Fourier Features`
 
+#### [Deep neural network methods for solving forward and inverse problems of time fractional diffusion equations with conformable derivative](https://arxiv.org/pdf/2108.07490)
+- **Date:** 2021.08
+- **Description:** This paper pioneers the application of Physics-Informed Neural Networks (PINNs) to solve time-fractional diffusion equations involving the conformable derivative, a newer definition in fractional calculus. The work demonstrates that the PINN framework can effectively handle both forward (solution) and inverse (parameter estimation) problems for this class of non-standard PDEs. To address accuracy degradation when the fractional order approaches integer values, the authors introduce a weighted PINN (wPINN) that adjusts the loss function to mitigate the effects of singularities, thereby enhancing the model's robustness.
+- **Domain:** `PINN` `Fractional Calculus` `Conformable Derivative` `Inverse Problems` `Scientific Machine Learning`
+
 #### [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](https://www.mdpi.com/2075-5309/13/3/650)
 - **Date:** 2023.02
 - **Description:** Proposes novel parallel and sequential PINN architectures to solve output-only system and input identification problems in structural dynamics. The method first discretizes the governing PDE into a set of modal ODEs using the Eigenfunction Expansion Method, then assigns individual, cooperating PINNs to each mode, significantly improving computational efficiency, flexibility, and accuracy for complex engineering inverse problems.
