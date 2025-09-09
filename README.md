@@ -115,6 +115,11 @@
 - **Link:** https://scicode-bench.github.io/
 - **Domain:** `LLM` `Computational Physics`
 
+#### [PhySense: Principle-Based Physics Reasoning Benchmarking for Large Language Models](https://arxiv.org/pdf/2505.24823)
+- **Date:** 2025.05
+- **Description:** This paper introduces PhySense, a novel benchmark designed to evaluate the physics reasoning capabilities of Large Language Models (LLMs) based on core principles. The authors find that current LLMs often fail to emulate the concise, principle-based reasoning characteristic of human experts, instead generating lengthy and opaque solutions. PhySense provides a systematic way to investigate this limitation, aiming to guide the development of AI systems with more efficient, robust, and interpretable scientific reasoning.
+- **Domain:** `Large Language Models` `AI for Science` `Physics Reasoning` `Benchmarking` `Explainable AI`
+
 ### 1.2 Training Methods (RL, SFT, etc.)
 
 ### 1.3 Inference Methods (CoT, etc.)
@@ -286,6 +291,11 @@
 - **Date:** 2018.11
 - **Description:** A novel framework that embeds physical laws, in the form of Stochastic Differential Equations (SDEs), into the architecture of a Generative Adversarial Network (GAN). This Physics-Informed GAN (PI-GAN) uses generators to model unknown stochastic processes (e.g., solution, coefficients), with some generators being induced by the SDE to enforce physical consistency. It provides a unified method for solving forward, inverse, and mixed stochastic problems from sparse data, and is capable of handling high-dimensional stochasticity.
 - **Domain:** `Physics-Informed Machine Learning` `Generative Adversarial Networks` `Stochastic Differential Equations` `Inverse Problems` `Uncertainty Quantification`
+
+#### [Learning in Sinusoidal Spaces with Physics-Informed Neural Networks](https://arxiv.org/pdf/2109.13901)
+- **Date:** 2021.09
+- **Description:** This paper diagnoses a key failure mode in training PINNs, showing that expressive networks are initialized with a bias towards flat, near-zero functions, trapping them in trivial local minima of the PDE residual loss. To overcome this, it proposes sf-PINN, an architecture that preprocesses inputs with a sinusoidal feature mapping. The authors theoretically prove that this mapping increases input gradient variability at initialization, providing effective gradients for the optimizer to escape these deceptive local minima. This simple, non-intrusive modification is shown to significantly improve the training stability and final accuracy of PINNs.
+- **Domain:** `PINN` `Training Pathology` `Spectral Bias` `Initialization` `Input Representation`
 
 #### [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/pdf/1711.10561)
 - **Date:** 2017.11
