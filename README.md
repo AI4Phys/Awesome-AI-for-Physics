@@ -379,7 +379,9 @@
 - **Description:** Proposes Separable Physics-Informed Neural Networks (SPINN) to address the spectral bias issue in solving multiscale PDEs. The core idea is to decompose the solution into multiple components with different characteristic scales (e.g., low- and high-frequency) and use separate, specialized neural network streams for each component. These streams are trained jointly, allowing the model to efficiently and accurately learn complex solutions that standard PINNs fail to capture.
 - **Domain:** `PINN Architecture` `Spectral Bias` `Multiscale Modeling` `Physics-Informed Machine Learning` `Fourier Features`
 
-### 3.3 Alternative Physics-Inspired Paradigms
+### 3.3 Theoretical Foundations, Convergence, and Failure Mode Analysis of PINNs
+
+### 3.4 Alternative Physics-Inspired Paradigms
 
 #### [Physics-guided Neural Networks (PGNN): An Application in Lake Temperature Modeling](https://arxiv.org/pdf/1710.11431)
 - **Date:** 2017.10
