@@ -373,6 +373,36 @@
 - **Description:** Proposes enhancing PINNs by combining multi-task learning (jointly training on a related auxiliary PDE) and adversarial training (generating high-loss samples) to improve generalization and accuracy in highly non-linear domains.
 - **Domain:** `PINN` `Multi-task Learning` `Adversarial Training` `Generalization`
 
+#### [Multi-Objective Loss Balancing for Physics-Informed Deep Learning](https://doi.org/10.13140/RG.2.2.20057.24169)
+- **Date:** 2021.10
+- **Description:** Proposes a novel self-adaptive algorithm, ReLoBRaLo, which dynamically balances multiple loss terms in PINNs based on their relative progress, an exponential moving average, and a unique random lookback mechanism to improve training speed and accuracy.
+- **Domain:** `PINN` `Loss Balancing` `Multi-Objective Optimization` `Training Optimization`
+
+#### [Gradient-enhanced physics-informed neural networks for forward and inverse PDE problems](https://arxiv.org/abs/2111.02801)
+- **Date:** 2021.11
+- **Description:** Proposes Gradient-enhanced PINNs (gPINNs), a method that improves the accuracy and efficiency of PINNs by adding the gradient of the PDE residual as an additional term in the loss function.
+- **Domain:** `PINN` `Gradient-enhanced` `Loss Function` `Training Optimization` `RAR`
+
+#### [A hybrid physics-informed neural network for nonlinear partial differential equation](https://arxiv.org/abs/2112.01696)
+- **Date:** 2021.12
+- **Description:** Proposes a hybrid PINN (hPINN) that uses a discontinuity indicator to switch between automatic differentiation for smooth regions and a classical WENO scheme to capture discontinuities, improving performance on PDEs with shock solutions.
+- **Domain:** `PINN` `Hybrid Method` `WENO` `Discontinuous Solutions` `Burgers Equation`
+
+#### [Is L2 Physics-Informed Loss Always Suitable for Training Physics-Informed Neural Network?](https://arxiv.org/abs/2206.02016)
+- **Date:** 2022.06
+- **Description:** Theoretically proves that the standard L2 loss is unstable for training PINNs on high-dimensional HJB equations and proposes a new adversarial training algorithm to effectively minimize a more suitable L-infinity loss.
+- **Domain:** `PINN` `Loss Function` `PDE Stability` `HJB Equation` `Adversarial Training`
+
+#### [A comprehensive study of non-adaptive and residual-based adaptive sampling for physics-informed neural networks](https://arxiv.org/abs/2207.10289)
+- **Date:** 2022.07
+- **Description:** Presents a comprehensive benchmark of 10 sampling methods for PINNs and proposes two new residual-based adaptive sampling algorithms (RAD and RAR-D) that significantly improve accuracy by dynamically redistributing points based on the PDE residual.
+- **Domain:** `PINN` `Adaptive Sampling` `RAR` `Training Optimization` `Benchmark`
+
+#### [A Novel Adaptive Causal Sampling Method for Physics-Informed Neural Networks](https://arxiv.org/abs/2210.12914)
+- **Date:** 2022.10
+- **Description:** Proposes an Adaptive Causal Sampling Method (ACSM) that incorporates temporal causality into the sampling process by weighting the residual-based sampling probability with a causal term, preventing training failure in time-dependent PDEs.
+- **Domain:** `PINN` `Adaptive Sampling` `Causal Training` `Time-Dependent PDEs`
+
 #### (Para. 4 Improving Training Dynamics/Robustness)
 
 #### [Learning in Sinusoidal Spaces with Physics-Informed Neural Networks](https://arxiv.org/pdf/2109.13901)
@@ -392,10 +422,25 @@
 
 #### (Para.5 Specific Architectural/Application Innovations)
 
+#### [A High-Efficient Hybrid Physics-Informed Neural Networks Based on Convolutional Neural Network](https://doi.org/10.1109/TNNLS.2021.3070878)
+- **Date:** 2021.04
+- **Description:** Proposes a hybrid PINN that replaces automatic differentiation with a discrete differential operator learned via a "local fitting method," providing the first theoretical convergence rate for a machine learning-based PDE solver.
+- **Domain:** `PINN` `Hybrid Method` `Numerical Stencil` `CNN` `Convergence Rate`
+
+#### [Accelerated Training of Physics-Informed Neural Networks (PINNS) using Meshless Discretizations](https://arxiv.org/abs/2205.09332)
+- **Date:** 2022.05
+- **Description:** Proposes Discretely-Trained PINNs (DT-PINNs), which accelerate training by replacing expensive automatic differentiation for spatial derivatives with a pre-computed, high-order accurate meshless RBF-FD operator, achieving 2-4x speedups.
+- **Domain:** `PINN` `Training Acceleration` `RBF-FD` `Meshless Method` `Numerical Differentiation`
+  
 #### [ModalPINN: An extension of physics-informed Neural Networks with enforced truncated Fourier decomposition for periodic flow reconstruction using a limited number of imperfect sensors](https://doi.org/10.1016/j.jcp.2022.111271)
 - **Date:** 2022.05
 - **Description:** This paper introduces ModalPINN, a specialized PINN architecture designed for reconstructing periodic flows from sparse and noisy sensor data. Instead of learning the high-dimensional spatio-temporal field directly, ModalPINN enforces a strong inductive bias by assuming the solution can be represented by a truncated Fourier series. The neural network's task is reduced to learning the low-dimensional time-dependent coefficients of these Fourier modes. This modal decomposition significantly improves the model's robustness and accuracy in data-limited regimes, outperforming standard PINNs for periodic problems.
 - **Domain:** `PINN Architecture` `Flow Reconstruction` `Fourier Analysis` `Inductive Bias` `Scientific Machine Learning`
+
+#### [RPINNS: Rectified-physics informed neural networks for solving stationary partial differential equations](https://doi.org/10.1016/j.compfluid.2022.105583)
+- **Date:** 2022.06
+- **Description:** Proposes a Rectified-PINN (RPINN) which, inspired by multigrid methods, uses a second neural network to learn and correct the error of an initial PINN solution, leading to higher final accuracy.
+- **Domain:** `PINN` `Iterative Refinement` `Multigrid` `High Precision`
 
 #### [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](https://www.mdpi.com/2075-5309/13/3/650)
 - **Date:** 2023.02
