@@ -515,6 +515,16 @@
 
 ### 3.6 Theoretical Foundations, Convergence, and Failure Mode Analysis of PINNs
 
+#### [Estimates on the generalization error of physics-informed neural networks for approximating a class of inverse problems for PDES](https://doi.org/10.1093/imanum/drab032)
+- **Date:** 2021.06
+- **Description:** Provides the first rigorous generalization error estimates for PINNs solving data assimilation (unique continuation) inverse problems by leveraging conditional stability estimates from classical PDE theory.
+- **Domain:** `Generalization Error` `PINN Theory` `Inverse Problems` `Conditional Stability`
+
+#### [ERROR ANALYSIS FOR PHYSICS INFORMED NEURAL NETWORKS (PINNS) APPROXIMATING KOLMOGOROV PDES](https://arxiv.org/abs/2106.14473)
+- **Date:** 2021.06
+- **Description:** Provides a comprehensive error analysis for PINNs approximating Kolmogorov PDEs, proving that the total error is bounded by the training error and that the required network size and sample complexity grow only polynomially with dimension.
+- **Domain:** `Error Analysis` `PINN Theory` `Kolmogorov PDEs` `Curse of Dimensionality`
+
 ### 3.7 Theoretical Foundations and Analysis of PINNs
 
 ### 3.8 Alternative Physics-Inspired Paradigms
