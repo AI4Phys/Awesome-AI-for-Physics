@@ -399,20 +399,40 @@
 
 ### 3.5 PINNs for Parametrized Systems: Transfer and Meta-Learning
 
+#### [Transfer learning enhanced physics informed neural network for phase-field modeling of fracture](https://doi.org/10.1016/j.tafmec.2019.102447)
+- **Date:** 2019.12
+- **Description:** Proposes a new variational energy-based PINN paradigm (VE-PINN) for more stable fracture problem solving, and innovatively uses transfer learning to significantly accelerate the sequential solving process under multiple load steps.
+- **Domain:** `Variational PINN` `Phase-Field Fracture` `Transfer Learning` `Computational Acceleration`
+
 #### [A physics-aware learning architecture with input transfer networks for predictive modeling](https://doi.org/10.1016/j.asoc.2020.106665)
 - **Date:** 2020.08
-- **Description:** 提出一种名为OPTMA的新型混合架构，其核心思想是训练一个神经网络来变换输入特征，使得一个简单的“部分物理模型”能够接收变换后的输入并做出与高精度模型相匹配的预测。
+- **Description:** Proposes a novel hybrid architecture called OPTMA, whose core idea is to train a neural network to transform input features, enabling a simple "partial physics model" to make predictions matching a high-fidelity model.
 - **Domain:** `Hybrid Modeling` `Transfer Learning` `Physics-Aware ML`
 
 #### [Transfer learning based multi-fidelity physics informed deep neural network](https://doi.org/10.1016/j.jcp.2020.109942)
 - **Date:** 2020.10
-- **Description:** 提出一种MF-PIDNN框架，首先利用PINN方法在无数据的情况下，仅通过近似的物理方程对网络进行预训练，然后利用迁移学习和极少量的高保真数据对模型进行微调。
+- **Description:** Proposes the MF-PIDNN framework, which first pre-trains a network on approximate physical equations without data using the PINN method, and then fine-tunes the model with a few high-fidelity data points via transfer learning.
 - **Domain:** `Multi-Fidelity` `PINN` `Transfer Learning` `Data-Efficient`
+
+#### [Meta-learning PINN loss functions](https://arxiv.org/abs/2107.05544)
+- **Date:** 2021.07
+- **Description:** Proposes a gradient-based meta-learning framework to automatically discover an optimal, shared PINN loss function from a family of related PDE tasks, aiming to improve performance and efficiency on new tasks.
+- **Domain:** `Meta-Learning` `PINN` `Loss Function` `Task Distribution`
 
 #### [HyperPINN: Learning parameterized differential equations with physics-informed hypernetworks](https://openreview.net/pdf?id=LxUuRDUhRjM)
 - **Date:** 2021.10
 - **Description:** This paper introduces HyperPINN, a meta-learning framework that leverages hypernetworks to efficiently solve parameterized PDEs. Instead of training a new PINN for each parameter instance, HyperPINN trains a small "hypernetwork" that takes a physical parameter as input and outputs the weights for a smaller "main" PINN. This main network then solves the PDE for that specific parameter. This approach creates a single, compact model capable of instantly generating a specialized solver for any parameterization, offering a highly efficient and memory-saving alternative for multi-query and real-time applications.
 - **Domain:** `PINN` `Meta-Learning` `Hypernetworks` `Parametric PDEs` `Scientific Machine Learning`
+
+#### [A Metalearning Approach for Physics-Informed Neural Networks (PINNs): Application to Parameterized PDEs](https://arxiv.org/abs/2110.13361)
+- **Date:** 2021.10
+- **Description:** Proposes a model-aware metalearning approach that trains a surrogate model to learn the mapping from PDE parameters to optimal PINN initial weights, providing a high-quality starting point to accelerate training for new tasks.
+- **Domain:** `Meta-Learning` `PINN` `Weight Initialization` `Parameterized PDEs`
+
+#### [META-PDE: LEARNING TO SOLVE PDES QUICKLY WITHOUT A MESH](https://arxiv.org/abs/2211.01604)
+- **Date:** 2022.11
+- **Description:** Proposes a framework called Meta-PDE that uses meta-learning (MAML/LEAP) to find an optimal PINN weight initialization, enabling rapid convergence in just a few gradient steps when solving new, related PDE tasks, even with varying geometries.
+- **Domain:** `Meta-Learning` `PINN` `Model Initialization` `Fast PDE Solver`
 
 #### [GPT-PINN: Generative Pre-Trained Physics-Informed Neural Networks toward non-intrusive Meta-learning of parametric PDEs](https://arxiv.org/pdf/2303.14878)
 - **Date:** 2023.03
