@@ -397,6 +397,11 @@
 
 ### 3.5 PINNs for Parametrized Systems: Transfer and Meta-Learning
 
+#### [A physics-aware learning architecture with input transfer networks for predictive modeling](https://doi.org/10.1016/j.asoc.2020.106665)
+- **Date:** 2020.08
+- **Description:** 提出一种名为OPTMA的新型混合架构，其核心思想是训练一个神经网络来变换输入特征，使得一个简单的“部分物理模型”能够接收变换后的输入并做出与高精度模型相匹配的预测。
+- **Domain:** `Hybrid Modeling` `Transfer Learning` `Physics-Aware ML`
+
 #### [HyperPINN: Learning parameterized differential equations with physics-informed hypernetworks](https://openreview.net/pdf?id=LxUuRDUhRjM)
 - **Date:** 2021.10
 - **Description:** This paper introduces HyperPINN, a meta-learning framework that leverages hypernetworks to efficiently solve parameterized PDEs. Instead of training a new PINN for each parameter instance, HyperPINN trains a small "hypernetwork" that takes a physical parameter as input and outputs the weights for a smaller "main" PINN. This main network then solves the PDE for that specific parameter. This approach creates a single, compact model capable of instantly generating a specialized solver for any parameterization, offering a highly efficient and memory-saving alternative for multi-query and real-time applications.
