@@ -74,6 +74,7 @@
     - [LNN-PINN: A Unified Physics-Only Training Framework with Liquid Residual Blocks](#lnn-pinn-a-unified-physics-only-training-framework-with-liquid-residual-blocks)
     - [Separable Physics-Informed Neural Networks](#separable-physics-informed-neural-networks)
   - [3.5 PINNs for Parametrized Systems: Transfer and Meta-Learning](#35-pinns-for-parametrized-systems-transfer-and-meta-learning)
+    - [A physics-aware learning architecture with input transfer networks for predictive modeling](#a-physics-aware-learning-architecture-with-input-transfer-networks-for-predictive-modeling)
     - [HyperPINN: Learning parameterized differential equations with physics-informed hypernetworks](#hyperpinn-learning-parameterized-differential-equations-with-physics-informed-hypernetworks)
     - [GPT-PINN: Generative Pre-Trained Physics-Informed Neural Networks toward non-intrusive Meta-learning of parametric PDEs](#gpt-pinn-generative-pre-trained-physics-informed-neural-networks-toward-non-intrusive-meta-learning-of-parametric-pdes)
   - [3.6 Theoretical Foundations, Convergence, and Failure Mode Analysis of PINNs](#36-theoretical-foundations-convergence-and-failure-mode-analysis-of-pinns)
