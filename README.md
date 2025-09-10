@@ -63,6 +63,8 @@
     - [Physics-informed PointNet: A deep learning solver for steady-state incompressible flows and thermal fields on multiple sets of irregular geometries](#physics-informed-pointnet-a-deep-learning-solver-for-steady-state-incompressible-flows-and-thermal-fields-on-multiple-sets-of-irregular-geometries)
     - [INN: Interfaced neural networks as an accessible meshless approach for solving interface PDE problems](#inn-interfaced-neural-networks-as-an-accessible-meshless-approach-for-solving-interface-pde-problems)
     - [(Para.3 Training Acceleration and Convergence Optimization)](#para3-training-acceleration-and-convergence-optimization)
+    - [A Dual-Dimer method for training physics-constrained neural networks with minimax architecture](#a-dual-dimer-method-for-training-physics-constrained-neural-networks-with-minimax-architecture)
+    - [Self-adaptive loss balanced Physics-informed neural networks for the incompressible Navier-Stokes equations](#self-adaptive-loss-balanced-physics-informed-neural-networks-for-the-incompressible-navier-stokes-equations)
     - [(Para. 4 Improving Training Dynamics/Robustness)](#para-4-improving-training-dynamicsrobustness)
     - [Learning in Sinusoidal Spaces with Physics-Informed Neural Networks](#learning-in-sinusoidal-spaces-with-physics-informed-neural-networks)
     - [Delta-PINNs: A new class of physics-informed neural networks for solving forward and inverse problems with noisy data](#delta-pinns-a-new-class-of-physics-informed-neural-networks-for-solving-forward-and-inverse-problems-with-noisy-data)
