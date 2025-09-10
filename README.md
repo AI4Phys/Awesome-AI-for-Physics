@@ -95,6 +95,8 @@
     - [META-PDE: LEARNING TO SOLVE PDES QUICKLY WITHOUT A MESH](#meta-pde-learning-to-solve-pdes-quickly-without-a-mesh)
     - [GPT-PINN: Generative Pre-Trained Physics-Informed Neural Networks toward non-intrusive Meta-learning of parametric PDEs](#gpt-pinn-generative-pre-trained-physics-informed-neural-networks-toward-non-intrusive-meta-learning-of-parametric-pdes)
   - [3.6 Theoretical Foundations, Convergence, and Failure Mode Analysis of PINNs](#36-theoretical-foundations-convergence-and-failure-mode-analysis-of-pinns)
+    - [Estimates on the generalization error of physics-informed neural networks for approximating a class of inverse problems for PDES](#estimates-on-the-generalization-error-of-physics-informed-neural-networks-for-approximating-a-class-of-inverse-problems-for-pdes)
+    - [ERROR ANALYSIS FOR PHYSICS INFORMED NEURAL NETWORKS (PINNS) APPROXIMATING KOLMOGOROV PDES](#error-analysis-for-physics-informed-neural-networks-pinns-approximating-kolmogorov-pdes)
   - [3.7 Theoretical Foundations and Analysis of PINNs](#37-theoretical-foundations-and-analysis-of-pinns)
   - [3.8 Alternative Physics-Inspired Paradigms](#38-alternative-physics-inspired-paradigms)
     - [Physics-guided Neural Networks (PGNN): An Application in Lake Temperature Modeling](#physics-guided-neural-networks-pgnn-an-application-in-lake-temperature-modeling)
