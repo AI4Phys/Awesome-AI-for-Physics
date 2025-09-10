@@ -503,7 +503,7 @@
 - **Description:** This paper introduces HyperPINN, a meta-learning framework that leverages hypernetworks to efficiently solve parameterized PDEs. Instead of training a new PINN for each parameter instance, HyperPINN trains a small "hypernetwork" that takes a physical parameter as input and outputs the weights for a smaller "main" PINN. This main network then solves the PDE for that specific parameter. This approach creates a single, compact model capable of instantly generating a specialized solver for any parameterization, offering a highly efficient and memory-saving alternative for multi-query and real-time applications.
 - **Domain:** `PINN` `Meta-Learning` `Hypernetworks` `Parametric PDEs` `Scientific Machine Learning`
 
-#### [A Metalearning Approach for Physics-Informed Neural Networks (PINNs): Application to Parameterized PDEs](https://arxiv.org/abs/2110.13361)
+#### [A Meta learning Approach for Physics-Informed Neural Networks (PINNs): Application to Parameterized PDEs](https://arxiv.org/abs/2110.13361)
 - **Date:** 2021.10
 - **Description:** Proposes a model-aware metalearning approach that trains a surrogate model to learn the mapping from PDE parameters to optimal PINN initial weights, providing a high-quality starting point to accelerate training for new tasks.
 - **Domain:** `Meta-Learning` `PINN` `Weight Initialization` `Parameterized PDEs`
@@ -527,7 +527,7 @@
 - **Description:** Provides the first rigorous generalization error estimates for PINNs solving data assimilation (unique continuation) inverse problems by leveraging conditional stability estimates from classical PDE theory.
 - **Domain:** `Generalization Error` `PINN Theory` `Inverse Problems` `Conditional Stability`
 
-#### [ERROR ANALYSIS FOR PHYSICS INFORMED NEURAL NETWORKS (PINNS) APPROXIMATING KOLMOGOROV PDES](https://arxiv.org/abs/2106.14473)
+#### [Error analysis for physics informed neural networks (PINNs) approximating Kolmogorov PDEs](https://arxiv.org/abs/2106.14473)
 - **Date:** 2021.06
 - **Description:** Provides a comprehensive error analysis for PINNs approximating Kolmogorov PDEs, proving that the total error is bounded by the training error and that the required network size and sample complexity grow only polynomially with dimension.
 - **Domain:** `Error Analysis` `PINN Theory` `Kolmogorov PDEs` `Curse of Dimensionality`
