@@ -314,7 +314,7 @@
 - **Description:** A seminal framework that introduces Physics-Informed Neural Networks (PINNs), which embed physical laws described by general nonlinear PDEs directly into the neural network's loss function. This acts as a regularization agent, enabling the solution of both forward (data-driven solution) and inverse (data-driven discovery) problems from sparse and noisy data.
 - **Domain:** `PINN` `Deep Learning` `Partial Differential Equations` `Inverse Problems` `Data-driven Scientific Computing`
 
-### 3.3 Scaling PINNs: Parallelism and Domain Decomposition
+### 3.3 PINNs for Large-Scale Problems: Parallelism and Domain Decomposition
 
 #### [PPINN: Parareal physics-informed neural network for time-dependent PDEs](https://doi.org/10.1016/j.cma.2020.113250)
 - **Date:** 2020.07
@@ -341,21 +341,7 @@
 - **Description:** This paper proposes an improved domain decomposition method for PINNs to tackle large-scale and complex problems. The approach decomposes the computational domain into subdomains, assigning an individual neural network to each. A key insight of the work is framing domain decomposition as a strategy to mitigate the "gradient pathology" issue prevalent in large, single-network PINNs. The method demonstrates superior performance over classical PINNs in terms of training effectiveness, accuracy, and computational cost.
 - **Domain:** `PINN` `Domain Decomposition` `PINN Acceleration` `Gradient Pathology` `Scalability`
 
-### 3.4 Architectural and Methodological Extensions for Advanced Problems
-
-#### (Para.1 Handling Specific PDE Types)
-
-#### [Deep neural network methods for solving forward and inverse problems of time fractional diffusion equations with conformable derivative](https://arxiv.org/pdf/2108.07490)
-- **Date:** 2021.08
-- **Description:** This paper pioneers the application of Physics-Informed Neural Networks (PINNs) to solve time-fractional diffusion equations involving the conformable derivative, a newer definition in fractional calculus. The work demonstrates that the PINN framework can effectively handle both forward (solution) and inverse (parameter estimation) problems for this class of non-standard PDEs. To address accuracy degradation when the fractional order approaches integer values, the authors introduce a weighted PINN (wPINN) that adjusts the loss function to mitigate the effects of singularities, thereby enhancing the model's robustness.
-- **Domain:** `PINN` `Fractional Calculus` `Conformable Derivative` `Inverse Problems` `Scientific Machine Learning`
-
-#### [Neural homogenization and the physics-informed neural network for the multiscale problems](https://arxiv.org/pdf/2108.12942)
-- **Date:** 2021.08
-- **Description:** This paper introduces Neural Homogenization-PINN (NH-PINN), a method that combines classical homogenization theory with PINNs to solve complex multiscale PDEs. Instead of tackling the challenging multiscale problem directly, NH-PINN employs a three-step process: (1) using PINNs with a proposed oversampling strategy to accurately solve the periodic cell problems at the microscale, (2) computing the effective homogenized coefficients, and (3) using another PINN to solve the much simpler macroscopic homogenized equation. This theoretically-grounded approach significantly improves the accuracy of PINNs for multiscale problems where standard PINNs typically fail.
-- **Domain:** `PINN` `Multiscale Modeling` `Homogenization Theory` `Scientific Machine Learning` `Hybrid Modeling`
-
-#### (Para.2 Handling Complex Geometries/Interfaces)
+### 3.4 PINNs for Problems with Complex Structure: Geometries and PDE Types
 
 #### [Physics-informed PointNet: A deep learning solver for steady-state incompressible flows and thermal fields on multiple sets of irregular geometries](https://doi.org/10.1016/j.jcp.2022.111510)
 - **Date:** 2022.07
@@ -367,7 +353,32 @@
 - **Description:** This paper proposes Interfaced Neural Networks (INNs) to solve PDE problems with discontinuous coefficients and irregular interfaces, where standard PINNs typically fail. The core idea is a physics-driven domain decomposition: the domain is split along the known interfaces, and a separate neural network is assigned to each subdomain. Crucially, the physical interface conditions (e.g., continuity of the solution and jumps in the flux) are explicitly enforced as loss terms, enabling the framework to accurately capture discontinuities in the solution's derivatives.
 - **Domain:** `PINN` `Interface Problems` `Domain Decomposition` `Discontinuous Solutions` `Scientific Machine Learning`
 
-#### (Para.3 Training Acceleration and Convergence Optimization)
+#### [Deep neural network methods for solving forward and inverse problems of time fractional diffusion equations with conformable derivative](https://arxiv.org/pdf/2108.07490)
+- **Date:** 2021.08
+- **Description:** This paper pioneers the application of Physics-Informed Neural Networks (PINNs) to solve time-fractional diffusion equations involving the conformable derivative, a newer definition in fractional calculus. The work demonstrates that the PINN framework can effectively handle both forward (solution) and inverse (parameter estimation) problems for this class of non-standard PDEs. To address accuracy degradation when the fractional order approaches integer values, the authors introduce a weighted PINN (wPINN) that adjusts the loss function to mitigate the effects of singularities, thereby enhancing the model's robustness.
+- **Domain:** `PINN` `Fractional Calculus` `Conformable Derivative` `Inverse Problems` `Scientific Machine Learning`
+
+#### [Neural homogenization and the physics-informed neural network for the multiscale problems](https://arxiv.org/pdf/2108.12942)
+- **Date:** 2021.08
+- **Description:** This paper introduces Neural Homogenization-PINN (NH-PINN), a method that combines classical homogenization theory with PINNs to solve complex multiscale PDEs. Instead of tackling the challenging multiscale problem directly, NH-PINN employs a three-step process: (1) using PINNs with a proposed oversampling strategy to accurately solve the periodic cell problems at the microscale, (2) computing the effective homogenized coefficients, and (3) using another PINN to solve the much simpler macroscopic homogenized equation. This theoretically-grounded approach significantly improves the accuracy of PINNs for multiscale problems where standard PINNs typically fail.
+- **Domain:** `PINN` `Multiscale Modeling` `Homogenization Theory` `Scientific Machine Learning` `Hybrid Modeling`
+
+#### [A High-Efficient Hybrid Physics-Informed Neural Networks Based on Convolutional Neural Network](https://doi.org/10.1109/TNNLS.2021.3070878)
+- **Date:** 2021.04
+- **Description:** Proposes a hybrid PINN that replaces automatic differentiation with a discrete differential operator learned via a "local fitting method," providing the first theoretical convergence rate for a machine learning-based PDE solver.
+- **Domain:** `PINN` `Hybrid Method` `Numerical Stencil` `CNN` `Convergence Rate`
+
+#### [A hybrid physics-informed neural network for nonlinear partial differential equation](https://arxiv.org/abs/2112.01696)
+- **Date:** 2021.12
+- **Description:** Proposes a hybrid PINN (hPINN) that uses a discontinuity indicator to switch between automatic differentiation for smooth regions and a classical WENO scheme to capture discontinuities, improving performance on PDEs with shock solutions.
+- **Domain:** `PINN` `Hybrid Method` `WENO` `Discontinuous Solutions` `Burgers Equation`
+
+#### [RPINNS: Rectified-physics informed neural networks for solving stationary partial differential equations](https://doi.org/10.1016/j.compfluid.2022.105583)
+- **Date:** 2022.06
+- **Description:** Proposes a Rectified-PINN (RPINN) which, inspired by multigrid methods, uses a second neural network to learn and correct the error of an initial PINN solution, leading to higher final accuracy.
+- **Domain:** `PINN` `Iterative Refinement` `Multigrid` `High Precision`
+
+### 3.5 PINNs for Accelerated and Robust Training
 
 #### [A Dual-Dimer method for training physics-constrained neural networks with minimax architecture](https://doi.org/10.1016/j.neunet.2020.12.028)
 - **Date:** 2021.01
@@ -393,11 +404,6 @@
 - **Date:** 2021.11
 - **Description:** Proposes Gradient-enhanced PINNs (gPINNs), a method that improves the accuracy and efficiency of PINNs by adding the gradient of the PDE residual as an additional term in the loss function.
 - **Domain:** `PINN` `Gradient-enhanced` `Loss Function` `Training Optimization` `RAR`
-
-#### [A hybrid physics-informed neural network for nonlinear partial differential equation](https://arxiv.org/abs/2112.01696)
-- **Date:** 2021.12
-- **Description:** Proposes a hybrid PINN (hPINN) that uses a discontinuity indicator to switch between automatic differentiation for smooth regions and a classical WENO scheme to capture discontinuities, improving performance on PDEs with shock solutions.
-- **Domain:** `PINN` `Hybrid Method` `WENO` `Discontinuous Solutions` `Burgers Equation`
 
 #### [Is L2 Physics-Informed Loss Always Suitable for Training Physics-Informed Neural Network?](https://arxiv.org/abs/2206.02016)
 - **Date:** 2022.06
@@ -433,10 +439,7 @@
 
 #### (Para.5 Specific Architectural/Application Innovations)
 
-#### [A High-Efficient Hybrid Physics-Informed Neural Networks Based on Convolutional Neural Network](https://doi.org/10.1109/TNNLS.2021.3070878)
-- **Date:** 2021.04
-- **Description:** Proposes a hybrid PINN that replaces automatic differentiation with a discrete differential operator learned via a "local fitting method," providing the first theoretical convergence rate for a machine learning-based PDE solver.
-- **Domain:** `PINN` `Hybrid Method` `Numerical Stencil` `CNN` `Convergence Rate`
+
 
 #### [Accelerated Training of Physics-Informed Neural Networks (PINNS) using Meshless Discretizations](https://arxiv.org/abs/2205.09332)
 - **Date:** 2022.05
@@ -447,11 +450,6 @@
 - **Date:** 2022.05
 - **Description:** This paper introduces ModalPINN, a specialized PINN architecture designed for reconstructing periodic flows from sparse and noisy sensor data. Instead of learning the high-dimensional spatio-temporal field directly, ModalPINN enforces a strong inductive bias by assuming the solution can be represented by a truncated Fourier series. The neural network's task is reduced to learning the low-dimensional time-dependent coefficients of these Fourier modes. This modal decomposition significantly improves the model's robustness and accuracy in data-limited regimes, outperforming standard PINNs for periodic problems.
 - **Domain:** `PINN Architecture` `Flow Reconstruction` `Fourier Analysis` `Inductive Bias` `Scientific Machine Learning`
-
-#### [RPINNS: Rectified-physics informed neural networks for solving stationary partial differential equations](https://doi.org/10.1016/j.compfluid.2022.105583)
-- **Date:** 2022.06
-- **Description:** Proposes a Rectified-PINN (RPINN) which, inspired by multigrid methods, uses a second neural network to learn and correct the error of an initial PINN solution, leading to higher final accuracy.
-- **Domain:** `PINN` `Iterative Refinement` `Multigrid` `High Precision`
 
 #### [Novel Physics-Informed Artificial Neural Network Architectures for System and Input Identification of Structural Dynamics PDEs](https://www.mdpi.com/2075-5309/13/3/650)
 - **Date:** 2023.02
