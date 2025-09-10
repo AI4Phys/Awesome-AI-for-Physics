@@ -403,6 +403,11 @@
 - **Description:** 提出一种名为OPTMA的新型混合架构，其核心思想是训练一个神经网络来变换输入特征，使得一个简单的“部分物理模型”能够接收变换后的输入并做出与高精度模型相匹配的预测。
 - **Domain:** `Hybrid Modeling` `Transfer Learning` `Physics-Aware ML`
 
+#### [Transfer learning based multi-fidelity physics informed deep neural network](https://doi.org/10.1016/j.jcp.2020.109942)
+- **Date:** 2020.10
+- **Description:** 提出一种MF-PIDNN框架，首先利用PINN方法在无数据的情况下，仅通过近似的物理方程对网络进行预训练，然后利用迁移学习和极少量的高保真数据对模型进行微调。
+- **Domain:** `Multi-Fidelity` `PINN` `Transfer Learning` `Data-Efficient`
+
 #### [HyperPINN: Learning parameterized differential equations with physics-informed hypernetworks](https://openreview.net/pdf?id=LxUuRDUhRjM)
 - **Date:** 2021.10
 - **Description:** This paper introduces HyperPINN, a meta-learning framework that leverages hypernetworks to efficiently solve parameterized PDEs. Instead of training a new PINN for each parameter instance, HyperPINN trains a small "hypernetwork" that takes a physical parameter as input and outputs the weights for a smaller "main" PINN. This main network then solves the PDE for that specific parameter. This approach creates a single, compact model capable of instantly generating a specialized solver for any parameterization, offering a highly efficient and memory-saving alternative for multi-query and real-time applications.
