@@ -532,6 +532,21 @@
 - **Description:** Provides a comprehensive error analysis for PINNs approximating Kolmogorov PDEs, proving that the total error is bounded by the training error and that the required network size and sample complexity grow only polynomially with dimension.
 - **Domain:** `Error Analysis` `PINN Theory` `Kolmogorov PDEs` `Curse of Dimensionality`
 
+#### [Simultaneous Neural Network Approximations in Sobolev Spaces](https://arxiv.org/abs/2109.00161)
+- **Date:** 2021.09
+- **Description:** Provides the first rigorous, non-asymptotic error bounds for deep ReLU networks approximating a smooth function and its derivatives simultaneously in Sobolev norms, establishing a key theoretical foundation for why PINNs are feasible.
+- **Domain:** `Approximation Theory` `Neural Network Theory` `Sobolev Norms` `PINN Theory`
+
+#### [Characterizing possible failure modes in physics-informed neural networks](https://arxiv.org/abs/2109.01050)
+- **Date:** 2021.09
+- **Description:** Systematically identifies and characterizes key failure modes in PINN training, attributing them to "gradient pathologies" from imbalanced loss terms and "spectral bias" where networks fail to learn high-frequency components of the solution.
+- **Domain:** `PINN Theory` `Failure Modes` `Gradient Pathologies` `Spectral Bias`
+
+#### [Understanding and Mitigating Gradient Flow Pathologies in Physics-Informed Neural Networks](https://doi.org/10.1137/20M1318043)
+- **Date:** 2021.09
+- **Description:** Identifies gradient pathologies, caused by imbalanced back-propagated gradients from different loss terms, as a key failure mode in PINNs and proposes a learning rate annealing algorithm that uses gradient statistics to adaptively balance the training.
+- **Domain:** `PINN Theory` `Failure Modes` `Gradient Pathologies` `Loss Balancing` `Adaptive Training`
+
 ### 3.10 Alternative Physics-Inspired Paradigms
 
 #### [Physics-guided Neural Networks (PGNN): An Application in Lake Temperature Modeling](https://arxiv.org/pdf/1710.11431)
@@ -549,15 +564,35 @@
 - **Description:** A novel framework that embeds physical laws, in the form of Stochastic Differential Equations (SDEs), into the architecture of a Generative Adversarial Network (GAN). This Physics-Informed GAN (PI-GAN) uses generators to model unknown stochastic processes (e.g., solution, coefficients), with some generators being induced by the SDE to enforce physical consistency. It provides a unified method for solving forward, inverse, and mixed stochastic problems from sparse data, and is capable of handling high-dimensional stochasticity.
 - **Domain:** `Physics-Informed Machine Learning` `Generative Adversarial Networks` `Stochastic Differential Equations` `Inverse Problems` `Uncertainty Quantification`
 
+#### [Variational physics informed neural networks: The role of quadratures and test functions](https://doi.org/10.1093/imanum/drab032)
+- **Date:** 2021.06
+- **Description:** Provides a rigorous a priori error estimate for Variational PINNs (VPINNs) based on an inf-sup condition, revealing the counter-intuitive optimal strategy: using lowest-degree polynomial test functions with high-precision quadrature rules.
+- **Domain:** `Variational PINN` `Error Analysis` `PINN Theory` `Inf-Sup Condition` `Petrov-Galerkin`
+
 #### [SPINN: Sparse, Physics-based, and partially Interpretable Neural Networks for PDEs](https://doi.org/10.1016/j.jcp.2021.110600)
 - **Date:** 2021.07
 - **Description:** This paper introduces Sparse, Physics-based, and partially Interpretable Neural Networks (SPINN) as a bridge between traditional meshless numerical methods and dense PINNs. Instead of a standard MLP, SPINN employs a sparse, shallow network where each hidden neuron's activation function is a learnable basis function (e.g., a radial basis function) inspired by classical function approximation theory. The network is trained using a physics-informed loss. This architecture is inherently sparse and offers partial interpretability, as the learned basis functions and their weights directly correspond to a classical solution expansion.
 - **Domain:** `PINN Architecture` `Interpretability` `Sparse Neural Networks` `Meshfree Methods` `Scientific Machine Learning`
 
+#### [Error Analysis of Deep Ritz Methods for Elliptic Equations](https://arxiv.org/abs/2107.14478)
+- **Date:** 2021.07
+- **Description:** Provides the first rigorous, nonasymptotic convergence rate in the H1 norm for the Deep Ritz Method, establishing how network depth and width should be set relative to the number of training samples to achieve a desired accuracy.
+- **Domain:** `Deep Ritz Method` `Error Analysis` `Convergence Rate` `Machine Learning Theory`
+
 #### [Theory-guided hard constraint projection (HCP): A knowledge-based data-driven scientific machine learning method](https://doi.org/10.1016/j.jcp.2021.110624)
 - **Date:** 2021.08
 - **Description:** This paper introduces the Theory-guided Hard Constraint Projection (HCP) framework, an alternative to the "soft constraint" approach of PINNs. HCP decouples data-driven learning from physics enforcement. First, a standard machine learning model makes a preliminary prediction based on data. Then, this prediction is "projected" onto a manifold representing the feasible solution space defined by physical laws. This two-step process mathematically guarantees that the final output strictly satisfies the imposed physical constraints, addressing a key limitation of soft-constraint methods and enhancing the scientific fidelity of the predictions.
 - **Domain:** `Physics-Inspired AI` `Hard Constraints` `Constrained Optimization` `Scientific Machine Learning` `Hybrid Modeling`
+
+#### [Learning Partial Differential Equations in Reproducing Kernel Hilbert Spaces](https://arxiv.org/abs/2108.11580)
+- **Date:** 2021.08
+- **Description:** Proposes a data-driven method to learn the Green's functions of linear PDEs by framing the problem as functional linear regression in a Reproducing Kernel Hilbert Space (RKHS).
+- **Domain:** `Operator Learning` `Reproducing Kernel Hilbert Space` `Green's Function` `Data-Driven Solver`
+
+#### [A rate of convergence of physics informed neural networks for the linear second order elliptic PDEs](https://arxiv.org/abs/2109.01780)
+- **Date:** 2021.09
+- **Description:** Provides a rigorous convergence rate analysis for PINNs solving second-order elliptic PDEs, establishing upper bounds on the required training samples, network depth, and width to achieve a desired accuracy by analyzing approximation and statistical errors.
+- **Domain:** `PINN Theory` `Convergence Rate` `Error Analysis` `Rademacher Complexity`
 
 #### [Physics-Augmented Learning: A New Paradigm Beyond Physics-Informed Learning](https://arxiv.org/pdf/2109.13901)
 - **Date:** 2021.09
