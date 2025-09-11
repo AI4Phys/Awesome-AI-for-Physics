@@ -99,6 +99,7 @@
     - [GPT-PINN: Generative Pre-Trained Physics-Informed Neural Networks toward non-intrusive Meta-learning of parametric PDEs](#gpt-pinn-generative-pre-trained-physics-informed-neural-networks-toward-non-intrusive-meta-learning-of-parametric-pdes)
   - [3.8 Probabilistic PINNs and Uncertainty Quantification](#38-probabilistic-pinns-and-uncertainty-quantification)
     - [A physics-aware, probabilistic machine learning framework for coarse-graining high-dimensional systems in the Small Data regime](#a-physics-aware-probabilistic-machine-learning-framework-for-coarse-graining-high-dimensional-systems-in-the-small-data-regime)
+    - [Adversarial uncertainty quantification in physics-informed neural networks](#adversarial-uncertainty-quantification-in-physics-informed-neural-networks)
   - [3.9 Theoretical Foundations, Convergence, and Failure Mode Analysis of PINNs](#39-theoretical-foundations-convergence-and-failure-mode-analysis-of-pinns)
     - [Estimates on the generalization error of physics-informed neural networks for approximating a class of inverse problems for PDES](#estimates-on-the-generalization-error-of-physics-informed-neural-networks-for-approximating-a-class-of-inverse-problems-for-pdes)
     - [Error analysis for physics informed neural networks (PINNs) approximating Kolmogorov PDEs](#error-analysis-for-physics-informed-neural-networks-pinns-approximating-kolmogorov-pdes)
