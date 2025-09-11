@@ -825,6 +825,11 @@
 - **Description:** Applies PINNs to the Buckley-Leverett problem for two-phase flow in porous media, demonstrating superior extrapolation capabilities over standard ANNs and the ability to solve inverse problems for multiphase flow parameters.
 - **Domain:** `PINN` `Porous Media Flow` `Reservoir Engineering` `Buckley-Leverett` `Inverse Problem`
 
+#### [Inverse modeling of nonisothermal multiphase poromechanics using physics-informed neural networks](https://arxiv.org/abs/2209.03276)
+- **Date:** 2022.09
+- **Description:** Proposes a sequential PINN solver for complex thermo-hydro-mechanical (THM) inverse problems in porous media by decoupling the multiphysics system and training separate networks in sequence.
+- **Domain:** `PINN` `Poromechanics` `Geosciences` `Inverse Problem` `Multiphysics`
+
 #### F.1.4 Solid Mechanics & Materials Science
 
 #### [Theory-training deep neural networks for an alloy solidification benchmark problem](https://arxiv.org/abs/1912.09800)
@@ -852,12 +857,22 @@
 - **Description:** Proposes a novel mixed formulation for PINNs, inspired by FEM, that uses separate networks for the primary variable and its spatial gradient and combines energy-based and strong-form losses to accurately solve problems in heterogeneous solids while avoiding high-order derivatives.
 - **Domain:** `PINN` `Mixed Formulation` `Finite Element Method` `Solid Mechanics` `Heterogeneous Materials`
 
+#### [A physically consistent framework for fatigue life prediction using probabilistic physics-informed neural network](https://doi.org/10.1016/j.ijfatigue.2022.107234)
+- **Date:** 2022.09
+- **Description:** Proposes a probabilistic PINN for fatigue life prediction that ensures physical consistency by encoding fatigue principles (e.g., S-N curve monotonicity and heteroscedasticity) as first and second-order derivative constraints in the loss function.
+- **Domain:** `PINN` `Solid Mechanics` `Fatigue Life Prediction` `Probabilistic Modeling` `Uncertainty Quantification`
+
 #### F.1.5 Energy Systems & Thermodynamics
 
 #### [Physics-Informed Neural Networks for AC Optimal Power Flow](https://doi.org/10.1016/j.epsr.2022.108412)
 - **Date:** 2022.07
 - **Description:** First applies PINNs to the AC-OPF problem by incorporating KKT optimality conditions into the loss function, and introduces formal verification methods to provide rigorous worst-case guarantees on constraint violations.
 - **Domain:** `PINN` `Power Systems` `Optimal Power Flow` `Worst-case Guarantees` `Energy Systems`
+
+#### [A Physics-Informed Machine Learning Approach for Estimating Lithium-Ion Battery Temperature](https://doi.org/10.1109/ACCESS.2022.3199652)
+- **Date:** 2022.08
+- **Description:** Applies a PINN with a novel architecture and adaptive loss to predict lithium-ion battery temperature using a lumped thermal model and sparse data.
+- **Domain:** `PINN` `Energy Systems` `Battery Management` `Thermodynamics` `Data-driven Modeling`
 
 ##### [PE-GPT: A Physics-Informed Interactive Large Language Model for Power Converter Modulation Design](https://arxiv.org/pdf/2403.14059)
 - **Date:** 2024.03
