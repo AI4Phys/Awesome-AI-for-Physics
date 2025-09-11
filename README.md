@@ -64,6 +64,7 @@
     - [A High-Efficient Hybrid Physics-Informed Neural Networks Based on Convolutional Neural Network](#a-high-efficient-hybrid-physics-informed-neural-networks-based-on-convolutional-neural-network)
     - [A hybrid physics-informed neural network for nonlinear partial differential equation](#a-hybrid-physics-informed-neural-network-for-nonlinear-partial-differential-equation)
     - [RPINNS: Rectified-physics informed neural networks for solving stationary partial differential equations](#rpinns-rectified-physics-informed-neural-networks-for-solving-stationary-partial-differential-equations)
+    - [Investigating and Mitigating Failure Modes in Physics-informed Neural Networks (PINNs)](#investigating-and-mitigating-failure-modes-in-physics-informed-neural-networks-pinns)
   - [3.5 PINNs for Accelerated and Robust Training](#35-pinns-for-accelerated-and-robust-training)
     - [(Robustness to Data Imperfections)](#robustness-to-data-imperfections)
     - [Delta-PINNs: A new class of physics-informed neural networks for solving forward and inverse problems with noisy data](#delta-pinns-a-new-class-of-physics-informed-neural-networks-for-solving-forward-and-inverse-problems-with-noisy-data)
