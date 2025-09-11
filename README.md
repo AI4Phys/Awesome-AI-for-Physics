@@ -541,6 +541,11 @@
 
 ### 3.8 Probabilistic PINNs and Uncertainty Quantification
 
+#### [A physics-aware, probabilistic machine learning framework for coarse-graining high-dimensional systems in the Small Data regime](https://doi.org/10.1016/j.jcp.2019.05.053)
+- **Date:** 2019.07
+- **Description:** Proposes a physics-aware Bayesian framework using variational inference to construct coarse-grained models from sparse, high-dimensional data, enabling robust uncertainty quantification in the small data regime.
+- **Domain:** `Probabilistic Modeling` `Uncertainty Quantification` `Bayesian Inference` `Coarse-Graining` `Small Data`
+
 ### 3.9 Theoretical Foundations, Convergence, and Failure Mode Analysis of PINNs
 
 #### [Estimates on the generalization error of physics-informed neural networks for approximating a class of inverse problems for PDES](https://doi.org/10.1093/imanum/drab032)
