@@ -808,71 +808,71 @@
 
 #### F.1.3 Fluid Mechanics & Geosciences
 
-#### [Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data](https://doi.org/10.1016/j.cma.2019.112732)
+##### [Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data](https://doi.org/10.1016/j.cma.2019.112732)
 - **Date:** 2019.11
 - **Description:** Develops a physics-constrained DNN surrogate for parametric fluid flows that requires no simulation data for training, using the Navier-Stokes equations as the sole source of supervision and a novel architecture for hard boundary condition enforcement.
 - **Domain:** `PINN` `Fluid Dynamics` `Surrogate Modeling` `Data-Free Learning` `Uncertainty Quantification`
 
-#### [Physics-informed neural networks for high-speed flows](https://doi.org/10.1016/j.cma.2019.112789)
+##### [Physics-informed neural networks for high-speed flows](https://doi.org/10.1016/j.cma.2019.112789)
 - **Date:** 2019.12
 - **Description:** Applies PINNs to solve forward and inverse problems for the Euler equations in high-speed flows, demonstrating the ability to capture shocks and infer full flow fields from sparse, experimentally-inspired data like density gradients.
 - **Domain:** `PINN` `Fluid Dynamics` `Euler Equations` `Shock Capturing` `Inverse Problem`
 
-#### [NSFnets (Navier-Stokes flow nets): Physics-informed neural networks for the incompressible Navier-Stokes equations](https://doi.org/10.1016/j.jcp.2020.109951)
+##### [NSFnets (Navier-Stokes flow nets): Physics-informed neural networks for the incompressible Navier-Stokes equations](https://doi.org/10.1016/j.jcp.2020.109951)
 - **Date:** 2020.11
 - **Description:** Systematically investigates PINNs for solving the incompressible Navier-Stokes equations by comparing velocity-pressure (VP) and vorticity-velocity (VV) formulations, and presents a pioneering attempt at direct turbulence simulation.
 - **Domain:** `PINN` `Fluid Dynamics` `Navier-Stokes` `Turbulence` `Inverse Problem`
 
-#### [Prediction of porous media fluid flow using physics informed neural networks](https://doi.org/10.1016/j.petrol.2021.109205)
+##### [Prediction of porous media fluid flow using physics informed neural networks](https://doi.org/10.1016/j.petrol.2021.109205)
 - **Date:** 2021.07
 - **Description:** Applies PINNs to the Buckley-Leverett problem for two-phase flow in porous media, demonstrating superior extrapolation capabilities over standard ANNs and the ability to solve inverse problems for multiphase flow parameters.
 - **Domain:** `PINN` `Porous Media Flow` `Reservoir Engineering` `Buckley-Leverett` `Inverse Problem`
 
-#### [Inverse modeling of nonisothermal multiphase poromechanics using physics-informed neural networks](https://arxiv.org/abs/2209.03276)
+##### [Inverse modeling of nonisothermal multiphase poromechanics using physics-informed neural networks](https://arxiv.org/abs/2209.03276)
 - **Date:** 2022.09
 - **Description:** Proposes a sequential PINN solver for complex thermo-hydro-mechanical (THM) inverse problems in porous media by decoupling the multiphysics system and training separate networks in sequence.
 - **Domain:** `PINN` `Poromechanics` `Geosciences` `Inverse Problem` `Multiphysics`
 
 #### F.1.4 Solid Mechanics & Materials Science
 
-#### [Theory-training deep neural networks for an alloy solidification benchmark problem](https://arxiv.org/abs/1912.09800)
+##### [Theory-training deep neural networks for an alloy solidification benchmark problem](https://arxiv.org/abs/1912.09800)
 - **Date:** 2019.12
 - **Description:** Presents the first application of PINNs to alloy solidification, demonstrating the ability to solve coupled phase-change equations and learn implicit variables like solid fraction without any simulation data.
 - **Domain:** `PINN` `Materials Science` `Solidification` `Phase Change` `Thermodynamics`
 
-#### [A Physics Informed Neural Network Approach to Solution and Identification of Biharmonic Equations of Elasticity](https://arxiv.org/abs/2108.07243)
+##### [A Physics Informed Neural Network Approach to Solution and Identification of Biharmonic Equations of Elasticity](https://arxiv.org/abs/2108.07243)
 - **Date:** 2021.08
 - **Description:** First applies PINNs to solve fourth-order biharmonic equations in elasticity by constructing a novel "Airy-Network" whose architecture is directly guided by classical analytical solutions (e.g., Airy stress functions), leading to superior accuracy and efficiency over standard PINNs.
 - **Domain:** `PINN` `Solid Mechanics` `Elasticity Theory` `Biharmonic Equation` `Feature Engineering`
 
-#### [Physics-informed neural networks for the shallow-water equations on the sphere](https://doi.org/10.1016/j.jcp.2022.111024)
+##### [Physics-informed neural networks for the shallow-water equations on the sphere](https://doi.org/10.1016/j.jcp.2022.111024)
 - **Date:** 2022.02
 - **Description:** Solves the shallow-water equations on a sphere using a novel multi-model approach, where the time domain is decomposed and a sequence of PINNs are trained to handle long integration intervals, a key challenge for standard PINNs.
 - **Domain:** `PINN` `Geophysical Fluid Dynamics` `Shallow-Water Equations` `Domain Decomposition` `Meteorology`
 
-#### [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](https://doi.org/10.1016/j.cma.2022.115616)
+##### [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](https://doi.org/10.1016/j.cma.2022.115616)
 - **Date:** 2022.09
 - **Description:** Proposes a novel mixed formulation for PINNs, inspired by FEM, that uses separate networks for the primary variable and its spatial gradient and combines energy-based and strong-form losses to accurately solve problems in heterogeneous solids while avoiding high-order derivatives.
 - **Domain:** `PINN` `Mixed Formulation` `Finite Element Method` `Solid Mechanics` `Heterogeneous Materials`
 
-#### [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](https://doi.org/10.1016/j.cma.2022.115616)
+##### [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](https://doi.org/10.1016/j.cma.2022.115616)
 - **Date:** 2022.09
 - **Description:** Proposes a novel mixed formulation for PINNs, inspired by FEM, that uses separate networks for the primary variable and its spatial gradient and combines energy-based and strong-form losses to accurately solve problems in heterogeneous solids while avoiding high-order derivatives.
 - **Domain:** `PINN` `Mixed Formulation` `Finite Element Method` `Solid Mechanics` `Heterogeneous Materials`
 
-#### [A physically consistent framework for fatigue life prediction using probabilistic physics-informed neural network](https://doi.org/10.1016/j.ijfatigue.2022.107234)
+##### [A physically consistent framework for fatigue life prediction using probabilistic physics-informed neural network](https://doi.org/10.1016/j.ijfatigue.2022.107234)
 - **Date:** 2022.09
 - **Description:** Proposes a probabilistic PINN for fatigue life prediction that ensures physical consistency by encoding fatigue principles (e.g., S-N curve monotonicity and heteroscedasticity) as first and second-order derivative constraints in the loss function.
 - **Domain:** `PINN` `Solid Mechanics` `Fatigue Life Prediction` `Probabilistic Modeling` `Uncertainty Quantification`
 
 #### F.1.5 Energy Systems & Thermodynamics
 
-#### [Physics-Informed Neural Networks for AC Optimal Power Flow](https://doi.org/10.1016/j.epsr.2022.108412)
+##### [Physics-Informed Neural Networks for AC Optimal Power Flow](https://doi.org/10.1016/j.epsr.2022.108412)
 - **Date:** 2022.07
 - **Description:** First applies PINNs to the AC-OPF problem by incorporating KKT optimality conditions into the loss function, and introduces formal verification methods to provide rigorous worst-case guarantees on constraint violations.
 - **Domain:** `PINN` `Power Systems` `Optimal Power Flow` `Worst-case Guarantees` `Energy Systems`
 
-#### [A Physics-Informed Machine Learning Approach for Estimating Lithium-Ion Battery Temperature](https://doi.org/10.1109/ACCESS.2022.3199652)
+##### [A Physics-Informed Machine Learning Approach for Estimating Lithium-Ion Battery Temperature](https://doi.org/10.1109/ACCESS.2022.3199652)
 - **Date:** 2022.08
 - **Description:** Applies a PINN with a novel architecture and adaptive loss to predict lithium-ion battery temperature using a lumped thermal model and sparse data.
 - **Domain:** `PINN` `Energy Systems` `Battery Management` `Thermodynamics` `Data-driven Modeling`
@@ -884,27 +884,27 @@
 
 #### F.1.6 Interdisciplinary & Complex Systems
 
-#### [PHYSICS-INFORMED NEURAL NETWORK FOR NONLINEAR DYNAMICS IN FIBER OPTICS](https://arxiv.org/abs/2109.00526)
+##### [PHYSICS-INFORMED NEURAL NETWORK FOR NONLINEAR DYNAMICS IN FIBER OPTICS](https://arxiv.org/abs/2109.00526)
 - **Date:** 2021.09
 - **Description:** Develops a generalizable PINN for the Nonlinear Schrödinger Equation by embedding physical parameters (e.g., pulse power) as inputs, enabling a single model to solve multiple fiber optic dynamics scenarios.
 - **Domain:** `PINN` `Nonlinear Optics` `Fiber Optics` `NLSE` `Generalizability`
 
-#### [Investigating a New Approach to Quasinormal Modes: Physics-Informed Neural Networks](https://arxiv.org/abs/2108.05867)
+##### [Investigating a New Approach to Quasinormal Modes: Physics-Informed Neural Networks](https://arxiv.org/abs/2108.05867)
 - **Date:** 2021.08
 - **Description:** Pioneers the use of PINNs for calculating black hole quasinormal modes by framing the problem of finding the unknown quasinormal frequency as an inverse parameter identification problem within the perturbation equation.
 - **Domain:** `PINN` `Black Hole Physics` `General Relativity` `Quasinormal Modes` `Inverse Problem`
 
-#### [Towards neural Earth system modelling by integrating artificial intelligence in Earth system science](https://doi.org/10.1038/s42256-021-00374-3)
+##### [Towards neural Earth system modelling by integrating artificial intelligence in Earth system science](https://doi.org/10.1038/s42256-021-00374-3)
 - **Date:** 2021.08
 - **Description:** Proposes the concept of 'neural Earth system modelling' (NESYM), a methodological vision for deeply integrating AI and Earth System Models (ESMs) into learning, self-validating, and interpretable hybrids to tackle grand challenges in climate science.
 - **Domain:** `Earth System Science` `Climate Modeling` `AI for Science` `Hybrid Modeling` `Review`
 
-#### [Explicit physics-informed neural networks for nonlinear closure: The case of transport in tissues](https://doi.org/10.1016/j.jcp.2021.110781)
+##### [Explicit physics-informed neural networks for nonlinear closure: The case of transport in tissues](https://doi.org/10.1016/j.jcp.2021.110781)
 - **Date:** 2021.10
 - **Description:** Proposes a novel 'explicit' PINN approach for upscaling, where a neural network learns the nonlinear closure term (effectiveness factor) by explicitly using macroscale variables (concentration and its gradient) as input features, demonstrating excellent generalizability for transport in complex biological tissues.
 - **Domain:** `PINN` `Multiscale Modeling` `Upscaling` `Nonlinear Closure` `Biophysics`
 
-#### [Physically guided deep learning solver for time-dependent Fokker-Planck equation](https://doi.org/10.1016/j.ijnonlinmec.2022.104202)
+##### [Physically guided deep learning solver for time-dependent Fokker-Planck equation](https://doi.org/10.1016/j.ijnonlinmec.2022.104202)
 - **Date:** 2022.08
 - **Description:** Proposes a PINN-based solver for the Fokker-Planck equation, uniquely using dropout during inference to assess model robustness and demonstrating that sparse observation data can effectively substitute for missing boundary conditions.
 - **Domain:** `PINN` `Fokker-Planck Equation` `Stochastic Dynamics` `Robustness`
