@@ -103,6 +103,7 @@
     - [Simultaneous Neural Network Approximations in Sobolev Spaces](#simultaneous-neural-network-approximations-in-sobolev-spaces)
     - [Characterizing possible failure modes in physics-informed neural networks](#characterizing-possible-failure-modes-in-physics-informed-neural-networks)
     - [Understanding and Mitigating Gradient Flow Pathologies in Physics-Informed Neural Networks](#understanding-and-mitigating-gradient-flow-pathologies-in-physics-informed-neural-networks)
+    - [Estimates on the generalization error of physics-informed neural networks for approximating PDEs](#estimates-on-the-generalization-error-of-physics-informed-neural-networks-for-approximating-pdes)
   - [3.10 Alternative Physics-Inspired Paradigms](#310-alternative-physics-inspired-paradigms)
     - [Physics-guided Neural Networks (PGNN): An Application in Lake Temperature Modeling](#physics-guided-neural-networks-pgnn-an-application-in-lake-temperature-modeling)
     - [DGM: A deep learning algorithm for solving partial differential equations](#dgm-a-deep-learning-algorithm-for-solving-partial-differential-equations)
