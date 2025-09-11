@@ -45,6 +45,7 @@
     - [Physics-informed machine learning](#physics-informed-machine-learning)
     - [Hybrid physics-based and data-driven models for smart manufacturing: Modelling, simulation, and explainability](#hybrid-physics-based-and-data-driven-models-for-smart-manufacturing-modelling-simulation-and-explainability)
     - [Physics-Informed Neural Networks: A Review of Methodological Evolution, Theoretical Foundations, and Interdisciplinary Frontiers Toward Next-Generation Scientific Computing](#physics-informed-neural-networks-a-review-of-methodological-evolution-theoretical-foundations-and-interdisciplinary-frontiers-toward-next-generation-scientific-computing)
+    - [Training of physical neural networks](#training-of-physical-neural-networks)
   - [3.2 Foundations: The Original PINN Framework](#32-foundations-the-original-pinn-framework)
     - [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](#physics-informed-deep-learning-part-i-data-driven-solutions-of-nonlinear-partial-differential-equations)
     - [Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations](#physics-informed-deep-learning-part-ii-data-driven-discovery-of-nonlinear-partial-differential-equations)
