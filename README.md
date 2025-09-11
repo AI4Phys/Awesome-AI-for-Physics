@@ -379,7 +379,7 @@
 - **Description:** A seminal framework that introduces Physics-Informed Neural Networks (PINNs), which embed physical laws described by general nonlinear PDEs directly into the neural network's loss function. This acts as a regularization agent, enabling the solution of both forward (data-driven solution) and inverse (data-driven discovery) problems from sparse and noisy data.
 - **Domain:** `PINN` `Deep Learning` `Partial Differential Equations` `Inverse Problems` `Data-driven Scientific Computing`
 
-#### 3.3 PINNs for Large-Scale Problems: Parallelism and Domain Decomposition
+#### C.3.3 PINNs for Large-Scale Problems: Parallelism and Domain Decomposition
 
 ##### [PPINN: Parareal physics-informed neural network for time-dependent PDEs](https://doi.org/10.1016/j.cma.2020.113250)
 - **Date:** 2020.07
