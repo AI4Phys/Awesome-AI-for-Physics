@@ -820,12 +820,37 @@
 
 #### F.1.4 Solid Mechanics & Materials Science
 
+#### [Theory-training deep neural networks for an alloy solidification benchmark problem](https://arxiv.org/abs/1912.09800)
+- **Date:** 2019.12
+- **Description:** Presents the first application of PINNs to alloy solidification, demonstrating the ability to solve coupled phase-change equations and learn implicit variables like solid fraction without any simulation data.
+- **Domain:** `PINN` `Materials Science` `Solidification` `Phase Change` `Thermodynamics`
+
 #### [A Physics Informed Neural Network Approach to Solution and Identification of Biharmonic Equations of Elasticity](https://arxiv.org/abs/2108.07243)
 - **Date:** 2021.08
 - **Description:** First applies PINNs to solve fourth-order biharmonic equations in elasticity by constructing a novel "Airy-Network" whose architecture is directly guided by classical analytical solutions (e.g., Airy stress functions), leading to superior accuracy and efficiency over standard PINNs.
 - **Domain:** `PINN` `Solid Mechanics` `Elasticity Theory` `Biharmonic Equation` `Feature Engineering`
 
+#### [Physics-informed neural networks for the shallow-water equations on the sphere](https://doi.org/10.1016/j.jcp.2022.111024)
+- **Date:** 2022.02
+- **Description:** Solves the shallow-water equations on a sphere using a novel multi-model approach, where the time domain is decomposed and a sequence of PINNs are trained to handle long integration intervals, a key challenge for standard PINNs.
+- **Domain:** `PINN` `Geophysical Fluid Dynamics` `Shallow-Water Equations` `Domain Decomposition` `Meteorology`
+
+#### [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](https://doi.org/10.1016/j.cma.2022.115616)
+- **Date:** 2022.09
+- **Description:** Proposes a novel mixed formulation for PINNs, inspired by FEM, that uses separate networks for the primary variable and its spatial gradient and combines energy-based and strong-form losses to accurately solve problems in heterogeneous solids while avoiding high-order derivatives.
+- **Domain:** `PINN` `Mixed Formulation` `Finite Element Method` `Solid Mechanics` `Heterogeneous Materials`
+
+#### [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](https://doi.org/10.1016/j.cma.2022.115616)
+- **Date:** 2022.09
+- **Description:** Proposes a novel mixed formulation for PINNs, inspired by FEM, that uses separate networks for the primary variable and its spatial gradient and combines energy-based and strong-form losses to accurately solve problems in heterogeneous solids while avoiding high-order derivatives.
+- **Domain:** `PINN` `Mixed Formulation` `Finite Element Method` `Solid Mechanics` `Heterogeneous Materials`
+
 #### F.1.5 Energy Systems & Thermodynamics
+
+#### [Physics-Informed Neural Networks for AC Optimal Power Flow](https://doi.org/10.1016/j.epsr.2022.108412)
+- **Date:** 2022.07
+- **Description:** First applies PINNs to the AC-OPF problem by incorporating KKT optimality conditions into the loss function, and introduces formal verification methods to provide rigorous worst-case guarantees on constraint violations.
+- **Domain:** `PINN` `Power Systems` `Optimal Power Flow` `Worst-case Guarantees` `Energy Systems`
 
 ##### [PE-GPT: A Physics-Informed Interactive Large Language Model for Power Converter Modulation Design](https://arxiv.org/pdf/2403.14059)
 - **Date:** 2024.03
@@ -848,6 +873,16 @@
 - **Date:** 2021.08
 - **Description:** Proposes the concept of 'neural Earth system modelling' (NESYM), a methodological vision for deeply integrating AI and Earth System Models (ESMs) into learning, self-validating, and interpretable hybrids to tackle grand challenges in climate science.
 - **Domain:** `Earth System Science` `Climate Modeling` `AI for Science` `Hybrid Modeling` `Review`
+
+#### [Explicit physics-informed neural networks for nonlinear closure: The case of transport in tissues](https://doi.org/10.1016/j.jcp.2021.110781)
+- **Date:** 2021.10
+- **Description:** Proposes a novel 'explicit' PINN approach for upscaling, where a neural network learns the nonlinear closure term (effectiveness factor) by explicitly using macroscale variables (concentration and its gradient) as input features, demonstrating excellent generalizability for transport in complex biological tissues.
+- **Domain:** `PINN` `Multiscale Modeling` `Upscaling` `Nonlinear Closure` `Biophysics`
+
+#### [Physically guided deep learning solver for time-dependent Fokker-Planck equation](https://doi.org/10.1016/j.ijnonlinmec.2022.104202)
+- **Date:** 2022.08
+- **Description:** Proposes a PINN-based solver for the Fokker-Planck equation, uniquely using dropout during inference to assess model robustness and demonstrating that sparse observation data can effectively substitute for missing boundary conditions.
+- **Domain:** `PINN` `Fokker-Planck Equation` `Stochastic Dynamics` `Robustness`
 
 ##### [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939)
 - **Date:** 2025.07
