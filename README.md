@@ -106,6 +106,7 @@
     - [Physics-guided Neural Networks (PGNN): An Application in Lake Temperature Modeling](#physics-guided-neural-networks-pgnn-an-application-in-lake-temperature-modeling)
     - [DGM: A deep learning algorithm for solving partial differential equations](#dgm-a-deep-learning-algorithm-for-solving-partial-differential-equations)
     - [Physics-Informed Generative Adversarial Networks for Stochastic Differential Equations](#physics-informed-generative-adversarial-networks-for-stochastic-differential-equations)
+    - [Convergence Rate of DeepONets for Learning Operators Arising from Advection-Diffusion Equations](#convergence-rate-of-deeponets-for-learning-operators-arising-from-advection-diffusion-equations)
     - [Variational physics informed neural networks: The role of quadratures and test functions](#variational-physics-informed-neural-networks-the-role-of-quadratures-and-test-functions)
     - [SPINN: Sparse, Physics-based, and partially Interpretable Neural Networks for PDEs](#spinn-sparse-physics-based-and-partially-interpretable-neural-networks-for-pdes)
     - [Error Analysis of Deep Ritz Methods for Elliptic Equations](#error-analysis-of-deep-ritz-methods-for-elliptic-equations)
