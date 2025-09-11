@@ -478,6 +478,11 @@
 - **Description:** Proposes a novel minimax architecture (PCNN-MM) that formulates PINN training as a saddle-point problem to systematically adjust loss weights, and introduces an efficient "Dual-Dimer" algorithm to solve it.
 - **Domain:** `PINN` `Loss Balancing` `Minimax Optimization` `Saddle Point Search` `Training Optimization`
 
+#### [On Theory-training Neural Networks to Infer the Solution of Highly Coupled Differential Equations](https://arxiv.org/abs/2102.04890)
+- **Date:** 2021.02
+- **Description:** Proposes a Partial Regularization Technique (PRT) to eliminate training oscillations and provides systematic guidelines for finding optimal network architectures, significantly improving the accuracy and robustness of PINNs for highly coupled systems.
+- **Domain:** `PINN` `Training Strategy` `Robustness` `Network Architecture` `Regularization`
+
 ##### [Self-adaptive loss balanced Physics-informed neural networks for the incompressible Navier-Stokes equations](https://doi.org/10.1007/s10409-021-01053-7)
 - **Date:** 2021.04
 - **Description:** Proposes a self-adaptive method (lbPINNs) that automatically balances multiple loss components in PINNs by modeling each term's contribution through a learnable uncertainty parameter, significantly improving accuracy for complex fluid dynamics.
@@ -802,7 +807,17 @@
 - **Description:** Systematically investigates PINNs for solving the incompressible Navier-Stokes equations by comparing velocity-pressure (VP) and vorticity-velocity (VV) formulations, and presents a pioneering attempt at direct turbulence simulation.
 - **Domain:** `PINN` `Fluid Dynamics` `Navier-Stokes` `Turbulence` `Inverse Problem`
 
+#### [Prediction of porous media fluid flow using physics informed neural networks](https://doi.org/10.1016/j.petrol.2021.109205)
+- **Date:** 2021.07
+- **Description:** Applies PINNs to the Buckley-Leverett problem for two-phase flow in porous media, demonstrating superior extrapolation capabilities over standard ANNs and the ability to solve inverse problems for multiphase flow parameters.
+- **Domain:** `PINN` `Porous Media Flow` `Reservoir Engineering` `Buckley-Leverett` `Inverse Problem`
+
 #### F.1.4 Solid Mechanics & Materials Science
+
+#### [A Physics Informed Neural Network Approach to Solution and Identification of Biharmonic Equations of Elasticity](https://arxiv.org/abs/2108.07243)
+- **Date:** 2021.08
+- **Description:** First applies PINNs to solve fourth-order biharmonic equations in elasticity by constructing a novel "Airy-Network" whose architecture is directly guided by classical analytical solutions (e.g., Airy stress functions), leading to superior accuracy and efficiency over standard PINNs.
+- **Domain:** `PINN` `Solid Mechanics` `Elasticity Theory` `Biharmonic Equation` `Feature Engineering`
 
 #### F.1.5 Energy Systems & Thermodynamics
 
@@ -812,6 +827,21 @@
 - **Domain:** `Large Language Models` `Physics-Informed Neural Networks` `Human-AI Interaction` `Engineering Design` `Power Electronics`
 
 #### F.1.6 Interdisciplinary & Complex Systems
+
+#### [PHYSICS-INFORMED NEURAL NETWORK FOR NONLINEAR DYNAMICS IN FIBER OPTICS](https://arxiv.org/abs/2109.00526)
+- **Date:** 2021.09
+- **Description:** Develops a generalizable PINN for the Nonlinear Schrödinger Equation by embedding physical parameters (e.g., pulse power) as inputs, enabling a single model to solve multiple fiber optic dynamics scenarios.
+- **Domain:** `PINN` `Nonlinear Optics` `Fiber Optics` `NLSE` `Generalizability`
+
+#### [Investigating a New Approach to Quasinormal Modes: Physics-Informed Neural Networks](https://arxiv.org/abs/2108.05867)
+- **Date:** 2021.08
+- **Description:** Pioneers the use of PINNs for calculating black hole quasinormal modes by framing the problem of finding the unknown quasinormal frequency as an inverse parameter identification problem within the perturbation equation.
+- **Domain:** `PINN` `Black Hole Physics` `General Relativity` `Quasinormal Modes` `Inverse Problem`
+
+#### [Towards neural Earth system modelling by integrating artificial intelligence in Earth system science](https://doi.org/10.1038/s42256-021-00374-3)
+- **Date:** 2021.08
+- **Description:** Proposes the concept of 'neural Earth system modelling' (NESYM), a methodological vision for deeply integrating AI and Earth System Models (ESMs) into learning, self-validating, and interpretable hybrids to tackle grand challenges in climate science.
+- **Domain:** `Earth System Science` `Climate Modeling` `AI for Science` `Hybrid Modeling` `Review`
 
 ##### [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939)
 - **Date:** 2025.07
