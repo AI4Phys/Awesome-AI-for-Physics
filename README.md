@@ -58,7 +58,7 @@
       - [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](#physics-informed-deep-learning-part-i-data-driven-solutions-of-nonlinear-partial-differential-equations)
       - [Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations](#physics-informed-deep-learning-part-ii-data-driven-discovery-of-nonlinear-partial-differential-equations)
       - [Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](#physics-informed-neural-networks-a-deep-learning-framework-for-solving-forward-and-inverse-problems-involving-nonlinear-partial-differential-equations)
-    - [3.3 PINNs for Large-Scale Problems: Parallelism and Domain Decomposition](#33-pinns-for-large-scale-problems-parallelism-and-domain-decomposition)
+    - [C.3.3 PINNs for Large-Scale Problems: Parallelism and Domain Decomposition](#c33-pinns-for-large-scale-problems-parallelism-and-domain-decomposition)
       - [PPINN: Parareal physics-informed neural network for time-dependent PDEs](#ppinn-parareal-physics-informed-neural-network-for-time-dependent-pdes)
       - [Finite Basis Physics-Informed Neural Networks (FBPINNs): A scalable domain decomposition approach for solving differential equations](#finite-basis-physics-informed-neural-networks-fbpinns-a-scalable-domain-decomposition-approach-for-solving-differential-equations)
       - [When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?](#when-do-extended-physics-informed-neural-networks-xpinns-improve-generalization)
