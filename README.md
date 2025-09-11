@@ -306,6 +306,11 @@
 - **Description:** A comprehensive and up-to-date review of the Physics-Informed Neural Network (PINN) landscape. The paper systematically categorizes the field's progress into three main axes: methodological evolution (innovations in loss functions, architectures, and training strategies), theoretical foundations (error analysis and connections to classical methods), and interdisciplinary frontiers (applications beyond traditional physics). It provides a structured roadmap for understanding the state-of-the-art and future directions of PINNs as a next-generation scientific computing tool.
 - **Domain:** `Review` `PINN` `Scientific Machine Learning` `Physics-Informed AI` `Computational Science`
 
+#### [Training of physical neural networks](https://doi.org/10.1038/s41586-025-09384-2)
+- **Date:** 2025.09
+- **Description:** A comprehensive review of training methodologies for Physical Neural Networks (PNNs), which use analogue physical systems for computation, categorizing them into in-situ and ex-situ backpropagation strategies and outlining the field's future potential.
+- **Domain:** `Physical Neural Networks` `Analogue Computing` `Physics-Aware Training` `Review`
+
 ### 3.2 Foundations: The Original PINN Framework
 
 #### [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/pdf/1711.10561)
