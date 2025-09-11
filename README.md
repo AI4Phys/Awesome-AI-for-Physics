@@ -571,6 +571,11 @@
 - **Description:** A novel framework that embeds physical laws, in the form of Stochastic Differential Equations (SDEs), into the architecture of a Generative Adversarial Network (GAN). This Physics-Informed GAN (PI-GAN) uses generators to model unknown stochastic processes (e.g., solution, coefficients), with some generators being induced by the SDE to enforce physical consistency. It provides a unified method for solving forward, inverse, and mixed stochastic problems from sparse data, and is capable of handling high-dimensional stochasticity.
 - **Domain:** `Physics-Informed Machine Learning` `Generative Adversarial Networks` `Stochastic Differential Equations` `Inverse Problems` `Uncertainty Quantification`
 
+#### [Convergence Rate of DeepONets for Learning Operators Arising from Advection-Diffusion Equations](https://arxiv.org/abs/2102.10621)
+- **Date:** 2021.02
+- **Description:** Provides the first convergence rate analysis for DeepONets when learning solution operators for advection-diffusion equations, showing that the error depends polynomially on the input dimension and revealing the importance of the solution operator's structure.
+- **Domain:** `DeepONet` `Operator Learning` `Convergence Rate` `Error Analysis`
+
 #### [Variational physics informed neural networks: The role of quadratures and test functions](https://doi.org/10.1093/imanum/drab032)
 - **Date:** 2021.06
 - **Description:** Provides a rigorous a priori error estimate for Variational PINNs (VPINNs) based on an inf-sup condition, revealing the counter-intuitive optimal strategy: using lowest-degree polynomial test functions with high-precision quadrature rules.
