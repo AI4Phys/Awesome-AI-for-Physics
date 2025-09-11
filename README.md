@@ -394,6 +394,11 @@
 - **Description:** Proposes a Rectified-PINN (RPINN) which, inspired by multigrid methods, uses a second neural network to learn and correct the error of an initial PINN solution, leading to higher final accuracy.
 - **Domain:** `PINN` `Iterative Refinement` `Multigrid` `High Precision`
 
+#### [Investigating and Mitigating Failure Modes in Physics-informed Neural Networks (PINNs)](https://arxiv.org/abs/2209.09988)
+- **Date:** 2022.09
+- **Description:** Identifies that high-order derivatives contaminate backpropagated gradients, causing training failure, and proposes a novel method to mitigate this by decomposing a high-order PDE into a first-order system using auxiliary variables.
+- **Domain:** `PINN` `Failure Modes` `High-Order PDEs` `System Decomposition` `Gradient Contamination`
+
 ### 3.5 PINNs for Accelerated and Robust Training
 
 #### (Robustness to Data Imperfections)
