@@ -561,6 +561,11 @@
 - **Description:** Identifies gradient pathologies, caused by imbalanced back-propagated gradients from different loss terms, as a key failure mode in PINNs and proposes a learning rate annealing algorithm that uses gradient statistics to adaptively balance the training.
 - **Domain:** `PINN Theory` `Failure Modes` `Gradient Pathologies` `Loss Balancing` `Adaptive Training`
 
+#### [Estimates on the generalization error of physics-informed neural networks for approximating PDEs](https://doi.org/10.1093/imanum/drab093)
+- **Date:** 2022.01
+- **Description:** Provides rigorous upper bounds on the generalization error for PINNs approximating forward problems for a broad class of (nonlinear) PDEs by leveraging stability estimates of the underlying PDE.
+- **Domain:** `Generalization Error` `PINN Theory` `Forward Problems` `PDE Stability`
+
 ### 3.10 Alternative Physics-Inspired Paradigms
 
 #### [Physics-guided Neural Networks (PGNN): An Application in Lake Temperature Modeling](https://arxiv.org/pdf/1710.11431)
