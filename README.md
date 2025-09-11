@@ -108,6 +108,8 @@
     - [Stochastic Physics-Informed Neural Ordinary Differential Equations](#stochastic-physics-informed-neural-ordinary-differential-equations)
     - [A Physics-Data-Driven Bayesian Method for Heat Conduction Problems](#a-physics-data-driven-bayesian-method-for-heat-conduction-problems)
     - [Spectral PINNS: Fast Uncertainty Propagation with Physics-Informed Neural Networks](#spectral-pinns-fast-uncertainty-propagation-with-physics-informed-neural-networks)
+    - [Multi-output physics-informed neural networks for forward and inverse PDE problems with uncertainties](#multi-output-physics-informed-neural-networks-for-forward-and-inverse-pde-problems-with-uncertainties)
+    - [Bayesian Physics Informed Neural Networks for real-world nonlinear dynamical systems](#bayesian-physics-informed-neural-networks-for-real-world-nonlinear-dynamical-systems)
   - [3.9 Theoretical Foundations, Convergence, and Failure Mode Analysis of PINNs](#39-theoretical-foundations-convergence-and-failure-mode-analysis-of-pinns)
     - [Estimates on the generalization error of physics-informed neural networks for approximating a class of inverse problems for PDES](#estimates-on-the-generalization-error-of-physics-informed-neural-networks-for-approximating-a-class-of-inverse-problems-for-pdes)
     - [Error analysis for physics informed neural networks (PINNs) approximating Kolmogorov PDEs](#error-analysis-for-physics-informed-neural-networks-pinns-approximating-kolmogorov-pdes)
