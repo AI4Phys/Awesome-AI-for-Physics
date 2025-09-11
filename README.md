@@ -747,10 +747,7 @@
 
 ### F.1 AI for Physics
 
-##### [Graph Neural Networks in Particle Physics: Implementations, Innovations, and Challenges](https://arxiv.org/pdf/2203.12852)
-- **Date:** 2022.03
-- **Description:** A comprehensive review of the application of Graph Neural Networks (GNNs) in particle physics. This work highlights that physical systems like particle jets and detector signals can be naturally represented as graphs, making GNNs a particularly powerful and physically-motivated architecture. The paper surveys the successful use of GNNs across a wide range of tasks, including particle reconstruction, jet tagging, and event generation, demonstrating how this specialized architecture unlocks new capabilities in analyzing complex experimental data.
-- **Domain:** `Graph Neural Networks` `Particle Physics` `AI for Science` `Experimental Data Analysis` `Scientific Machine Learning`
+#### F.1.1 Physics-Inspired Generative Models
 
 ##### [Poisson Flow Generative Models](https://papers.neurips.cc/paper_files/paper/2022/file/6ad68a54eaa8f9bf6ac698b02ec05048-Paper-Conference.pdf)
 - **Date:** 2022.12
@@ -767,20 +764,36 @@
 - **Description:** This paper introduces PFGM++, a new family of physics-inspired generative models that unifies and generalizes Poisson Flow Generative Models (PFGM) and diffusion models. By allowing the dimension `D` of the augmented space to be a flexible hyperparameter, PFGM++ can interpolate between the original PFGM (when D=1) and diffusion models (as D approaches infinity). The work also introduces an unbiased, perturbation-based training objective, resolving a key limitation of the original PFGM, and provides a method to transfer hyperparameters from well-tuned diffusion models. PFGM++ with intermediate `D` values is shown to achieve state-of-the-art results on image generation benchmarks.
 - **Domain:** `Generative Modeling` `Poisson Flow` `Diffusion Models` `Physics-Inspired AI` `Unified Models`
 
-##### [PE-GPT: A Physics-Informed Interactive Large Language Model for Power Converter Modulation Design](https://arxiv.org/pdf/2403.14059)
-- **Date:** 2024.03
-- **Description:** This paper introduces PE-GPT, a novel system that synergizes a Large Language Model (LLM) with Physics-Informed Neural Networks (PINNs) to create an interactive design assistant for power electronics. The LLM (GPT-4) acts as a natural language interface, guiding users through the design process via in-context learning. The backend consists of a custom, hierarchical PINN architecture that accurately models the converter's physics with high data efficiency. This framework significantly enhances the accessibility, explainability, and efficiency of the power converter modulation design process.
-- **Domain:** `Large Language Models` `Physics-Informed Neural Networks` `Human-AI Interaction` `Engineering Design` `Power Electronics`
+#### F.1.2 Quantum and Particle Physics
+
+##### [Graph Neural Networks in Particle Physics: Implementations, Innovations, and Challenges](https://arxiv.org/pdf/2203.12852)
+- **Date:** 2022.03
+- **Description:** A comprehensive review of the application of Graph Neural Networks (GNNs) in particle physics. This work highlights that physical systems like particle jets and detector signals can be naturally represented as graphs, making GNNs a particularly powerful and physically-motivated architecture. The paper surveys the successful use of GNNs across a wide range of tasks, including particle reconstruction, jet tagging, and event generation, demonstrating how this specialized architecture unlocks new capabilities in analyzing complex experimental data.
+- **Domain:** `Graph Neural Networks` `Particle Physics` `AI for Science` `Experimental Data Analysis` `Scientific Machine Learning`
 
 ##### [Solving the Hubbard model with Neural Quantum States](https://arxiv.org/pdf/2507.02644)
 - **Date:** 2025.07
 - **Description:** This work tackles the fundamental challenge of solving the Hubbard model, a cornerstone of condensed matter physics, by leveraging Neural Quantum States (NQS). The core innovation lies in parameterizing the quantum many-body wavefunction with an advanced neural network architecture inspired by Transformers, specifically incorporating a self-attention mechanism. This allows the NQS to efficiently capture the complex, long-range correlations and entanglement in strongly correlated electron systems. Optimized via the Variational Monte Carlo method, this approach achieves state-of-the-art accuracy in determining the ground state energy of the 2D Hubbard model, outperforming traditional numerical methods.
 - **Domain:** `Neural Quantum States` `Hubbard Model` `Quantum Many-Body Physics` `Computational Physics` `AI for Science`
 
+#### F.1.3 Fluid Mechanics & Geosciences
+
+#### F.1.4 Solid Mechanics & Materials Science
+
+#### F.1.5 Energy Systems & Thermodynamics
+
+##### [PE-GPT: A Physics-Informed Interactive Large Language Model for Power Converter Modulation Design](https://arxiv.org/pdf/2403.14059)
+- **Date:** 2024.03
+- **Description:** This paper introduces PE-GPT, a novel system that synergizes a Large Language Model (LLM) with Physics-Informed Neural Networks (PINNs) to create an interactive design assistant for power electronics. The LLM (GPT-4) acts as a natural language interface, guiding users through the design process via in-context learning. The backend consists of a custom, hierarchical PINN architecture that accurately models the converter's physics with high data efficiency. This framework significantly enhances the accessibility, explainability, and efficiency of the power converter modulation design process.
+- **Domain:** `Large Language Models` `Physics-Informed Neural Networks` `Human-AI Interaction` `Engineering Design` `Power Electronics`
+
+#### F.1.6 Interdisciplinary & Complex Systems
+
 ##### [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939)
 - **Date:** 2025.07
 - **Description:** A CLIP-inspired foundation model for stellar spectral analysis that leverages cross-instrument contrastive pre-training and spectrum-aware decoders to enable precise spectral alignment, parameter estimation, and anomaly detection across diverse astronomical applications.
 - **Domain:** `Contrastive Learning` `Astrophysics`
+
 
 ## 4. Cross Domain Applications and Future Directions
 
