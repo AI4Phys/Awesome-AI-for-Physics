@@ -100,6 +100,7 @@
   - [3.8 Probabilistic PINNs and Uncertainty Quantification](#38-probabilistic-pinns-and-uncertainty-quantification)
     - [A physics-aware, probabilistic machine learning framework for coarse-graining high-dimensional systems in the Small Data regime](#a-physics-aware-probabilistic-machine-learning-framework-for-coarse-graining-high-dimensional-systems-in-the-small-data-regime)
     - [Adversarial uncertainty quantification in physics-informed neural networks](#adversarial-uncertainty-quantification-in-physics-informed-neural-networks)
+    - [B-PINNS: Bayesian physics-informed neural networks for forward and inverse PDE problems with noisy data](#b-pinns-bayesian-physics-informed-neural-networks-for-forward-and-inverse-pde-problems-with-noisy-data)
   - [3.9 Theoretical Foundations, Convergence, and Failure Mode Analysis of PINNs](#39-theoretical-foundations-convergence-and-failure-mode-analysis-of-pinns)
     - [Estimates on the generalization error of physics-informed neural networks for approximating a class of inverse problems for PDES](#estimates-on-the-generalization-error-of-physics-informed-neural-networks-for-approximating-a-class-of-inverse-problems-for-pdes)
     - [Error analysis for physics informed neural networks (PINNs) approximating Kolmogorov PDEs](#error-analysis-for-physics-informed-neural-networks-pinns-approximating-kolmogorov-pdes)
