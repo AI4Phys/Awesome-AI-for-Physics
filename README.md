@@ -151,6 +151,7 @@
     - [F.1.3 Fluid Mechanics & Geosciences](#f13-fluid-mechanics--geosciences)
       - [Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data](#surrogate-modeling-for-fluid-flows-based-on-physics-constrained-deep-learning-without-simulation-data)
       - [Physics-informed neural networks for high-speed flows](#physics-informed-neural-networks-for-high-speed-flows)
+    - [Hidden fluid mechanics: Learning velocity and pressure fields from flow visualizations](#hidden-fluid-mechanics-learning-velocity-and-pressure-fields-from-flow-visualizations)
       - [NSFnets (Navier-Stokes flow nets): Physics-informed neural networks for the incompressible Navier-Stokes equations](#nsfnets-navier-stokes-flow-nets-physics-informed-neural-networks-for-the-incompressible-navier-stokes-equations)
       - [Prediction of porous media fluid flow using physics informed neural networks](#prediction-of-porous-media-fluid-flow-using-physics-informed-neural-networks)
       - [Inverse modeling of nonisothermal multiphase poromechanics using physics-informed neural networks](#inverse-modeling-of-nonisothermal-multiphase-poromechanics-using-physics-informed-neural-networks)
