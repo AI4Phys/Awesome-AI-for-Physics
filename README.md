@@ -818,6 +818,11 @@
 - **Description:** Applies PINNs to solve forward and inverse problems for the Euler equations in high-speed flows, demonstrating the ability to capture shocks and infer full flow fields from sparse, experimentally-inspired data like density gradients.
 - **Domain:** `PINN` `Fluid Dynamics` `Euler Equations` `Shock Capturing` `Inverse Problem`
 
+#### [Hidden fluid mechanics: Learning velocity and pressure fields from flow visualizations](https://doi.org/10.1126/science.aaw4741)
+- **Date:** 2020.02
+- **Description:** Introduces "Hidden Fluid Mechanics," a PINN framework that infers hidden velocity and pressure fields from visualized scalar concentration data by embedding the Navier-Stokes equations as a physical constraint.
+- **Domain:** `PINN` `Fluid Dynamics` `Inverse Problem` `Data Assimilation` `Flow Visualization`
+
 ##### [NSFnets (Navier-Stokes flow nets): Physics-informed neural networks for the incompressible Navier-Stokes equations](https://doi.org/10.1016/j.jcp.2020.109951)
 - **Date:** 2020.11
 - **Description:** Systematically investigates PINNs for solving the incompressible Navier-Stokes equations by comparing velocity-pressure (VP) and vorticity-velocity (VV) formulations, and presents a pioneering attempt at direct turbulence simulation.
