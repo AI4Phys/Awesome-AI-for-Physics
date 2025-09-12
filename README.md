@@ -939,6 +939,11 @@
 - **Description:** Proposes a PINN-based solver for the Fokker-Planck equation, uniquely using dropout during inference to assess model robustness and demonstrating that sparse observation data can effectively substitute for missing boundary conditions.
 - **Domain:** `PINN` `Fokker-Planck Equation` `Stochastic Dynamics` `Robustness`
 
+#### [Deep learning for intrinsically disordered proteins: From improved predictions to deciphering conformational ensembles](https://doi.org/10.1016/j.sbi.2024.102950)
+- **Date:** 2024.07
+- **Description:** Reviews the impact of deep learning on the study of intrinsically disordered proteins (IDPs), highlighting the shift from predicting disordered regions to using generative models for deciphering their complex conformational ensembles.
+- **Domain:** `Deep Learning` `Biophysics` `Structural Biology` `Intrinsically Disordered Proteins` `Generative Models`
+
 ##### [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](https://arxiv.org/pdf/2507.01939)
 - **Date:** 2025.07
 - **Description:** A CLIP-inspired foundation model for stellar spectral analysis that leverages cross-instrument contrastive pre-training and spectrum-aware decoders to enable precise spectral alignment, parameter estimation, and anomaly detection across diverse astronomical applications.
