@@ -813,7 +813,7 @@
 - **Description:** Proposes IEA-GAN, a novel generative model using a Transformer-based relational reasoning module and self-supervised learning to achieve ultra-fast, high-fidelity simulation of high-granularity particle detectors.
 - **Domain:** `Generative Models` `Particle Physics` `Detector Simulation` `Transformer` `Self-Supervised Learning`
 
-#### [Review of Machine Learning for Real-Time Analysis at the Large Hadron Collider experiments ALICE, ATLAS, CMS and LHCb](https://arxiv.org/abs/2506.14578)
+##### [Review of Machine Learning for Real-Time Analysis at the Large Hadron Collider experiments ALICE, ATLAS, CMS and LHCb](https://arxiv.org/abs/2506.14578)
 - **Date:** 2025.06
 - **Description:** A comprehensive whitepaper reviewing the use of machine learning techniques for real-time data analysis and triggering systems in the major LHC experiments, highlighting methods for fast inference on hardware like FPGAs.
 - **Domain:** `Machine Learning` `Particle Physics` `LHC` `Real-Time Analysis` `Trigger System`
