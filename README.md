@@ -884,6 +884,11 @@
 - **Description:** Applies a PINN with a novel architecture and adaptive loss to predict lithium-ion battery temperature using a lumped thermal model and sparse data.
 - **Domain:** `PINN` `Energy Systems` `Battery Management` `Thermodynamics` `Data-driven Modeling`
 
+#### [Physics-Informed Neural Network for Discovering Systems with Unmeasurable States with Application to Lithium-Ion Batteries](https://arxiv.org/abs/2311.16374)
+- **Date:** 2023.11
+- **Description:** Proposes a novel PINN training method that embeds a numerical solver for the governing equations into the forward pass of the loss function, enabling the discovery of unmeasurable internal states in complex systems like Li-ion batteries from observable data alone.
+- **Domain:** `PINN` `System Identification` `Unmeasurable States` `Differentiable Physics` `Energy Systems`
+
 ##### [PE-GPT: A Physics-Informed Interactive Large Language Model for Power Converter Modulation Design](https://arxiv.org/pdf/2403.14059)
 - **Date:** 2024.03
 - **Description:** This paper introduces PE-GPT, a novel system that synergizes a Large Language Model (LLM) with Physics-Informed Neural Networks (PINNs) to create an interactive design assistant for power electronics. The LLM (GPT-4) acts as a natural language interface, guiding users through the design process via in-context learning. The backend consists of a custom, hierarchical PINN architecture that accurately models the converter's physics with high data efficiency. This framework significantly enhances the accessibility, explainability, and efficiency of the power converter modulation design process.
