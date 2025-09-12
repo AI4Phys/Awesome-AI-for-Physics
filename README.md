@@ -153,6 +153,7 @@
       - [Review of Machine Learning for Real-Time Analysis at the Large Hadron Collider experiments ALICE, ATLAS, CMS and LHCb](#review-of-machine-learning-for-real-time-analysis-at-the-large-hadron-collider-experiments-alice-atlas-cms-and-lhcb)
       - [Solving the Hubbard model with Neural Quantum States](#solving-the-hubbard-model-with-neural-quantum-states)
       - [Foundation Neural-Networks Quantum States as a Unified Ansatz for Multiple Hamiltonians](#foundation-neural-networks-quantum-states-as-a-unified-ansatz-for-multiple-hamiltonians)
+      - [Advancing AI-Scientist Understanding: Multi-Agent LLMs with Interpretable Physics Reasoning](#advancing-ai-scientist-understanding-multi-agent-llms-with-interpretable-physics-reasoning)
     - [F.1.3 Fluid Mechanics & Geosciences](#f13-fluid-mechanics--geosciences)
       - [Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data](#surrogate-modeling-for-fluid-flows-based-on-physics-constrained-deep-learning-without-simulation-data)
       - [Physics-informed neural networks for high-speed flows](#physics-informed-neural-networks-for-high-speed-flows)
