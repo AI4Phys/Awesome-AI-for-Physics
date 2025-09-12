@@ -168,7 +168,7 @@
       - [A Physics-Informed Machine Learning Approach for Estimating Lithium-Ion Battery Temperature](#a-physics-informed-machine-learning-approach-for-estimating-lithium-ion-battery-temperature)
       - [Physics-Informed Neural Network for Discovering Systems with Unmeasurable States with Application to Lithium-Ion Batteries](#physics-informed-neural-network-for-discovering-systems-with-unmeasurable-states-with-application-to-lithium-ion-batteries)
       - [PE-GPT: A Physics-Informed Interactive Large Language Model for Power Converter Modulation Design](#pe-gpt-a-physics-informed-interactive-large-language-model-for-power-converter-modulation-design)
-    - [Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis](#physics-informed-neural-network-for-lithium-ion-battery-degradation-stable-modeling-and-prognosis)
+      - [Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis](#physics-informed-neural-network-for-lithium-ion-battery-degradation-stable-modeling-and-prognosis)
     - [F.1.6 Interdisciplinary & Complex Systems](#f16-interdisciplinary--complex-systems)
       - [Deep Learning for Plasma Tomography and Disruption Prediction from Bolometer Data](#deep-learning-for-plasma-tomography-and-disruption-prediction-from-bolometer-data)
       - [PHYSICS-INFORMED NEURAL NETWORK FOR NONLINEAR DYNAMICS IN FIBER OPTICS](#physics-informed-neural-network-for-nonlinear-dynamics-in-fiber-optics)
