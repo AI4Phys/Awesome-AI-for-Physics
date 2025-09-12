@@ -940,7 +940,7 @@
 - **Description:** Proposes a PINN-based solver for the Fokker-Planck equation, uniquely using dropout during inference to assess model robustness and demonstrating that sparse observation data can effectively substitute for missing boundary conditions.
 - **Domain:** `PINN` `Fokker-Planck Equation` `Stochastic Dynamics` `Robustness`
 
-#### [Deep learning for intrinsically disordered proteins: From improved predictions to deciphering conformational ensembles](https://doi.org/10.1016/j.sbi.2024.102950)
+##### [Deep learning for intrinsically disordered proteins: From improved predictions to deciphering conformational ensembles](https://doi.org/10.1016/j.sbi.2024.102950)
 - **Date:** 2024.07
 - **Description:** Reviews the impact of deep learning on the study of intrinsically disordered proteins (IDPs), highlighting the shift from predicting disordered regions to using generative models for deciphering their complex conformational ensembles.
 - **Domain:** `Deep Learning` `Biophysics` `Structural Biology` `Intrinsically Disordered Proteins` `Generative Models`
