@@ -804,6 +804,11 @@
 - **Description:** A comprehensive review of the application of Graph Neural Networks (GNNs) in particle physics. This work highlights that physical systems like particle jets and detector signals can be naturally represented as graphs, making GNNs a particularly powerful and physically-motivated architecture. The paper surveys the successful use of GNNs across a wide range of tasks, including particle reconstruction, jet tagging, and event generation, demonstrating how this specialized architecture unlocks new capabilities in analyzing complex experimental data.
 - **Domain:** `Graph Neural Networks` `Particle Physics` `AI for Science` `Experimental Data Analysis` `Scientific Machine Learning`
 
+#### [Ultra-high-granularity detector simulation with intra-event aware generative adversarial network and self-supervised relational reasoning](https://doi.org/10.1038/s41467-024-49104-4)
+- **Date:** 2024.06
+- **Description:** Proposes IEA-GAN, a novel generative model using a Transformer-based relational reasoning module and self-supervised learning to achieve ultra-fast, high-fidelity simulation of high-granularity particle detectors.
+- **Domain:** `Generative Models` `Particle Physics` `Detector Simulation` `Transformer` `Self-Supervised Learning`
+
 ##### [Solving the Hubbard model with Neural Quantum States](https://arxiv.org/pdf/2507.02644)
 - **Date:** 2025.07
 - **Description:** This work tackles the fundamental challenge of solving the Hubbard model, a cornerstone of condensed matter physics, by leveraging Neural Quantum States (NQS). The core innovation lies in parameterizing the quantum many-body wavefunction with an advanced neural network architecture inspired by Transformers, specifically incorporating a self-attention mechanism. This allows the NQS to efficiently capture the complex, long-range correlations and entanglement in strongly correlated electron systems. Optimized via the Variational Monte Carlo method, this approach achieves state-of-the-art accuracy in determining the ground state energy of the 2D Hubbard model, outperforming traditional numerical methods.
