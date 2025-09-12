@@ -812,6 +812,11 @@
 - **Description:** Proposes IEA-GAN, a novel generative model using a Transformer-based relational reasoning module and self-supervised learning to achieve ultra-fast, high-fidelity simulation of high-granularity particle detectors.
 - **Domain:** `Generative Models` `Particle Physics` `Detector Simulation` `Transformer` `Self-Supervised Learning`
 
+#### [Review of Machine Learning for Real-Time Analysis at the Large Hadron Collider experiments ALICE, ATLAS, CMS and LHCb](https://arxiv.org/abs/2506.14578)
+- **Date:** 2025.06
+- **Description:** A comprehensive whitepaper reviewing the use of machine learning techniques for real-time data analysis and triggering systems in the major LHC experiments, highlighting methods for fast inference on hardware like FPGAs.
+- **Domain:** `Machine Learning` `Particle Physics` `LHC` `Real-Time Analysis` `Trigger System`
+
 ##### [Solving the Hubbard model with Neural Quantum States](https://arxiv.org/pdf/2507.02644)
 - **Date:** 2025.07
 - **Description:** This work tackles the fundamental challenge of solving the Hubbard model, a cornerstone of condensed matter physics, by leveraging Neural Quantum States (NQS). The core innovation lies in parameterizing the quantum many-body wavefunction with an advanced neural network architecture inspired by Transformers, specifically incorporating a self-attention mechanism. This allows the NQS to efficiently capture the complex, long-range correlations and entanglement in strongly correlated electron systems. Optimized via the Variational Monte Carlo method, this approach achieves state-of-the-art accuracy in determining the ground state energy of the 2D Hubbard model, outperforming traditional numerical methods.
