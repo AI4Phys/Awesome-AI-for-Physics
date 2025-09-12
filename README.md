@@ -147,6 +147,7 @@
       - [PFGM++: Unlocking the Potential of Physics-Inspired Generative Models](#pfgm-unlocking-the-potential-of-physics-inspired-generative-models)
     - [F.1.2 Quantum and Particle Physics](#f12-quantum-and-particle-physics)
       - [Graph Neural Networks in Particle Physics: Implementations, Innovations, and Challenges](#graph-neural-networks-in-particle-physics-implementations-innovations-and-challenges)
+      - [From Architectures to Applications: A Review of Neural Quantum States](#from-architectures-to-applications-a-review-of-neural-quantum-states)
       - [Ultra-high-granularity detector simulation with intra-event aware generative adversarial network and self-supervised relational reasoning](#ultra-high-granularity-detector-simulation-with-intra-event-aware-generative-adversarial-network-and-self-supervised-relational-reasoning)
       - [Review of Machine Learning for Real-Time Analysis at the Large Hadron Collider experiments ALICE, ATLAS, CMS and LHCb](#review-of-machine-learning-for-real-time-analysis-at-the-large-hadron-collider-experiments-alice-atlas-cms-and-lhcb)
       - [Solving the Hubbard model with Neural Quantum States](#solving-the-hubbard-model-with-neural-quantum-states)
