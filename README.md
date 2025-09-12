@@ -494,7 +494,7 @@
 - **Description:** Proposes a novel minimax architecture (PCNN-MM) that formulates PINN training as a saddle-point problem to systematically adjust loss weights, and introduces an efficient "Dual-Dimer" algorithm to solve it.
 - **Domain:** `PINN` `Loss Balancing` `Minimax Optimization` `Saddle Point Search` `Training Optimization`
 
-#### [On Theory-training Neural Networks to Infer the Solution of Highly Coupled Differential Equations](https://arxiv.org/abs/2102.04890)
+##### [On Theory-training Neural Networks to Infer the Solution of Highly Coupled Differential Equations](https://arxiv.org/abs/2102.04890)
 - **Date:** 2021.02
 - **Description:** Proposes a Partial Regularization Technique (PRT) to eliminate training oscillations and provides systematic guidelines for finding optimal network architectures, significantly improving the accuracy and robustness of PINNs for highly coupled systems.
 - **Domain:** `PINN` `Training Strategy` `Robustness` `Network Architecture` `Regularization`
