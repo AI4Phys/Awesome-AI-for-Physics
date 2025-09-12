@@ -149,6 +149,7 @@
       - [Graph Neural Networks in Particle Physics: Implementations, Innovations, and Challenges](#graph-neural-networks-in-particle-physics-implementations-innovations-and-challenges)
       - [From Architectures to Applications: A Review of Neural Quantum States](#from-architectures-to-applications-a-review-of-neural-quantum-states)
       - [Ultra-high-granularity detector simulation with intra-event aware generative adversarial network and self-supervised relational reasoning](#ultra-high-granularity-detector-simulation-with-intra-event-aware-generative-adversarial-network-and-self-supervised-relational-reasoning)
+      - [Neural-network quantum states for many-body physics](#neural-network-quantum-states-for-many-body-physics)
       - [Review of Machine Learning for Real-Time Analysis at the Large Hadron Collider experiments ALICE, ATLAS, CMS and LHCb](#review-of-machine-learning-for-real-time-analysis-at-the-large-hadron-collider-experiments-alice-atlas-cms-and-lhcb)
       - [Solving the Hubbard model with Neural Quantum States](#solving-the-hubbard-model-with-neural-quantum-states)
     - [F.1.3 Fluid Mechanics & Geosciences](#f13-fluid-mechanics--geosciences)
