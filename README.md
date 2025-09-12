@@ -147,6 +147,7 @@
       - [PFGM++: Unlocking the Potential of Physics-Inspired Generative Models](#pfgm-unlocking-the-potential-of-physics-inspired-generative-models)
     - [F.1.2 Quantum and Particle Physics](#f12-quantum-and-particle-physics)
       - [Graph Neural Networks in Particle Physics: Implementations, Innovations, and Challenges](#graph-neural-networks-in-particle-physics-implementations-innovations-and-challenges)
+    - [Ultra-high-granularity detector simulation with intra-event aware generative adversarial network and self-supervised relational reasoning](#ultra-high-granularity-detector-simulation-with-intra-event-aware-generative-adversarial-network-and-self-supervised-relational-reasoning)
       - [Solving the Hubbard model with Neural Quantum States](#solving-the-hubbard-model-with-neural-quantum-states)
     - [F.1.3 Fluid Mechanics & Geosciences](#f13-fluid-mechanics--geosciences)
       - [Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data](#surrogate-modeling-for-fluid-flows-based-on-physics-constrained-deep-learning-without-simulation-data)
