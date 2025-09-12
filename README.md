@@ -79,7 +79,7 @@
       - [Robust Regression with Highly Corrupted Data via Physics Informed Neural Networks](#robust-regression-with-highly-corrupted-data-via-physics-informed-neural-networks)
       - [(Loss Function Balancing & Optimization)](#loss-function-balancing--optimization)
       - [A Dual-Dimer method for training physics-constrained neural networks with minimax architecture](#a-dual-dimer-method-for-training-physics-constrained-neural-networks-with-minimax-architecture)
-    - [On Theory-training Neural Networks to Infer the Solution of Highly Coupled Differential Equations](#on-theory-training-neural-networks-to-infer-the-solution-of-highly-coupled-differential-equations)
+      - [On Theory-training Neural Networks to Infer the Solution of Highly Coupled Differential Equations](#on-theory-training-neural-networks-to-infer-the-solution-of-highly-coupled-differential-equations)
       - [Self-adaptive loss balanced Physics-informed neural networks for the incompressible Navier-Stokes equations](#self-adaptive-loss-balanced-physics-informed-neural-networks-for-the-incompressible-navier-stokes-equations)
       - [Adversarial Multi-task Learning Enhanced Physics-informed Neural Networks for Solving Partial Differential Equations](#adversarial-multi-task-learning-enhanced-physics-informed-neural-networks-for-solving-partial-differential-equations)
       - [Multi-Objective Loss Balancing for Physics-Informed Deep Learning](#multi-objective-loss-balancing-for-physics-informed-deep-learning)
