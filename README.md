@@ -805,7 +805,7 @@
 - **Description:** A comprehensive review of the application of Graph Neural Networks (GNNs) in particle physics. This work highlights that physical systems like particle jets and detector signals can be naturally represented as graphs, making GNNs a particularly powerful and physically-motivated architecture. The paper surveys the successful use of GNNs across a wide range of tasks, including particle reconstruction, jet tagging, and event generation, demonstrating how this specialized architecture unlocks new capabilities in analyzing complex experimental data.
 - **Domain:** `Graph Neural Networks` `Particle Physics` `AI for Science` `Experimental Data Analysis` `Scientific Machine Learning`
 
-#### [Ultra-high-granularity detector simulation with intra-event aware generative adversarial network and self-supervised relational reasoning](https://doi.org/10.1038/s41467-024-49104-4)
+##### [Ultra-high-granularity detector simulation with intra-event aware generative adversarial network and self-supervised relational reasoning](https://doi.org/10.1038/s41467-024-49104-4)
 - **Date:** 2024.06
 - **Description:** Proposes IEA-GAN, a novel generative model using a Transformer-based relational reasoning module and self-supervised learning to achieve ultra-fast, high-fidelity simulation of high-granularity particle detectors.
 - **Domain:** `Generative Models` `Particle Physics` `Detector Simulation` `Transformer` `Self-Supervised Learning`
@@ -827,7 +827,7 @@
 - **Description:** Applies PINNs to solve forward and inverse problems for the Euler equations in high-speed flows, demonstrating the ability to capture shocks and infer full flow fields from sparse, experimentally-inspired data like density gradients.
 - **Domain:** `PINN` `Fluid Dynamics` `Euler Equations` `Shock Capturing` `Inverse Problem`
 
-#### [Hidden fluid mechanics: Learning velocity and pressure fields from flow visualizations](https://doi.org/10.1126/science.aaw4741)
+##### [Hidden fluid mechanics: Learning velocity and pressure fields from flow visualizations](https://doi.org/10.1126/science.aaw4741)
 - **Date:** 2020.02
 - **Description:** Introduces "Hidden Fluid Mechanics," a PINN framework that infers hidden velocity and pressure fields from visualized scalar concentration data by embedding the Navier-Stokes equations as a physical constraint.
 - **Domain:** `PINN` `Fluid Dynamics` `Inverse Problem` `Data Assimilation` `Flow Visualization`
@@ -891,7 +891,7 @@
 - **Description:** Applies a PINN with a novel architecture and adaptive loss to predict lithium-ion battery temperature using a lumped thermal model and sparse data.
 - **Domain:** `PINN` `Energy Systems` `Battery Management` `Thermodynamics` `Data-driven Modeling`
 
-#### [Physics-Informed Neural Network for Discovering Systems with Unmeasurable States with Application to Lithium-Ion Batteries](https://arxiv.org/abs/2311.16374)
+##### [Physics-Informed Neural Network for Discovering Systems with Unmeasurable States with Application to Lithium-Ion Batteries](https://arxiv.org/abs/2311.16374)
 - **Date:** 2023.11
 - **Description:** Proposes a novel PINN training method that embeds a numerical solver for the governing equations into the forward pass of the loss function, enabling the discovery of unmeasurable internal states in complex systems like Li-ion batteries from observable data alone.
 - **Domain:** `PINN` `System Identification` `Unmeasurable States` `Differentiable Physics` `Energy Systems`
@@ -907,6 +907,11 @@
 - **Domain:** `PINN` `Energy Systems` `Battery Management` `State of Health` `Prognosis`
 
 #### F.1.6 Interdisciplinary & Complex Systems
+
+##### [Deep Learning for Plasma Tomography and Disruption Prediction from Bolometer Data](https://doi.org/10.1109/TPS.2020.3010833)
+- **Date:** 2020.06
+- **Description:** Utilizes Convolutional Neural Networks (CNNs) for real-time plasma radiation tomography and Recurrent Neural Networks (RNNs) for disruption prediction from bolometer data in the JET tokamak.
+- **Domain:** `Deep Learning` `Plasma Physics` `Nuclear Fusion` `Tomography` `Disruption Prediction`
 
 ##### [PHYSICS-INFORMED NEURAL NETWORK FOR NONLINEAR DYNAMICS IN FIBER OPTICS](https://arxiv.org/abs/2109.00526)
 - **Date:** 2021.09
