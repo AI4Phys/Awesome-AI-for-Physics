@@ -819,6 +819,11 @@
 - **Description:** Proposes IEA-GAN, a novel generative model using a Transformer-based relational reasoning module and self-supervised learning to achieve ultra-fast, high-fidelity simulation of high-granularity particle detectors.
 - **Domain:** `Generative Models` `Particle Physics` `Detector Simulation` `Transformer` `Self-Supervised Learning`
 
+##### [Neural-network quantum states for many-body physics](https://arxiv.org/abs/2402.11014)
+- **Date:** 2024.08
+- **Description:** A methodological review of Neural Quantum States, deriving the core equations for Variational Monte Carlo approaches and emphasizing the role of the quantum geometric tensor in optimizing networks for many-body systems.
+- **Domain:** `Neural Quantum States` `Quantum Many-Body Physics` `Variational Monte Carlo` `Computational Physics` `Review`
+
 ##### [Review of Machine Learning for Real-Time Analysis at the Large Hadron Collider experiments ALICE, ATLAS, CMS and LHCb](https://arxiv.org/abs/2506.14578)
 - **Date:** 2025.06
 - **Description:** A comprehensive whitepaper reviewing the use of machine learning techniques for real-time data analysis and triggering systems in the major LHC experiments, highlighting methods for fast inference on hardware like FPGAs.
