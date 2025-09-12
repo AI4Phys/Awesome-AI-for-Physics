@@ -841,6 +841,11 @@
 - **Description:** Introduces Foundation Neural-Network Quantum States (FNQS), a single, versatile Transformer-based architecture that takes Hamiltonian parameters as input, enabling it to generalize and solve for ground states of quantum systems unseen during training.
 - **Domain:** `Neural Quantum States` `Foundation Models` `Quantum Many-Body Physics` `Meta-Learning` `Generalization`
 
+##### [Advancing AI-Scientist Understanding: Multi-Agent LLMs with Interpretable Physics Reasoning](https://arxiv.org/abs/2504.01911)
+- **Date:** 2025.08
+- **Description:** Introduces a multi-agent LLM framework that transforms free-form physics reasoning into an interpretable and executable model, enhancing reliability and human-AI collaboration.
+- **Domain:** `Large Language Models` `Interpretability` `AI Scientist` `Multi-Agent Systems` `Human-AI Collaboration`
+
 #### F.1.3 Fluid Mechanics & Geosciences
 
 ##### [Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data](https://doi.org/10.1016/j.cma.2019.112732)
