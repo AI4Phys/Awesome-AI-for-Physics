@@ -835,6 +835,11 @@
 - **Description:** This work tackles the fundamental challenge of solving the Hubbard model, a cornerstone of condensed matter physics, by leveraging Neural Quantum States (NQS). The core innovation lies in parameterizing the quantum many-body wavefunction with an advanced neural network architecture inspired by Transformers, specifically incorporating a self-attention mechanism. This allows the NQS to efficiently capture the complex, long-range correlations and entanglement in strongly correlated electron systems. Optimized via the Variational Monte Carlo method, this approach achieves state-of-the-art accuracy in determining the ground state energy of the 2D Hubbard model, outperforming traditional numerical methods.
 - **Domain:** `Neural Quantum States` `Hubbard Model` `Quantum Many-Body Physics` `Computational Physics` `AI for Science`
 
+##### [Foundation Neural-Networks Quantum States as a Unified Ansatz for Multiple Hamiltonians](https://arxiv.org/abs/2502.09488)
+- **Date:** 2025.08
+- **Description:** Introduces Foundation Neural-Network Quantum States (FNQS), a single, versatile Transformer-based architecture that takes Hamiltonian parameters as input, enabling it to generalize and solve for ground states of quantum systems unseen during training.
+- **Domain:** `Neural Quantum States` `Foundation Models` `Quantum Many-Body Physics` `Meta-Learning` `Generalization`
+
 #### F.1.3 Fluid Mechanics & Geosciences
 
 ##### [Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data](https://doi.org/10.1016/j.cma.2019.112732)
