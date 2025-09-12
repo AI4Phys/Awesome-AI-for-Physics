@@ -903,7 +903,7 @@
 - **Description:** This paper introduces PE-GPT, a novel system that synergizes a Large Language Model (LLM) with Physics-Informed Neural Networks (PINNs) to create an interactive design assistant for power electronics. The LLM (GPT-4) acts as a natural language interface, guiding users through the design process via in-context learning. The backend consists of a custom, hierarchical PINN architecture that accurately models the converter's physics with high data efficiency. This framework significantly enhances the accessibility, explainability, and efficiency of the power converter modulation design process.
 - **Domain:** `Large Language Models` `Physics-Informed Neural Networks` `Human-AI Interaction` `Engineering Design` `Power Electronics`
 
-#### [Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis](https://doi.org/10.1038/s41467-024-48779-z)
+##### [Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis](https://doi.org/10.1038/s41467-024-48779-z)
 - **Date:** 2024.05
 - **Description:** Proposes a PINN for battery state-of-health (SOH) prognosis by learning the single-cycle degradation dynamics constrained by an empirical state-space degradation model.
 - **Domain:** `PINN` `Energy Systems` `Battery Management` `State of Health` `Prognosis`
