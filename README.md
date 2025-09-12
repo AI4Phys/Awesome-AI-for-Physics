@@ -808,6 +808,11 @@
 - **Description:** A comprehensive review of the application of Graph Neural Networks (GNNs) in particle physics. This work highlights that physical systems like particle jets and detector signals can be naturally represented as graphs, making GNNs a particularly powerful and physically-motivated architecture. The paper surveys the successful use of GNNs across a wide range of tasks, including particle reconstruction, jet tagging, and event generation, demonstrating how this specialized architecture unlocks new capabilities in analyzing complex experimental data.
 - **Domain:** `Graph Neural Networks` `Particle Physics` `AI for Science` `Experimental Data Analysis` `Scientific Machine Learning`
 
+##### [From Architectures to Applications: A Review of Neural Quantum States](https://arxiv.org/abs/2402.09402)
+- **Date:** 2024.02
+- **Description:** A comprehensive review of Neural Quantum States (NQS), detailing the architectures, training methods, and wide-ranging applications in simulating quantum many-body systems, from finding ground states to modeling quantum dynamics.
+- **Domain:** `Neural Quantum States` `Quantum Many-Body Physics` `Variational Monte Carlo` `Computational Physics` `Review`
+
 ##### [Ultra-high-granularity detector simulation with intra-event aware generative adversarial network and self-supervised relational reasoning](https://doi.org/10.1038/s41467-024-49104-4)
 - **Date:** 2024.06
 - **Description:** Proposes IEA-GAN, a novel generative model using a Transformer-based relational reasoning module and self-supervised learning to achieve ultra-fast, high-fidelity simulation of high-granularity particle detectors.
