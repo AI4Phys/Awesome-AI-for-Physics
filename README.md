@@ -176,6 +176,7 @@
       - [Towards neural Earth system modelling by integrating artificial intelligence in Earth system science](#towards-neural-earth-system-modelling-by-integrating-artificial-intelligence-in-earth-system-science)
       - [Explicit physics-informed neural networks for nonlinear closure: The case of transport in tissues](#explicit-physics-informed-neural-networks-for-nonlinear-closure-the-case-of-transport-in-tissues)
       - [Physically guided deep learning solver for time-dependent Fokker-Planck equation](#physically-guided-deep-learning-solver-for-time-dependent-fokker-planck-equation)
+    - [Deep learning for intrinsically disordered proteins: From improved predictions to deciphering conformational ensembles](#deep-learning-for-intrinsically-disordered-proteins-from-improved-predictions-to-deciphering-conformational-ensembles)
       - [SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars](#specclip-aligning-and-translating-spectroscopic-measurements-for-stars)
 - [4. Cross Domain Applications and Future Directions](#4-cross-domain-applications-and-future-directions)
   - [4.2 Others (Healthcare, Biophysics, Architecture, Aerospace Science, Education)](#42-others-healthcare-biophysics-architecture-aerospace-science-education)
