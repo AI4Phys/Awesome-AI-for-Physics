@@ -43,6 +43,7 @@
 - [C. Physics Reasoning AI](#c-physics-reasoning-ai)
   - [C.2 Symbolic Reasoning Frameworks](#c2-symbolic-reasoning-frameworks)
       - [Toward an AI Physicist for Unsupervised Learning](#toward-an-ai-physicist-for-unsupervised-learning)
+      - [Intelligence, physics and information – the tradeoff between accuracy and simplicity in machine learning](#intelligence-physics-and-information--the-tradeoff-between-accuracy-and-simplicity-in-machine-learning)
       - [Discovering physical concepts with neural networks](#discovering-physical-concepts-with-neural-networks)
       - [AI Feynman: A physics-inspired method for symbolic regression](#ai-feynman-a-physics-inspired-method-for-symbolic-regression)
       - [AI Feynman 2.0: Pareto-optimal symbolic regression exploiting graph modularity](#ai-feynman-20-pareto-optimal-symbolic-regression-exploiting-graph-modularity)
