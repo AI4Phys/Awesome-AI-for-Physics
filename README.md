@@ -353,6 +353,11 @@
 - **Description:** Proposes a new paradigm for unsupervised learning centered on an 'AI Physicist' agent that discovers, simplifies, and organizes 'theories' (prediction function + domain of applicability) from observational data. Key innovations include a generalized-mean loss for unsupervised domain specialization (divide-and-conquer), a differentiable Minimum Description Length (MDL) objective for simplification (Occam's Razor), and a 'theory hub' for unification and lifelong learning. This work serves as the conceptual precursor to the AI Feynman algorithm.
 - **Domain:** `AI for Science` `Unsupervised Learning` `Equation Discovery` `Occam's Razor` `Divide and Conquer`
 
+##### [Intelligence, physics and information – the tradeoff between accuracy and simplicity in machine learning](https://doi.org/10.48550/arXiv.2001.03780)
+- **Date:** 2020.01
+- **Description:** A foundational thesis that frames machine learning through the lens of physics and information theory, proposing the information bottleneck principle as a universal framework for navigating the accuracy-simplicity tradeoff inherent in scientific discovery.
+- **Domain:** `Information Theory` `Machine Learning Theory` `Scientific Discovery` `Symbolic Regression` `Interpretable AI`
+
 ##### [Discovering physical concepts with neural networks](https://doi.org/10.1103/PhysRevLett.124.010508)
 - **Date:** 2020.01
 - **Description:** Introduces a science-agnostic neural network that discovers fundamental physical concepts, like conserved quantities, from raw observational data in an unsupervised manner by using an information bottleneck.
