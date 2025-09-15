@@ -173,7 +173,6 @@
       - [A Physics Informed Neural Network Approach to Solution and Identification of Biharmonic Equations of Elasticity](#a-physics-informed-neural-network-approach-to-solution-and-identification-of-biharmonic-equations-of-elasticity)
       - [Physics-informed neural networks for the shallow-water equations on the sphere](#physics-informed-neural-networks-for-the-shallow-water-equations-on-the-sphere)
       - [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](#a-mixed-formulation-for-physics-informed-neural-networks-as-a-potential-solver-for-engineering-problems-in-heterogeneous-domains-comparison-with-finite-element-method)
-      - [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](#a-mixed-formulation-for-physics-informed-neural-networks-as-a-potential-solver-for-engineering-problems-in-heterogeneous-domains-comparison-with-finite-element-method-1)
       - [A physically consistent framework for fatigue life prediction using probabilistic physics-informed neural network](#a-physically-consistent-framework-for-fatigue-life-prediction-using-probabilistic-physics-informed-neural-network)
     - [F.1.5 Energy Systems & Thermodynamics](#f15-energy-systems--thermodynamics)
       - [Physics-Informed Neural Networks for AC Optimal Power Flow](#physics-informed-neural-networks-for-ac-optimal-power-flow)
