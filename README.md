@@ -943,11 +943,6 @@
 - **Description:** Proposes a novel mixed formulation for PINNs, inspired by FEM, that uses separate networks for the primary variable and its spatial gradient and combines energy-based and strong-form losses to accurately solve problems in heterogeneous solids while avoiding high-order derivatives.
 - **Domain:** `PINN` `Mixed Formulation` `Finite Element Method` `Solid Mechanics` `Heterogeneous Materials`
 
-##### [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](https://doi.org/10.1016/j.cma.2022.115616)
-- **Date:** 2022.09
-- **Description:** Proposes a novel mixed formulation for PINNs, inspired by FEM, that uses separate networks for the primary variable and its spatial gradient and combines energy-based and strong-form losses to accurately solve problems in heterogeneous solids while avoiding high-order derivatives.
-- **Domain:** `PINN` `Mixed Formulation` `Finite Element Method` `Solid Mechanics` `Heterogeneous Materials`
-
 ##### [A physically consistent framework for fatigue life prediction using probabilistic physics-informed neural network](https://doi.org/10.1016/j.ijfatigue.2022.107234)
 - **Date:** 2022.09
 - **Description:** Proposes a probabilistic PINN for fatigue life prediction that ensures physical consistency by encoding fatigue principles (e.g., S-N curve monotonicity and heteroscedasticity) as first and second-order derivative constraints in the loss function.
