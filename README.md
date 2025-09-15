@@ -350,6 +350,18 @@
 
 ### C.2 Symbolic Reasoning Frameworks
 
+##### [Physics-AI symbiosis](https://doi.org/10.1088/2632-2153/ac9215)
+- **Date:** 2022.09
+- **Description:** Proposes the concept of "Physics-AI Symbiosis," a comprehensive review of the bidirectional and mutually beneficial relationship between physics and artificial intelligence.
+- **Domain:** `AI for Physics` `Physics for AI` `Review` `Interdisciplinary` `Scientific Discovery`
+
+##### [AI meets physics: a comprehensive survey](https://doi.org/10.1007/s10462-024-10874-4)
+- **Date:** 2024.08
+- **Description:** A comprehensive survey on the bidirectional relationship between AI and physics, detailing how physics principles inspire AI models (Physics for AI) and how AI empowers physical science research (AI for Physics).
+- **Domain:** `AI for Physics` `Physics for AI` `Review` `Interdisciplinary` `Machine Learning Theory`
+
+#### C.2.1 Equation-based Reasoning Systems (equation discovery, symbolic regression)
+
 ##### [Toward an AI Physicist for Unsupervised Learning](http://arxiv.org/abs/1810.10525)
 - **Date:** 2019.09
 - **Description:** Proposes a new paradigm for unsupervised learning centered on an 'AI Physicist' agent that discovers, simplifies, and organizes 'theories' (prediction function + domain of applicability) from observational data. Key innovations include a generalized-mean loss for unsupervised domain specialization (divide-and-conquer), a differentiable Minimum Description Length (MDL) objective for simplification (Occam's Razor), and a 'theory hub' for unification and lifelong learning. This work serves as the conceptual precursor to the AI Feynman algorithm.
@@ -375,10 +387,19 @@
 - **Description:** An improved version of the AI Feynman algorithm introducing three key innovations: (1) seeking a Pareto-optimal frontier of formulas that balance accuracy and complexity, (2) using neural network gradients to discover generalized symmetries and arbitrary graph modularity, and (3) employing Normalizing Flows to extend symbolic regression to probability distributions. The method demonstrates significantly enhanced robustness to noise and solves more complex problems than its predecessor.
 - **Domain:** `Symbolic Regression` `AI for Science` `Pareto Optimality` `Normalizing Flows` `Equation Discovery`
 
-##### [Physics-AI symbiosis](https://doi.org/10.1088/2632-2153/ac9215)
-- **Date:** 2022.09
-- **Description:** Proposes the concept of "Physics-AI Symbiosis," a comprehensive review of the bidirectional and mutually beneficial relationship between physics and artificial intelligence.
-- **Domain:** `AI for Physics` `Physics for AI` `Review` `Interdisciplinary` `Scientific Discovery`
+##### [AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical Knowledge](https://arxiv.org/pdf/2504.01538)
+- **Date:** 2025.04
+- **Description:** AI-Newton, a concept-driven discovery system, can autonomously derive physical laws from raw data—without supervision or prior physical knowledge. The system integrates a knowledge base and knowledge representation centered around physical concepts, as well as an autonomous discovery workflow.
+- **Domain:** `Survey` `Symbolic-AI`
+
+##### [Bayesian symbolic regression: Automated equation discovery from a physicists' perspective](https://arxiv.org/abs/2507.19540)
+- **Date:** 2025.07
+- **Description:** Discusses a probabilistic approach to symbolic regression rooted in Bayesian inference, arguing for model plausibility and ensembles over heuristic criteria to provide a more rigorous framework for automated equation discovery.
+- **Domain:** `Symbolic Regression` `Bayesian Inference` `Automated Scientific Discovery` `Model Selection` `Review`
+
+#### C.2.2 Graph Representation Learning for Physical Laws (knowledge graphs, causal graphs)
+#### C.2.3 Program Synthesis Approaches (program synthesis for physics)
+#### C.2.4 Neuro-Symbolic Integration, Differentiable Physics Engines
 
 ##### [KAN: Kolmogorov-Arnold Networks](https://openreview.net/pdf?id=Ozo7qJ5vZi)
 - **Date:** 2024.04
@@ -389,21 +410,6 @@
 - **Date:** 2024.08
 - **Description:** This work elevates KANs from a neural network architecture to a comprehensive, bidirectional framework for scientific discovery. It establishes a synergy between science and KANs, enabling both the incorporation of scientific knowledge into KANs (via auxiliary variables, modular structures, and a novel "kanpiler" for compiling formulas) and the extraction of scientific insights from them (via feature attribution, a "tree converter" for modularity, and symbolic simplification). The paper also introduces MultKAN, an extension that includes native multiplication nodes, enhancing interpretability and efficiency.
 - **Domain:** `KAN` `AI for Science` `Interpretability` `Scientific Discovery` `Symbolic Regression`
-
-##### [AI meets physics: a comprehensive survey](https://doi.org/10.1007/s10462-024-10874-4)
-- **Date:** 2024.08
-- **Description:** A comprehensive survey on the bidirectional relationship between AI and physics, detailing how physics principles inspire AI models (Physics for AI) and how AI empowers physical science research (AI for Physics).
-- **Domain:** `AI for Physics` `Physics for AI` `Review` `Interdisciplinary` `Machine Learning Theory`
-
-##### [AI-Newton: A Concept-Driven Physical Law Discovery System without Prior Physical Knowledge](https://arxiv.org/pdf/2504.01538)
-- **Date:** 2025.04
-- **Description:** AI-Newton, a concept-driven discovery system, can autonomously derive physical laws from raw data—without supervision or prior physical knowledge. The system integrates a knowledge base and knowledge representation centered around physical concepts, as well as an autonomous discovery workflow.
-- **Domain:** `Survey` `Symbolic-AI`
-
-##### [Bayesian symbolic regression: Automated equation discovery from a physicists' perspective](https://arxiv.org/abs/2507.19540)
-- **Date:** 2025.07
-- **Description:** Discusses a probabilistic approach to symbolic regression rooted in Bayesian inference, arguing for model plausibility and ensembles over heuristic criteria to provide a more rigorous framework for automated equation discovery.
-- **Domain:** `Symbolic Regression` `Bayesian Inference` `Automated Scientific Discovery` `Model Selection` `Review`
 
 ### C.3 Physics-Informed Neural Networks 
 
