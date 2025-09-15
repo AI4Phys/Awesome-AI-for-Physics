@@ -408,6 +408,11 @@
 
 #### C.3.1 Macro Perspectives on Physics-Informed Machine Learning (PIML)
 
+##### [Theory-Guided Data Science: A New Paradigm for Scientific Discovery from Data](https://doi.org/10.1109/TKDE.2017.2720168)
+- **Date:** 2017.06
+- **Description:** A foundational paper that conceptualizes Theory-Guided Data Science (TGDS), proposing a taxonomy of five themes for integrating scientific knowledge with data science models to improve generalization and interpretability.
+- **Domain:** `Conceptual Framework` `Theory-Guided Data Science` `Scientific Discovery` `Review` `PIML`
+
 ##### [Physics-informed machine learning](https://www.nature.com/articles/s42254-021-00314-5)
 - **Date:** 2021.06
 - **Description:** A comprehensive review that frames Physics-Informed Machine Learning (PIML) as a new paradigm for integrating data and physical models. It categorizes the methods for embedding physics into machine learning into three types of biases: observational, inductive (architectural), and learning (loss function). The paper surveys the capabilities, limitations, and diverse applications of PIML, positioning PINNs as a key component within this broader field.
@@ -417,6 +422,11 @@
 - **Date:** 2022.04
 - **Description:** This review paper provides a systematic overview of hybrid physics-based and data-driven models specifically for smart manufacturing applications. It categorizes these hybrid models into three main types: (1) physics-informed machine learning (e.g., PINNs), where physical laws constrain the learning process; (2) machine learning-assisted simulation (e.g., surrogate modeling), where ML accelerates or enhances traditional physics-based simulations; and (3) explainable AI (XAI), which aims to interpret the behavior of complex models. The paper highlights the complementary strengths of physics and data, offering a practical framework for developing more transparent, interpretable, and accurate models in industrial settings.
 - **Domain:** `Review` `Hybrid Modeling` `Physics-Informed Machine Learning` `Explainable AI` `Smart Manufacturing`
+
+##### [Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications](https://arxiv.org/abs/2211.08064)
+- **Date:** 2022.11
+- **Description:** A comprehensive survey that systematically reviews the field of Physics-Informed Machine Learning (PIML) from a machine learning perspective, proposing a taxonomy based on tasks, types of physical priors, and methods of incorporation.
+- **Domain:** `Survey` `PIML` `Physics-Informed Machine Learning` `Taxonomy` `Review`
 
 ##### [Physics-Informed Neural Networks: A Review of Methodological Evolution, Theoretical Foundations, and Interdisciplinary Frontiers Toward Next-Generation Scientific Computing](https://doi.org/10.3390/app15148092)
 - **Date:** 2025.07
