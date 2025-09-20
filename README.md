@@ -551,200 +551,191 @@
 - **Description:** This work introduces a novel physics-informed framework for constrained motion planning (CMP) in robotics. It reformulates the CMP problem as solving the Eikonal PDE on the constraint manifold, which is then solved using a Physics-Informed Neural Network (PINN). This approach is entirely data-free, requiring no expert demonstrations, and learns a neural function that can generate optimal, collision-free paths in sub-seconds. The method significantly outperforms state-of-the-art CMP techniques in speed and success rate on complex, high-dimensional tasks.
 - **Domain:** `Physics-Informed Neural Networks` `Robotics` `Motion Planning` `Eikonal Equation` `AI for Engineering`
 
-
-##### [RPINNS: Rectified-physics informed neural networks for solving stationary partial differential equations](https://doi.org/10.1016/j.compfluid.2022.105583)
-- **Date:** 2022.06
-- **Description:** Proposes a Rectified-PINN (RPINN) which, inspired by multigrid methods, uses a second neural network to learn and correct the error of an initial PINN solution, leading to higher final accuracy.
-- **Domain:** `PINN` `Iterative Refinement` `Multigrid` `High Precision`
-
-##### [Investigating and Mitigating Failure Modes in Physics-informed Neural Networks (PINNs)](https://arxiv.org/abs/2209.09988)
-- **Date:** 2022.09
-- **Description:** Identifies that high-order derivatives contaminate backpropagated gradients, causing training failure, and proposes a novel method to mitigate this by decomposing a high-order PDE into a first-order system using auxiliary variables.
-- **Domain:** `PINN` `Failure Modes` `High-Order PDEs` `System Decomposition` `Gradient Contamination`
-
 #### C.3.3 PINNs for Robustness: Accelerating and Stabilizing Training
 
-##### (Robustness to Data Imperfections)
+##### Multi-Objective Loss Optimization：
 
-##### [Delta-PINNs: A new class of physics-informed neural networks for solving forward and inverse problems with noisy data](https://doi.org/10.1016/j.jcp.2022.111271)
-- **Date:** 2022.10
-- **Description:** This paper introduces Delta-PINNs, a new training paradigm for PINNs designed to be highly robust to noisy data. Instead of minimizing the standard Mean Squared Error (MSE) of the PDE residuals, Delta-PINNs optimize a novel loss function based on the change ("Delta") of the mean of the residuals over training epochs. This approach focuses on driving the expectation of the residuals to zero in a monotonically decreasing fashion, effectively averaging out the effects of noise rather than fitting to it. The method demonstrates remarkable robustness, successfully solving forward and inverse problems even when the training data is corrupted with up to 100% noise.
-- **Domain:** `PINN` `Robustness` `Noisy Data` `Loss Functions` `Scientific Machine Learning`
-
-##### [Robust Regression with Highly Corrupted Data via Physics Informed Neural Networks](https://arxiv.org/pdf/2210.10646)
-- **Date:** 2022.10
-- **Description:** This paper introduces a new class of PINNs designed to be robust against data with a high percentage of outliers. The authors first propose LAD-PINN, which replaces the standard Mean Squared Error (L2 norm) data loss with a Least Absolute Deviation (L1 norm) loss, making it inherently less sensitive to outliers. Building on this, they propose a two-stage MAD-PINN framework, which first uses LAD-PINN to identify and then screen out outliers based on the Median Absolute Deviation (MAD), and subsequently trains a standard PINN on the cleaned data for high accuracy. This approach is shown to be effective even when more than 50% of the data is corrupted.
-- **Domain:** `PINN` `Robustness` `Outlier Detection` `Loss Functions` `Robust Regression`
-
-##### (Loss Function Balancing & Optimization)
-
-##### [A Dual-Dimer method for training physics-constrained neural networks with minimax architecture](https://doi.org/10.1016/j.neunet.2020.12.028)
+###### [A Dual-Dimer method for training physics-constrained neural networks with minimax architecture](https://doi.org/10.1016/j.neunet.2020.12.028)
 - **Date:** 2021.01
 - **Description:** Proposes a novel minimax architecture (PCNN-MM) that formulates PINN training as a saddle-point problem to systematically adjust loss weights, and introduces an efficient "Dual-Dimer" algorithm to solve it.
 - **Domain:** `PINN` `Loss Balancing` `Minimax Optimization` `Saddle Point Search` `Training Optimization`
 
-##### [On Theory-training Neural Networks to Infer the Solution of Highly Coupled Differential Equations](https://arxiv.org/abs/2102.04890)
+###### [On Theory-training Neural Networks to Infer the Solution of Highly Coupled Differential Equations](https://arxiv.org/abs/2102.04890)
 - **Date:** 2021.02
 - **Description:** Proposes a Partial Regularization Technique (PRT) to eliminate training oscillations and provides systematic guidelines for finding optimal network architectures, significantly improving the accuracy and robustness of PINNs for highly coupled systems.
 - **Domain:** `PINN` `Training Strategy` `Robustness` `Network Architecture` `Regularization`
 
-##### [Self-adaptive loss balanced Physics-informed neural networks for the incompressible Navier-Stokes equations](https://doi.org/10.1007/s10409-021-01053-7)
+###### [Self-adaptive loss balanced Physics-informed neural networks for the incompressible Navier-Stokes equations](https://doi.org/10.1007/s10409-021-01053-7)
 - **Date:** 2021.04
 - **Description:** Proposes a self-adaptive method (lbPINNs) that automatically balances multiple loss components in PINNs by modeling each term's contribution through a learnable uncertainty parameter, significantly improving accuracy for complex fluid dynamics.
 - **Domain:** `PINN` `Loss Balancing` `Uncertainty` `Navier-Stokes` `Training Optimization`
 
-##### [Adversarial Multi-task Learning Enhanced Physics-informed Neural Networks for Solving Partial Differential Equations](https://arxiv.org/abs/2104.14320)
+###### [Adversarial Multi-task Learning Enhanced Physics-informed Neural Networks for Solving Partial Differential Equations](https://arxiv.org/abs/2104.14320)
 - **Date:** 2021.05
 - **Description:** Proposes enhancing PINNs by combining multi-task learning (jointly training on a related auxiliary PDE) and adversarial training (generating high-loss samples) to improve generalization and accuracy in highly non-linear domains.
 - **Domain:** `PINN` `Multi-task Learning` `Adversarial Training` `Generalization`
 
-##### [Multi-Objective Loss Balancing for Physics-Informed Deep Learning](https://doi.org/10.13140/RG.2.2.20057.24169)
+###### [Multi-Objective Loss Balancing for Physics-Informed Deep Learning](https://doi.org/10.13140/RG.2.2.20057.24169)
 - **Date:** 2021.10
 - **Description:** Proposes a novel self-adaptive algorithm, ReLoBRaLo, which dynamically balances multiple loss terms in PINNs based on their relative progress, an exponential moving average, and a unique random lookback mechanism to improve training speed and accuracy.
 - **Domain:** `PINN` `Loss Balancing` `Multi-Objective Optimization` `Training Optimization`
 
-##### (Optimization via Input, Gradient, or Sampling)
+##### Adaptive Input and Gradient Strategies：
 
-##### [Learning in Sinusoidal Spaces with Physics-Informed Neural Networks](https://arxiv.org/pdf/2109.13901)
+###### [Learning in Sinusoidal Spaces with Physics-Informed Neural Networks](https://arxiv.org/pdf/2109.13901)
 - **Date:** 2021.09
 - **Description:** This paper diagnoses a key failure mode in training PINNs, showing that expressive networks are initialized with a bias towards flat, near-zero functions, trapping them in trivial local minima of the PDE residual loss. To overcome this, it proposes sf-PINN, an architecture that preprocesses inputs with a sinusoidal feature mapping. The authors theoretically prove that this mapping increases input gradient variability at initialization, providing effective gradients for the optimizer to escape these deceptive local minima. This simple, non-intrusive modification is shown to significantly improve the training stability and final accuracy of PINNs.
 - **Domain:** `PINN` `Training Pathology` `Spectral Bias` `Initialization` `Input Representation`
 
-##### [Robust Learning of Physics Informed Neural Networks](https://arxiv.org/abs/2110.13330)
+###### [Robust Learning of Physics Informed Neural Networks](https://arxiv.org/abs/2110.13330)
 - **Date:** 2021.10
 - **Description:** Proposes a robust training framework where a Gaussian Process (GP) is first used to smooth/denoise noisy training data, and the resulting clean "proxy" data is then used to train the PINN, effectively decoupling data denoising from PDE solving.
 - **Domain:** `PINN` `Robustness` `Noisy Data` `Gaussian Process` `Data Pre-processing`
 
-##### [Gradient-enhanced physics-informed neural networks for forward and inverse PDE problems](https://arxiv.org/abs/2111.02801)
+###### [Gradient-enhanced physics-informed neural networks for forward and inverse PDE problems](https://arxiv.org/abs/2111.02801)
 - **Date:** 2021.11
 - **Description:** Proposes Gradient-enhanced PINNs (gPINNs), a method that improves the accuracy and efficiency of PINNs by adding the gradient of the PDE residual as an additional term in the loss function.
 - **Domain:** `PINN` `Gradient-enhanced` `Loss Function` `Training Optimization` `RAR`
 
-##### [A comprehensive study of non-adaptive and residual-based adaptive sampling for physics-informed neural networks](https://arxiv.org/abs/2207.10289)
-- **Date:** 2022.07
-- **Description:** Presents a comprehensive benchmark of 10 sampling methods for PINNs and proposes two new residual-based adaptive sampling algorithms (RAD and RAR-D) that significantly improve accuracy by dynamically redistributing points based on the PDE residual.
-- **Domain:** `PINN` `Adaptive Sampling` `RAR` `Training Optimization` `Benchmark`
-
-##### [A Novel Adaptive Causal Sampling Method for Physics-Informed Neural Networks](https://arxiv.org/abs/2210.12914)
-- **Date:** 2022.10
-- **Description:** Proposes an Adaptive Causal Sampling Method (ACSM) that incorporates temporal causality into the sampling process by weighting the residual-based sampling probability with a causal term, preventing training failure in time-dependent PDEs.
-- **Domain:** `PINN` `Adaptive Sampling` `Causal Training` `Time-Dependent PDEs`
-
-##### (Theoretical Properties of Loss Functions)
-
-##### [Is L2 Physics-Informed Loss Always Suitable for Training Physics-Informed Neural Network?](https://arxiv.org/abs/2206.02016)
-- **Date:** 2022.06
-- **Description:** Theoretically proves that the standard L2 loss is unstable for training PINNs on high-dimensional HJB equations and proposes a new adversarial training algorithm to effectively minimize a more suitable L-infinity loss.
-- **Domain:** `PINN` `Loss Function` `PDE Stability` `HJB Equation` `Adversarial Training`
-
-#### C.3.6 PINNs for Specialized Applications and Architectures
-
-##### [Accelerated Training of Physics-Informed Neural Networks (PINNS) using Meshless Discretizations](https://arxiv.org/abs/2205.09332)
+###### [Accelerated Training of Physics-Informed Neural Networks (PINNS) using Meshless Discretizations](https://arxiv.org/abs/2205.09332)
 - **Date:** 2022.05
 - **Description:** Proposes Discretely-Trained PINNs (DT-PINNs), which accelerate training by replacing expensive automatic differentiation for spatial derivatives with a pre-computed, high-order accurate meshless RBF-FD operator, achieving 2-4x speedups.
 - **Domain:** `PINN` `Training Acceleration` `RBF-FD` `Meshless Method` `Numerical Differentiation`
 
+###### [RPINNS: Rectified-physics informed neural networks for solving stationary partial differential equations](https://doi.org/10.1016/j.compfluid.2022.105583)
+- **Date:** 2022.06
+- **Description:** Proposes a Rectified-PINN (RPINN) which, inspired by multigrid methods, uses a second neural network to learn and correct the error of an initial PINN solution, leading to higher final accuracy.
+- **Domain:** `PINN` `Iterative Refinement` `Multigrid` `High Precision`
 
-#### C.3.7 PINNs for Parametrized Systems: Transfer and Meta-Learning
+###### [A comprehensive study of non-adaptive and residual-based adaptive sampling for physics-informed neural networks](https://arxiv.org/abs/2207.10289)
+- **Date:** 2022.07
+- **Description:** Presents a comprehensive benchmark of 10 sampling methods for PINNs and proposes two new residual-based adaptive sampling algorithms (RAD and RAR-D) that significantly improve accuracy by dynamically redistributing points based on the PDE residual.
+- **Domain:** `PINN` `Adaptive Sampling` `RAR` `Training Optimization` `Benchmark`
 
-##### [Transfer learning enhanced physics informed neural network for phase-field modeling of fracture](https://doi.org/10.1016/j.tafmec.2019.102447)
-- **Date:** 2019.12
-- **Description:** Proposes a new variational energy-based PINN paradigm (VE-PINN) for more stable fracture problem solving, and innovatively uses transfer learning to significantly accelerate the sequential solving process under multiple load steps.
-- **Domain:** `Variational PINN` `Phase-Field Fracture` `Transfer Learning` `Computational Acceleration`
+###### [A Novel Adaptive Causal Sampling Method for Physics-Informed Neural Networks](https://arxiv.org/abs/2210.12914)
+- **Date:** 2022.10
+- **Description:** Proposes an Adaptive Causal Sampling Method (ACSM) that incorporates temporal causality into the sampling process by weighting the residual-based sampling probability with a causal term, preventing training failure in time-dependent PDEs.
+- **Domain:** `PINN` `Adaptive Sampling` `Causal Training` `Time-Dependent PDEs`
 
-##### [A physics-aware learning architecture with input transfer networks for predictive modeling](https://doi.org/10.1016/j.asoc.2020.106665)
-- **Date:** 2020.08
-- **Description:** Proposes a novel hybrid architecture called OPTMA, whose core idea is to train a neural network to transform input features, enabling a simple "partial physics model" to make predictions matching a high-fidelity model.
-- **Domain:** `Hybrid Modeling` `Transfer Learning` `Physics-Aware ML`
+###### [Is L2 Physics-Informed Loss Always Suitable for Training Physics-Informed Neural Network?](https://arxiv.org/abs/2206.02016)
+- **Date:** 2022.06
+- **Description:** Theoretically proves that the standard L2 loss is unstable for training PINNs on high-dimensional HJB equations and proposes a new adversarial training algorithm to effectively minimize a more suitable L-infinity loss.
+- **Domain:** `PINN` `Loss Function` `PDE Stability` `HJB Equation` `Adversarial Training`
 
-##### [Transfer learning based multi-fidelity physics informed deep neural network](https://doi.org/10.1016/j.jcp.2020.109942)
-- **Date:** 2020.10
-- **Description:** Proposes the MF-PIDNN framework, which first pre-trains a network on approximate physical equations without data using the PINN method, and then fine-tunes the model with a few high-fidelity data points via transfer learning.
-- **Domain:** `Multi-Fidelity` `PINN` `Transfer Learning` `Data-Efficient`
+##### Robustness & Uncertainty Quantification:
 
-##### [Meta-learning PINN loss functions](https://arxiv.org/abs/2107.05544)
-- **Date:** 2021.07
-- **Description:** Proposes a gradient-based meta-learning framework to automatically discover an optimal, shared PINN loss function from a family of related PDE tasks, aiming to improve performance and efficiency on new tasks.
-- **Domain:** `Meta-Learning` `PINN` `Loss Function` `Task Distribution`
-
-##### [HyperPINN: Learning parameterized differential equations with physics-informed hypernetworks](https://openreview.net/pdf?id=LxUuRDUhRjM)
-- **Date:** 2021.10
-- **Description:** This paper introduces HyperPINN, a meta-learning framework that leverages hypernetworks to efficiently solve parameterized PDEs. Instead of training a new PINN for each parameter instance, HyperPINN trains a small "hypernetwork" that takes a physical parameter as input and outputs the weights for a smaller "main" PINN. This main network then solves the PDE for that specific parameter. This approach creates a single, compact model capable of instantly generating a specialized solver for any parameterization, offering a highly efficient and memory-saving alternative for multi-query and real-time applications.
-- **Domain:** `PINN` `Meta-Learning` `Hypernetworks` `Parametric PDEs` `Scientific Machine Learning`
-
-##### [A Meta learning Approach for Physics-Informed Neural Networks (PINNs): Application to Parameterized PDEs](https://arxiv.org/abs/2110.13361)
-- **Date:** 2021.10
-- **Description:** Proposes a model-aware metalearning approach that trains a surrogate model to learn the mapping from PDE parameters to optimal PINN initial weights, providing a high-quality starting point to accelerate training for new tasks.
-- **Domain:** `Meta-Learning` `PINN` `Weight Initialization` `Parameterized PDEs`
-
-##### [META-PDE: LEARNING TO SOLVE PDES QUICKLY WITHOUT A MESH](https://arxiv.org/abs/2211.01604)
-- **Date:** 2022.11
-- **Description:** Proposes a framework called Meta-PDE that uses meta-learning (MAML/LEAP) to find an optimal PINN weight initialization, enabling rapid convergence in just a few gradient steps when solving new, related PDE tasks, even with varying geometries.
-- **Domain:** `Meta-Learning` `PINN` `Model Initialization` `Fast PDE Solver`
-
-##### [GPT-PINN: Generative Pre-Trained Physics-Informed Neural Networks toward non-intrusive Meta-learning of parametric PDEs](https://arxiv.org/pdf/2303.14878)
-- **Date:** 2023.03
-- **Description:** This paper introduces GPT-PINN, a novel meta-learning framework to drastically accelerate the solution of parametric PDEs for multi-query and real-time applications. It treats fully pre-trained PINNs, solved at adaptively selected parameter points, as activation functions or "neurons" in a hyper-reduced meta-network. This "network of networks" learns to generate solutions for new parameters by linearly combining a very small set of these pre-trained basis solutions. The framework is non-intrusive and results in an extremely lightweight and fast surrogate model.
-- **Domain:** `PINN` `Meta-Learning` `Model Reduction` `Parametric PDEs` `Scientific Machine Learning`
-
-#### C.3.8 Probabilistic PINNs and Uncertainty Quantification
-
-##### [A physics-aware, probabilistic machine learning framework for coarse-graining high-dimensional systems in the Small Data regime](https://doi.org/10.1016/j.jcp.2019.05.053)
+###### [A physics-aware, probabilistic machine learning framework for coarse-graining high-dimensional systems in the Small Data regime](https://doi.org/10.1016/j.jcp.2019.05.053)
 - **Date:** 2019.07
 - **Description:** Proposes a physics-aware Bayesian framework using variational inference to construct coarse-grained models from sparse, high-dimensional data, enabling robust uncertainty quantification in the small data regime.
 - **Domain:** `Probabilistic Modeling` `Uncertainty Quantification` `Bayesian Inference` `Coarse-Graining` `Small Data`
 
-##### [Adversarial uncertainty quantification in physics-informed neural networks](https://doi.org/10.1016/j.jcp.2019.05.027)
+###### [Adversarial uncertainty quantification in physics-informed neural networks](https://doi.org/10.1016/j.jcp.2019.05.027)
 - **Date:** 2019.07
 - **Description:** Proposes a framework for uncertainty quantification in PINNs using deep generative models (VAEs and GANs), trained via an adversarial inference procedure where the generator is constrained by physical laws.
 - **Domain:** `Uncertainty Quantification` `PINN` `Adversarial Inference` `GAN` `Probabilistic Modeling`
 
-##### [B-PINNS: Bayesian physics-informed neural networks for forward and inverse PDE problems with noisy data](https://doi.org/10.1016/j.jcp.2020.109913)
+###### [B-PINNS: Bayesian physics-informed neural networks for forward and inverse PDE problems with noisy data](https://doi.org/10.1016/j.jcp.2020.109913)
 - **Date:** 2020.10
 - **Description:** Proposes a Bayesian Physics-Informed Neural Network (B-PINN) framework that uses Hamiltonian Monte Carlo (HMC) or Variational Inference (VI) to infer the posterior distribution of network weights, enabling robust uncertainty quantification for PDE problems with noisy data.
 - **Domain:** `Bayesian PINN` `Uncertainty Quantification` `Hamiltonian Monte Carlo` `Variational Inference` `Noisy Data`
 
-##### [PID-GAN: A GAN Framework based on a Physics-informed Discriminator for Uncertainty Quantification with Physics](https://arxiv.org/abs/2106.02993)
+###### [PID-GAN: A GAN Framework based on a Physics-informed Discriminator for Uncertainty Quantification with Physics](https://arxiv.org/abs/2106.02993)
 - **Date:** 2021.06
 - **Description:** Proposes PID-GAN, a novel GAN framework where physics constraints are embedded into both the generator and the discriminator, enabling more robust and accurate uncertainty quantification for physical systems.
 - **Domain:** `Uncertainty Quantification` `GAN` `PINN` `Probabilistic Modeling` `Adversarial Training`
 
-##### [Wasserstein Generative Adversarial Uncertainty Quantification in Physics-Informed Neural Networks](https://arxiv.org/abs/2108.13054)
+###### [Wasserstein Generative Adversarial Uncertainty Quantification in Physics-Informed Neural Networks](https://arxiv.org/abs/2108.13054)
 - **Date:** 2021.08
 - **Description:** Proposes a physics-informed Wasserstein Generative Adversarial Network (WGAN) for uncertainty quantification, and provides a theoretical generalization error bound for the framework.
 - **Domain:** `Uncertainty Quantification` `WGAN` `PINN` `Probabilistic Modeling` `Error Analysis`
 
-##### [Flow Field Tomography with Uncertainty Quantification using a Bayesian Physics-Informed Neural Network](https://arxiv.org/abs/2108.09247)
+###### [Flow Field Tomography with Uncertainty Quantification using a Bayesian Physics-Informed Neural Network](https://arxiv.org/abs/2108.09247)
 - **Date:** 2021.08
 - **Description:** Proposes a Bayesian PINN framework for flow field tomography that reconstructs a 2D flow field from sparse line-of-sight data without boundary conditions, by incorporating both the measurement model and the Navier-Stokes equations into the loss function, while providing uncertainty quantification.
 - **Domain:** `Bayesian PINN` `Uncertainty Quantification` `Inverse Problems` `Tomography` `Fluid Dynamics`
 
-##### [Stochastic Physics-Informed Neural Ordinary Differential Equations](https://arxiv.org/abs/2109.01621)
+###### [Stochastic Physics-Informed Neural Ordinary Differential Equations](https://arxiv.org/abs/2109.01621)
 - **Date:** 2021.09
 - **Description:** Proposes SPINODE, a framework that learns hidden physics in Stochastic Differential Equations (SDEs) by first deriving deterministic ODEs for the statistical moments, and then training a neural network within this moment-dynamics system using neural ODE solvers.
 - **Domain:** `Stochastic Differential Equations` `Uncertainty Quantification` `Neural ODEs` `System Identification` `Probabilistic Modeling`
 
-##### [A Physics-Data-Driven Bayesian Method for Heat Conduction Problems](https://arxiv.org/abs/2109.00996)
+###### [A Physics-Data-Driven Bayesian Method for Heat Conduction Problems](https://arxiv.org/abs/2109.00996)
 - **Date:** 2021.09
 - **Description:** Proposes a Heat Conduction Equation assisted Bayesian Neural Network (HCE-BNN) that embeds the PDE into the loss function of a BNN, enabling uncertainty quantification for forward and inverse heat conduction problems.
 - **Domain:** `Bayesian PINN` `Uncertainty Quantification` `Bayesian Neural Network` `Heat Transfer`
 
-##### [Spectral PINNS: Fast Uncertainty Propagation with Physics-Informed Neural Networks](https://arxiv.org/abs/2109.00996)
+###### [Spectral PINNS: Fast Uncertainty Propagation with Physics-Informed Neural Networks](https://arxiv.org/abs/2109.00996)
 - **Date:** 2021.09
 - **Description:** Proposes Spectral PINNs, a method that learns the spectral coefficients of a Polynomial Chaos Expansion (PCE) of a stochastic PDE's solution, enabling fast uncertainty propagation by decoupling the spatiotemporal and stochastic domains.
 - **Domain:** `Uncertainty Quantification` `Polynomial Chaos Expansion` `Stochastic PDEs` `Operator Learning`
 
-##### [Multi-output physics-informed neural networks for forward and inverse PDE problems with uncertainties](https://doi.org/10.1016/j.cma.2022.115041)
+###### [Multi-output physics-informed neural networks for forward and inverse PDE problems with uncertainties](https://doi.org/10.1016/j.cma.2022.115041)
 - **Date:** 2022.05
 - **Description:** Proposes a Multi-Output PINN (MO-PINN) that approximates the posterior distribution of the solution by training a single network with multiple output heads, each corresponding to a bootstrapped realization of the noisy data, enabling efficient uncertainty quantification.
 - **Domain:** `Uncertainty Quantification` `PINN` `Bootstrap` `Multi-Output Network`
 
-##### [Bayesian Physics Informed Neural Networks for real-world nonlinear dynamical systems](https://doi.org/10.1016/j.cma.2022.115346)
+###### [Bayesian Physics Informed Neural Networks for real-world nonlinear dynamical systems](https://doi.org/10.1016/j.cma.2022.115346)
 - **Date:** 2022.07
 - **Description:** Extends the Bayesian PINN (B-PINN) framework to real-world nonlinear dynamical systems, such as biological growth and epidemic models, providing robust uncertainty quantification and inference of unobservable parameters from sparse, noisy data.
 - **Domain:** `Bayesian PINN` `Uncertainty Quantification` `Dynamical Systems` `Epidemiology` `Biomechanics`
 
-#### C.3.9 Theoretical Foundations, Convergence, and Failure Mode Analysis of PINNs
+###### [Delta-PINNs: A new class of physics-informed neural networks for solving forward and inverse problems with noisy data](https://doi.org/10.1016/j.jcp.2022.111271)
+- **Date:** 2022.10
+- **Description:** This paper introduces Delta-PINNs, a new training paradigm for PINNs designed to be highly robust to noisy data. Instead of minimizing the standard Mean Squared Error (MSE) of the PDE residuals, Delta-PINNs optimize a novel loss function based on the change ("Delta") of the mean of the residuals over training epochs. This approach focuses on driving the expectation of the residuals to zero in a monotonically decreasing fashion, effectively averaging out the effects of noise rather than fitting to it. The method demonstrates remarkable robustness, successfully solving forward and inverse problems even when the training data is corrupted with up to 100% noise.
+- **Domain:** `PINN` `Robustness` `Noisy Data` `Loss Functions` `Scientific Machine Learning`
+
+###### [Robust Regression with Highly Corrupted Data via Physics Informed Neural Networks](https://arxiv.org/pdf/2210.10646)
+- **Date:** 2022.10
+- **Description:** This paper introduces a new class of PINNs designed to be robust against data with a high percentage of outliers. The authors first propose LAD-PINN, which replaces the standard Mean Squared Error (L2 norm) data loss with a Least Absolute Deviation (L1 norm) loss, making it inherently less sensitive to outliers. Building on this, they propose a two-stage MAD-PINN framework, which first uses LAD-PINN to identify and then screen out outliers based on the Median Absolute Deviation (MAD), and subsequently trains a standard PINN on the cleaned data for high accuracy. This approach is shown to be effective even when more than 50% of the data is corrupted.
+- **Domain:** `PINN` `Robustness` `Outlier Detection` `Loss Functions` `Robust Regression`
+
+#### C.3.4 PINNs for Generalization: Learning Families of PDEs
+
+##### Transfer Learning:
+
+###### [Transfer learning enhanced physics informed neural network for phase-field modeling of fracture](https://doi.org/10.1016/j.tafmec.2019.102447)
+- **Date:** 2019.12
+- **Description:** Proposes a new variational energy-based PINN paradigm (VE-PINN) for more stable fracture problem solving, and innovatively uses transfer learning to significantly accelerate the sequential solving process under multiple load steps.
+- **Domain:** `Variational PINN` `Phase-Field Fracture` `Transfer Learning` `Computational Acceleration`
+
+###### [A physics-aware learning architecture with input transfer networks for predictive modeling](https://doi.org/10.1016/j.asoc.2020.106665)
+- **Date:** 2020.08
+- **Description:** Proposes a novel hybrid architecture called OPTMA, whose core idea is to train a neural network to transform input features, enabling a simple "partial physics model" to make predictions matching a high-fidelity model.
+- **Domain:** `Hybrid Modeling` `Transfer Learning` `Physics-Aware ML`
+
+###### [Transfer learning based multi-fidelity physics informed deep neural network](https://doi.org/10.1016/j.jcp.2020.109942)
+- **Date:** 2020.10
+- **Description:** Proposes the MF-PIDNN framework, which first pre-trains a network on approximate physical equations without data using the PINN method, and then fine-tunes the model with a few high-fidelity data points via transfer learning.
+- **Domain:** `Multi-Fidelity` `PINN` `Transfer Learning` `Data-Efficient`
+
+##### Meta-Learning & Hypernetworks:
+
+###### [Meta-learning PINN loss functions](https://arxiv.org/abs/2107.05544)
+- **Date:** 2021.07
+- **Description:** Proposes a gradient-based meta-learning framework to automatically discover an optimal, shared PINN loss function from a family of related PDE tasks, aiming to improve performance and efficiency on new tasks.
+- **Domain:** `Meta-Learning` `PINN` `Loss Function` `Task Distribution`
+
+###### [HyperPINN: Learning parameterized differential equations with physics-informed hypernetworks](https://openreview.net/pdf?id=LxUuRDUhRjM)
+- **Date:** 2021.10
+- **Description:** This paper introduces HyperPINN, a meta-learning framework that leverages hypernetworks to efficiently solve parameterized PDEs. Instead of training a new PINN for each parameter instance, HyperPINN trains a small "hypernetwork" that takes a physical parameter as input and outputs the weights for a smaller "main" PINN. This main network then solves the PDE for that specific parameter. This approach creates a single, compact model capable of instantly generating a specialized solver for any parameterization, offering a highly efficient and memory-saving alternative for multi-query and real-time applications.
+- **Domain:** `PINN` `Meta-Learning` `Hypernetworks` `Parametric PDEs` `Scientific Machine Learning`
+
+###### [A Meta learning Approach for Physics-Informed Neural Networks (PINNs): Application to Parameterized PDEs](https://arxiv.org/abs/2110.13361)
+- **Date:** 2021.10
+- **Description:** Proposes a model-aware metalearning approach that trains a surrogate model to learn the mapping from PDE parameters to optimal PINN initial weights, providing a high-quality starting point to accelerate training for new tasks.
+- **Domain:** `Meta-Learning` `PINN` `Weight Initialization` `Parameterized PDEs`
+
+###### [META-PDE: LEARNING TO SOLVE PDES QUICKLY WITHOUT A MESH](https://arxiv.org/abs/2211.01604)
+- **Date:** 2022.11
+- **Description:** Proposes a framework called Meta-PDE that uses meta-learning (MAML/LEAP) to find an optimal PINN weight initialization, enabling rapid convergence in just a few gradient steps when solving new, related PDE tasks, even with varying geometries.
+- **Domain:** `Meta-Learning` `PINN` `Model Initialization` `Fast PDE Solver`
+
+###### [GPT-PINN: Generative Pre-Trained Physics-Informed Neural Networks toward non-intrusive Meta-learning of parametric PDEs](https://arxiv.org/pdf/2303.14878)
+- **Date:** 2023.03
+- **Description:** This paper introduces GPT-PINN, a novel meta-learning framework to drastically accelerate the solution of parametric PDEs for multi-query and real-time applications. It treats fully pre-trained PINNs, solved at adaptively selected parameter points, as activation functions or "neurons" in a hyper-reduced meta-network. This "network of networks" learns to generate solutions for new parameters by linearly combining a very small set of these pre-trained basis solutions. The framework is non-intrusive and results in an extremely lightweight and fast surrogate model.
+- **Domain:** `PINN` `Meta-Learning` `Model Reduction` `Parametric PDEs` `Scientific Machine Learning`
+
+#### C.3.5 Theoretical Foundations, Convergence, and Failure Mode Analysis of PINNs
 
 ##### [Estimates on the generalization error of physics-informed neural networks for approximating a class of inverse problems for PDES](https://doi.org/10.1093/imanum/drab032)
 - **Date:** 2021.06
@@ -776,7 +767,12 @@
 - **Description:** Provides rigorous upper bounds on the generalization error for PINNs approximating forward problems for a broad class of (nonlinear) PDEs by leveraging stability estimates of the underlying PDE.
 - **Domain:** `Generalization Error` `PINN Theory` `Forward Problems` `PDE Stability`
 
-#### C.3.10 Alternative Physics-Inspired Paradigms
+##### [Investigating and Mitigating Failure Modes in Physics-informed Neural Networks (PINNs)](https://arxiv.org/abs/2209.09988)
+- **Date:** 2022.09
+- **Description:** Identifies that high-order derivatives contaminate backpropagated gradients, causing training failure, and proposes a novel method to mitigate this by decomposing a high-order PDE into a first-order system using auxiliary variables.
+- **Domain:** `PINN` `Failure Modes` `High-Order PDEs` `System Decomposition` `Gradient Contamination`
+
+#### C.3.6 Alternative Physics-Inspired Paradigms
 
 ##### [Physics-guided Neural Networks (PGNN): An Application in Lake Temperature Modeling](https://arxiv.org/pdf/1710.11431)
 - **Date:** 2017.10
