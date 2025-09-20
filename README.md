@@ -447,7 +447,7 @@
 
 #### C.3.2 PINNs for Scalability: Addressing Large-Scale and Complex Problems
 
-#####General Frameworks & Foundations:
+##### General Frameworks & Foundations:
 
 ###### [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/pdf/1711.10561)
 - **Date:** 2017.11
@@ -503,7 +503,7 @@
 - **Description:** This paper proposes Interfaced Neural Networks (INNs) to solve PDE problems with discontinuous coefficients and irregular interfaces, where standard PINNs typically fail. The core idea is a physics-driven domain decomposition: the domain is split along the known interfaces, and a separate neural network is assigned to each subdomain. Crucially, the physical interface conditions (e.g., continuity of the solution and jumps in the flux) are explicitly enforced as loss terms, enabling the framework to accurately capture discontinuities in the solution's derivatives.
 - **Domain:** `PINN` `Interface Problems` `Domain Decomposition` `Discontinuous Solutions` `Scientific Machine Learning`
 
-##### [Deep neural network methods for solving forward and inverse problems of time fractional diffusion equations with conformable derivative](https://arxiv.org/pdf/2108.07490)
+###### [Deep neural network methods for solving forward and inverse problems of time fractional diffusion equations with conformable derivative](https://arxiv.org/pdf/2108.07490)
 - **Date:** 2021.08
 - **Description:** This paper pioneers the application of Physics-Informed Neural Networks (PINNs) to solve time-fractional diffusion equations involving the conformable derivative, a newer definition in fractional calculus. The work demonstrates that the PINN framework can effectively handle both forward (solution) and inverse (parameter estimation) problems for this class of non-standard PDEs. To address accuracy degradation when the fractional order approaches integer values, the authors introduce a weighted PINN (wPINN) that adjusts the loss function to mitigate the effects of singularities, thereby enhancing the model's robustness.
 - **Domain:** `PINN` `Fractional Calculus` `Conformable Derivative` `Inverse Problems` `Scientific Machine Learning`
