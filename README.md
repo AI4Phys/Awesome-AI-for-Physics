@@ -401,9 +401,7 @@
 - **Description:** Discusses a probabilistic approach to symbolic regression rooted in Bayesian inference, arguing for model plausibility and ensembles over heuristic criteria to provide a more rigorous framework for automated equation discovery.
 - **Domain:** `Symbolic Regression` `Bayesian Inference` `Automated Scientific Discovery` `Model Selection` `Review`
 
-#### C.2.2 Graph Representation Learning for Physical Laws (knowledge graphs, causal graphs)
-#### C.2.3 Program Synthesis Approaches (program synthesis for physics)
-#### C.2.4 Neuro-Symbolic Integration, Differentiable Physics Engines
+#### C.2.2 Neuro-Symbolic Integration, Differentiable Physics Engines
 
 ##### [KAN: Kolmogorov-Arnold Networks](https://openreview.net/pdf?id=Ozo7qJ5vZi)
 - **Date:** 2024.04
