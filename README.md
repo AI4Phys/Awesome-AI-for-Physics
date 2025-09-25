@@ -838,6 +838,13 @@
 
 ### C.2 Symbolic System for Solving Physics Problems
 
+### C.2.0 General Surveys & Foundational Concepts
+
+##### [Machine learning and the physical sciences](https://doi.org/10.48550/arXiv.1903.10563)
+- **Date:** 2019.12
+- **Description:** This comprehensive review article systematically surveys the wide-ranging applications of machine learning in the physical sciences, exploring the current state, challenges, and future directions of the field.
+- **Domain:** `Machine Learning` `Physics` `Review` `Statistical Physics` `Quantum Physics` `Particle Physics`
+
 #### C.2.1 Physics-Inspired Generative Models
 
 ##### [Poisson Flow Generative Models](https://papers.neurips.cc/paper_files/paper/2022/file/6ad68a54eaa8f9bf6ac698b02ec05048-Paper-Conference.pdf)
