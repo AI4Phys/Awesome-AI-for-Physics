@@ -1036,6 +1036,11 @@
 - **Description:** This review provides a comprehensive overview of how AI and machine learning are revolutionizing liquid-vapor phase change heat transfer research by enabling advanced meta-analysis, physical feature extraction from visual data, and real-time data stream analysis for smart thermal systems.
 - **Domain:** `Phase Change` `Heat Transfer` `AI for Physics` `Review`
 
+##### [Mapping the design of electrolyte additive for stabilizing zinc anode in aqueous zinc ion batteries](https://doi.org/10.1016/j.ensm.2024.103364)
+- **Date:** 2024.03
+- **Description:** This review article systematically classifies and analyzes the mechanisms of electrolyte additives for stabilizing zinc anodes in aqueous zinc-ion batteries, highlighting how AI and ML can accelerate the discovery and design of next-generation battery technologies.
+- **Domain:** `Zinc-ion Batteries` `Electrochemistry` `Energy Storage` `Review`
+
 ##### [Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis](https://doi.org/10.1038/s41467-024-48779-z)
 - **Date:** 2024.05
 - **Description:** Proposes a PINN for battery state-of-health (SOH) prognosis by learning the single-cycle degradation dynamics constrained by an empirical state-space degradation model.
