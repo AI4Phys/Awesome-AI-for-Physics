@@ -191,6 +191,7 @@
       - [A Physics-Informed Machine Learning Approach for Estimating Lithium-Ion Battery Temperature](#a-physics-informed-machine-learning-approach-for-estimating-lithium-ion-battery-temperature)
       - [Physics-Informed Neural Network for Discovering Systems with Unmeasurable States with Application to Lithium-Ion Batteries](#physics-informed-neural-network-for-discovering-systems-with-unmeasurable-states-with-application-to-lithium-ion-batteries)
       - [PE-GPT: A Physics-Informed Interactive Large Language Model for Power Converter Modulation Design](#pe-gpt-a-physics-informed-interactive-large-language-model-for-power-converter-modulation-design)
+      - [Recent progress of artificial intelligence for liquid-vapor phase change heat transfer](#recent-progress-of-artificial-intelligence-for-liquid-vapor-phase-change-heat-transfer)
       - [Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis](#physics-informed-neural-network-for-lithium-ion-battery-degradation-stable-modeling-and-prognosis)
       - [Recent Advances in CO (2) Electroreduction Driven by Artificial Intelligence and Machine Learning](#recent-advances-in-co-2-electroreduction-driven-by-artificial-intelligence-and-machine-learning)
     - [C.2.6 Interdisciplinary & Complex Systems](#c26-interdisciplinary--complex-systems)
