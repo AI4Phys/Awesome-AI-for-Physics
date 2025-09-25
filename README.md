@@ -846,6 +846,11 @@
 
 ### C.2.0 General Surveys & Foundational Concepts
 
+##### [Recent advances and applications of machine learning in solid-state materials science](https://doi.org/10.1038/s41524-019-0221-0)
+- **Date:** 2019.08
+- **Description:** This review provides a comprehensive overview of the latest advancements in applying machine learning to solid-state materials science, covering material discovery, property prediction, force fields, and key challenges like interpretability and data scarcity.
+- **Domain:** `Materials Science` `Review` `Machine Learning` `Solid State Physics`
+
 ##### [Machine learning and the physical sciences](https://doi.org/10.48550/arXiv.1903.10563)
 - **Date:** 2019.12
 - **Description:** This comprehensive review article systematically surveys the wide-ranging applications of machine learning in the physical sciences, exploring the current state, challenges, and future directions of the field.
