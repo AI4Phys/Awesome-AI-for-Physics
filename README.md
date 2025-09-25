@@ -866,6 +866,26 @@
 
 #### C.2.2 Quantum and Particle Physics
 
+##### [Searching for Exotic Particles in High-Energy Physics with Deep Learning](https://arxiv.org/abs/1402.4735)
+- **Date:** 2014.02
+- **Description:** This seminal paper demonstrates that deep learning can significantly improve signal-versus-background classification in high-energy physics, outperforming traditional shallow methods without requiring manually-constructed features.
+- **Domain:** `High Energy Physics` `Particle Physics` `Deep Learning` `Classification`
+
+##### [Machine learning phases of matter](https://arxiv.org/abs/1605.01735)
+- **Date:** 2016.05
+- **Description:** This paper demonstrates that supervised learning with neural networks and CNNs can effectively classify conventional and topological phases of matter directly from raw configurations, even without prior knowledge of the underlying physics.
+- **Domain:** `Condensed Matter Physics` `Phase Transition` `Supervised Learning` `Ising Model`
+
+##### [Discovering Phase Transitions with Unsupervised Learning](https://arxiv.org/abs/1606.00318)
+- **Date:** 2016.06
+- **Description:** This paper pioneers the use of unsupervised learning, specifically PCA and clustering, to discover phases and phase transitions in the Ising model, demonstrating that machine learning can find fundamental physical concepts like order parameters without prior knowledge.
+- **Domain:** `Unsupervised Learning` `Statistical Mechanics` `Phase Transition` `Ising Model`
+
+##### [Learning phase transitions by confusion](https://arxiv.org/abs/1610.02048)
+- **Date:** 2016.10
+- **Description:** This paper proposes a novel "confusion scheme" using neural networks and deliberately mislabeled data to detect phase transitions in physical systems without prior knowledge of order parameters.
+- **Domain:** `Condensed Matter Physics` `Quantum Physics` `Phase Transition` `Machine Learning`
+
 ##### [Graph Neural Networks in Particle Physics: Implementations, Innovations, and Challenges](https://arxiv.org/pdf/2203.12852)
 - **Date:** 2022.03
 - **Description:** A comprehensive review of the application of Graph Neural Networks (GNNs) in particle physics. This work highlights that physical systems like particle jets and detector signals can be naturally represented as graphs, making GNNs a particularly powerful and physically-motivated architecture. The paper surveys the successful use of GNNs across a wide range of tasks, including particle reconstruction, jet tagging, and event generation, demonstrating how this specialized architecture unlocks new capabilities in analyzing complex experimental data.
