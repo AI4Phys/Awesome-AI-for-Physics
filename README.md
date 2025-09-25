@@ -151,6 +151,8 @@
       - [Physics-informed graph neural Galerkin networks: A unified framework for solving PDE-governed forward and inverse problems](#physics-informed-graph-neural-galerkin-networks-a-unified-framework-for-solving-pde-governed-forward-and-inverse-problems)
 - [F. Future Direction](#f-future-direction)
   - [C.2 Symbolic System for Solving Physics Problems](#c2-symbolic-system-for-solving-physics-problems)
+  - [C.2.0 General Surveys & Foundational Concepts](#c20-general-surveys--foundational-concepts)
+      - [Machine learning and the physical sciences](#machine-learning-and-the-physical-sciences)
     - [C.2.1 Physics-Inspired Generative Models](#c21-physics-inspired-generative-models)
       - [Poisson Flow Generative Models](#poisson-flow-generative-models)
       - [Flow Matching for Generative Modeling](#flow-matching-for-generative-modeling)
