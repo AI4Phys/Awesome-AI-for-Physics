@@ -152,6 +152,7 @@
 - [F. Future Direction](#f-future-direction)
   - [C.2 Symbolic System for Solving Physics Problems](#c2-symbolic-system-for-solving-physics-problems)
   - [C.2.0 General Surveys & Foundational Concepts](#c20-general-surveys--foundational-concepts)
+      - [Recent advances and applications of machine learning in solid-state materials science](#recent-advances-and-applications-of-machine-learning-in-solid-state-materials-science)
       - [Machine learning and the physical sciences](#machine-learning-and-the-physical-sciences)
     - [C.2.1 Physics-Inspired Generative Models](#c21-physics-inspired-generative-models)
       - [Poisson Flow Generative Models](#poisson-flow-generative-models)
