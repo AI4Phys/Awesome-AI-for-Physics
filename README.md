@@ -847,15 +847,15 @@
 
 ### C.2.0 General Surveys & Foundational Concepts
 
-##### [Recent advances and applications of machine learning in solid-state materials science](https://doi.org/10.1038/s41524-019-0221-0)
-- **Date:** 2019.08
-- **Description:** This review provides a comprehensive overview of the latest advancements in applying machine learning to solid-state materials science, covering material discovery, property prediction, force fields, and key challenges like interpretability and data scarcity.
-- **Domain:** `Materials Science` `Review` `Machine Learning` `Solid State Physics`
-
 ##### [Machine learning and the physical sciences](https://doi.org/10.48550/arXiv.1903.10563)
 - **Date:** 2019.12
 - **Description:** This comprehensive review article systematically surveys the wide-ranging applications of machine learning in the physical sciences, exploring the current state, challenges, and future directions of the field.
 - **Domain:** `Machine Learning` `Physics` `Review` `Statistical Physics` `Quantum Physics` `Particle Physics`
+
+##### [AI meets physics: a comprehensive survey](https://doi.org/10.1007/s10462-024-10874-4)
+- **Date:** 2024.08
+- **Description:** This is a comprehensive survey of the 'AI meets physics' field, presenting a new PS4AI paradigm and classifying the intersection based on classical mechanics, electromagnetism, statistical physics, and quantum mechanics, while also outlining major challenges and future directions.
+- **Domain:** `AI for Physics` `Physics-Inspired AI` `Survey` `Deep Learning`
 
 #### C.2.1 Physics-Inspired Generative Models
 
@@ -970,6 +970,11 @@
 
 #### C.2.4 Solid Mechanics & Materials Science
 
+##### [Recent advances and applications of machine learning in solid-state materials science](https://doi.org/10.1038/s41524-019-0221-0)
+- **Date:** 2019.08
+- **Description:** This review provides a comprehensive overview of the latest advancements in applying machine learning to solid-state materials science, covering material discovery, property prediction, force fields, and key challenges like interpretability and data scarcity.
+- **Domain:** `Materials Science` `Review` `Machine Learning` `Solid State Physics`
+
 ##### [Theory-training deep neural networks for an alloy solidification benchmark problem](https://arxiv.org/abs/1912.09800)
 - **Date:** 2019.12
 - **Description:** Presents the first application of PINNs to alloy solidification, demonstrating the ability to solve coupled phase-change equations and learn implicit variables like solid fraction without any simulation data.
@@ -1021,6 +1026,11 @@
 - **Date:** 2024.05
 - **Description:** Proposes a PINN for battery state-of-health (SOH) prognosis by learning the single-cycle degradation dynamics constrained by an empirical state-space degradation model.
 - **Domain:** `PINN` `Energy Systems` `Battery Management` `State of Health` `Prognosis`
+
+##### [Recent Advances in CO (2) Electroreduction Driven by Artificial Intelligence and Machine Learning](https://doi.org/10.1002/aenm.202503560)
+- **Date:** 2025.09
+- **Description:** This review provides a comprehensive survey of how AI and ML are driving the field of CO₂ electroreduction, focusing on catalyst design, reaction mechanism investigation, and knowledge graph construction to accelerate the discovery of sustainable energy materials.
+- **Domain:** `Electrocatalysis` `CO2 Reduction` `Generative AI` `Energy Systems`
 
 #### C.2.6 Interdisciplinary & Complex Systems
 
