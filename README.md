@@ -836,9 +836,9 @@
 
 ## F. Future Direction
 
-### F.1 AI for Physics
+### C.2 Symbolic System for Solving Physics Problems
 
-#### F.1.1 Physics-Inspired Generative Models
+#### C.2.1 Physics-Inspired Generative Models
 
 ##### [Poisson Flow Generative Models](https://papers.neurips.cc/paper_files/paper/2022/file/6ad68a54eaa8f9bf6ac698b02ec05048-Paper-Conference.pdf)
 - **Date:** 2022.12
@@ -855,7 +855,7 @@
 - **Description:** This paper introduces PFGM++, a new family of physics-inspired generative models that unifies and generalizes Poisson Flow Generative Models (PFGM) and diffusion models. By allowing the dimension `D` of the augmented space to be a flexible hyperparameter, PFGM++ can interpolate between the original PFGM (when D=1) and diffusion models (as D approaches infinity). The work also introduces an unbiased, perturbation-based training objective, resolving a key limitation of the original PFGM, and provides a method to transfer hyperparameters from well-tuned diffusion models. PFGM++ with intermediate `D` values is shown to achieve state-of-the-art results on image generation benchmarks.
 - **Domain:** `Generative Modeling` `Poisson Flow` `Diffusion Models` `Physics-Inspired AI` `Unified Models`
 
-#### F.1.2 Quantum and Particle Physics
+#### C.2.2 Quantum and Particle Physics
 
 ##### [Graph Neural Networks in Particle Physics: Implementations, Innovations, and Challenges](https://arxiv.org/pdf/2203.12852)
 - **Date:** 2022.03
@@ -897,7 +897,7 @@
 - **Description:** Introduces a multi-agent LLM framework that transforms free-form physics reasoning into an interpretable and executable model, enhancing reliability and human-AI collaboration.
 - **Domain:** `Large Language Models` `Interpretability` `AI Scientist` `Multi-Agent Systems` `Human-AI Collaboration`
 
-#### F.1.3 Fluid Mechanics & Geosciences
+#### C.2.3 Fluid Mechanics & Geosciences
 
 ##### [Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data](https://doi.org/10.1016/j.cma.2019.112732)
 - **Date:** 2019.11
@@ -929,7 +929,7 @@
 - **Description:** Proposes a sequential PINN solver for complex thermo-hydro-mechanical (THM) inverse problems in porous media by decoupling the multiphysics system and training separate networks in sequence.
 - **Domain:** `PINN` `Poromechanics` `Geosciences` `Inverse Problem` `Multiphysics`
 
-#### F.1.4 Solid Mechanics & Materials Science
+#### C.2.4 Solid Mechanics & Materials Science
 
 ##### [Theory-training deep neural networks for an alloy solidification benchmark problem](https://arxiv.org/abs/1912.09800)
 - **Date:** 2019.12
@@ -956,7 +956,7 @@
 - **Description:** Proposes a probabilistic PINN for fatigue life prediction that ensures physical consistency by encoding fatigue principles (e.g., S-N curve monotonicity and heteroscedasticity) as first and second-order derivative constraints in the loss function.
 - **Domain:** `PINN` `Solid Mechanics` `Fatigue Life Prediction` `Probabilistic Modeling` `Uncertainty Quantification`
 
-#### F.1.5 Energy Systems & Thermodynamics
+#### C.2.5 Energy Systems & Thermodynamics
 
 ##### [Physics-Informed Neural Networks for AC Optimal Power Flow](https://doi.org/10.1016/j.epsr.2022.108412)
 - **Date:** 2022.07
@@ -983,7 +983,7 @@
 - **Description:** Proposes a PINN for battery state-of-health (SOH) prognosis by learning the single-cycle degradation dynamics constrained by an empirical state-space degradation model.
 - **Domain:** `PINN` `Energy Systems` `Battery Management` `State of Health` `Prognosis`
 
-#### F.1.6 Interdisciplinary & Complex Systems
+#### C.2.6 Interdisciplinary & Complex Systems
 
 ##### [Deep Learning for Plasma Tomography and Disruption Prediction from Bolometer Data](https://doi.org/10.1109/TPS.2020.3010833)
 - **Date:** 2020.06
