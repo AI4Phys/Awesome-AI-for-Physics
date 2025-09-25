@@ -1002,6 +1002,11 @@
 - **Description:** Proposes a probabilistic PINN for fatigue life prediction that ensures physical consistency by encoding fatigue principles (e.g., S-N curve monotonicity and heteroscedasticity) as first and second-order derivative constraints in the loss function.
 - **Domain:** `PINN` `Solid Mechanics` `Fatigue Life Prediction` `Probabilistic Modeling` `Uncertainty Quantification`
 
+##### [State-of-the-art review on the use of AI-enhanced computational mechanics in geotechnical engineering](https://doi.org/10.1007/s10462-024-10836-w)
+- **Date:** 2024.07
+- **Description:** This state-of-the-art review comprehensively analyzes the use of AI-enhanced computational mechanics in geotechnical engineering, categorizing applications and identifying future research directions, particularly the integration of physically-guided and adaptive learning.
+- **Domain:** `Geotechnical Engineering` `Computational Mechanics` `Solid Mechanics` `Review`
+
 #### C.2.5 Energy Systems & Thermodynamics
 
 ##### [Physics-Informed Neural Networks for AC Optimal Power Flow](https://doi.org/10.1016/j.epsr.2022.108412)
