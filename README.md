@@ -850,7 +850,7 @@
 
 ### C.2 Symbolic System for Solving Physics Problems
 
-### C.2.0 General Surveys & Foundational Concepts
+#### C.2.0 General Surveys & Foundational Concepts
 
 ##### [Machine learning and the physical sciences](https://doi.org/10.48550/arXiv.1903.10563)
 - **Date:** 2019.12
