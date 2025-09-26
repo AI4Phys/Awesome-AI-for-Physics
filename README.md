@@ -183,6 +183,7 @@
       - [Inverse modeling of nonisothermal multiphase poromechanics using physics-informed neural networks](#inverse-modeling-of-nonisothermal-multiphase-poromechanics-using-physics-informed-neural-networks)
       - [Coupled Lattice Boltzmann Modeling Framework for Pore-Scale Fluid Flow and Reactive Transport](#coupled-lattice-boltzmann-modeling-framework-for-pore-scale-fluid-flow-and-reactive-transport)
       - [ASP-Assisted Symbolic Regression: Uncovering Hidden Physics in Fluid Mechanics](#asp-assisted-symbolic-regression-uncovering-hidden-physics-in-fluid-mechanics)
+      - [Machine learning-enhanced fully coupled fluid-solid interaction models for proppant dynamics in hydraulic fractures](#machine-learning-enhanced-fully-coupled-fluid-solid-interaction-models-for-proppant-dynamics-in-hydraulic-fractures)
     - [C.2.4 Solid Mechanics & Materials Science](#c24-solid-mechanics--materials-science)
       - [Recent advances and applications of machine learning in solid-state materials science](#recent-advances-and-applications-of-machine-learning-in-solid-state-materials-science)
       - [Theory-training deep neural networks for an alloy solidification benchmark problem](#theory-training-deep-neural-networks-for-an-alloy-solidification-benchmark-problem)
