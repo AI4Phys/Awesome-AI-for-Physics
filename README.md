@@ -154,6 +154,7 @@
     - [C.2.0 General Surveys & Foundational Concepts](#c20-general-surveys--foundational-concepts)
       - [Machine learning and the physical sciences](#machine-learning-and-the-physical-sciences)
       - [AI meets physics: a comprehensive survey](#ai-meets-physics-a-comprehensive-survey-1)
+      - [PARSING THE LANGUAGE OF EXPRESSION: ENHANCING SYMBOLIC REGRESSION WITH DOMAIN-AWARE SYMBOLIC PRIORS](#parsing-the-language-of-expression-enhancing-symbolic-regression-with-domain-aware-symbolic-priors)
     - [C.2.1 Physics-Inspired Generative Models](#c21-physics-inspired-generative-models)
       - [Poisson Flow Generative Models](#poisson-flow-generative-models)
       - [Flow Matching for Generative Modeling](#flow-matching-for-generative-modeling)
