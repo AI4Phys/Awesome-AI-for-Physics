@@ -1042,6 +1042,11 @@
 - **Description:** Solves the shallow-water equations on a sphere using a novel multi-model approach, where the time domain is decomposed and a sequence of PINNs are trained to handle long integration intervals, a key challenge for standard PINNs.
 - **Domain:** `PINN` `Geophysical Fluid Dynamics` `Shallow-Water Equations` `Domain Decomposition` `Meteorology`
 
+##### [Hierarchical symbolic regression for identifying key physical parameters correlated with bulk properties of perovskites](https://arxiv.org/abs/2202.13019)
+- **Date:** 2022.02
+- **Description:** Proposes a hierarchical symbolic regression framework (hiSISSO) to efficiently discover complex analytical models for materials properties and transfer knowledge between different physical properties.
+- **Domain:** `Symbolic Regression` `Materials Informatics` `Compressed Sensing` `Perovskites`
+
 ##### [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](https://doi.org/10.1016/j.cma.2022.115616)
 - **Date:** 2022.09
 - **Description:** Proposes a novel mixed formulation for PINNs, inspired by FEM, that uses separate networks for the primary variable and its spatial gradient and combines energy-based and strong-form losses to accurately solve problems in heterogeneous solids while avoiding high-order derivatives.
