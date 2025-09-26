@@ -1003,6 +1003,11 @@
 - **Description:** Proposes a hybrid framework combining Symbolic Regression (SR) to discover physical equations and Answer Set Programming (ASP) to enforce domain-specific constraints, ensuring physical plausibility.
 - **Domain:** `Symbolic Regression` `Knowledge Representation` `Fluid Mechanics` `AI for Science`
 
+##### [Machine learning-enhanced fully coupled fluid-solid interaction models for proppant dynamics in hydraulic fractures](https://doi.org/10.1038/s41598-025-15837-5)
+- **Date:** 2025.08
+- **Description:** Proposes a hybrid framework that uses first-principles symbolic physics equations to generate synthetic data for training a high-accuracy stacked ensemble machine learning model to predict proppant settling in hydraulic fractures.
+- **Domain:** `Symbolic Physics` `Ensemble Learning` `Fluid-Solid Interaction` `Hydraulic Fracturing`
+
 #### C.2.4 Solid Mechanics & Materials Science
 
 ##### [Recent advances and applications of machine learning in solid-state materials science](https://doi.org/10.1038/s41524-019-0221-0)
