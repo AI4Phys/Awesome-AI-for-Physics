@@ -195,6 +195,7 @@
       - [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](#a-mixed-formulation-for-physics-informed-neural-networks-as-a-potential-solver-for-engineering-problems-in-heterogeneous-domains-comparison-with-finite-element-method)
       - [A physically consistent framework for fatigue life prediction using probabilistic physics-informed neural network](#a-physically-consistent-framework-for-fatigue-life-prediction-using-probabilistic-physics-informed-neural-network)
       - [Neuro - symbolic Al for materials modelling and processes design](#neuro---symbolic-al-for-materials-modelling-and-processes-design)
+      - [Combining genetic algorithm and compressed sensing for features and operators selection in symbolic regression](#combining-genetic-algorithm-and-compressed-sensing-for-features-and-operators-selection-in-symbolic-regression)
       - [State-of-the-art review on the use of AI-enhanced computational mechanics in geotechnical engineering](#state-of-the-art-review-on-the-use-of-ai-enhanced-computational-mechanics-in-geotechnical-engineering)
       - [A Multi-agent Framework for Materials Laws Discovery](#a-multi-agent-framework-for-materials-laws-discovery)
       - [DEM-NeRF: A Neuro-Symbolic Method for Scientific Discovery through Physics-Informed Simulation](#dem-nerf-a-neuro-symbolic-method-for-scientific-discovery-through-physics-informed-simulation)
