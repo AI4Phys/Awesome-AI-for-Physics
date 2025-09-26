@@ -879,6 +879,11 @@
 - **Description:** This is a comprehensive survey of the 'AI meets physics' field, presenting a new PS4AI paradigm and classifying the intersection based on classical mechanics, electromagnetism, statistical physics, and quantum mechanics, while also outlining major challenges and future directions.
 - **Domain:** `AI for Physics` `Physics-Inspired AI` `Survey` `Deep Learning`
 
+##### [PARSING THE LANGUAGE OF EXPRESSION: ENHANCING SYMBOLIC REGRESSION WITH DOMAIN-AWARE SYMBOLIC PRIORS](https://arxiv.org/abs/2503.09592)
+- **Date:** 2025.03
+- [cite_start]**Description:** Proposes an advanced symbolic regression method that extracts domain-specific "symbol priors" from scientific literature and integrates them into a novel tree-structured RNN to guide the discovery of expressions[cite: 2871].
+- **Domain:** `Symbolic Regression` `Domain Knowledge` `Reinforcement Learning` `Neuro-Symbolic`
+
 #### C.2.1 Physics-Inspired Generative Models
 
 ##### [Poisson Flow Generative Models](https://papers.neurips.cc/paper_files/paper/2022/file/6ad68a54eaa8f9bf6ac698b02ec05048-Paper-Conference.pdf)
