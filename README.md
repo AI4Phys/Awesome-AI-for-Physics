@@ -1033,6 +1033,11 @@
 - **Description:** Presents the first application of PINNs to alloy solidification, demonstrating the ability to solve coupled phase-change equations and learn implicit variables like solid fraction without any simulation data.
 - **Domain:** `PINN` `Materials Science` `Solidification` `Phase Change` `Thermodynamics`
 
+##### [Machine Learning Approaches to Predicting and Understanding the Mechanical Properties of Steels](https://arxiv.org/abs/2003.01943)
+- **Date:** 2020.03
+- **Description:** Employs Random Forest and Symbolic Regression to not only predict the mechanical properties of steels but also to identify key influencing features and discover interpretable mathematical formulas for materials design.
+- **Domain:** `Symbolic Regression` `Random Forest` `Materials Informatics` `Feature Selection`
+
 ##### [A Physics Informed Neural Network Approach to Solution and Identification of Biharmonic Equations of Elasticity](https://arxiv.org/abs/2108.07243)
 - **Date:** 2021.08
 - **Description:** First applies PINNs to solve fourth-order biharmonic equations in elasticity by constructing a novel "Airy-Network" whose architecture is directly guided by classical analytical solutions (e.g., Airy stress functions), leading to superior accuracy and efficiency over standard PINNs.
