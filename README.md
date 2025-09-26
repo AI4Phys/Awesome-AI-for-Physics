@@ -1048,6 +1048,11 @@
 - **Description:** This state-of-the-art review comprehensively analyzes the use of AI-enhanced computational mechanics in geotechnical engineering, categorizing applications and identifying future research directions, particularly the integration of physically-guided and adaptive learning.
 - **Domain:** `Geotechnical Engineering` `Computational Mechanics` `Solid Mechanics` `Review`
 
+##### [DEM-NeRF: A Neuro-Symbolic Method for Scientific Discovery through Physics-Informed Simulation](https://arxiv.org/abs/2507.21350)
+- **Date:** 2025.07
+- **Description:** Proposes a novel neuro-symbolic framework (DEM-NeRF) that integrates Neural Radiance Fields (NeRF) for 3D reconstruction from images with a Deep Energy Method (DEM) PINN to simulate hyperelastic object deformation in real-time.
+- **Domain:** `Neuro-Symbolic` `Neural Radiance Field` `Physics-Informed Neural Network` `Solid Mechanics`
+
 #### C.2.5 Energy Systems & Thermodynamics
 
 ##### [Physics-Informed Neural Networks for AC Optimal Power Flow](https://doi.org/10.1016/j.epsr.2022.108412)
