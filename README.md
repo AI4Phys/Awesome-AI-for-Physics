@@ -956,6 +956,11 @@
 
 #### C.2.3 Fluid Mechanics & Geosciences
 
+##### [Solving fluid flow problems using semi-supervised symbolic regression on sparse data](https://doi.org/10.1063/1.5116183)
+- **Date:** 2019.11
+- **Description:** Uses semi-supervised symbolic regression to derive generalized fluid drag correlations from sparse data by incorporating known analytical solutions as prior knowledge to guide the model.
+- **Domain:** `Symbolic Regression` `Fluid Mechanics` `Sparse Data` `Semi-Supervised Learning`
+
 ##### [Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data](https://doi.org/10.1016/j.cma.2019.112732)
 - **Date:** 2019.11
 - **Description:** Develops a physics-constrained DNN surrogate for parametric fluid flows that requires no simulation data for training, using the Navier-Stokes equations as the sole source of supervision and a novel architecture for hard boundary condition enforcement.
@@ -990,6 +995,11 @@
 - **Date:** 2023.04
 - **Description:** A framework coupling LBM fluid flow and PHREEQCRM geochemical solvers, featuring an AI (ANN/MLP) optimization workflow for automatically calibrating reaction constants (log K) in complex pore-scale reactive transport models without domain knowledge.
 - **Domain:** `Fluid Mechanics/LBM` `Geosciences` `Pore-Scale Modeling` `AI Optimization/ANN`
+
+##### [ASP-Assisted Symbolic Regression: Uncovering Hidden Physics in Fluid Mechanics](https://doi.org/10.48550/arXiv.2507.17777)
+- **Date:** 2025.07
+- **Description:** Proposes a hybrid framework combining Symbolic Regression (SR) to discover physical equations and Answer Set Programming (ASP) to enforce domain-specific constraints, ensuring physical plausibility.
+- **Domain:** `Symbolic Regression` `Knowledge Representation` `Fluid Mechanics` `AI for Science`
 
 #### C.2.4 Solid Mechanics & Materials Science
 
