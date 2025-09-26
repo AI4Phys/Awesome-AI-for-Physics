@@ -906,6 +906,11 @@
 - **Description:** A comprehensive review of the application of Graph Neural Networks (GNNs) in particle physics. This work highlights that physical systems like particle jets and detector signals can be naturally represented as graphs, making GNNs a particularly powerful and physically-motivated architecture. The paper surveys the successful use of GNNs across a wide range of tasks, including particle reconstruction, jet tagging, and event generation, demonstrating how this specialized architecture unlocks new capabilities in analyzing complex experimental data.
 - **Domain:** `Graph Neural Networks` `Particle Physics` `AI for Science` `Experimental Data Analysis` `Scientific Machine Learning`
 
+##### [Application of machine learning in solid state physics](https://doi.org/10.1016/bs.ssp.2023.08.001)
+- **Date:** 2023.08
+- **Description:** A systematic review covering the application of ML models (RBM, ARNN, GNN, RL) to symbolic solid state and statistical physics problems, specifically focusing on multi-body systems, phase transitions, and ground state optimization (e.g., spin glasses).
+- **Domain:** `Statistical Mechanics` `Phase Transition` `Spin Models` `Multi-Body Physics`
+
 ##### [From Architectures to Applications: A Review of Neural Quantum States](https://arxiv.org/abs/2402.09402)
 - **Date:** 2024.02
 - **Description:** A comprehensive review of Neural Quantum States (NQS), detailing the architectures, training methods, and wide-ranging applications in simulating quantum many-body systems, from finding ground states to modeling quantum dynamics.
