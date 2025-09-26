@@ -1070,6 +1070,11 @@
 - **Description:** Proposes a hybrid neuro-symbolic framework to improve materials modeling by using symbolic AI rules to optimize the design and training of Artificial Neural Networks (ANNs) and to interpret their results.
 - **Domain:** `Neuro-Symbolic` `Artificial Neural Network` `Materials Science` `Ontology`
 
+##### [Combining genetic algorithm and compressed sensing for features and operators selection in symbolic regression](https://arxiv.org/abs/2403.15816)
+- **Date:** 2024.03
+- **Description:** Proposes a GA-SISSO framework where a Genetic Algorithm is used as a wrapper to select optimal subsets of features and operators for the SISSO symbolic regression algorithm, overcoming its computational bottleneck with large feature spaces.
+- **Domain:** `Symbolic Regression` `Genetic Algorithm` `Feature Selection` `Materials Informatics`
+
 ##### [State-of-the-art review on the use of AI-enhanced computational mechanics in geotechnical engineering](https://doi.org/10.1007/s10462-024-10836-w)
 - **Date:** 2024.07
 - **Description:** This state-of-the-art review comprehensively analyzes the use of AI-enhanced computational mechanics in geotechnical engineering, categorizing applications and identifying future research directions, particularly the integration of physically-guided and adaptive learning.
