@@ -1086,6 +1086,11 @@
 
 #### C.2.5 Energy Systems & Thermodynamics
 
+##### [Lattice Thermal Conductivity Prediction using Symbolic Regression and Machine Learning](https://arxiv.org/abs/2008.03670)
+- **Date:** 2020.08
+- **Description:** Uses symbolic regression to discover four new, interpretable formulas for lattice thermal conductivity that outperform the classic Slack model, and rigorously compares the poor extrapolation performance of SR and black-box ML models.
+- **Domain:** `Symbolic Regression` `Thermal Conductivity` `Materials Informatics` `Extrapolation`
+
 ##### [Physics-Informed Neural Networks for AC Optimal Power Flow](https://doi.org/10.1016/j.epsr.2022.108412)
 - **Date:** 2022.07
 - **Description:** First applies PINNs to the AC-OPF problem by incorporating KKT optimality conditions into the loss function, and introduces formal verification methods to provide rigorous worst-case guarantees on constraint violations.
