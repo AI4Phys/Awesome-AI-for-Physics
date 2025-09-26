@@ -1078,6 +1078,11 @@
 - **Description:** This review article systematically classifies and analyzes the mechanisms of electrolyte additives for stabilizing zinc anodes in aqueous zinc-ion batteries, highlighting how AI and ML can accelerate the discovery and design of next-generation battery technologies.
 - **Domain:** `Zinc-ion Batteries` `Electrochemistry` `Energy Storage` `Review`
 
+##### [Interpretable data-driven turbulence modeling for separated flows using symbolic regression with unit constraints](https://arxiv.org/abs/2405.08656)
+- **Date:** 2024.05
+- **Description:** Proposes a novel framework for turbulence modeling that uses unit-constrained symbolic regression to learn interpretable, physically consistent corrections for RANS models to improve predictions of separated flows.
+- **Domain:** `Symbolic Regression` `Turbulence Modeling` `Unit Constraints` `Separated Flow`
+
 ##### [Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis](https://doi.org/10.1038/s41467-024-48779-z)
 - **Date:** 2024.05
 - **Description:** Proposes a PINN for battery state-of-health (SOH) prognosis by learning the single-cycle degradation dynamics constrained by an empirical state-space degradation model.
