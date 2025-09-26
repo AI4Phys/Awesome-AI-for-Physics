@@ -192,6 +192,7 @@
       - [A mixed formulation for physics-informed neural networks as a potential solver for engineering problems in heterogeneous domains: Comparison with finite element method](#a-mixed-formulation-for-physics-informed-neural-networks-as-a-potential-solver-for-engineering-problems-in-heterogeneous-domains-comparison-with-finite-element-method)
       - [A physically consistent framework for fatigue life prediction using probabilistic physics-informed neural network](#a-physically-consistent-framework-for-fatigue-life-prediction-using-probabilistic-physics-informed-neural-network)
       - [State-of-the-art review on the use of AI-enhanced computational mechanics in geotechnical engineering](#state-of-the-art-review-on-the-use-of-ai-enhanced-computational-mechanics-in-geotechnical-engineering)
+      - [DEM-NeRF: A Neuro-Symbolic Method for Scientific Discovery through Physics-Informed Simulation](#dem-nerf-a-neuro-symbolic-method-for-scientific-discovery-through-physics-informed-simulation)
     - [C.2.5 Energy Systems & Thermodynamics](#c25-energy-systems--thermodynamics)
       - [Physics-Informed Neural Networks for AC Optimal Power Flow](#physics-informed-neural-networks-for-ac-optimal-power-flow)
       - [A Physics-Informed Machine Learning Approach for Estimating Lithium-Ion Battery Temperature](#a-physics-informed-machine-learning-approach-for-estimating-lithium-ion-battery-temperature)
