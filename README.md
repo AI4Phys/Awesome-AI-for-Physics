@@ -209,6 +209,7 @@
       - [Mapping the design of electrolyte additive for stabilizing zinc anode in aqueous zinc ion batteries](#mapping-the-design-of-electrolyte-additive-for-stabilizing-zinc-anode-in-aqueous-zinc-ion-batteries)
       - [Interpretable data-driven turbulence modeling for separated flows using symbolic regression with unit constraints](#interpretable-data-driven-turbulence-modeling-for-separated-flows-using-symbolic-regression-with-unit-constraints)
       - [Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis](#physics-informed-neural-network-for-lithium-ion-battery-degradation-stable-modeling-and-prognosis)
+      - [KnowTD an actionable knowledge representation system for thermodynamics](#knowtd-an-actionable-knowledge-representation-system-for-thermodynamics)
       - [Large Language Model Driven Development of Turbulence Models](#large-language-model-driven-development-of-turbulence-models)
       - [Recent Advances in CO (2) Electroreduction Driven by Artificial Intelligence and Machine Learning](#recent-advances-in-co-2-electroreduction-driven-by-artificial-intelligence-and-machine-learning)
     - [C.2.6 Interdisciplinary & Complex Systems](#c26-interdisciplinary--complex-systems)
