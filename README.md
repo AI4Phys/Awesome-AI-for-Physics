@@ -188,6 +188,7 @@
       - [Symbolic regression in materials science](#symbolic-regression-in-materials-science)
       - [Recent advances and applications of machine learning in solid-state materials science](#recent-advances-and-applications-of-machine-learning-in-solid-state-materials-science)
       - [Theory-training deep neural networks for an alloy solidification benchmark problem](#theory-training-deep-neural-networks-for-an-alloy-solidification-benchmark-problem)
+      - [Machine Learning Approaches to Predicting and Understanding the Mechanical Properties of Steels](#machine-learning-approaches-to-predicting-and-understanding-the-mechanical-properties-of-steels)
       - [A Physics Informed Neural Network Approach to Solution and Identification of Biharmonic Equations of Elasticity](#a-physics-informed-neural-network-approach-to-solution-and-identification-of-biharmonic-equations-of-elasticity)
       - [Physics-informed neural networks for the shallow-water equations on the sphere](#physics-informed-neural-networks-for-the-shallow-water-equations-on-the-sphere)
       - [Hierarchical symbolic regression for identifying key physical parameters correlated with bulk properties of perovskites](#hierarchical-symbolic-regression-for-identifying-key-physical-parameters-correlated-with-bulk-properties-of-perovskites)
