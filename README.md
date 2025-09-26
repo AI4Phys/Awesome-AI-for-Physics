@@ -1138,6 +1138,11 @@
 - **Description:** Proposes a PINN for battery state-of-health (SOH) prognosis by learning the single-cycle degradation dynamics constrained by an empirical state-space degradation model.
 - **Domain:** `PINN` `Energy Systems` `Battery Management` `State of Health` `Prognosis`
 
+##### [KnowTD an actionable knowledge representation system for thermodynamics](https://doi.org/10.1021/acs.jcim.4c00647)
+- **Date:** 2024.07
+- **Description:** Presents KnowTD, a novel "machine teaching" system that uses a formal ontology and a reasoner to represent thermodynamic knowledge and autonomously solve introductory-level problems with explainable, guaranteed-correct steps.
+- **Domain:** `Symbolic AI` `Knowledge Representation` `Ontology` `Thermodynamics` `Expert System`
+
 ##### [Large Language Model Driven Development of Turbulence Models](https://arxiv.org/abs/2505.01681)
 - **Date:** 2025.05
 - **Description:** Demonstrates a new paradigm where a Large Language Model (LLM) acts as a collaborative agent to autonomously propose, reason about, and refine interpretable turbulence wall models for complex flows.
