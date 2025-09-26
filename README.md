@@ -1014,6 +1014,11 @@
 
 #### C.2.4 Solid Mechanics & Materials Science
 
+##### [Symbolic regression in materials science](https://arxiv.org/abs/1901.04136)
+- **Date:** 2019.01
+- **Description:** Introduces and advocates for symbolic regression as an interpretable machine learning alternative for discovering governing physical laws and structure-property relationships from materials data.
+- **Domain:** `Symbolic Regression` `Materials Informatics` `Genetic Programming` `Scientific Discovery`
+
 ##### [Recent advances and applications of machine learning in solid-state materials science](https://doi.org/10.1038/s41524-019-0221-0)
 - **Date:** 2019.08
 - **Description:** This review provides a comprehensive overview of the latest advancements in applying machine learning to solid-state materials science, covering material discovery, property prediction, force fields, and key challenges like interpretability and data scarcity.
@@ -1044,10 +1049,20 @@
 - **Description:** Proposes a probabilistic PINN for fatigue life prediction that ensures physical consistency by encoding fatigue principles (e.g., S-N curve monotonicity and heteroscedasticity) as first and second-order derivative constraints in the loss function.
 - **Domain:** `PINN` `Solid Mechanics` `Fatigue Life Prediction` `Probabilistic Modeling` `Uncertainty Quantification`
 
+##### [Neuro - symbolic Al for materials modelling and processes design](https://doi.org/10.1051/matecconf/202440114004)
+- **Date:** 2024.01
+- **Description:** Proposes a hybrid neuro-symbolic framework to improve materials modeling by using symbolic AI rules to optimize the design and training of Artificial Neural Networks (ANNs) and to interpret their results.
+- **Domain:** `Neuro-Symbolic` `Artificial Neural Network` `Materials Science` `Ontology`
+
 ##### [State-of-the-art review on the use of AI-enhanced computational mechanics in geotechnical engineering](https://doi.org/10.1007/s10462-024-10836-w)
 - **Date:** 2024.07
 - **Description:** This state-of-the-art review comprehensively analyzes the use of AI-enhanced computational mechanics in geotechnical engineering, categorizing applications and identifying future research directions, particularly the integration of physically-guided and adaptive learning.
 - **Domain:** `Geotechnical Engineering` `Computational Mechanics` `Solid Mechanics` `Review`
+
+##### [A Multi-agent Framework for Materials Laws Discovery](https://arxiv.org/abs/2411.16416)
+- **Date:** 2024.11
+- **Description:** Proposes a multi-agent framework based on Large Language Models (LLMs) that uses a depth-first search with memory and reflection mechanisms to perform symbolic regression and discover interpretable laws in materials science.
+- **Domain:** `Large Language Model` `Multi-agent System` `Symbolic Regression` `Materials Science`
 
 ##### [DEM-NeRF: A Neuro-Symbolic Method for Scientific Discovery through Physics-Informed Simulation](https://arxiv.org/abs/2507.21350)
 - **Date:** 2025.07
