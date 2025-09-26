@@ -199,6 +199,7 @@
       - [PE-GPT: A Physics-Informed Interactive Large Language Model for Power Converter Modulation Design](#pe-gpt-a-physics-informed-interactive-large-language-model-for-power-converter-modulation-design)
       - [Recent progress of artificial intelligence for liquid-vapor phase change heat transfer](#recent-progress-of-artificial-intelligence-for-liquid-vapor-phase-change-heat-transfer)
       - [Mapping the design of electrolyte additive for stabilizing zinc anode in aqueous zinc ion batteries](#mapping-the-design-of-electrolyte-additive-for-stabilizing-zinc-anode-in-aqueous-zinc-ion-batteries)
+      - [Interpretable data-driven turbulence modeling for separated flows using symbolic regression with unit constraints](#interpretable-data-driven-turbulence-modeling-for-separated-flows-using-symbolic-regression-with-unit-constraints)
       - [Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis](#physics-informed-neural-network-for-lithium-ion-battery-degradation-stable-modeling-and-prognosis)
       - [Recent Advances in CO (2) Electroreduction Driven by Artificial Intelligence and Machine Learning](#recent-advances-in-co-2-electroreduction-driven-by-artificial-intelligence-and-machine-learning)
     - [C.2.6 Interdisciplinary & Complex Systems](#c26-interdisciplinary--complex-systems)
