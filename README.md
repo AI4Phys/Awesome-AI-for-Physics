@@ -902,6 +902,11 @@
 - **Description:** This paper proposes a novel "confusion scheme" using neural networks and deliberately mislabeled data to detect phase transitions in physical systems without prior knowledge of order parameters.
 - **Domain:** `Condensed Matter Physics` `Quantum Physics` `Phase Transition` `Machine Learning`
 
+##### [Using a Recurrent Neural Network to Reconstruct Quantum Dynamics of a Superconducting Qubit from Physical Observations](https://doi.org/10.1103/PhysRevX.10.011006)
+- **Date:** 2020.01
+- **Description:** A work demonstrating that an RNN (LSTM) can be trained to perform real-time, model-agnostic quantum filtering and reconstruct the full quantum state (including coherence) of an open superconducting qubit from experimental measurements.
+- **Domain:** `Quantum Dynamics` `Quantum Control` `RNN/LSTM` `Superconducting Qubit`
+
 ##### [Graph Neural Networks in Particle Physics: Implementations, Innovations, and Challenges](https://arxiv.org/pdf/2203.12852)
 - **Date:** 2022.03
 - **Description:** A comprehensive review of the application of Graph Neural Networks (GNNs) in particle physics. This work highlights that physical systems like particle jets and detector signals can be naturally represented as graphs, making GNNs a particularly powerful and physically-motivated architecture. The paper surveys the successful use of GNNs across a wide range of tasks, including particle reconstruction, jet tagging, and event generation, demonstrating how this specialized architecture unlocks new capabilities in analyzing complex experimental data.
@@ -978,6 +983,11 @@
 - **Date:** 2022.09
 - **Description:** Proposes a sequential PINN solver for complex thermo-hydro-mechanical (THM) inverse problems in porous media by decoupling the multiphysics system and training separate networks in sequence.
 - **Domain:** `PINN` `Poromechanics` `Geosciences` `Inverse Problem` `Multiphysics`
+
+##### [Coupled Lattice Boltzmann Modeling Framework for Pore-Scale Fluid Flow and Reactive Transport](https://doi.org/10.1021/acsomega.2c07643)
+- **Date:** 2023.04
+- **Description:** A framework coupling LBM fluid flow and PHREEQCRM geochemical solvers, featuring an AI (ANN/MLP) optimization workflow for automatically calibrating reaction constants (log K) in complex pore-scale reactive transport models without domain knowledge.
+- **Domain:** `Fluid Mechanics/LBM` `Geosciences` `Pore-Scale Modeling` `AI Optimization/ANN`
 
 #### C.2.4 Solid Mechanics & Materials Science
 
