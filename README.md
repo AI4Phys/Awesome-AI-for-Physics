@@ -1089,6 +1089,11 @@
 - **Description:** Proposes a PINN for battery state-of-health (SOH) prognosis by learning the single-cycle degradation dynamics constrained by an empirical state-space degradation model.
 - **Domain:** `PINN` `Energy Systems` `Battery Management` `State of Health` `Prognosis`
 
+##### [Large Language Model Driven Development of Turbulence Models](https://arxiv.org/abs/2505.01681)
+- **Date:** 2025.05
+- **Description:** Demonstrates a new paradigm where a Large Language Model (LLM) acts as a collaborative agent to autonomously propose, reason about, and refine interpretable turbulence wall models for complex flows.
+- **Domain:** `Large Language Model` `AI Agent` `Turbulence Modeling` `Fluid Mechanics`
+
 ##### [Recent Advances in CO (2) Electroreduction Driven by Artificial Intelligence and Machine Learning](https://doi.org/10.1002/aenm.202503560)
 - **Date:** 2025.09
 - **Description:** This review provides a comprehensive survey of how AI and ML are driving the field of CO₂ electroreduction, focusing on catalyst design, reaction mechanism investigation, and knowledge graph construction to accelerate the discovery of sustainable energy materials.
