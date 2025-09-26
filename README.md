@@ -199,6 +199,7 @@
       - [A Multi-agent Framework for Materials Laws Discovery](#a-multi-agent-framework-for-materials-laws-discovery)
       - [DEM-NeRF: A Neuro-Symbolic Method for Scientific Discovery through Physics-Informed Simulation](#dem-nerf-a-neuro-symbolic-method-for-scientific-discovery-through-physics-informed-simulation)
     - [C.2.5 Energy Systems & Thermodynamics](#c25-energy-systems--thermodynamics)
+      - [Lattice Thermal Conductivity Prediction using Symbolic Regression and Machine Learning](#lattice-thermal-conductivity-prediction-using-symbolic-regression-and-machine-learning)
       - [Physics-Informed Neural Networks for AC Optimal Power Flow](#physics-informed-neural-networks-for-ac-optimal-power-flow)
       - [A Physics-Informed Machine Learning Approach for Estimating Lithium-Ion Battery Temperature](#a-physics-informed-machine-learning-approach-for-estimating-lithium-ion-battery-temperature)
       - [Physics-Informed Neural Network for Discovering Systems with Unmeasurable States with Application to Lithium-Ion Batteries](#physics-informed-neural-network-for-discovering-systems-with-unmeasurable-states-with-application-to-lithium-ion-batteries)
