@@ -164,6 +164,7 @@
       - [Discovering Phase Transitions with Unsupervised Learning](#discovering-phase-transitions-with-unsupervised-learning)
       - [Learning phase transitions by confusion](#learning-phase-transitions-by-confusion)
       - [Graph Neural Networks in Particle Physics: Implementations, Innovations, and Challenges](#graph-neural-networks-in-particle-physics-implementations-innovations-and-challenges)
+      - [Application of machine learning in solid state physics](#application-of-machine-learning-in-solid-state-physics)
       - [From Architectures to Applications: A Review of Neural Quantum States](#from-architectures-to-applications-a-review-of-neural-quantum-states)
       - [Ultra-high-granularity detector simulation with intra-event aware generative adversarial network and self-supervised relational reasoning](#ultra-high-granularity-detector-simulation-with-intra-event-aware-generative-adversarial-network-and-self-supervised-relational-reasoning)
       - [Neural-network quantum states for many-body physics](#neural-network-quantum-states-for-many-body-physics)
