@@ -278,6 +278,12 @@
 
 ### 2.1 General Understanding
 
+#### [I-PHYRE: Interactive Physical Reasoning](https://arxiv.org/pdf/2312.03009)
+- **Date:** 2023.12
+- **Description:** I-PHYRE is a benchmark that evaluates an agent's physical reasoning by requiring it to actively interact with an environment to uncover latent physical properties and solve tasks that are impossible to complete from passive observation alone. It contains 40 interactive physics games mainly consisting of gray blocks, black blocks, blue blocks, and red balls.
+- **Link:** https://lishiqianhugh.github.io/IPHYRE/
+- **Domain:** `Interactive Reasoning` `Embodied AI `
+  
 #### [ContPhy: Continuum Physical Concept Learning and Reasoning from Videos](https://arxiv.org/pdf/2402.06119)
 - **Date:** 2024.02
 - **Description:** A novel benchmark dataset of videos is designed to evaluate the physical reasoning capabilities of AI models on continuum substances, such as fluids and soft bodies, by requiring them to infer physical properties and predict dynamics in diverse and complex scenarios.
@@ -314,7 +320,9 @@
 - **Link:** https://dingmyu.github.io/physion_v2/
 - **Domain:** `Online Inference`
 
-### 2.2 World Model (Video Generation and 3D Reconstruction)
+## 3. World Model (Video Generation and 3D Reconstruction)
+
+### 3.1 Generative Models
 
 #### [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](https://arxiv.org/pdf/2412.09680)
 - **Date:** 2024.12
@@ -356,8 +364,15 @@
 - **Link:** https://videophy2.github.io/
 - **Domain:** `Video Generation`
 
+### 3.2 Physics-enhanced Modeling Approaches.
 
-### 2.3 Robotics
+### 3.3 Benchmarking Modeling Capability
+
+
+
+## 4. Embodied Interaction
+
+### 4.1 Robotics
 
 #### [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly](https://arxiv.org/pdf/2506.08708)
 - **Date:** 2025.06
@@ -365,19 +380,10 @@
 - **Link:** https://phyblock.github.io/
 - **Domain:** `Embodied AI` `VLM` `VQA`
 
-### 2.4 Navigation
+### 4.2 Navigation
 
-### 2.5 Autonomous Driving
+### 4.3 Autonomous Driving
 
-### 2.6 Game Playing (single/multiple-player )
-
-#### [I-PHYRE: Interactive Physical Reasoning](https://arxiv.org/pdf/2312.03009)
-- **Date:** 2023.12
-- **Description:** I-PHYRE is a benchmark that evaluates an agent's physical reasoning by requiring it to actively interact with an environment to uncover latent physical properties and solve tasks that are impossible to complete from passive observation alone. It contains 40 interactive physics games mainly consisting of gray blocks, black blocks, blue blocks, and red balls.
-- **Link:** https://lishiqianhugh.github.io/IPHYRE/
-- **Domain:** `Interactive Reasoning` `Embodied AI `
-
-### 2.7 Physics and Physical Engine
 
 ## C. Physics Reasoning AI
 
