@@ -43,7 +43,7 @@
     - [Brax: Massively Parallel Rigidbody Physics Simulation on Accelerator Hardware](#brax-massively-parallel-rigidbody-physics-simulation-on-accelerator-hardware)
     - [Isaac Sim: Robotics Simulation and Synthetic Data Generation](#isaac-sim-robotics-simulation-and-synthetic-data-generation)
     - [MuJoCo: Advanced Physics Simulation](#mujoco-advanced-physics-simulation)
-    - [PyBullet: Time Physics Simulation](#pyBullet-time-physics-simulation)
+    - [PyBullet: Time Physics Simulation](#pybullet-time-physics-simulation)
   - [3.3 Physics-enhanced Modeling Approaches.](#33-physics-enhanced-modeling-approaches)
   - [3.4 Benchmarking Modeling Capability](#34-benchmarking-modeling-capability)
 - [4. Embodied Interaction](#4-embodied-interaction)
