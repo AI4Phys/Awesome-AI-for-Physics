@@ -39,8 +39,9 @@
     - [T2VPhysBench: A First-Principles Benchmark for Physical Consistency in Text-to-Video Generation](#t2vphysbench-a-first-principles-benchmark-for-physical-consistency-in-text-to-video-generation)
     - [VideoPhy: Evaluating Physical Commonsense for Video Generation](#videophy-evaluating-physical-commonsense-for-video-generation)
     - [VideoPhy-2: A Challenging Action-Centric Physical Commonsense Evaluation in Video Generation](#videophy-2-a-challenging-action-centric-physical-commonsense-evaluation-in-video-generation)
-  - [3.2 Physics-enhanced Modeling Approaches.](#32-physics-enhanced-modeling-approaches)
-  - [3.3 Benchmarking Modeling Capability](#33-benchmarking-modeling-capability)
+  - [3.2 Physics and Physical Engine](#32-physics-and-physical-engine)
+  - [3.3 Physics-enhanced Modeling Approaches.](#32-physics-enhanced-modeling-approaches)
+  - [3.4 Benchmarking Modeling Capability](#33-benchmarking-modeling-capability)
 - [4. Embodied Interaction](#4-embodied-interaction)
   - [4.1 Robotics](#41-robotics)
     - [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly](#phyblock-a-progressive-benchmark-for-physical-understanding-and-planning-via-3d-block-assembly)
@@ -377,6 +378,8 @@
 - **Description:** VideoPhy-2 is a challenging, action-centric benchmark that uses human evaluation to assess physical commonsense in video generation, revealing that even the best models achieve only 22% joint semantic and physical accuracy on its hard subset, particularly struggling with conservation laws.
 - **Link:** https://videophy2.github.io/
 - **Domain:** `Video Generation`
+
+### 3.2 Physics and Physical Engine
 
 ### 3.2 Physics-enhanced Modeling Approaches.
 
