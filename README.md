@@ -1223,9 +1223,9 @@
 - **Domain:** `Contrastive Learning` `Astrophysics`
 
 
-## 4. Cross Domain Applications and Future Directions
+## 5. Cross Domain Applications and Future Directions
 
-### 4.2 Others (Healthcare, Biophysics, Architecture, Aerospace Science, Education)
+### 5.2 Others (Healthcare, Biophysics, Architecture, Aerospace Science, Education)
   #### [Achieving Precise and Reliable Locomotion with Differentiable Simulation-Based System Identification](https://arxiv.org/html/2508.04696v1)
 - **Date:** 2025.08
 - **Description:** It combines system identification with RL training to optimize physical parameters from trajectory data, achieving 75% reduction in rotational drift and 46% improvement in directional movement for bipedal locomotion compared to baseline methods.
