@@ -40,6 +40,10 @@
     - [VideoPhy: Evaluating Physical Commonsense for Video Generation](#videophy-evaluating-physical-commonsense-for-video-generation)
     - [VideoPhy-2: A Challenging Action-Centric Physical Commonsense Evaluation in Video Generation](#videophy-2-a-challenging-action-centric-physical-commonsense-evaluation-in-video-generation)
   - [3.2 Physics and Physical Engine](#32-physics-and-physical-engine)
+    - [Brax: Massively Parallel Rigidbody Physics Simulation on Accelerator Hardware](#brax-massively-parallel-rigidbody-physics-simulation-on-accelerator-hardware)
+    - [Isaac Sim: Robotics Simulation and Synthetic Data Generation](#isaac-sim-robotics-simulation-and-synthetic-data-generation)
+    - [MuJoCo: Advanced Physics Simulation](#mujoco-advanced-physics-simulation)
+    - [PyBullet: Time Physics Simulation](#pyBullet-time-physics-simulation)
   - [3.3 Physics-enhanced Modeling Approaches.](#33-physics-enhanced-modeling-approaches)
   - [3.4 Benchmarking Modeling Capability](#34-benchmarking-modeling-capability)
 - [4. Embodied Interaction](#4-embodied-interaction)
@@ -380,6 +384,28 @@
 - **Domain:** `Video Generation`
 
 ### 3.2 Physics and Physical Engine
+
+#### [Brax: Massively Parallel Rigidbody Physics Simulation on Accelerator Hardware](https://github.com/google/brax)
+- **Date:** 2021.06
+- **Description:** Brax is a high-performance differentiable physics engine designed for large-scale rigid body simulation and reinforcement learning research in robotics and control tasks.
+- **Domain:** Physics Engine Rigid Body Dynamics Differentiable Simulation RL Environment JAX-based Acceleration
+
+#### [Isaac Sim: Robotics Simulation and Synthetic Data Generation](https://developer.nvidia.com/isaac/sim)
+- **Date:** 2020.12
+- **Description:** MuJoCo (Multi-Joint dynamics with Contact) is a fast and accurate physics engine designed for model-based optimization and reinforcement learning, featuring efficient contact dynamics and generalized coordinate representation.
+- **Domain:** Robotics Simulation Photorealistic Rendering Synthetic Data Generation Digital Twin GPU-Accelerated Physics
+
+#### [MuJoCo: Advanced Physics Simulation](https://github.com/google-deepmind/mujoco)
+- **Date:** 2012.10
+- **Description:** Brax is a high-performance differentiable physics engine designed for large-scale rigid body simulation and reinforcement learning research in robotics and control tasks.
+- **Domain:** Contact Dynamics Model-Based Control Continuous Control Constraint-Based Simulation Robotics Research
+
+#### [PyBullet: Time Physics Simulation](https://pybullet.org/)
+- **Date:** 2016.09
+- **Description:** PyBullet is a Python interface for the Bullet Physics SDK, providing real-time collision detection, rigid body and soft body dynamics, and robotics simulation with support for various file formats (URDF, SDF, MJCF).
+- **Domain:** Collision Detection Rigid and Soft Body Dynamics Robot Simulation Real-Time Physics Open-Source Engine
+
+
 
 ### 3.3 Physics-enhanced Modeling Approaches.
 
