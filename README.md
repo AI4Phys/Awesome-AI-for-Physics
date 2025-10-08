@@ -234,51 +234,17 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## 1. Physical Perception
 
-## 1. Physics Reasoning AI
-### 1.1 Database (Dataset and benchmarks)
-#### [SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning](https://arxiv.org/abs/2505.19099)
-- **Date:** 2025.05
-- **Description:** It comprises 2,000 rigorously validated questions covering a comprehensive range of knowledge levels from middle school to PhD qualifying exam levels.Through meticulous selection of 21 diagram types by domain experts, each problem challenges frontier MLLMs to integrate domain knowledge with visual understanding of physics diagrams (e.g., Feynman diagrams for particle interactions and Circuit diagrams for Electromagnetism).
-- **Link:** https://seephys.github.io/
-- **Domain:** `MLLM` `Physics VQA`
+### 1.1 Object Recognition
 
-#### [PHYSICSEVAL: Inference-Time Techniques to Improve the Reasoning Proficiency of Large Language Models on Physics Problems](https://arxiv.org/pdf/2508.00079)
-- **Date:** 2025.08
-- **Description:** A new 19,609-problem physics benchmark, reveals that multi-agent verification frameworks enhance LLM performance on complex physics reasoning tasks. 
-- **Link:** https://github.com/areebuzair/PhysicsEval
-- **Domain:** `LLM` `Physics VQA`
+### 1.2 Spatial Perception
 
-#### [ABench-Physics: Benchmarking Physical Reasoning in LLMs via High-Difficulty and Dynamic Physics Problems](https://arxiv.org/pdf/2507.04766)
-- **Date:** 2025.07
-- **Description:**  ABench-Physics exposes LLMs' physics reasoning limitations through 500 challenging problems (400 static + 100 dynamic variants). 
-- **Link:** https://github.com/inclusionAI/ABench/tree/main/Physics
-- **Domain:** `LLM` `Physics VQA`
+### 1.3 Identifying Intrinsic Property
 
-#### [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/pdf/2410.05080)
-- **Date:** 2024.10
-- **Description:** ScienceAgentBench evaluates LLM agents on 102 validated scientific tasks, showing even top-performing models (32.4-42.2% success rates) remain far from reliable automation, with performance gains requiring prohibitive cost increases. 
-- **Link:** https://osu-nlp-group.github.io/ScienceAgentBench/
-- **Domain:** `Agent` `Computational Physics`
+### 1.4 Dynamic Estimation
 
-#### [SciCode: A Research Coding Benchmark Curated by Scientists](https://arxiv.org/abs/2407.13168):
-- **Date:** 2024.04
-- **Description:** A scientist-curated benchmark (338 subproblems from 80 research challenges) with coding components. 
-- **Link:** https://scicode-bench.github.io/
-- **Domain:** `LLM` `Computational Physics`
-
-#### [PhySense: Principle-Based Physics Reasoning Benchmarking for Large Language Models](https://arxiv.org/pdf/2505.24823)
-- **Date:** 2025.05
-- **Description:** This paper introduces PhySense, a novel benchmark designed to evaluate the physics reasoning capabilities of Large Language Models (LLMs) based on core principles. The authors find that current LLMs often fail to emulate the concise, principle-based reasoning characteristic of human experts, instead generating lengthy and opaque solutions. PhySense provides a systematic way to investigate this limitation, aiming to guide the development of AI systems with more efficient, robust, and interpretable scientific reasoning.
-- **Domain:** `Large Language Models` `AI for Science` `Physics Reasoning` `Benchmarking` `Explainable AI`
-
-### 1.2 Training Methods (RL, SFT, etc.)
-
-### 1.3 Inference Methods (CoT, etc.)
-
-## 2. Physical Reasoning AI
-
-### 2.1 General Understanding
+### 1.5 Causal and Counterfactual Inference
 
 #### [I-PHYRE: Interactive Physical Reasoning](https://arxiv.org/pdf/2312.03009)
 - **Date:** 2023.12
@@ -321,6 +287,48 @@
 - **Description:** Physion++ is a novel benchmark that evaluates visual physical prediction models on their ability to perform online inference of latent properties like mass and friction from object dynamics, revealing a huge performance gap between current models and humans.
 - **Link:** https://dingmyu.github.io/physion_v2/
 - **Domain:** `Online Inference`
+
+## 2. Physics Reasoning 
+### 2.1 Database (Dataset and benchmarks)
+#### [SeePhys: Does Seeing Help Thinking? -- Benchmarking Vision-Based Physics Reasoning](https://arxiv.org/abs/2505.19099)
+- **Date:** 2025.05
+- **Description:** It comprises 2,000 rigorously validated questions covering a comprehensive range of knowledge levels from middle school to PhD qualifying exam levels.Through meticulous selection of 21 diagram types by domain experts, each problem challenges frontier MLLMs to integrate domain knowledge with visual understanding of physics diagrams (e.g., Feynman diagrams for particle interactions and Circuit diagrams for Electromagnetism).
+- **Link:** https://seephys.github.io/
+- **Domain:** `MLLM` `Physics VQA`
+
+#### [PHYSICSEVAL: Inference-Time Techniques to Improve the Reasoning Proficiency of Large Language Models on Physics Problems](https://arxiv.org/pdf/2508.00079)
+- **Date:** 2025.08
+- **Description:** A new 19,609-problem physics benchmark, reveals that multi-agent verification frameworks enhance LLM performance on complex physics reasoning tasks. 
+- **Link:** https://github.com/areebuzair/PhysicsEval
+- **Domain:** `LLM` `Physics VQA`
+
+#### [ABench-Physics: Benchmarking Physical Reasoning in LLMs via High-Difficulty and Dynamic Physics Problems](https://arxiv.org/pdf/2507.04766)
+- **Date:** 2025.07
+- **Description:**  ABench-Physics exposes LLMs' physics reasoning limitations through 500 challenging problems (400 static + 100 dynamic variants). 
+- **Link:** https://github.com/inclusionAI/ABench/tree/main/Physics
+- **Domain:** `LLM` `Physics VQA`
+
+#### [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/pdf/2410.05080)
+- **Date:** 2024.10
+- **Description:** ScienceAgentBench evaluates LLM agents on 102 validated scientific tasks, showing even top-performing models (32.4-42.2% success rates) remain far from reliable automation, with performance gains requiring prohibitive cost increases. 
+- **Link:** https://osu-nlp-group.github.io/ScienceAgentBench/
+- **Domain:** `Agent` `Computational Physics`
+
+#### [SciCode: A Research Coding Benchmark Curated by Scientists](https://arxiv.org/abs/2407.13168):
+- **Date:** 2024.04
+- **Description:** A scientist-curated benchmark (338 subproblems from 80 research challenges) with coding components. 
+- **Link:** https://scicode-bench.github.io/
+- **Domain:** `LLM` `Computational Physics`
+
+#### [PhySense: Principle-Based Physics Reasoning Benchmarking for Large Language Models](https://arxiv.org/pdf/2505.24823)
+- **Date:** 2025.05
+- **Description:** This paper introduces PhySense, a novel benchmark designed to evaluate the physics reasoning capabilities of Large Language Models (LLMs) based on core principles. The authors find that current LLMs often fail to emulate the concise, principle-based reasoning characteristic of human experts, instead generating lengthy and opaque solutions. PhySense provides a systematic way to investigate this limitation, aiming to guide the development of AI systems with more efficient, robust, and interpretable scientific reasoning.
+- **Domain:** `Large Language Models` `AI for Science` `Physics Reasoning` `Benchmarking` `Explainable AI`
+
+### 2.2 General Physics Reasoning Models
+
+### 2.3 Theoretical Physics Solvers
+
 
 ## 3. World Model (Video Generation and 3D Reconstruction)
 
