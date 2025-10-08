@@ -381,9 +381,9 @@
 
 ### 3.2 Physics and Physical Engine
 
-### 3.2 Physics-enhanced Modeling Approaches.
+### 3.3 Physics-enhanced Modeling Approaches.
 
-### 3.3 Benchmarking Modeling Capability
+### 3.4 Benchmarking Modeling Capability
 
 
 
