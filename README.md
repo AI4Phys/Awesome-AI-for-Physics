@@ -52,6 +52,17 @@
     - [Neural Motion Simulator Pushing the Limit of World Models in Reinforcement Learning](#neural-motion-simulator-pushing-the-limit-of-world-models-in-reinforcement-learning)
     - [FusionForce: End-to-end Differentiable Neural-Symbolic Layer for Trajectory Prediction](#fusionforce-end-to-end-differentiable-neural-symbolic-layer-for-trajectory-prediction)
   - [3.4 Benchmarking Modeling Capability](#34-benchmarking-modeling-capability)
+    - [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](#gans-trained-by-a-two-time-scale-update-rule-converge-to-a-local-nash-equilibrium)
+    - [CLIPScore: A Reference-free Evaluation Metric for Image Captioning](#clipscore-a-reference-free-evaluation-metric-for-image-captioning)
+    - [ImageNet: A Large-Scale Hierarchical Image Database](#imagenet-a-large-scale-hierarchicalI-image-database)
+    - [The Kinetics Human Action Video Dataset](#the-kinetics-human-action-video-dataset)
+    - [Progressive Growing of GANs for Improved Quality, Stability, and Variation](#progressive-growing-of-gans-for-improved-quality-stability-and-variation)
+    - [UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild](#ucf101-a-dataset-of-101-human-actions-classes-from-videos-in-the-wild)
+    - [The "Something Something" Video Database for Learning and Evaluating Visual Common Sense](#the-something-something-video-database-for-learning-and-evaluating-visual-common-sense)
+    - [Unsupervised Learning of Video Representations using LSTMs](#unsupervised-learning-of-video-representations-using-lstms)
+    - [Self-Supervised Visual Planning with Temporal Skip Connections](#self-supervised-visual-planning-with-temporal-skip-connections)
+    - [Indoor segmentation and support inference from RGBD images](#indoor-segmentation-and-support-inference-from-rgbd-images)
+    - [CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning](#clevr-a-diagnostic-dataset-for-compositional-language-and-elementary-visual-reasoning)
 - [4. Embodied Interaction](#4-embodied-interaction)
   - [4.1 Robotics](#41-robotics)
     - [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly](#phyblock-a-progressive-benchmark-for-physical-understanding-and-planning-via-3d-block-assembly)
@@ -484,7 +495,60 @@
 
 
 ### 3.4 Benchmarking Modeling Capability
+#### [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500)
+- **Date:** 2017.06
+- **Description:** FID is a metric for evaluating GAN-generated image quality by computing the Fréchet distance between feature distributions of real and generated images extracted from Inception-v3. Lower scores indicate better quality and diversity.
+- **Domain:** `Image Generation` `GAN Evaluation` `Generative Models`
 
+#### [CLIPScore: A Reference-free Evaluation Metric for Image Captioning](https://github.com/jmhessel/clipscore)
+- **Date:** 2021.04
+- **Description:** CLIPScore is a reference-free metric that evaluates image captioning quality by computing cosine similarity between CLIP embeddings of images and captions. It achieves higher correlation with human judgments than reference-based metrics like CIDEr and SPICE.
+- **Domain:** `Image Captioning` `Evaluation Metrics`  `Vision-Language Models`
+
+#### [ImageNet: A Large-Scale Hierarchical Image Database](https://ieeexplore.ieee.org/document/5206848)
+- **Date:** 2009.06
+- **Description:** ImageNet is a large-scale hierarchical image database organized by WordNet structure, containing millions of labeled images across thousands of categories for visual object recognition research.
+- **Domain:** `Computer Vision` `Object Recognition` 
+
+#### [The Kinetics Human Action Video Dataset](https://arxiv.org/abs/1705.06950)
+- **Date:** 2017.05
+- **Description:** Kinetics-400 is a large-scale human action video dataset containing 400 action classes with at least 400 clips per class. Each clip lasts around 10 seconds from YouTube videos, covering human-object and human-human interactions.
+- **Domain:** `Action Recognition` `Video Understanding` `Dataset` 
+
+#### [Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/abs/1710.10196)
+- **Date:** 2017.10
+- **Description:** CelebA-HQ is a high-quality version of the CelebA dataset containing 30,000 face images at 1024×1024 resolution, created by selecting and post-processing images from the original CelebA dataset.
+- **Domain:** `Image Synthesis` `Dataset` 
+
+#### [UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild](https://arxiv.org/abs/1212.0402)
+- **Date:** 2012.12
+- **Description:** UCF101 is an action recognition dataset containing 13,320 realistic video clips from YouTube across 101 action categories, totaling 27 hours of video with diverse camera motions and cluttered backgrounds.
+- **Domain:** `Action Recognition` `Video Understanding` `Dataset`
+
+#### [The "Something Something" Video Database for Learning and Evaluating Visual Common Sense](https://arxiv.org/abs/1706.04261)
+- **Date:** 2017.06
+- **Description:** Something-Something is a crowdsourced video dataset containing 100,000+ videos across 174 action classes focused on fine-grained human-object interactions requiring common sense understanding of the physical world.
+- **Domain:** `Action Recognition` `Video Understanding` `Dataset`
+
+#### [Unsupervised Learning of Video Representations using LSTMs](https://arxiv.org/abs/1502.04681)
+- **Date:** 2015.02
+- **Description:** Moving MNIST is a video prediction dataset containing 10,000 sequences of 20 frames at 64×64 resolution, showing two handwritten MNIST digits moving and bouncing within the frame.
+- **Domain:** `Video Prediction` `Dataset`
+
+#### [Self-Supervised Visual Planning with Temporal Skip Connections](https://arxiv.org/abs/1710.05268)
+- **Date:** 2017.10
+- **Description:** BAIR Robot Pushing dataset contains approximately 44,000 video sequences at 64×64 resolution showing a robotic arm pushing various objects, used for video prediction and robotic manipulation tasks.
+- **Domain:** `Video Prediction` `Robot Manipulation` `Dataset`
+
+#### [Indoor segmentation and support inference from RGBD images](https://arxiv.org/pdf/1301.3572)
+- **Date:** 2012
+- **Description:** NYU-Depth-V2 is an RGB-D indoor scene dataset containing 1,449 densely labeled aligned RGB and depth image pairs captured from 464 diverse indoor scenes across 3 cities using Microsoft Kinect.
+- **Domain:** `Indoor Scene Understanding` `Dataset`
+
+#### [CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning](https://arxiv.org/abs/1612.06890)
+- **Date:** 2016.12
+- **Description:** CLEVR is a synthetic visual question answering dataset containing 3D-rendered object images with 70,000 training and 15,000 validation images, featuring compositional questions testing visual reasoning abilities like counting, comparison, and spatial relationships.
+- **Domain:** `Visual Question Answering` `Visual Reasoning` `Dataset`
 
 
 ## 4. Embodied Interaction
