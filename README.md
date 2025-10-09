@@ -794,6 +794,121 @@
 
 ### 4.3 Autonomous Driving
 
+#### [A Survey of Deep Learning Techniques for Autonomous Driving](https://arxiv.org/pdf/1910.07738)
+- **Date:** 2019.10
+- **Description:** 
+- **Domain:** 
+
+#### [Human Motion Trajectory Prediction: A Survey](https://arxiv.org/pdf/1905.06113)
+- **Date:** 2019.05
+- **Description:** 
+- **Domain:** 
+
+#### [A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles](https://arxiv.org/pdf/1604.07446)
+- **Date:** 2016.04
+- **Description:** 
+- **Domain:** 
+
+#### [End to End Learning for Self-Driving Cars](https://arxiv.org/pdf/1604.07316)
+- **Date:** 2016.04
+- **Description:** 
+- **Domain:** 
+
+#### [CommonRoad: Composable benchmarks for motion planning on roads](https://mediatum.ub.tum.de/doc/1379638/776321.pdf)
+- **Date:** 2017.06
+- **Description:** 
+- **Domain:** 
+
+#### [NuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles](https://arxiv.org/pdf/2106.11810)
+- **Date:** 2021.06
+- **Description:** 
+- **Domain:** 
+
+#### [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/pdf/1903.11027)
+- **Date:** 2019.03
+- **Description:** 
+- **Domain:** 
+
+#### [Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/pdf/1912.04838)
+- **Date:** 2019.12
+- **Description:** 
+- **Domain:** 
+
+#### [Vision meets robotics: The KITTI dataset](https://journals.sagepub.com/doi/epub/10.1177/0278364913491297)
+- **Date:** 2013.08
+- **Description:** 
+- **Domain:** 
+
+#### [The Cityscapes Dataset for Semantic Urban Scene Understanding](https://arxiv.org/pdf/1604.01685)
+- **Date:** 2016.04
+- **Description:** 
+- **Domain:** 
+
+#### [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/pdf/1911.02620)
+- **Date:** 2019.11
+- **Description:** 
+- **Domain:**
+
+#### [One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/pdf/2006.14480)
+- **Date:** 2020.06
+- **Description:** 
+- **Domain:**
+
+#### [The ApolloScape Open Dataset for Autonomous Driving and its Application](https://arxiv.org/pdf/1803.06184)
+- **Date:** 2018.03
+- **Description:** 
+- **Domain:**
+
+#### [BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning](https://arxiv.org/pdf/1805.04687)
+- **Date:** 2018.05
+- **Description:** 
+- **Domain:**
+
+#### [CARLA: An Open Urban Driving Simulator](https://arxiv.org/pdf/1711.03938)
+- **Date:** 2017.11
+- **Description:** 
+- **Domain:**
+
+#### [AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles](https://arxiv.org/pdf/1705.05065)
+- **Date:** 2017.05
+- **Description:** 
+- **Domain:**
+
+#### [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079)
+- **Date:** 2018.12
+- **Description:** 
+- **Domain:**
+
+#### [Deep Reinforcement Learning for Autonomous Driving: A Survey](https://arxiv.org/pdf/2002.00444)
+- **Date:** 2020.02
+- **Description:** 
+- **Domain:**
+
+#### [Learning Lane Graph Representations for Motion Forecasting](https://arxiv.org/pdf/2007.13732)
+- **Date:** 2020.07
+- **Description:** 
+- **Domain:**
+
+#### [Wayformer: Motion Forecasting via Simple & Efficient Attention Networks](https://arxiv.org/pdf/2207.05844)
+- **Date:** 2022.07
+- **Description:** 
+- **Domain:**
+
+#### [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/pdf/2309.09777)
+- **Date:** 2023.09
+- **Description:** 
+- **Domain:**
+
+#### [DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation](https://arxiv.org/pdf/2410.13571)
+- **Date:** 2024.10
+- **Description:** 
+- **Domain:**
+
+#### [TWIST: Teacher-Student World Model Distillation for Efficient Sim-to-Real Transfer](https://arxiv.org/pdf/2311.03622)
+- **Date:** 2023.11
+- **Description:** 
+- **Domain:**
+
 
 ## C. Physics Reasoning AI
 
