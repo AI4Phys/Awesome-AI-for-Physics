@@ -45,6 +45,10 @@
     - [MuJoCo: Advanced Physics Simulation](#mujoco-advanced-physics-simulation)
     - [PyBullet: Time Physics Simulation](#pybullet-time-physics-simulation)
   - [3.3 Physics-enhanced Modeling Approaches.](#33-physics-enhanced-modeling-approaches)
+    - [GAIA-1: A Generative World Model for Autonomous Driving](#gaia-1-a-generative-world-model-for-autonomous-driving)
+    - [Isaac Sim: Robotics Simulation and Synthetic Data Generation](#isaac-sim-robotics-simulation-and-synthetic-data-generation)
+    - [MuJoCo: Advanced Physics Simulation](#mujoco-advanced-physics-simulation)
+    - [PyBullet: Time Physics Simulation](#pybullet-time-physics-simulation)
   - [3.4 Benchmarking Modeling Capability](#34-benchmarking-modeling-capability)
 - [4. Embodied Interaction](#4-embodied-interaction)
   - [4.1 Robotics](#41-robotics)
@@ -408,6 +412,10 @@
 
 
 ### 3.3 Physics-enhanced Modeling Approaches.
+#### [GAIA-1: A Generative World Model for Autonomous Driving](https://github.com/google/brax)
+- **Date:** 2023.09
+- **Description:** GAIA-1 is a generative world model for autonomous driving that generates realistic driving videos conditioned on text, image, and action inputs, enabling controllable prediction of future driving scenarios.
+- **Domain:** `Autonomous Driving` `World Simulation`
 
 ### 3.4 Benchmarking Modeling Capability
 
