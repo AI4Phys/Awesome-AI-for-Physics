@@ -461,6 +461,235 @@
 
 ### 4.2 Navigation
 
+#### [Matterport3D: Learning from RGB-D Data in Indoor Environments](https://arxiv.org/pdf/1709.06158)
+- **Date:** 2017.09
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [AI2-THOR: An Interactive 3D Environment for Visual AI](https://arxiv.org/pdf/1712.05474)
+- **Date:** 2017.12
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Interactive Gibson Benchmark (iGibson 0.5): A Benchmark for Interactive Navigation in Cluttered Environments](https://arxiv.org/pdf/1910.14442)
+- **Date:** 2019.10
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [RoboTHOR: An Open Simulation-to-Real Embodied AI Platform](https://arxiv.org/pdf/2004.06799)
+- **Date:** 2020.04
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation](https://arxiv.org/pdf/2409.14296)
+- **Date:** 2024.09
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments](https://arxiv.org/pdf/1711.07280)
+- **Date:** 2017.11
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding](https://arxiv.org/pdf/2010.07954)
+- **Date:** 2020.10
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/pdf/1904.10151)
+- **Date:** 2019.04
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Touchdown: Natural Language Navigation and Spatial Reasoning in Visual Street Environments](https://arxiv.org/pdf/1811.12354)
+- **Date:** 2018.11
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [The RobotSlang Benchmark: Dialog-guided Robot Localization and Navigation](https://arxiv.org/pdf/2010.12639)
+- **Date:** 2020.10
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [R2H: Building Multimodal Navigation Helpers that Respond to Help Requests](https://arxiv.org/pdf/2305.14260)
+- **Date:** 2023.05
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Vision-and-Dialog Navigation](https://arxiv.org/pdf/1907.04957)
+- **Date:** 2019.07
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [UNMuTe: Unifying Navigation and Multimodal Dialogue-like Text Generation](https://arxiv.org/pdf/2408.04423)
+- **Date:** 2024.08
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Vision-and-Language Navigation Today and Tomorrow: A Survey in the Era of Foundation Models](https://arxiv.org/pdf/2407.07035)
+- **Date:** 2024.07
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Research on Navigation Methods Based on LLMs](https://arxiv.org/pdf/2504.15600)
+- **Date:** 2025.04
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning](https://arxiv.org/pdf/2403.07376)
+- **Date:** 2024.03
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Object Goal Navigation using Goal-Oriented Semantic Exploration](https://arxiv.org/pdf/2007.00643)
+- **Date:** 2020.07
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Object Goal Navigation with Recursive Implicit Maps](https://arxiv.org/pdf/2308.05602)
+- **Date:** 2023.08
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Advancing Object Goal Navigation Through LLM-enhanced Object Affinities Transfer](https://arxiv.org/pdf/2403.09971)
+- **Date:** 2024.03
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [LGR: LLM-Guided Ranking of Frontiers for Object Goal Navigation](https://arxiv.org/pdf/2503.20241)
+- **Date:** 2025.03
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [CL-CoTNav: Closed-Loop Hierarchical Chain-of-Thought for Zero-Shot Object-Goal Navigation with Vision-Language Models](https://arxiv.org/pdf/2504.09000)
+- **Date:** 2025.04
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Stairway to Success: An Online Floor-Aware Zero-Shot Object-Goal Navigation Framework via LLM-Driven Coarse-to-Fine Exploration](https://arxiv.org/pdf/2505.23019)
+- **Date:** 2025.05
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [BabyWalk: Going Farther in Vision-and-Language Navigation by Taking Baby Steps](https://arxiv.org/pdf/2005.04625)
+- **Date:** 2020.05
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [ADAPT: Vision-Language Navigation with Modality-Aligned Action Prompts](https://arxiv.org/pdf/2205.15509)
+- **Date:** 2022.05
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [History Aware Multimodal Transformer for Vision-andLanguage Navigation](https://arxiv.org/pdf/2110.13309)
+- **Date:** 2021.10
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Learning to Navigate Unseen Environments: Back Translation with Environmental Dropout](https://arxiv.org/pdf/1904.04195)
+- **Date:** 2019.04
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Think Global, Act Local: Dual-scale Graph Transformer for Vision-and-Language Navigation](https://arxiv.org/pdf/2202.11742)
+- **Date:** 2022.02
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models](https://arxiv.org/pdf/2305.16986)
+- **Date:** 2023.05
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [VELMA: Verbalization Embodiment of LLM Agents for Vision and Language Navigation in Street View](https://arxiv.org/pdf/2307.06082)
+- **Date:** 2023.07
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [NaVILA: Legged Robot Vision-Language-Action Model for Navigation](https://arxiv.org/pdf/2412.04453)
+- **Date:** 2024.12
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Vision-Dialog Navigation by Exploring Cross-modal Memory](https://arxiv.org/pdf/2003.06745)
+- **Date:** 2020.03
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Goal-oriented Vision-and-Dialog Navigation via Reinforcement Learning](https://aclanthology.org/2022.findings-emnlp.327.pdf)
+- **Date:** 2022
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [LLM ContextBridge: A Hybrid Approach for Intent and Dialogue Understanding in IVSR](https://aclanthology.org/2025.coling-industry.66.pdf)
+- **Date:** 2025
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [FLAME: Learning to Navigate with Multimodal LLM in Urban Environments](https://arxiv.org/pdf/2408.11051)
+- **Date:** 2024.08
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Can LLM be a Good Path Planner based on Prompt Engineering? Mitigating the Hallucination for Path Planning](https://arxiv.org/pdf/2408.13184)
+- **Date:** 2024.08
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Uncovering the Fragility of Trustworthy LLMs through Chinese Textual Ambiguity](https://arxiv.org/pdf/2507.23121)
+- **Date:** 2025.07
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation](https://arxiv.org/pdf/2410.13232)
+- **Date:** 2024.10
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [TWIST: Teacher-Student World Model Distillation for Efficient Sim-to-Real Transfer](https://arxiv.org/pdf/2311.03622)
+- **Date:** 2023.11
+- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
+- **Link:** https://phyblock.github.io/
+- **Domain:** `Embodied AI` `VLM` `VQA`
+
+
 ### 4.3 Autonomous Driving
 
 
