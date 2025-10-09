@@ -46,6 +46,12 @@
     - [PyBullet: Time Physics Simulation](#pybullet-time-physics-simulation)
   - [3.3 Physics-enhanced Modeling Approaches.](#33-physics-enhanced-modeling-approaches)
     - [GAIA-1: A Generative World Model for Autonomous Driving](#gaia-1-a-generative-world-model-for-autonomous-driving)
+    - [Back to the Features: DINO as a Foundation for Video World Models](#back-to-the-features-dino-as-a-foundation-for-video-world-models)
+    - [Building World Models with Neural Physics](#building-world-models-with-neural-physics)
+    - [PhysORD: A Neuro-Symbolic Approach for Physics-infused Motion Prediction in Off-road Driving](#physord-a-neuro-symbolic-approach-for-physics-infused-motion-prediction-in-off-road-driving)
+    - [Neural Motion Simulator Pushing the Limit of World Models in Reinforcement Learning](#neural-motion-simulator-pushing-the-limit-of-world-models-in-reinforcement-learning)
+    - [FusionForce: End-to-end Differentiable Neural-Symbolic Layer for Trajectory Prediction](#fusionforce-end-to-end-differentiable-neural-symbolic-layer-for-trajectory-prediction)
+
   - [3.4 Benchmarking Modeling Capability](#34-benchmarking-modeling-capability)
 - [4. Embodied Interaction](#4-embodied-interaction)
   - [4.1 Robotics](#41-robotics)
@@ -413,6 +419,32 @@
 - **Date:** 2023.09
 - **Description:** GAIA-1 is a generative world model for autonomous driving that generates realistic driving videos conditioned on text, image, and action inputs, enabling controllable prediction of future driving scenarios.
 - **Domain:** `Autonomous Driving` `World Simulation`
+
+#### [Back to the Features: DINO as a Foundation for Video World Models](https://arxiv.org/abs/2507.19468)
+- **Date:** 2024.08
+- **Description:** DINO-World leverages visual foundation models to build world models for autonomous driving, demonstrating that pre-trained vision transformers can effectively predict future driving scenes and agent behaviors with improved spatial understanding.
+- **Domain:** `Autonomous Driving` `World Models` 
+
+#### [Building World Models with Neural Physics](https://dspace.mit.edu/handle/1721.1/158927)
+- **Date:** 2024.08
+- **Description:** This work proposes a framework for building world models that incorporate neural physics engines, enabling more accurate prediction of physical interactions and dynamics in video generation by learning physics-based representations.
+- **Domain:** `World Models` `Physical Simulation` 
+
+#### [PhysORD: A Neuro-Symbolic Approach for Physics-infused Motion Prediction in Off-road Driving](https://arxiv.org/abs/2404.01596)
+- **Date:** 2024.10
+- **Description:** A physics-infused world model for off-road driving that integrates the Euler-Lagrange equation with neural networks, achieving 46.7% higher accuracy using only 3.1% of parameters compared to purely data-driven approaches.
+- **Domain:** `World Models` `Physics-Informed Learning` 
+
+#### [Neural Motion Simulator Pushing the Limit of World Models in Reinforcement Learning](https://arxiv.org/abs/2504.07095)
+- **Date:** 2025.04
+- **Description:** MoSim is a neural motion simulator that predicts future physical states of embodied systems using rigid-body dynamics and Neural ODEs, achieving state-of-the-art long-horizon prediction accuracy and enabling zero-shot reinforcement learning.
+- **Domain:** `Reinforcement Learning` `World Models` 
+
+#### [FusionForce: End-to-end Differentiable Neural-Symbolic Layer for Trajectory Prediction](https://arxiv.org/abs/2502.10156)
+- **Date:** 2025.06
+- **Description:** A differentiable world model that fuses camera and lidar data with a physics engine for off-road trajectory prediction, achieving 10^4 trajectories per second with superior out-of-distribution generalization.
+- **Domain:** `World Models` `Physics-Informed Learning` `Off-road Autonomy`
+
 
 ### 3.4 Benchmarking Modeling Capability
 
