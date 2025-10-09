@@ -54,7 +54,7 @@
   - [3.4 Benchmarking Modeling Capability](#34-benchmarking-modeling-capability)
     - [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](#gans-trained-by-a-two-time-scale-update-rule-converge-to-a-local-nash-equilibrium)
     - [CLIPScore: A Reference-free Evaluation Metric for Image Captioning](#clipscore-a-reference-free-evaluation-metric-for-image-captioning)
-    - [ImageNet: A Large-Scale Hierarchical Image Database](#imagenet-a-large-scale-hierarchicalI-image-database)
+    - [ImageNet: A Large-Scale Hierarchical Image Database](#imagenet-a-large-scale-hierarchical-image-database)
     - [The Kinetics Human Action Video Dataset](#the-kinetics-human-action-video-dataset)
     - [Progressive Growing of GANs for Improved Quality, Stability, and Variation](#progressive-growing-of-gans-for-improved-quality-stability-and-variation)
     - [UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild](#ucf101-a-dataset-of-101-human-actions-classes-from-videos-in-the-wild)
