@@ -51,7 +51,6 @@
     - [PhysORD: A Neuro-Symbolic Approach for Physics-infused Motion Prediction in Off-road Driving](#physord-a-neuro-symbolic-approach-for-physics-infused-motion-prediction-in-off-road-driving)
     - [Neural Motion Simulator Pushing the Limit of World Models in Reinforcement Learning](#neural-motion-simulator-pushing-the-limit-of-world-models-in-reinforcement-learning)
     - [FusionForce: End-to-end Differentiable Neural-Symbolic Layer for Trajectory Prediction](#fusionforce-end-to-end-differentiable-neural-symbolic-layer-for-trajectory-prediction)
-
   - [3.4 Benchmarking Modeling Capability](#34-benchmarking-modeling-capability)
 - [4. Embodied Interaction](#4-embodied-interaction)
   - [4.1 Robotics](#41-robotics)
