@@ -30,7 +30,7 @@
     - [PhySense: Principle-Based Physics Reasoning Benchmarking for Large Language Models](#physense-principle-based-physics-reasoning-benchmarking-for-large-language-models)
   - [2.2 General Physics Reasoning Models](#22-general-physics-reasoning-models)
   - [2.3 Theoretical Physics Solvers](#23-theoretical-physics-solvers)
-- [3. World Model (Video Generation and 3D Reconstruction)](#3-world-model-video-generation-and-3d-reconstruction)
+- [3. World Model](#3-world-model)
   - [3.1 Generative Models](#31-generative-models)
     - [PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields](#pbr-nerf-inverse-rendering-with-physics-based-neural-fields)
     - [IntrinsicAvatar: Physically Based Inverse Rendering of Dynamic Humans from Monocular Videos via Explicit Ray Tracing](#intrinsicavatar-physically-based-inverse-rendering-of-dynamic-humans-from-monocular-videos-via-explicit-ray-tracing)
