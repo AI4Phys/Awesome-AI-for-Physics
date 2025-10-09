@@ -383,7 +383,7 @@
 ### 2.3 Theoretical Physics Solvers
 
 
-## 3. World Model (Video Generation and 3D Reconstruction)
+## 3. World Model 
 
 ### 3.1 Generative Models
 
