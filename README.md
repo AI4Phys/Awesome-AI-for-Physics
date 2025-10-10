@@ -66,6 +66,14 @@
 - [4. Embodied Interaction](#4-embodied-interaction)
   - [4.1 Robotics](#41-robotics)
     - [PhyBlock: A Progressive Benchmark for Physical Understanding and Planning via 3D Block Assembly](#phyblock-a-progressive-benchmark-for-physical-understanding-and-planning-via-3d-block-assembly)
+    - [A Generalist Agent](#a-generalist-agent)
+    - [RT-1: Robotics Transformer for Real-World Control at Scale](#rt-1-robotics-transformer-for-real-world-control-at-scale)
+    - [Pi0: A Vision-Language-Action Flow Model for General Robot Control](#pi0-a-vision-language-action-flow-model-for-general-robot-control)
+    - [OpenVLA: An Open-Source Vision-Language-Action Model](#openvla-an-open-source-vision-language-action-model)
+    - [Safety-Critical Kinematic Control of Robotic Systems](#safety-critical-kinematic-control-of-robotic-systems)
+    - [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](#diffusion-policy-visuomotor-policy-learning-via-action-diffusion)
+    - [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](#open-x-embodiment-robotic-learning-datasets-and-rt-x-models)
+    - [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](#do-as-i-can-not-as-i-say-grounding-language-in-robotic-affordances)
   - [4.2 Navigation](#42-navigation)
     - [Matterport3D: Learning from RGB-D Data in Indoor Environments](#matterport3d-learning-from-rgb-d-data-in-indoor-environments)
     - [AI2-THOR: An Interactive 3D Environment for Visual AI](#ai2-thor-an-interactive-3d-environment-for-visual-ai)
@@ -583,6 +591,47 @@
 - **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
 - **Link:** https://phyblock.github.io/
 - **Domain:** `Embodied AI` `VLM` `VQA`
+
+#### [A Generalist Agent](https://arxiv.org/abs/2205.06175)
+- **Date:** 2022.05
+- **Description:** Gato is a multi-modal, multi-task, multi-embodiment generalist agent with 1.2B parameters trained on 604 tasks. Using the same network weights, it can play Atari, caption images, chat, and control real robots.
+- **Domain:** `Robotics` `Multi-modal Learning` `Reinforcement Learning`
+
+#### [RT-1: Robotics Transformer for Real-World Control at Scale](https://arxiv.org/abs/2212.06817)
+- **Date:** 2022.12
+- **Description:** RT-1 is a Transformer-based robot control model trained on 130,000+ real-world episodes covering 700+ tasks collected from 13 robots over 17 months, demonstrating strong generalization to new tasks and environments.
+- **Domain:** `Robotics` `Multi-task Learning`  `Real-World Control`
+
+#### [Pi0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164)
+- **Date:** 2024.10
+- **Description:** π0 is a vision-language-action model built on a 3B parameter pre-trained VLM using flow matching for action generation. Trained on diverse data from 7+ robot platforms across 68+ tasks, enabling dexterous manipulation like laundry folding.
+- **Domain:** `Robotics` `Vision-Language-Action Model` 
+
+#### [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)
+- **Date:** 2024.06
+- **Description:** OpenVLA is a 7B-parameter open-source vision-language-action model trained on 970k robot demonstrations that takes language instructions and camera images as input to predict robot actions, supporting cross-embodiment control and efficient fine-tuning for new tasks.
+- **Domain:** `Embodied AI` `Robotics` `Vision-Language` 
+
+#### [Safety-Critical Kinematic Control of Robotic Systems](https://ieeexplore.ieee.org/document/9319250)
+- **Date:** 2020.09
+- **Description:** A safety-critical control framework that extends control barrier functions (CBFs) to kinematic equations of robotic systems, enabling velocity-based safety guarantees and introducing a new CBF formulation incorporating kinetic energy to minimize model dependence.
+- **Domain:** `Robotics` `Control` `Safety-Critical Control`
+
+#### [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137)
+- **Date:** 2023.03
+- **Description:** Diffusion Policy represents robot visuomotor policies as conditional denoising diffusion processes, learning action distribution score functions to generate robot behaviors that handle multimodal actions, high-dimensional spaces, and achieve robust training stability.
+- **Domain:** `Robotics` `Imitation Learning` `Diffusion Models`
+
+#### [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://arxiv.org/abs/2310.08864)
+- **Date:** 2023.10
+- **Description:** Open X-Embodiment is a large-scale robotics dataset pooling data from 22 different robot embodiments across 21 institutions with 1M+ trajectories, and RT-X models trained on this data demonstrate positive cross-embodiment transfer and improved generalization across multiple robots.
+- **Domain:** `Robotics` `Dataset` `Cross-Embodiment`
+
+#### [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/abs/2204.01691)
+- **Date:** 2022.04
+- **Description:** SayCan grounds large language models in robotic affordances by combining LLM probabilities for task usefulness with value functions for action feasibility, enabling robots to execute long-horizon, abstract natural language instructions in real-world environments.
+- **Domain:** `Robotics` `Embodied AI` `LLM`
+
 
 ### 4.2 Navigation
 
