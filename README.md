@@ -1031,13 +1031,118 @@
 - **Description:** 
 - **Domain:**
 
-#### [TWIST: Teacher-Student World Model Distillation for Efficient Sim-to-Real Transfer](https://arxiv.org/pdf/2311.03622)
+#### [RenderWorld: World Model with Self-Supervised 3D Label](https://arxiv.org/pdf/2409.11356)
+- **Date:** 2024.09
+- **Description:** 
+- **Domain:**
+
+#### [Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving](https://arxiv.org/pdf/2408.14197)
+- **Date:** 2024.08
+- **Description:** 
+- **Domain:**
+
+#### [DOME: Taming Diffusion Model into High-Fidelity Controllable Occupancy World Model](https://arxiv.org/pdf/2410.10429)
+- **Date:** 2024.10
+- **Description:** 
+- **Domain:**
+
+#### [Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion](https://arxiv.org/pdf/2311.01017)
 - **Date:** 2023.11
 - **Description:** 
 - **Domain:**
 
-#### [TWIST: Teacher-Student World Model Distillation for Efficient Sim-to-Real Transfer](https://arxiv.org/pdf/2311.03622)
+#### [UltraLiDAR: Learning Compact Representations for LiDAR Completion and Generation](https://arxiv.org/pdf/2311.01448)
 - **Date:** 2023.11
+- **Description:** 
+- **Domain:**
+
+#### [HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation](https://arxiv.org/pdf/2501.14729)
+- **Date:** 2025.01
+- **Description:** 
+- **Domain:**
+
+#### [DreamDrive: Generative 4D Scene Modeling from Street View Images](https://arxiv.org/pdf/2501.00601)
+- **Date:** 2025.01
+- **Description:** 
+- **Domain:**
+
+#### [Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model](https://arxiv.org/pdf/2412.05280)
+- **Date:** 2024.12
+- **Description:** 
+- **Domain:**
+
+#### [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/pdf/2304.14365)
+- **Date:** 2023.04
+- **Description:** 
+- **Domain:**
+
+#### [Argoverse 2: Next Generation Datasets for Self-Driving Perception and Forecasting](https://arxiv.org/pdf/2301.00493)
+- **Date:** 2023.01
+- **Description:** 
+- **Domain:**
+
+#### [Bench2Drive: Towards Multi-Ability Benchmarking of Closed-Loop End-To-End Autonomous Driving](https://arxiv.org/pdf/2406.03877)
+- **Date:** 2024.06
+- **Description:** 
+- **Domain:**
+
+#### [S2R-Bench: A Sim-to-Real Evaluation Benchmark for Autonomous Driving](https://arxiv.org/pdf/2505.18631)
+- **Date:** 2025.05
+- **Description:** 
+- **Domain:**
+
+#### [Interaction-Aware Trajectory Planning for Autonomous Vehicles with Analytic Integration of Neural Networks into Model Predictive Control](https://arxiv.org/pdf/2301.05393)
+- **Date:** 2023.01
+- **Description:** 
+- **Domain:**
+
+#### [DriveCoT: Integrating Chain-of-Thought Reasoning with End-to-End Driving](https://arxiv.org/pdf/2403.16996)
+- **Date:** 2024.03
+- **Description:** 
+- **Domain:**
+
+#### [PRIMEDrive-CoT: A Precognitive Chain-of-Thought Framework for Uncertainty-Aware Object Interaction in Driving Scene Scenario](https://www.arxiv.org/pdf/2504.05908)
+- **Date:** 2025.04
+- **Description:** 
+- **Domain:**
+
+#### [LeapVAD: A Leap in Autonomous Driving via Cognitive Perception and Dual-Process Thinking](https://arxiv.org/pdf/2501.08168)
+- **Date:** 2025.01
+- **Description:** 
+- **Domain:**
+
+#### [DriveLMM-o1: A Step-by-Step Reasoning Dataset and Large Multimodal Model for Driving Scenario Understanding](https://arxiv.org/pdf/2503.10621)
+- **Date:** 2025.03
+- **Description:** 
+- **Domain:**
+
+#### [Reason2Drive: Towards Interpretable and Chain-based Reasoning for Autonomous Driving](https://arxiv.org/pdf/2312.03661)
+- **Date:** 2023.12
+- **Description:** 
+- **Domain:**
+
+#### [TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving](https://arxiv.org/pdf/2509.13164)
+- **Date:** 2025.09
+- **Description:** 
+- **Domain:**
+
+#### [Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models](https://arxiv.org/pdf/2506.09042)
+- **Date:** 2025.06
+- **Description:** 
+- **Domain:**
+
+#### [RoboTron-Sim: Improving Real-World Driving via Simulated Hard-Case](https://arxiv.org/pdf/2508.04642)
+- **Date:** 2025.08
+- **Description:** 
+- **Domain:**
+
+#### [Think2Drive: Efficient Reinforcement Learning by Thinking in Latent World Model for Quasi-Realistic Autonomous Driving (in CARLA-v2)](https://arxiv.org/pdf/2402.16720)
+- **Date:** 2024.02
+- **Description:** 
+- **Domain:**
+
+#### [A Survey on Safety-Critical Driving Scenario Generation – A Methodological Perspective](https://arxiv.org/pdf/2202.02215)
+- **Date:** 2022.02
 - **Description:** 
 - **Domain:**
 
