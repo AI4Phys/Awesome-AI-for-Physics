@@ -110,7 +110,6 @@
     - [LLM ContextBridge: A Hybrid Approach for Intent and Dialogue Understanding in IVSR](#llm-contextbridge-a-hybrid-approach-for-intent-and-dialogue-understanding-in-ivsr)
     - [FLAME: Learning to Navigate with Multimodal LLM in Urban Environments](#flame-learning-to-navigate-with-multimodal-llm-in-urban-environments)
     - [Can LLM be a Good Path Planner based on Prompt Engineering? Mitigating the Hallucination for Path Planning](#can-llm-be-a-good-path-planner-based-on-prompt-engineering-mitigating-the-hallucination-for-path-planning)
-    - [Uncovering the Fragility of Trustworthy LLMs through Chinese Textual Ambiguity](#uncovering-the-fragility-of-trustworthy-llms-through-chinese-textual-ambiguity)
     - [Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation](#web-agents-with-world-models-learning-and-leveraging-environment-dynamics-in-web-navigation)
     - [TWIST: Teacher-Student World Model Distillation for Efficient Sim-to-Real Transfer](#twist-teacher-student-world-model-distillation-for-efficient-sim-to-real-transfer)
   - [4.3 Autonomous Driving](#43-autonomous-driving)
