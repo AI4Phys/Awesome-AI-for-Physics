@@ -856,53 +856,55 @@
 
 #### [A Survey of Deep Learning Techniques for Autonomous Driving](https://arxiv.org/pdf/1910.07738)
 - **Date:** 2019.10
-- **Description:** 
-- **Domain:** 
+- **Description:** This survey provides a comprehensive overview of the state-of-the-art deep learning techniques used in autonomous driving, covering everything from perception and path planning to end-to-end learning systems.
+- **Domain:** `literature review` 
 
 #### [Human Motion Trajectory Prediction: A Survey](https://arxiv.org/pdf/1905.06113)
 - **Date:** 2019.05
-- **Description:** 
-- **Domain:** 
+- **Description:** This survey presents a comprehensive overview of deep learning-based methods for predicting human motion trajectories, categorizing them based on their motion modeling and interaction modeling approaches.
+- **Domain:** `literature review` 
+
 
 #### [A Survey of Motion Planning and Control Techniques for Self-driving Urban Vehicles](https://arxiv.org/pdf/1604.07446)
 - **Date:** 2016.04
-- **Description:** 
-- **Domain:** 
+- **Description:** This survey provides a structured overview of motion planning and control techniques for self-driving cars in urban settings, categorizing approaches from traditional robotics and control theory to modern data-driven methods.
+- **Domain:** `literature review` `motion planning` ` control theory`
+
 
 #### [End to End Learning for Self-Driving Cars](https://arxiv.org/pdf/1604.07316)
 - **Date:** 2016.04
-- **Description:** 
-- **Domain:** 
+- **Description:** This influential work from NVIDIA demonstrates that a convolutional neural network can learn the entire task of lane-keeping for a self-driving car by directly mapping raw input pixels from a single front-facing camera to steering commands.
+- **Domain:** ` end-to-end `
 
 #### [CommonRoad: Composable benchmarks for motion planning on roads](https://mediatum.ub.tum.de/doc/1379638/776321.pdf)
 - **Date:** 2017.06
-- **Description:** 
-- **Domain:** 
+- **Description:** CommonRoad is a suite of composable and open-source benchmarks for motion planning that provides a wide variety of traffic scenarios, enabling researchers to create, compare, and solve complex motion planning problems for autonomous vehicles.
+- **Domain:** `motion planning` `benchmark`
 
 #### [NuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles](https://arxiv.org/pdf/2106.11810)
 - **Date:** 2021.06
-- **Description:** 
-- **Domain:** 
+- **Description:** nuPlan is a large-scale, closed-loop machine learning benchmark for autonomous vehicle planning that provides real-world driving data and a simulation framework to develop and validate planners in realistic scenarios.
+- **Domain:** `motion planning` `benchmark`
 
 #### [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/pdf/1903.11027)
 - **Date:** 2019.03
-- **Description:** 
-- **Domain:** 
+- **Description:** nuScenes is a large-scale, multimodal dataset for autonomous driving that features a full 360-degree sensor suite including cameras, LiDAR, and radar, complete with detailed 3D bounding box annotations for 23 object classes.
+- **Domain:** `object detection` `tracking`
 
 #### [Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://arxiv.org/pdf/1912.04838)
 - **Date:** 2019.12
-- **Description:** 
-- **Domain:** 
+- **Description:** The Waymo Open Dataset is a massive and diverse collection of high-resolution sensor data, including LiDAR and cameras, captured across various urban and suburban environments to spur research in perception for autonomous driving.
+- **Domain:** `object detection` `tracking`
 
 #### [Vision meets robotics: The KITTI dataset](https://journals.sagepub.com/doi/epub/10.1177/0278364913491297)
 - **Date:** 2013.08
-- **Description:** 
-- **Domain:** 
+- **Description:** The KITTI dataset is a seminal and challenging real-world benchmark for autonomous driving that provides calibrated and synchronized data from a variety of sensors, including cameras, LiDAR, and GPS/IMU, recorded in diverse urban and rural traffic scenarios.
+- **Domain:** `object detection` ` stereo vision`
 
 #### [The Cityscapes Dataset for Semantic Urban Scene Understanding](https://arxiv.org/pdf/1604.01685)
 - **Date:** 2016.04
-- **Description:** 
-- **Domain:** 
+- **Description:** The Cityscapes Dataset is a large-scale collection of diverse urban street scenes with high-quality, pixel-level semantic annotations for 30 object classes, designed to benchmark and advance semantic scene understanding.
+- **Domain:** `semantic segmentation`
 
 #### [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/pdf/1911.02620)
 - **Date:** 2019.11
@@ -911,218 +913,221 @@
 
 #### [One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/pdf/2006.14480)
 - **Date:** 2020.06
-- **Description:** 
-- **Domain:**
+- **Description:** The Argoverse dataset provides a rich, large-scale collection of 3D tracking and motion forecasting data from a fleet of self-driving cars, complete with detailed, high-resolution maps to support research in autonomous vehicle perception and prediction.
+- **Domain:** `3D object tracking` `motion forecasting`
 
 #### [The ApolloScape Open Dataset for Autonomous Driving and its Application](https://arxiv.org/pdf/1803.06184)
 - **Date:** 2018.03
-- **Description:** 
-- **Domain:**
+- **Description:** ApolloScape is a massive, open-source dataset for autonomous driving that provides a wealth of real-world and synthetic data with high-quality, per-pixel annotations to support a wide range of tasks from 3D perception to trajectory forecasting.
+- **Domain:** `semantic scene understanding` `simulation`
 
 #### [BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning](https://arxiv.org/pdf/1805.04687)
 - **Date:** 2018.05
-- **Description:** 
-- **Domain:**
+- **Description:** BDD100K is a large and diverse driving dataset that provides 100,000 videos with a rich set of annotations for ten different tasks, aiming to facilitate research in heterogeneous multitask learning for autonomous driving.
+- **Domain:** `scene understanding`
 
 #### [CARLA: An Open Urban Driving Simulator](https://arxiv.org/pdf/1711.03938)
 - **Date:** 2017.11
-- **Description:** 
-- **Domain:**
+- **Description:** CARLA is an open-source simulator for autonomous driving research that provides a flexible and realistic urban environment with a wide range of sensor models and controllable environmental conditions.
+- **Domain:** `simulation`
 
 #### [AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles](https://arxiv.org/pdf/1705.05065)
 - **Date:** 2017.05
-- **Description:** 
-- **Domain:**
+- **Description:** AirSim is an open-source, high-fidelity simulator for autonomous vehicles built on Unreal Engine, providing physically and visually realistic environments for developing and testing AI for drones and cars.
+- **Domain:** `simulation` `sim-to-real`
 
 #### [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/pdf/1812.03079)
 - **Date:** 2018.12
-- **Description:** 
-- **Domain:**
+- **Description:** ChauffeurNet is a machine learning model that learns to drive by imitating a human driver's trajectory, while also being trained on a synthesized dataset of simulated collisions and off-road events to learn how to recover from mistakes.
+- **Domain:** `imitation learning` `motion planning`
 
 #### [Deep Reinforcement Learning for Autonomous Driving: A Survey](https://arxiv.org/pdf/2002.00444)
 - **Date:** 2020.02
-- **Description:** 
-- **Domain:**
+- **Description:** This survey provides a comprehensive review of deep reinforcement learning applications in autonomous driving, categorizing methods and discussing their use in solving complex decision-making problems like path planning and behavior arbitration.
+- **Domain:** `literature review deep` `reinforcement learning`
 
 #### [Learning Lane Graph Representations for Motion Forecasting](https://arxiv.org/pdf/2007.13732)
 - **Date:** 2020.07
-- **Description:** 
-- **Domain:**
+- **Description:** This work, introducing LaneGCN, models the complex topological relationships of road lanes as a graph, allowing an autonomous vehicle to better predict the future trajectories of multiple surrounding agents.
+- **Domain:** `motion forecasting`
 
 #### [Wayformer: Motion Forecasting via Simple & Efficient Attention Networks](https://arxiv.org/pdf/2207.05844)
 - **Date:** 2022.07
-- **Description:** 
-- **Domain:**
+- **Description:** The Wayformer is a family of efficient, attention-based models for motion forecasting that effectively captures the complex interactions between agents and the road map to predict future trajectories.
+- **Domain:** `motion forecasting`
 
 #### [DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving](https://arxiv.org/pdf/2309.09777)
 - **Date:** 2023.09
-- **Description:** 
-- **Domain:**
+- **Description:** DriveDreamer is a world model for autonomous driving that can generate realistic, controllable, and infinitely long driving scenarios in a closed loop by learning the dynamics of traffic from real-world data.
+- **Domain:** `Generative AI`  `world model` `video generation`
 
 #### [DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation](https://arxiv.org/pdf/2410.13571)
 - **Date:** 2024.10
-- **Description:** 
-- **Domain:**
+- **Description:** DriveDreamer4D is a world model that acts as a "data machine," generating consistent and high-quality 4D data (3D scenes over time) to significantly enhance the performance of various autonomous driving perception tasks.
+- **Domain:** `Generative AI`  `world model` `4D perception`
 
 #### [ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration](https://arxiv.org/pdf/2411.19548)
 - **Date:** 2024.11
-- **Description:** 
-- **Domain:**
+- **Description:** ReconDreamer is a world model that learns to reconstruct and understand 3D driving scenes by being trained to restore intentionally degraded or masked sensor data in an online fashion.
+- **Domain:** `Generative AI`  `world model` `scene reconstruction`
 
 #### [DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model](https://arxiv.org/pdf/2310.07771)
 - **Date:** 2023.10
-- **Description:** 
-- **Domain:**
+- **Description:** DrivingDiffusion is a latent diffusion model that generates realistic, multi-view driving scene videos by using a bird's-eye-view (BEV) layout as a guide to control the scene's structure and dynamics.
+- **Domain:** `Generative AI`  `video generation` `diffusion model`
+
 
 #### [BEVControl: Accurately Controlling Street-view Elements with Multi-perspective Consistency via BEV Sketch Layout](https://arxiv.org/pdf/2308.01661)
 - **Date:** 2023.08
-- **Description:** 
-- **Domain:**
+- **Description:** BEVControl is a method for generating and editing street-view images by allowing a user to draw a simple bird's-eye-view (BEV) sketch, which then controls the placement and appearance of elements like roads and vehicles with multi-perspective consistency.
+- **Domain:** `Generative AI`  `scene generation`
 
 #### [Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability](https://arxiv.org/pdf/2405.17398)
 - **Date:** 2024.05
-- **Description:** 
-- **Domain:**
+- **Description:** Vista is a generalizable driving world model that can predict high-fidelity, long-horizon driving scenarios and can be controlled by a versatile set of actions, from high-level commands to low-level vehicle maneuvers.
+- **Domain:** `Generative AI`  `video prediction` `world model`
 
 #### [HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving](https://arxiv.org/pdf/2412.01407)
 - **Date:** 2024.12
-- **Description:** 
-- **Domain:**
+- **Description:** HoloDrive is a generative model that creates holistic and consistent street scenes by simultaneously producing multi-camera 2D videos and their corresponding 3D LiDAR point clouds and bird's-eye-view maps.
+- **Domain:** `Generative AI` `world model`
 
 #### [DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT](https://arxiv.org/pdf/2412.19505)
 - **Date:** 2024.12
-- **Description:** 
-- **Domain:**
+- **Description:** DrivingWorld is a world model for autonomous driving that uses a Video Generative Pre-trained Transformer (Video GPT) to learn the dynamics of traffic scenes and generate realistic future driving scenarios.
+- **Domain:** `Generative AI`  `video prediction` `world model`
 
 #### [DrivingGPT: Unifying Driving World Modeling and Planning with Multi-modal Autoregressive Transformers](https://arxiv.org/pdf/2412.18607)
 - **Date:** 2024.12
-- **Description:** 
-- **Domain:**
+- **Description:** DrivingGPT is a multi-modal autoregressive transformer model that unifies world modeling and planning, allowing it to both predict the future evolution of a driving scene and make driving decisions within a single, end-to-end framework.
+- **Domain:** `end-to-end ` `world model`
 
 #### [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/pdf/2311.16038)
 - **Date:** 2023.11
-- **Description:** 
-- **Domain:**
+- **Description:** OccWorld is a world model that learns to predict the future evolution of a 3D driving scene by representing the world as a 3D occupancy grid and using a generative transformer to forecast both the movement of the ego-vehicle and the surrounding environment.
+- **Domain:** `Generative AI`  `3D prediction` `world model`
 
 #### [OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving](https://arxiv.org/pdf/2409.03272)
 - **Date:** 2024.09
-- **Description:** 
-- **Domain:**
+- **Description:** OccLLaMA is a generative world model that unifies 3D occupancy prediction, language-based reasoning, and action generation into a single framework, allowing it to understand, explain, and plan in complex driving scenarios.
+- **Domain:** `end-to-end ` `world model`
 
 #### [RenderWorld: World Model with Self-Supervised 3D Label](https://arxiv.org/pdf/2409.11356)
 - **Date:** 2024.09
-- **Description:** 
-- **Domain:**
+- **Description:** RenderWorld is a world model for autonomous driving that learns to predict future 3D scenes by generating its own self-supervised 3D labels, eliminating the need for expensive manual annotation.
+- **Domain:** `3D prediction` `world model`
 
 #### [Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving](https://arxiv.org/pdf/2408.14197)
 - **Date:** 2024.08
-- **Description:** 
-- **Domain:**
+- **Description:** This work introduces a vision-centric world model that forecasts the future 4D occupancy (3D space + time) of a driving scene and uses this prediction to directly plan the vehicle's trajectory.
+- **Domain:** `4D occupancy forecasting` `end-to-end` `world model`
 
 #### [DOME: Taming Diffusion Model into High-Fidelity Controllable Occupancy World Model](https://arxiv.org/pdf/2410.10429)
 - **Date:** 2024.10
-- **Description:** 
-- **Domain:**
+- **Description:** DOME is a framework that adapts a diffusion model to create a high-fidelity and controllable world model, which can generate realistic future 3D occupancy grids for driving scenes based on specified actions.
+- **Domain:** `3D scene forecasting` `diffusion model` `world model`
 
 #### [Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion](https://arxiv.org/pdf/2311.01017)
 - **Date:** 2023.11
-- **Description:** 
-- **Domain:**
+- **Description:** Copilot4D is an unsupervised world model that learns to predict the future 4D (3D space + time) evolution of a driving scene by using a discrete diffusion process on compressed 3D representations.
+- **Domain:** `4D perception` `diffusion model` `world model` `Generative AI`
 
 #### [UltraLiDAR: Learning Compact Representations for LiDAR Completion and Generation](https://arxiv.org/pdf/2311.01448)
 - **Date:** 2023.11
-- **Description:** 
-- **Domain:**
+- **Description:** UltraLiDAR introduces a method that learns a compact and efficient representation of LiDAR data, enabling both the completion of sparse, real-world LiDAR scans and the generation of entirely new, realistic point clouds.
+- **Domain:** `point cloud completion` `generative model` 
 
 #### [HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation](https://arxiv.org/pdf/2501.14729)
 - **Date:** 2025.01
-- **Description:** 
-- **Domain:**
+- **Description:** HERMES is a unified world model for autonomous driving that can simultaneously perform 3D scene understanding (like perception and tracking) and generate realistic future driving scenarios within a single framework.
+- **Domain:** `3D perception` `scene generation` `world model` `Generative AI`
 
 #### [DreamDrive: Generative 4D Scene Modeling from Street View Images](https://arxiv.org/pdf/2501.00601)
 - **Date:** 2025.01
-- **Description:** 
-- **Domain:**
+- **Description:** DreamDrive is a generative framework that synthesizes controllable and realistic 4D (3D space + time) driving scenes by combining the generative power of video diffusion models with the 3D consistency of Gaussian splatting.
+- **Domain:** `4D scene generation` `neural rendering`
 
 #### [Stag-1: Towards Realistic 4D Driving Simulation with Video Generation Model](https://arxiv.org/pdf/2412.05280)
 - **Date:** 2024.12
-- **Description:** 
-- **Domain:**
+- **Description:** Stag-1 is a video generation model designed to create realistic and controllable 4D driving simulations by using a cascaded architecture that first generates a global scene layout and then adds fine-grained details.
+- **Domain:** `video generation` `world model` `Generative AI`
 
 #### [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/pdf/2304.14365)
 - **Date:** 2023.04
-- **Description:** 
-- **Domain:**
+- **Description:** Occ3D is a large-scale benchmark and dataset specifically designed for the task of 3D occupancy prediction, providing standardized metrics and a robust framework for evaluating and comparing different models.
+- **Domain:** `3D perception` `scene understanding` `benchmark`
 
 #### [Argoverse 2: Next Generation Datasets for Self-Driving Perception and Forecasting](https://arxiv.org/pdf/2301.00493)
 - **Date:** 2023.01
-- **Description:** 
-- **Domain:**
+- **Description:** Argoverse 2 is a collection of four large-scale, open-source datasets for autonomous driving that provide high-resolution sensor data, 3D maps, and millions of annotated scenarios to advance research in perception and motion forecasting.
+- **Domain:** `3D perception` `motion forecasting` `sensor fusion`
 
 #### [Bench2Drive: Towards Multi-Ability Benchmarking of Closed-Loop End-To-End Autonomous Driving](https://arxiv.org/pdf/2406.03877)
 - **Date:** 2024.06
-- **Description:** 
-- **Domain:**
+- **Description:** Bench2Drive is a comprehensive, closed-loop benchmark for end-to-end autonomous driving systems that provides a large, standardized training dataset and a multi-ability evaluation protocol to fairly assess and compare different driving models in a variety of interactive scenarios.
+- **Domain:** `end-to-end learning` `benchmark`
 
 #### [S2R-Bench: A Sim-to-Real Evaluation Benchmark for Autonomous Driving](https://arxiv.org/pdf/2505.18631)
 - **Date:** 2025.05
-- **Description:** 
-- **Domain:**
+- **Description:** S2R-Bench is a sim-to-real benchmark that provides a collection of real-world sensor data with anomalies (like snow and fog) to evaluate and improve the robustness of autonomous driving perception algorithms.
+- **Domain:** `sim-to-real` `benchmark`
 
 #### [Interaction-Aware Trajectory Planning for Autonomous Vehicles with Analytic Integration of Neural Networks into Model Predictive Control](https://arxiv.org/pdf/2301.05393)
 - **Date:** 2023.01
-- **Description:** 
-- **Domain:**
+- **Description:** This work presents an interaction-aware trajectory planning method that analytically integrates a neural network, which predicts the behavior of other vehicles, directly into a model predictive control framework for more efficient and socially-aware navigation.
+- **Domain:** `motion planning` `MPC`
 
 #### [DriveCoT: Integrating Chain-of-Thought Reasoning with End-to-End Driving](https://arxiv.org/pdf/2403.16996)
 - **Date:** 2024.03
-- **Description:** 
-- **Domain:**
+- **Description:** DriveCoT is an end-to-end driving framework that integrates chain-of-thought reasoning by generating explicit textual justifications for its driving decisions, improving the model's interpretability and performance.
+- **Domain:** `end-to-end` 
 
 #### [PRIMEDrive-CoT: A Precognitive Chain-of-Thought Framework for Uncertainty-Aware Object Interaction in Driving Scene Scenario](https://www.arxiv.org/pdf/2504.05908)
 - **Date:** 2025.04
-- **Description:** 
-- **Domain:**
+- **Description:** PRIMEDrive-CoT is a framework that improves a driving model's ability to handle uncertain interactions with other objects by using a "precognitive" chain-of-thought process to anticipate multiple possible future outcomes before making a decision.
+- **Domain:** `motion forecasting` `interpretable AI`
 
 #### [LeapVAD: A Leap in Autonomous Driving via Cognitive Perception and Dual-Process Thinking](https://arxiv.org/pdf/2501.08168)
 - **Date:** 2025.01
-- **Description:** 
-- **Domain:**
+- **Description:** LeapVAD is a novel autonomous driving framework that enhances decision-making by combining cognitive perception with a dual-process learning system, which allows it to achieve superior performance with limited training data by mimicking human-like attention and reasoning.
+- **Domain:** `cognitive AI` `knowledge-driven system`
 
 #### [DriveLMM-o1: A Step-by-Step Reasoning Dataset and Large Multimodal Model for Driving Scenario Understanding](https://arxiv.org/pdf/2503.10621)
 - **Date:** 2025.03
-- **Description:** 
-- **Domain:**
+- **Description:** DriveLMM-o1 introduces a large-scale dataset and a corresponding multimodal model designed to advance step-by-step visual reasoning in autonomous driving by providing detailed annotations for perception, prediction, and planning.
+- **Domain:** `interpretable AI` `VQA`
 
 #### [Reason2Drive: Towards Interpretable and Chain-based Reasoning for Autonomous Driving](https://arxiv.org/pdf/2312.03661)
 - **Date:** 2023.12
-- **Description:** 
-- **Domain:**
+- **Description:** Reason2Drive is a framework that improves the interpretability of autonomous driving systems by training a model to generate explicit, chain-like textual reasoning for its high-level decisions.
+- **Domain:** `interpretable AI` `XAI`
+
 
 #### [TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving](https://arxiv.org/pdf/2509.13164)
 - **Date:** 2025.09
-- **Description:** 
-- **Domain:**
+- **Description:** TeraSim-World is a data synthesis system that can generate massive, worldwide, safety-critical driving scenarios to train and test end-to-end autonomous driving models in rare but dangerous situations.
+- **Domain:** `data synthesis` `end-to-end learning`
+
 
 #### [Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models](https://arxiv.org/pdf/2506.09042)
 - **Date:** 2025.06
-- **Description:** 
-- **Domain:**
+- **Description:** Cosmos-Drive-Dreams is a framework that uses world foundation models to generate large-scale, diverse, and high-fidelity synthetic driving data for training and testing autonomous driving systems.
+- **Domain:** `data synthesis` `world model`
 
 #### [RoboTron-Sim: Improving Real-World Driving via Simulated Hard-Case](https://arxiv.org/pdf/2508.04642)
 - **Date:** 2025.08
-- **Description:** 
-- **Domain:**
+- **Description:** RoboTron-Sim is a simulation platform designed to improve the real-world performance of driving models by specifically training them on a large and diverse set of simulated, safety-critical "hard cases".
+- **Domain:** `safety validation` `sim-to-real`
 
 #### [Think2Drive: Efficient Reinforcement Learning by Thinking in Latent World Model for Quasi-Realistic Autonomous Driving (in CARLA-v2)](https://arxiv.org/pdf/2402.16720)
 - **Date:** 2024.02
-- **Description:** 
-- **Domain:**
+- **Description:** Think2Drive is a reinforcement learning framework that improves the sample efficiency of autonomous driving agents by training them to "think" and plan within a learned, compressed latent world model of the CARLA-v2 simulator.
+- **Domain:** `model-based RL` `world model`
 
 #### [A Survey on Safety-Critical Driving Scenario Generation – A Methodological Perspective](https://arxiv.org/pdf/2202.02215)
 - **Date:** 2022.02
-- **Description:** 
-- **Domain:**
+- **Description:** This survey provides a comprehensive methodological review of algorithms for generating safety-critical driving scenarios, categorizing them into data-driven, adversarial, and knowledge-based approaches.
+- **Domain:** `literature review` `scenario generation`
 
 
 ## C. Physics Reasoning AI
