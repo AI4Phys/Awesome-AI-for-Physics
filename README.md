@@ -668,231 +668,189 @@
 
 #### [Matterport3D: Learning from RGB-D Data in Indoor Environments](https://arxiv.org/pdf/1709.06158)
 - **Date:** 2017.09
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** Matterport3D introduces a comprehensive, large-scale dataset of RGB-D images and 3D reconstructions from 90 different buildings to facilitate the training of algorithms for a variety of scene understanding tasks.
+- **Domain:** `3D perception` 
 
 #### [AI2-THOR: An Interactive 3D Environment for Visual AI](https://arxiv.org/pdf/1712.05474)
 - **Date:** 2017.12
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** AI2-THOR is an interactive framework of near photo-realistic 3D indoor scenes, designed to train AI agents to navigate and interact with objects.
+- **Domain:** `Embodied AI` ` Imitation Learning` 
 
 #### [Interactive Gibson Benchmark (iGibson 0.5): A Benchmark for Interactive Navigation in Cluttered Environments](https://arxiv.org/pdf/1910.14442)
 - **Date:** 2019.10
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** The Interactive Gibson Benchmark (iGibson) provides a simulation platform with realistic physics for training robotic agents to navigate cluttered environments by physically interacting with objects, like pushing chairs or opening cabinets, to clear a path.
+- **Domain:** `motion planning` ` interactive navigation` 
 
 #### [RoboTHOR: An Open Simulation-to-Real Embodied AI Platform](https://arxiv.org/pdf/2004.06799)
 - **Date:** 2020.04
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** RoboTHOR is an open-source platform that enables the training of AI agents in simulated apartment environments and the direct transfer of those learned skills to a physical robot in a matched real-world setting.
+- **Domain:** `Embodied AI` `sim-to-real` 
 
 #### [HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation](https://arxiv.org/pdf/2409.14296)
 - **Date:** 2024.09
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** The HM3D-OVON benchmark specifically challenges an AI agent to find an object within a large-scale, photorealistic 3D environment using only a free-form text description (e.g., "find the green cushion on the sofa"), pushing beyond predefined object lists to test true language-grounded navigation.
+- **Domain:** `Embodied AI` `VLM` 
 
 #### [Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments](https://arxiv.org/pdf/1711.07280)
 - **Date:** 2017.11
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** This foundational work establishes the Vision-and-Language Navigation (VLN) challenge, requiring an AI agent to navigate through real photographic environments by following step-by-step human language instructions, and introduces the corresponding Room-to-Room (R2R) dataset as a benchmark for this task.
+- **Domain:** `Embodied AI` `Robotics` 
 
 #### [Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding](https://arxiv.org/pdf/2010.07954)
 - **Date:** 2020.10
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** Room-Across-Room (RxR) introduces a large-scale, multilingual (English, Hindi, and Telugu) dataset for Vision-and-Language Navigation that provides dense spatiotemporal grounding by time-aligning each word of an instruction to the virtual poses of the human annotators.
+- **Domain:** `Embodied AI` `VLN` 
 
 #### [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/pdf/1904.10151)
 - **Date:** 2019.04
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** REVERIE proposes a new task and dataset that challenges an embodied AI agent to first navigate to a distant location in a photorealistic indoor scene and then identify a specific object based on a concise natural language description (a referring expression).
+- **Domain:** `Embodied AI` `VLN` 
 
 #### [Touchdown: Natural Language Navigation and Spatial Reasoning in Visual Street Environments](https://arxiv.org/pdf/1811.12354)
 - **Date:** 2018.11
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** Touchdown introduces a dataset and task where an AI agent must navigate through real-world street view imagery by following natural language instructions that require significant spatial reasoning, such as finding and resolving the location of a hidden object marked in a separate image.
+- **Domain:** `Embodied AI` `VLN` `spatial reasoning`
 
 #### [The RobotSlang Benchmark: Dialog-guided Robot Localization and Navigation](https://arxiv.org/pdf/2010.12639)
 - **Date:** 2020.10
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** The RobotSlang benchmark introduces a new challenge where a lost robot navigates a 3D environment to a target by engaging in a natural language dialogue with a person who is guiding it based on what the robot sees.
+- **Domain:** `Embodied AI` `Robotics` ` robot localization`
 
 #### [R2H: Building Multimodal Navigation Helpers that Respond to Help Requests](https://arxiv.org/pdf/2305.14260)
 - **Date:** 2023.05
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** The R2H (Request to Help) framework introduces the task of building an AI navigation helper that not only follows instructions but can also proactively ask for clarification or assistance from a human when it becomes uncertain.
+- **Domain:** `Embodied AI` `Human-AI Interaction` 
 
 #### [Vision-and-Dialog Navigation](https://arxiv.org/pdf/1907.04957)
 - **Date:** 2019.07
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** Vision-and-Dialog Navigation introduces a task where a navigator agent, who can see but doesn't know the goal, holds a conversation with a question-answering oracle, who knows the goal but can't see, to efficiently navigate a 3D environment.
+- **Domain:** `Embodied AI` `interactive and collaborative navigation` 
 
 #### [UNMuTe: Unifying Navigation and Multimodal Dialogue-like Text Generation](https://arxiv.org/pdf/2408.04423)
 - **Date:** 2024.08
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** UNMuTe presents a unified framework that trains a single AI agent to simultaneously navigate 3D environments and generate rich, multimodal, dialogue-like text that explains its actions and perceptions along the path.
+- **Domain:** `Embodied AI` `VLN` `NLG`
 
 #### [Vision-and-Language Navigation Today and Tomorrow: A Survey in the Era of Foundation Models](https://arxiv.org/pdf/2407.07035)
 - **Date:** 2024.07
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** This comprehensive survey organizes the field of Vision-and-Language Navigation (VLN), reviewing its historical progress, categorizing current methods, and charting future research directions through the modern lens of large-scale foundation models.
+- **Domain:** `Embodied AI` `survey` 
 
 #### [Research on Navigation Methods Based on LLMs](https://arxiv.org/pdf/2504.15600)
 - **Date:** 2025.04
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** This survey provides a comprehensive review of navigation methods that leverage Large Language Models (LLMs), categorizing them into different architectures and analyzing how LLMs contribute to planning, reasoning, and understanding instructions.
+- **Domain:** `Embodied AI` `survey` `foundation models`
 
 #### [NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning](https://arxiv.org/pdf/2403.07376)
 - **Date:** 2024.03
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** NavCoT introduces a "Navigational Chain-of-Thought" strategy that trains a Large Language Model to improve its navigation decisions by first imagining the next visual scene based on the instructions, then filtering its view to match that imagination, and finally selecting an action.
+- **Domain:** `Embodied AI` `VLN` 
 
 #### [Object Goal Navigation using Goal-Oriented Semantic Exploration](https://arxiv.org/pdf/2007.00643)
 - **Date:** 2020.07
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** This work proposes a goal-oriented exploration strategy for object navigation where an AI agent intelligently explores an unknown environment by using its semantic knowledge to prioritize searching in areas most likely to contain the target object (e.g., looking for a 'mug' in the 'kitchen').
+- **Domain:** `Embodied AI` `semantic exploration` `active perception`
 
 #### [Object Goal Navigation with Recursive Implicit Maps](https://arxiv.org/pdf/2308.05602)
 - **Date:** 2023.08
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** This work introduces a method for object goal navigation where the agent builds a 3D map of its environment in real-time using an implicit neural representation, allowing it to efficiently explore and find target objects without needing a pre-built map.
+- **Domain:** `Embodied AI` `SLAM` 
 
 #### [Advancing Object Goal Navigation Through LLM-enhanced Object Affinities Transfer](https://arxiv.org/pdf/2403.09971)
 - **Date:** 2024.03
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** The LOAT (LLM-enhanced Object Affinities Transfer) framework improves robot navigation by dynamically fusing the broad, commonsense knowledge of a Large Language Model with the robot's own learned experiences to more intelligently predict where a target object is likely to be.
+- **Domain:** `Embodied AI` `Object Goal Navigation`
 
 #### [LGR: LLM-Guided Ranking of Frontiers for Object Goal Navigation](https://arxiv.org/pdf/2503.20241)
 - **Date:** 2025.03
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** LGR is an exploration method that improves object navigation by having a Large Language Model rank all possible exploration frontiers based on which direction is most likely to lead to the target object.
+- **Domain:** `Embodied AI` `Object Goal Navigation` 
 
 #### [CL-CoTNav: Closed-Loop Hierarchical Chain-of-Thought for Zero-Shot Object-Goal Navigation with Vision-Language Models](https://arxiv.org/pdf/2504.09000)
 - **Date:** 2025.04
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** CL-CoTNav introduces a zero-shot navigation method where a Vision-Language Model creates a hierarchical plan using chain-of-thought reasoning, which it then continuously corrects and refines based on real-time visual feedback from the environment.
+- **Domain:** `Embodied AI` `VLM` `zero-shot`
 
 #### [Stairway to Success: An Online Floor-Aware Zero-Shot Object-Goal Navigation Framework via LLM-Driven Coarse-to-Fine Exploration](https://arxiv.org/pdf/2505.23019)
 - **Date:** 2025.05
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** ASCENT introduces a zero-shot, floor-aware navigation framework that enables a robot to find objects in an unknown multi-story building by dynamically creating a 3D map with stair-awareness and using a coarse-to-fine exploration strategy driven by a Large Language Model.
+- **Domain:** `Embodied AI` `zero-shot`
 
 #### [BabyWalk: Going Farther in Vision-and-Language Navigation by Taking Baby Steps](https://arxiv.org/pdf/2005.04625)
 - **Date:** 2020.05
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** BabyWalk is a curriculum learning strategy that improves a navigation agent's performance on long, complex routes by first training it on shorter, simpler sub-trajectories before gradually increasing the difficulty.
+- **Domain:** `Embodied AI` `VLN` 
 
 #### [ADAPT: Vision-Language Navigation with Modality-Aligned Action Prompts](https://arxiv.org/pdf/2205.15509)
 - **Date:** 2022.05
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** ADAPT improves vision-language navigation by using a large language model to generate descriptive "action prompts" for each possible viewpoint, which helps the agent better align its visual observations with the natural language instructions.
+- **Domain:** `Embodied AI` `VLN` 
 
 #### [History Aware Multimodal Transformer for Vision-andLanguage Navigation](https://arxiv.org/pdf/2110.13309)
 - **Date:** 2021.10
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** The History Aware Multimodal Transformer (HAMT) is a navigation model that uses a transformer architecture to effectively fuse and reason over the agent's full history of visual observations and language instructions, leading to better decision-making.
+- **Domain:** `Embodied AI` `VLN` 
 
 #### [Learning to Navigate Unseen Environments: Back Translation with Environmental Dropout](https://arxiv.org/pdf/1904.04195)
 - **Date:** 2019.04
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** This work improves a navigation agent's ability to generalize to new environments by generating a vast amount of new training data through back translation (creating instructions for existing paths) and environmental dropout (masking parts of the environment to create variations).
+- **Domain:** `Embodied AI` `VLN` 
 
 #### [Think Global, Act Local: Dual-scale Graph Transformer for Vision-and-Language Navigation](https://arxiv.org/pdf/2202.11742)
 - **Date:** 2022.02
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** The Dual-scale Graph Transformer is a navigation architecture that simultaneously models the global environment as a coarse graph and local viewpoints as a fine-grained graph, enabling the agent to make locally optimal decisions that are globally consistent.
+- **Domain:** `Embodied AI` `VLN` 
 
 #### [NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models](https://arxiv.org/pdf/2305.16986)
 - **Date:** 2023.05
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** NavGPT is a navigation framework that prompts a Large Language Model to explicitly reason about its progress by breaking down the main instruction into sub-goals, which it then uses to guide a low-level agent through the environment.
+- **Domain:** `Embodied AI` `VLN` 
 
 #### [VELMA: Verbalization Embodiment of LLM Agents for Vision and Language Navigation in Street View](https://arxiv.org/pdf/2307.06082)
 - **Date:** 2023.07
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** VELMA is a framework that improves vision-and-language navigation in street environments by prompting a Large Language Model to "verbalize" its thought process, generating explicit reasoning steps, environmental descriptions, and self-corrections to guide its actions.
+- **Domain:** `Embodied AI` `VLN`
 
 #### [NaVILA: Legged Robot Vision-Language-Action Model for Navigation](https://arxiv.org/pdf/2412.04453)
 - **Date:** 2024.12
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** NaVILA is an open-source vision-language-action model specifically designed for real-world legged robots, enabling them to follow natural language commands to navigate complex indoor and outdoor environments.
+- **Domain:** `Embodied AI` `sim-to-real` 
 
 #### [Vision-Dialog Navigation by Exploring Cross-modal Memory](https://arxiv.org/pdf/2003.06745)
 - **Date:** 2020.03
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** This work introduces a navigation model with a cross-modal memory component that allows an agent to dynamically store and recall the most relevant information from both its visual history and the ongoing dialogue to make better navigation decisions.
+- **Domain:** `Embodied AI` ` Vision-and-Dialog Navigation` 
 
 #### [Goal-oriented Vision-and-Dialog Navigation via Reinforcement Learning](https://aclanthology.org/2022.findings-emnlp.327.pdf)
 - **Date:** 2022
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** This work trains a navigation agent using reinforcement learning to actively ask questions and make decisions in order to complete a navigation task, optimizing its policy for both successful navigation and efficient dialogue.
+- **Domain:** `Embodied AI` `Vision-and-Dialog Navigation` `Reinforcement Learning`
 
 #### [LLM ContextBridge: A Hybrid Approach for Intent and Dialogue Understanding in IVSR](https://aclanthology.org/2025.coling-industry.66.pdf)
 - **Date:** 2025
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** LLM ContextBridge proposes a hybrid system that combines the contextual understanding of a Large Language Model with the speed and reliability of a conventional NLU model to improve intent recognition and dialogue understanding in in-vehicle voice systems.
+- **Domain:** `HCI` `NLU` `conversational AI` 
 
 #### [FLAME: Learning to Navigate with Multimodal LLM in Urban Environments](https://arxiv.org/pdf/2408.11051)
 - **Date:** 2024.08
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** FLAME introduces a multimodal Large Language Model-based agent that is specifically adapted for urban navigation through a three-phase tuning technique, leveraging automatically synthesized data to significantly improve performance on street-level navigation tasks.
+- **Domain:** `Embodied AI` `VLN`
 
 #### [Can LLM be a Good Path Planner based on Prompt Engineering? Mitigating the Hallucination for Path Planning](https://arxiv.org/pdf/2408.13184)
 - **Date:** 2024.08
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** This work introduces a prompt engineering framework called Prompt-and-Exemplar Engineering (PEE) that significantly improves the ability of Large Language Models to solve complex path planning problems by providing them with structured map information and examples.
+- **Domain:** `Robotics` ` motion planning`
 
-#### [Uncovering the Fragility of Trustworthy LLMs through Chinese Textual Ambiguity](https://arxiv.org/pdf/2507.23121)
-- **Date:** 2025.07
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
 
 #### [Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation](https://arxiv.org/pdf/2410.13232)
 - **Date:** 2024.10
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** This work introduces a web navigation agent that learns a "world model" of website dynamics, enabling it to predict the outcomes of its actions and plan its steps more effectively to complete complex tasks.
+- **Domain:** `autonomous web agents` `HCI` 
 
 #### [TWIST: Teacher-Student World Model Distillation for Efficient Sim-to-Real Transfer](https://arxiv.org/pdf/2311.03622)
 - **Date:** 2023.11
-- **Description:** Tests on 21 top VLMs using the 2600-task PhyBlock benchmark revealed weak high-level physical planning skills, which Chain-of-Thought (CoT) prompting failed to effectively improve.
-- **Link:** https://phyblock.github.io/
-- **Domain:** `Embodied AI` `VLM` `VQA`
+- **Description:** TWIST is a framework that improves sim-to-real transfer by distilling a complex, accurate "teacher" world model trained in simulation into a simpler "student" model that can run efficiently on a real robot.
+- **Domain:** `world model` `sim-to-real` `knowledge distillation`
 
 
 ### 4.3 Autonomous Driving
