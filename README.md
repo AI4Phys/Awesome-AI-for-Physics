@@ -908,13 +908,13 @@
 
 #### [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://arxiv.org/pdf/1911.02620)
 - **Date:** 2019.11
-- **Description:** 
-- **Domain:**
+- **Description:** The Argoverse dataset provides a rich, large-scale collection of 3D tracking and motion forecasting data from a fleet of self-driving cars, complete with detailed, high-resolution maps to support research in autonomous vehicle perception and prediction.
+- **Domain:** `3D object tracking` `motion forecasting`
 
 #### [One Thousand and One Hours: Self-driving Motion Prediction Dataset](https://arxiv.org/pdf/2006.14480)
 - **Date:** 2020.06
-- **Description:** The Argoverse dataset provides a rich, large-scale collection of 3D tracking and motion forecasting data from a fleet of self-driving cars, complete with detailed, high-resolution maps to support research in autonomous vehicle perception and prediction.
-- **Domain:** `3D object tracking` `motion forecasting`
+- **Description:** The "One Thousand and One Hours" dataset is a massive, large-scale collection of real-world driving data with over 1000 hours of sensor logs and 16 million annotated objects, designed for motion prediction and other self-driving tasks.
+- **Domain:** `behavior prediction` `motion forecasting`
 
 #### [The ApolloScape Open Dataset for Autonomous Driving and its Application](https://arxiv.org/pdf/1803.06184)
 - **Date:** 2018.03
