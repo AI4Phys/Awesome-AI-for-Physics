@@ -976,6 +976,56 @@
 - **Description:** 
 - **Domain:**
 
+#### [ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration](https://arxiv.org/pdf/2411.19548)
+- **Date:** 2024.11
+- **Description:** 
+- **Domain:**
+
+#### [DrivingDiffusion: Layout-Guided multi-view driving scene video generation with latent diffusion model](https://arxiv.org/pdf/2310.07771)
+- **Date:** 2023.10
+- **Description:** 
+- **Domain:**
+
+#### [BEVControl: Accurately Controlling Street-view Elements with Multi-perspective Consistency via BEV Sketch Layout](https://arxiv.org/pdf/2308.01661)
+- **Date:** 2023.08
+- **Description:** 
+- **Domain:**
+
+#### [Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability](https://arxiv.org/pdf/2405.17398)
+- **Date:** 2024.05
+- **Description:** 
+- **Domain:**
+
+#### [HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving](https://arxiv.org/pdf/2412.01407)
+- **Date:** 2024.12
+- **Description:** 
+- **Domain:**
+
+#### [DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT](https://arxiv.org/pdf/2412.19505)
+- **Date:** 2024.12
+- **Description:** 
+- **Domain:**
+
+#### [DrivingGPT: Unifying Driving World Modeling and Planning with Multi-modal Autoregressive Transformers](https://arxiv.org/pdf/2412.18607)
+- **Date:** 2024.12
+- **Description:** 
+- **Domain:**
+
+#### [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/pdf/2311.16038)
+- **Date:** 2023.11
+- **Description:** 
+- **Domain:**
+
+#### [OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving](https://arxiv.org/pdf/2409.03272)
+- **Date:** 2024.09
+- **Description:** 
+- **Domain:**
+
+#### [TWIST: Teacher-Student World Model Distillation for Efficient Sim-to-Real Transfer](https://arxiv.org/pdf/2311.03622)
+- **Date:** 2023.11
+- **Description:** 
+- **Domain:**
+
 #### [TWIST: Teacher-Student World Model Distillation for Efficient Sim-to-Real Transfer](https://arxiv.org/pdf/2311.03622)
 - **Date:** 2023.11
 - **Description:** 
