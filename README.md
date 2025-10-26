@@ -1,7 +1,8 @@
 # Awesome AI for Physics
 
 ## 💥 News
--  **Coming Soon**: An AI4Physics survey is currently in development. Stay tuned! 📢
+-
+-  **New Survey on Physical AI: Physical Perception, Physics Reasoning, World Modelling, Embodied Intelligence**: https://arxiv.org/abs/2510.04978
 
 ## 📖 Content
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
