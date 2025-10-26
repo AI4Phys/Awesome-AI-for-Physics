@@ -1,7 +1,7 @@
 # Awesome AI for Physics
 
 ## 💥 News
--
+-  **Coming Soon**: Perspective Article on AI-Physics Synergy in the era of LLMs
 -  **New Survey on Physical AI: Physical Perception, Physics Reasoning, World Modelling, Embodied Intelligence**: https://arxiv.org/abs/2510.04978
 
 ## 📖 Content
