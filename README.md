@@ -1,4 +1,4 @@
-# Awesome AI for Physics
+# Awesome AI+Physics
 
 ## 💥 News
 -  **Coming Soon**: Perspective Article on AI-Physics Synergy in the era of LLMs
