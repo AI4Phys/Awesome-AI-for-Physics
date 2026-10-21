@@ -137,6 +137,7 @@ A curated union of AI-for-physics literature, organized with the taxonomy from [
 #### 2.4.1 Hypothesis Generation
 
 - [ASP-assisted symbolic regression: Uncovering hidden physics in fluid mechanics](https://arxiv.org/abs/2507.17777) — arXiv:2507.17777, 2025.
+- [AutoSR: Automatic Symbolic Regression by Searching Research States](https://arxiv.org/abs/2608.16876) — arXiv:2608.16876, 2026.
 - [Interpretable data-driven turbulence modeling for separated flows using symbolic regression with unit constraints](https://arxiv.org/abs/2405.08656) — Acta Mech., 2025.
 - [Parsing the language of expression: Enhancing symbolic regression with domain-aware symbolic priors](https://arxiv.org/abs/2503.09592) — arXiv:2503.09592, 2025.
 - [SRBench++: Principled benchmarking of symbolic regression with domain-expert interpretation](https://doi.org/10.1109/tevc.2024.3423681) — TEVC, 2025.
@@ -515,6 +516,7 @@ A curated union of AI-for-physics literature, organized with the taxonomy from [
 - [Simultaneous Neural Network Approximations in Sobolev Spaces](https://arxiv.org/abs/2109.00161)
 - [Spectral PINNS: Fast Uncertainty Propagation with Physics-Informed Neural Networks](https://scholar.google.com/scholar?q=Spectral+PINNS%3A+Fast+Uncertainty+Propagation+with+Physics-Informed+Neural+Networks)
 - [SPINN: Sparse, Physics-based, and partially Interpretable Neural Networks for PDEs](https://doi.org/10.1016/j.jcp.2021.110600)
+- [Staged Depth Training: A Representation Curriculum for PINNs](https://arxiv.org/abs/2609.30299)
 - [Stochastic Physics-Informed Neural Ordinary Differential Equations](https://arxiv.org/abs/2109.01621)
 - [Theory-Guided Data Science: A New Paradigm for Scientific Discovery from Data](https://doi.org/10.1109/TKDE.2017.2720168)
 - [Theory-guided hard constraint projection (HCP): A knowledge-based data-driven scientific machine learning method](https://doi.org/10.1016/j.jcp.2021.110624)
